@@ -55,6 +55,18 @@ What honest framing sounds like.
 Formats: short-form hook, long-form essay, visual timeline, comparison trivia.
 Angles: which pillar from the Truth & Peace movement it serves.
 Companions: which other moments amplify it when paired.
+
+## Deployment history
+Auto-generated. Each entry is appended by the Truth & Peace engine's
+`sync-pareto-engagement.js` job from `_deployments/<moment-id>.jsonl`.
+Do not hand-edit. To clear, delete the corresponding jsonl line and the
+matching fingerprint in `_deployments/<moment-id>.seen.jsonl`.
+
+## Insight harvest
+Human-only. Weekly write-back from the steward after reviewing engagement
+and comment threads. Notes what surprised, what flipped, what framings
+broke, and what new moment candidates surfaced from the responses. This
+is the section that compounds — the synthesis AI cannot produce cold.
 ```
 
 ## Relationship to Other Layers
