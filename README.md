@@ -22,6 +22,10 @@ The central evaluation model is:
 
 This mirrors a deeply intuitive and ancient test: judge systems not merely by claims, but by the fruit they bear.
 
+### Visibility Engine
+
+Use `canon/visibility-engine.md` before producing major research or content. The repo’s job is not to manufacture admiration for Islamic civilization. It is to make hidden timelines, institutions, conscience systems, transmission chains, and complexity visible enough that honest people must recalibrate.
+
 ## Canonical Pillars
 
 1. **Calibration before persuasion** — most people are not lacking information; they are historically uncalibrated.
@@ -29,6 +33,7 @@ This mirrors a deeply intuitive and ancient test: judge systems not merely by cl
 3. **Power-gradient tests** — judge a system by how it treats animals, orphans, the poor, enemies, dissenters, women, noncombatants, and rulers.
 4. **Constraint as compassion** — durable systems assume human beings fail under desire, fear, status, and power, then design guardrails accordingly.
 5. **Truth over identity** — the project must not collapse into Muslim-vs-Christian, East-vs-West, or religious-vs-secular identity conflict.
+6. **Visibility before persuasion** — reveal the hidden record first; let sourced reality do the persuasive work.
 
 ## Repository Structure
 
