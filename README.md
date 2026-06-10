@@ -22,6 +22,30 @@ The central evaluation model is:
 
 This mirrors a deeply intuitive and ancient test: judge systems not merely by claims, but by the fruit they bear.
 
+### Canonical Operating System
+
+Start with `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md`.
+
+That document frames the project around the thesis:
+
+> The Prophet Muhammad's ﷺ era is the root. The Golden Ages are the fruit.
+
+It maps Islamic civilization through inner-world concepts, Prophetic-era society-building, knowledge systems, institutional engines, Golden Age outputs, Christian/Catholic bridge concepts, and modern translations for AI, business, healthcare, media, family, and governance.
+
+### Source Hardening Ledger
+
+Use `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md` before turning canon into public claims.
+
+Every major public-facing claim should move through:
+
+1. claim;
+2. source;
+3. evidence grade;
+4. caveat/counterclaim;
+5. safe wording;
+6. unsafe wording;
+7. content angle.
+
 ### Visibility Engine
 
 Use `canon/visibility-engine.md` before producing major research or content. The repo’s job is not to manufacture admiration for Islamic civilization. It is to make hidden timelines, institutions, conscience systems, transmission chains, and complexity visible enough that honest people must recalibrate.
@@ -34,16 +58,29 @@ Use `canon/visibility-engine.md` before producing major research or content. The
 4. **Constraint as compassion** — durable systems assume human beings fail under desire, fear, status, and power, then design guardrails accordingly.
 5. **Truth over identity** — the project must not collapse into Muslim-vs-Christian, East-vs-West, or religious-vs-secular identity conflict.
 6. **Visibility before persuasion** — reveal the hidden record first; let sourced reality do the persuasive work.
+7. **Root before fruit** — study the Prophet’s ﷺ era as the root architecture before treating later civilizational outputs as evidence.
+8. **Source hardening before virality** — beautiful claims that cannot survive scrutiny weaken the entire project.
 
 ## Repository Structure
 
 - `canon/` — core doctrine, models, and durable framing.
+  - `canon/MASTER_ARCHITECTURE.md` — compartmentalized mission architecture.
+  - `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md` — full canonical OS for concepts, history, institutions, and modern translation.
+  - `canon/visibility-engine.md` — truth-first visibility model.
 - `content-system/` — deployable comparison trivia, short-form ideas, hooks, and series structures.
 - `research-ledger/` — claims to verify, disputed claims, source priorities, and historical research queues.
+  - `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md` — claim-card ledger for evidence grading and safe public wording.
 - `brand-architecture/` — naming, movement architecture, and brand primitives derived from the project.
 
 ## Current Status
 
-This repo has been initialized from a long strategic conversation about Islamic civilization, Golden Ages, conscience, animal welfare, rules of war, power containment, Jesus’s ethical teachings, Qur’anic ethics, and content systems for historical recalibration.
+This repo has been initialized from long strategic conversations about Islamic civilization, Golden Ages, conscience, animal welfare, rules of war, power containment, Jesus’s ethical teachings, Qur’anic ethics, Prophetic-era society-building, knowledge systems, institutional mercy, and content systems for historical recalibration.
 
-The next necessary step is source hardening: every high-impact claim should be moved into a research ledger with evidence grade, primary/secondary sources, and public-facing wording constraints.
+The current canonical spine is now:
+
+1. `canon/MASTER_ARCHITECTURE.md`
+2. `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md`
+3. `canon/visibility-engine.md`
+4. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
+
+The next necessary step is source hardening: every high-impact claim should be moved into the research ledger with evidence grade, primary/secondary sources, caveats, and public-facing wording constraints.
