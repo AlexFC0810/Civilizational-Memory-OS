@@ -24,6 +24,8 @@ Public wording constraint:
 Avoid overclaiming "first ever" unless proven. Prefer: "centuries before modern European animal welfare law."
 
 ### Rules of War
+> ✅ **Hardened 2026-06-23** → full comparative case at `comparative-historian-lens/cases/rules-of-war-islamic-vs-contemporary-baselines.md` (overall grade **A**; honest verdict: "advanced ideal, unevenly enforced reality" — Banu Qurayza and enslavement of captives included).
+
 Claim: Islamic legal tradition articulated limits on war, including protections for civilians, farmers, monks, crops, animals, wounded/surrendered combatants, and captives.
 
 Research needs:
@@ -47,6 +49,8 @@ Public wording constraint:
 Avoid simplistic "Islam never spread by conquest" wording. Better: "Conquest and conversion are not the same thing; Islamic sources explicitly reject forced conversion."
 
 ### Jesus and Mary in Islam
+> ✅ **Hardened 2026-06-23** → full comparative case at `comparative-historian-lens/cases/jesus-and-mary-in-islam-christian-bridge.md` (grade **A**; structural claims — only woman named, only chapter named for a woman — kept; the "~70 mentions" count flagged Contested/method-dependent; theological differences kept in, not papered over).
+
 Claim: Jesus and Mary hold major reverential status in Islam; Mary has a chapter named after her, and Jesus is mentioned frequently in the Qur'an.
 
 Research needs:

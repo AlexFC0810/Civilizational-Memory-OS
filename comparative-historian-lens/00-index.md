@@ -46,3 +46,16 @@ This is not a whitewashing project. It is a source-first calibration project.
 ## Master line
 
 > The goal is not to prove a civilization was perfect. The goal is to reveal what civilizations saw, protected, neglected, normalized, or failed to see.
+
+## Cases registry
+
+Source-hardened cases live in `cases/`. Each follows `methodology.md` (per-claim confidence tiers, explicit "what this does NOT prove," strongest counterargument). Status: **seed** = scaffold awaiting source-first buildout; **hardened** = every citation fetched and checked, overclaims removed, graded.
+
+| Case | Domain(s) | Status | Grade |
+|---|---|---|---|
+| `cases/rules-of-war-islamic-vs-contemporary-baselines.md` | War ethics | hardened (2026-06-23) | A (doctrine); practice mixed |
+| `cases/jesus-and-mary-in-islam-christian-bridge.md` | Religious pluralism / bridge | hardened (2026-06-23) | A |
+| `cases/ruler-accountability-power-as-test.md` | Ruler accountability | hardened (2026-06-23) | A (norm); enforcement weak |
+| `cases/animal-machine-vivisection-vs-islamic-animal-sentience.md` | Animal welfare | seed | ungraded |
+
+Companion claim cards (animal mercy, hisbah, orphans, bimaristan, waqf, Ibn al-Haytham, ijaza, Umar's welfare report) are in `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md` (cards #8–#9, #14–#19).

@@ -133,3 +133,18 @@ Never publish a comparison as certain until evidence grade is assigned.
 6. Women’s legal rights
 7. Slavery and human commodification
 8. Decline analysis
+
+## Hardened cells (2026-06-23)
+
+The first source-hardened cells from the comparative atlas + research ledger. Each was built source-first (every citation fetched and checked) and graded conservatively. Pull public content only from these, and never let a headline grade migrate onto a weaker sub-claim (see each artifact's per-claim cautions).
+
+| Dimension | Hardened artifact | Grade |
+|---|---|---|
+| Rules of war | `comparative-historian-lens/cases/rules-of-war-islamic-vs-contemporary-baselines.md` | A (doctrine); practice mixed |
+| Religious coexistence / bridge | `comparative-historian-lens/cases/jesus-and-mary-in-islam-christian-bridge.md` | A |
+| Ruler accountability | `comparative-historian-lens/cases/ruler-accountability-power-as-test.md` | A (norm); enforcement weak |
+| Animal welfare | research-ledger card #15 (thirsty dog) | A |
+| Poor relief / charity | research-ledger cards #8 (waqf), #14 (Umar), #17 (orphans) | A / B / A |
+| Hospitals, health, medicine | research-ledger card #9 (bimaristan) | A (core model) |
+| Market ethics | research-ledger card #16 (muhtasib / hisbah) | A |
+| Knowledge systems | research-ledger cards #18 (Ibn al-Haytham), #19 (ijaza) | A |
