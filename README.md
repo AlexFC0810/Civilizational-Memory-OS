@@ -14,11 +14,12 @@ This thesis must remain truth-first. Strong claims belong in the system only whe
 
 The central evaluation model is:
 
-**Seed -> System -> Fruit**
+**Seed -> System -> Fruit -> Renewal**
 
 - **Seed:** the moral vision, spiritual premise, or civilizational intent.
 - **System:** the laws, institutions, incentives, guardrails, rituals, and norms that operationalize the seed.
 - **Fruit:** the historical outputs produced over time.
+- **Renewal:** the diagnosis and rebuilding of broken loops.
 
 ## Canonical Operating System
 
@@ -48,6 +49,16 @@ This package preserves the thesis:
 
 It includes the plural framing, Civilization OS stack, claim/proof cards, finance and waqf layer, visual roadmap, content engine, reimplementation blueprint, and source-hardening spine.
 
+## Decline and Renewal OS
+
+Use `civilizational-memory/decline-and-renewal-os/` for the diagnosis and renewal layer.
+
+This package preserves the thesis:
+
+> **The answer is not nostalgia for a lost Golden Age. The answer is to rebuild the loops that made Golden Ages possible.**
+
+It includes decline as system degradation, internal degradation, external shocks and colonial disruption, financial capture and riba, refugee argument response, renewal blueprint, modern waqf and moral capital, claim cards, visual roadmap, content engine, and source-hardening ledger.
+
 ## Source Hardening
 
 Use `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md` before turning canon into public claims.
@@ -55,6 +66,8 @@ Use `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md` before turning
 For the Prophetic Age package, use `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`.
 
 For the Islamic Golden Ages package, use `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`.
+
+For the Decline and Renewal package, use `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`.
 
 Every major public-facing claim should move through:
 
@@ -72,6 +85,7 @@ Every major public-facing claim should move through:
 - `civilizational-memory/` — canonical packages for major memory-repair and map-repair projects.
   - `civilizational-memory/prophetic-age-seed-os/` — seed-code package for the Prophetic age.
   - `civilizational-memory/islamic-golden-ages/` — plural Golden Ages canon, Civilization OS stack, visual system, content engine, and reimplementation blueprint.
+  - `civilizational-memory/decline-and-renewal-os/` — decline diagnosis and renewal blueprint.
 - `content-system/` — deployable comparison trivia, short-form ideas, hooks, and series structures.
 - `research-ledger/` — claims to verify, disputed claims, source priorities, and historical research queues.
 - `brand-architecture/` — naming, movement architecture, and brand primitives derived from the project.
@@ -83,10 +97,12 @@ Every major public-facing claim should move through:
 3. `canon/visibility-engine.md`
 4. `civilizational-memory/prophetic-age-seed-os/README.md`
 5. `civilizational-memory/islamic-golden-ages/README.md`
-6. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
-7. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
-8. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
+6. `civilizational-memory/decline-and-renewal-os/README.md`
+7. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
+8. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
+9. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
+10. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
 
 ## North Star
 
-> **Source hardening before virality. Study the seed to understand the fruit. Not nostalgia. Reimplementation.**
+> **Source hardening before virality. Study the seed. Understand the fruit. Rebuild the loops. Not nostalgia. Reimplementation.**
