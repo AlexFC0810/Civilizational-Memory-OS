@@ -52,6 +52,8 @@ The steward should identify the most load-bearing facts, distinguish trivia from
 - `META_HISTORIAN_DOCTRINE.md` — what meta-history means inside this project.
 - `ASI_HISTORY_ENGINE.md` — advanced history synthesis doctrine.
 - `QUESTION_ENGINE.md` — default questions the steward should ask.
+- `LOAD_BEARING_FACTS.md` — how the steward separates leverage from trivia.
+- `FALSE_MAPS_AND_BETTER_MAPS.md` — map-repair doctrine.
 - `RESEARCH_DOCTRINE.md` — how the agent researches and evaluates claims.
 - `THREAD_RADAR.md` — questions, trails, and research directions to follow.
 - `OPERATING_LOOP.md` — recurring workflow.
