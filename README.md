@@ -28,6 +28,16 @@ That document frames the project around the thesis:
 
 > The Prophet Muhammad's ﷺ era is the root. The Golden Ages are the fruit.
 
+## Prophetic Age Seed OS
+
+Use `civilizational-memory/prophetic-age-seed-os/` for the seed layer behind the Golden Ages.
+
+This package preserves the thesis:
+
+> **Study the seed to understand the fruit.**
+
+It includes the seed operating-system model, Mecca-to-Medina map, seed-to-fruit map, economic seed, knowledge seed, mercy and power layer, claims/proof cards, source hierarchy, visual roadmap, content engine, and source-hardening ledger.
+
 ## Islamic Golden Ages Canon Package
 
 Use `civilizational-memory/islamic-golden-ages/` for the June 2026 canon package around the plural **Islamic Golden Ages** frame.
@@ -42,7 +52,9 @@ It includes the plural framing, Civilization OS stack, claim/proof cards, financ
 
 Use `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md` before turning canon into public claims.
 
-For the Islamic Golden Ages package specifically, also use `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`.
+For the Prophetic Age package, use `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`.
+
+For the Islamic Golden Ages package, use `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`.
 
 Every major public-facing claim should move through:
 
@@ -58,6 +70,7 @@ Every major public-facing claim should move through:
 
 - `canon/` — core doctrine, models, and durable framing.
 - `civilizational-memory/` — canonical packages for major memory-repair and map-repair projects.
+  - `civilizational-memory/prophetic-age-seed-os/` — seed-code package for the Prophetic age.
   - `civilizational-memory/islamic-golden-ages/` — plural Golden Ages canon, Civilization OS stack, visual system, content engine, and reimplementation blueprint.
 - `content-system/` — deployable comparison trivia, short-form ideas, hooks, and series structures.
 - `research-ledger/` — claims to verify, disputed claims, source priorities, and historical research queues.
@@ -68,10 +81,12 @@ Every major public-facing claim should move through:
 1. `canon/MASTER_ARCHITECTURE.md`
 2. `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md`
 3. `canon/visibility-engine.md`
-4. `civilizational-memory/islamic-golden-ages/README.md`
-5. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
-6. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
+4. `civilizational-memory/prophetic-age-seed-os/README.md`
+5. `civilizational-memory/islamic-golden-ages/README.md`
+6. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
+7. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
+8. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
 
 ## North Star
 
-> **Source hardening before virality. Not nostalgia. Reimplementation.**
+> **Source hardening before virality. Study the seed to understand the fruit. Not nostalgia. Reimplementation.**
