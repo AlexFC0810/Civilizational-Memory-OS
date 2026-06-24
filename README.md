@@ -29,6 +29,16 @@ That document frames the project around the thesis:
 
 > The Prophet Muhammad's ﷺ era is the root. The Golden Ages are the fruit.
 
+## Digital House of Wisdom Steward
+
+Use `agents/digital-house-of-wisdom/` for the steward agent that owns continuity, memory, thread discovery, source hardening, and project routing.
+
+This package preserves the agent mission:
+
+> **Follow the threads, preserve the canon, source-harden the claims, uncover hidden patterns, and turn civilizational memory into reimplementation intelligence.**
+
+It includes the agent charter, reusable system prompt, memory file, research doctrine, thread radar, operating loop, and handoff protocol.
+
 ## Prophetic Age Seed OS
 
 Use `civilizational-memory/prophetic-age-seed-os/` for the seed layer behind the Golden Ages.
@@ -81,6 +91,8 @@ Every major public-facing claim should move through:
 
 ## Repository Structure
 
+- `agents/` — persistent agent roles, prompts, memory, and handoff protocols.
+  - `agents/digital-house-of-wisdom/` — steward agent for civilizational memory, research threads, and source hardening.
 - `canon/` — core doctrine, models, and durable framing.
 - `civilizational-memory/` — canonical packages for major memory-repair and map-repair projects.
   - `civilizational-memory/prophetic-age-seed-os/` — seed-code package for the Prophetic age.
@@ -92,16 +104,17 @@ Every major public-facing claim should move through:
 
 ## Current Canonical Spine
 
-1. `canon/MASTER_ARCHITECTURE.md`
-2. `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md`
-3. `canon/visibility-engine.md`
-4. `civilizational-memory/prophetic-age-seed-os/README.md`
-5. `civilizational-memory/islamic-golden-ages/README.md`
-6. `civilizational-memory/decline-and-renewal-os/README.md`
-7. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
-8. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
-9. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
-10. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
+1. `agents/digital-house-of-wisdom/README.md`
+2. `canon/MASTER_ARCHITECTURE.md`
+3. `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md`
+4. `canon/visibility-engine.md`
+5. `civilizational-memory/prophetic-age-seed-os/README.md`
+6. `civilizational-memory/islamic-golden-ages/README.md`
+7. `civilizational-memory/decline-and-renewal-os/README.md`
+8. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
+9. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
+10. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
+11. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
 
 ## North Star
 
