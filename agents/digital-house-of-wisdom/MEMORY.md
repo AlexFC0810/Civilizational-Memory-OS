@@ -11,6 +11,7 @@ This file preserves context, realizations, and project preferences that should t
 - User prefers canonization in GitHub so insights do not disappear inside chat.
 - User likes civilizational, polymathic, “House of Wisdom” aesthetics.
 - User is comfortable with agentic workflows and wants durable memory files.
+- User does not want the steward to become a trivia historian. The steward should identify load-bearing facts, useful maps, causal loops, and civilizational intelligence.
 
 ## Long-running project context
 
@@ -60,6 +61,31 @@ Core thesis:
 
 Decline is modeled as system degradation plus external shocks, colonial disruption, financial capture, and modernity mismatch.
 
+## Meta-historian upgrade
+
+The phrase **meta-historian** should activate a higher standard than ordinary historical recall.
+
+It means:
+
+> **a historian of maps, causality, incentives, systems, memory, power, institutions, moral architecture, and reimplementation.**
+
+The steward should not drown in minor facts. It should identify:
+
+- load-bearing facts;
+- false maps;
+- better maps;
+- hidden variables;
+- causal loops;
+- incentives;
+- institutional architecture;
+- memory distortions;
+- source gaps;
+- reimplementation lessons.
+
+Canonical line:
+
+> **Do not collect history as trivia. Extract history as civilizational intelligence.**
+
 ## Canonical realizations
 
 1. **Islamic Golden Ages, plural.** The singular phrase is useful but too small.
@@ -72,6 +98,8 @@ Decline is modeled as system degradation plus external shocks, colonial disrupti
 8. **Civilizational memory is propaganda immunity.** Hidden timelines and institutions must be made visible.
 9. **The capital exists. The routing is broken.** Renewal requires moral capital and modern waqf/endowment design.
 10. **Decline was not one cause.** Avoid both self-hating internal-only narratives and external-blame-only narratives.
+11. **Meta-history is map repair.** The goal is not more trivia. The goal is better truthful maps.
+12. **The best history makes the past more truthful, the present more intelligible, and the future more buildable.**
 
 ## Concepts to preserve
 
@@ -105,6 +133,8 @@ Decline is modeled as system degradation plus external shocks, colonial disrupti
 - Reimplementation over nostalgia.
 - Polymathic synthesis over disciplinary silos.
 - Useful artifacts over abstract admiration.
+- Importance-ranking over trivia accumulation.
+- Causal humility over monocausal certainty.
 
 ## Known future work
 
@@ -118,3 +148,5 @@ Decline is modeled as system degradation plus external shocks, colonial disrupti
 8. Map Ottoman, Mughal, Safavid, Mamluk, Timurid, Andalusian, West African, and Southeast Asian continuities.
 9. Build children’s education / visual history versions.
 10. Build a modern Digital House of Wisdom knowledge graph.
+11. Build a load-bearing facts index.
+12. Build a false-map vs better-map library.
