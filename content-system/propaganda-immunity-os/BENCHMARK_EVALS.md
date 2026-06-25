@@ -52,18 +52,33 @@ Total possible score: 35.
 - **B-tier:** 23–27. Good idea, wording not final.
 - **C-tier:** under 23. Keep as research scrap or discard.
 
+## Deployment Context Rule
+
+There is no single best reply without context.
+
+Every benchmark must identify deployment context:
+
+1. **In-person safety/de-escalation:** prioritize dignity, brevity, exit, and safety.
+2. **Bystander intervention:** give nearby observers a simple moral frame.
+3. **Public comment:** speak to the silent audience and repair the map.
+4. **Long-form content:** unpack the propaganda mechanism and source-harden claims.
+5. **Educational carousel/script:** convert the incident into a reusable lesson.
+
+A line can be S-tier for public commentary and B-tier for in-person safety.
+
 ## Simulation Protocol
 
 For each claim or incident:
 
 1. Write the generic baseline.
 2. Diagnose why it is weak.
-3. Run Propaganda Immunity OS.
-4. Produce 3–5 candidate replies.
-5. Score each candidate.
-6. Pick the champion.
-7. Name the failure modes.
-8. Save the best line and what made it work.
+3. Identify deployment context.
+4. Run Propaganda Immunity OS.
+5. Produce 3–5 candidate replies.
+6. Score each candidate.
+7. Pick the champion by context.
+8. Name the failure modes.
+9. Save the best line and what made it work.
 
 ## Benchmark Incident 001: Hijab Parking-Lot Harassment
 
@@ -139,21 +154,37 @@ It is morally correct, but not maximally effective. It names the behavior but do
 **Strength:** Repairs the map, humanizes the target, exposes propaganda, and speaks to observers.  
 **Weakness:** None for public-facing commentary; may be too heavy for quick in-person de-escalation.
 
-## Champion Reply
+## Context Champions
 
-> The problem is not that she wore hijab. The problem is that you were taught to see a neighbor as an invader.
+### Best In-Person Safety Reply
 
-## Best Short Reply
+> This is not a costume, and we are not bothering you. Please leave us alone.
+
+**Why:** Direct, dignified, and safety-oriented. It does not try to win a debate in a parking lot.
+
+### Best Bystander Reply
+
+> She is not wearing a costume. She is wearing hijab. Please do not harass people for their faith.
+
+**Why:** Simple enough for bystanders and does not escalate unnecessarily.
+
+### Best Short Public Reply
 
 > Telling someone to "go back" because of a headscarf is not patriotism. It is ignorance wearing confidence.
 
-## Best Gentle Reply
+**Why:** Cold-friendly, memorable, and exposes the false patriotism frame.
 
-> I think you may be mixing up faith, clothing, and nationality. Muslim women live here too. Many were born here. All deserve basic respect.
+### Best Map-Repair Reply
 
-## Best Public Comment Reply
+> The problem is not that she wore hijab. The problem is that you were taught to see a neighbor as an invader.
+
+**Why:** Highest observer effect. It identifies the damaged mental map.
+
+### Best Public Comment Reply
 
 > She wore hijab and you saw a foreigner. That is not patriotism. That is a broken map. The problem is not her faith or clothing. The problem is that you were taught to see a neighbor as an invader.
+
+**Why:** Best for public education, not necessarily in-person de-escalation.
 
 ## What Not To Say
 
