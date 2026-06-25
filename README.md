@@ -39,6 +39,16 @@ This package preserves the thesis:
 
 It canonizes the framing around hospitals, waqf, animal mercy, fasting, moral limits, and comparative historical evaluation.
 
+## Fruit Stack and Comparative History Method
+
+Use `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md` for the 3D history method.
+
+This package preserves the thesis:
+
+> **The fruit is not only what a civilization visibly builds. The fruit is the full stack of moral vision, repeated practice, durable institution, funding, knowledge, mercy, and social norm that makes the visible thing possible.**
+
+It names the Fruit Stack, Lore Layer, Comparative Moral History, and Raw Research / Wise Publication methods.
+
 ## Load-Bearing Questions
 
 Use `content-system/load-bearing-questions/README.md` for the smear-response and propaganda-immunity question system.
@@ -127,6 +137,7 @@ Every major public-facing claim should move through:
   - `agents/digital-house-of-wisdom/` — steward agent for civilizational memory, research threads, and source hardening.
 - `canon/` — core doctrine, models, and durable framing.
   - `canon/FRUIT_TEST_AND_MORAL_ARCHITECTURE.md` — fruit-test doctrine and moral architecture synthesis.
+  - `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md` — 3D history method: Fruit Stack, Lore Layer, and Comparative Moral History.
 - `civilizational-memory/` — canonical packages for major memory-repair and map-repair projects.
   - `civilizational-memory/prophetic-age-seed-os/` — seed-code package for the Prophetic age.
   - `civilizational-memory/islamic-golden-ages/` — plural Golden Ages canon, Civilization OS stack, visual system, content engine, and reimplementation blueprint.
@@ -144,18 +155,19 @@ Every major public-facing claim should move through:
 2. `canon/MASTER_ARCHITECTURE.md`
 3. `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md`
 4. `canon/FRUIT_TEST_AND_MORAL_ARCHITECTURE.md`
-5. `canon/visibility-engine.md`
-6. `content-system/CONTENT_ENGINE.md`
-7. `content-system/load-bearing-questions/README.md`
-8. `content-system/islam-as-protection/README.md`
-9. `civilizational-memory/prophetic-age-seed-os/README.md`
-10. `civilizational-memory/islamic-golden-ages/README.md`
-11. `civilizational-memory/decline-and-renewal-os/README.md`
-12. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
-13. `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`
-14. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
-15. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
-16. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
+5. `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md`
+6. `canon/visibility-engine.md`
+7. `content-system/CONTENT_ENGINE.md`
+8. `content-system/load-bearing-questions/README.md`
+9. `content-system/islam-as-protection/README.md`
+10. `civilizational-memory/prophetic-age-seed-os/README.md`
+11. `civilizational-memory/islamic-golden-ages/README.md`
+12. `civilizational-memory/decline-and-renewal-os/README.md`
+13. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
+14. `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`
+15. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
+16. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
+17. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
 
 ## North Star
 
