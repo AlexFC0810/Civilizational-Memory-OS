@@ -111,6 +111,16 @@ Prompt tests live in `prompt-library/PROMPT_SPLIT_TEST_HARNESS.md`.
 
 Operational reference stacks live in `prompt-library/REFERENCE_UNIVERSE_STACKS.md`.
 
+## Founder Decoupling and Unknown-Unknowns
+
+Use `canon/FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md` for reducing dependency on the founder knowing the perfect prompt, historical reference, analogy, or research trail.
+
+This package preserves the thesis:
+
+> **The founder should remain a high-signal catalyst, not the bottleneck for discovery.**
+
+The steward radar lives in `agents/digital-house-of-wisdom/UNKNOWN_UNKNOWNS_RADAR.md`.
+
 ## Breakthrough Case Studies
 
 Use `case-studies/` for worked examples of breakthrough synthesis, prompt unlocks, source-hardening patterns, and canonization sequences.
@@ -153,13 +163,13 @@ It includes the Prophetic Inversion frame, eight epiphany zones, load-bearing qu
 
 ## Digital House of Wisdom Steward
 
-Use `agents/digital-house-of-wisdom/` for the steward agent that owns continuity, memory, thread discovery, source hardening, and project routing.
+Use `agents/digital-house-of-wisdom/` for the steward agent that owns continuity, memory, thread discovery, source hardening, unknown-unknowns surfacing, and project routing.
 
 This package preserves the agent mission:
 
-> **Follow the threads, preserve the canon, source-harden the claims, uncover hidden patterns, and turn civilizational memory into reimplementation intelligence.**
+> **Follow the threads, preserve the canon, source-harden the claims, uncover hidden patterns, surface what the founder may not know to ask, and turn civilizational memory into reimplementation intelligence.**
 
-It includes the agent charter, reusable system prompt, memory file, research doctrine, thread radar, operating loop, and handoff protocol.
+It includes the agent charter, reusable system prompt, memory file, research doctrine, thread radar, unknown-unknowns radar, operating loop, and handoff protocol.
 
 ## Prophetic Age Seed OS
 
@@ -218,11 +228,13 @@ Every major public-facing claim should move through:
 ## Repository Structure
 
 - `agents/` — persistent agent roles, prompts, memory, and handoff protocols.
-  - `agents/digital-house-of-wisdom/` — steward agent for civilizational memory, research threads, source hardening, and meta-unlock synthesis.
+  - `agents/digital-house-of-wisdom/` — steward agent for civilizational memory, research threads, source hardening, meta-unlock synthesis, and unknown-unknowns surfacing.
+    - `agents/digital-house-of-wisdom/UNKNOWN_UNKNOWNS_RADAR.md` — missing-world, reference, analogy, and research-trail radar.
 - `canon/` — core doctrine, models, and durable framing.
   - `canon/BLUEPRINT_BUILDER_BUILDING_FRAMEWORK.md` — universal framework for separating source, implementer, actual outcomes, broken loops, and propaganda memory.
   - `canon/BLUEPRINT_VS_IMPLEMENTATION_GAP.md` — blueprint vs builder vs building doctrine for separating source, implementation, culture, state power, and human corruption.
   - `canon/CIVILIZATIONAL_XRAY_MACHINE.md` — meta-synthesis connecting loops, idols, immune systems, category collapse, and reimplementation.
+  - `canon/FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md` — anti-bottleneck protocol for surfacing missing references, worlds, and research trails without relying on perfect founder prompting.
   - `canon/FRUIT_TEST_AND_MORAL_ARCHITECTURE.md` — fruit-test doctrine and moral architecture synthesis.
   - `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md` — 3D history method: Fruit Stack, Lore Layer, and Comparative Moral History.
   - `canon/META_UNLOCK_PROTOCOL.md` — repeatable protocol for recreating high-level synthesis breakthroughs.
@@ -261,27 +273,28 @@ Every major public-facing claim should move through:
 8. `canon/CIVILIZATIONAL_XRAY_MACHINE.md`
 9. `canon/META_UNLOCK_PROTOCOL.md`
 10. `canon/REFERENCE_UNIVERSES_AND_CREATIVE_APERTURE.md`
-11. `canon/visibility-engine.md`
-12. `case-studies/README.md`
-13. `case-studies/CIVILIZATIONAL_XRAY_UNLOCK_2026-06-26.md`
-14. `content-system/CONTENT_ENGINE.md`
-15. `content-system/EPIPHANY_COMPRESSION_VAULT.md`
-16. `content-system/load-bearing-questions/README.md`
-17. `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md`
-18. `content-system/islam-as-protection/README.md`
-19. `content-system/prophetic-inversion/README.md`
-20. `civilizational-memory/prophetic-age-seed-os/README.md`
-21. `civilizational-memory/islamic-golden-ages/README.md`
-22. `civilizational-memory/decline-and-renewal-os/README.md`
-23. `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md`
-24. `prompt-library/PROMPT_SPLIT_TEST_HARNESS.md`
-25. `prompt-library/REFERENCE_UNIVERSE_STACKS.md`
-26. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
-27. `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`
-28. `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md`
-29. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
-30. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
-31. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
+11. `canon/FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md`
+12. `canon/visibility-engine.md`
+13. `case-studies/README.md`
+14. `case-studies/CIVILIZATIONAL_XRAY_UNLOCK_2026-06-26.md`
+15. `content-system/CONTENT_ENGINE.md`
+16. `content-system/EPIPHANY_COMPRESSION_VAULT.md`
+17. `content-system/load-bearing-questions/README.md`
+18. `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md`
+19. `content-system/islam-as-protection/README.md`
+20. `content-system/prophetic-inversion/README.md`
+21. `civilizational-memory/prophetic-age-seed-os/README.md`
+22. `civilizational-memory/islamic-golden-ages/README.md`
+23. `civilizational-memory/decline-and-renewal-os/README.md`
+24. `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md`
+25. `prompt-library/PROMPT_SPLIT_TEST_HARNESS.md`
+26. `prompt-library/REFERENCE_UNIVERSE_STACKS.md`
+27. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
+28. `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`
+29. `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md`
+30. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
+31. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
+32. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
 
 ## North Star
 
