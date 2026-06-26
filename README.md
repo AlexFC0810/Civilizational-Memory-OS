@@ -89,6 +89,16 @@ It adds the operating question:
 
 Deployable lines live in `content-system/EPIPHANY_COMPRESSION_VAULT.md`.
 
+## Meta Unlock Protocol
+
+Use `canon/META_UNLOCK_PROTOCOL.md` to intentionally recreate breakthrough conditions for future synthesis.
+
+This package preserves the thesis:
+
+> **The magic was not the prompt alone. It was prompt + canon + trust + standards + accumulated tension + permission to synthesize.**
+
+Reusable prompts live in `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md`.
+
 ## Load-Bearing Questions
 
 Use `content-system/load-bearing-questions/README.md` for the smear-response and propaganda-immunity question system.
@@ -193,6 +203,7 @@ Every major public-facing claim should move through:
   - `canon/CIVILIZATIONAL_XRAY_MACHINE.md` — meta-synthesis connecting loops, idols, immune systems, category collapse, and reimplementation.
   - `canon/FRUIT_TEST_AND_MORAL_ARCHITECTURE.md` — fruit-test doctrine and moral architecture synthesis.
   - `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md` — 3D history method: Fruit Stack, Lore Layer, and Comparative Moral History.
+  - `canon/META_UNLOCK_PROTOCOL.md` — repeatable protocol for recreating high-level synthesis breakthroughs.
 - `civilizational-memory/` — canonical packages for major memory-repair and map-repair projects.
   - `civilizational-memory/prophetic-age-seed-os/` — seed-code package for the Prophetic age.
   - `civilizational-memory/islamic-golden-ages/` — plural Golden Ages canon, Civilization OS stack, visual system, content engine, and reimplementation blueprint.
@@ -203,6 +214,8 @@ Every major public-facing claim should move through:
     - `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md` — public-facing questions for blueprint vs implementation failures.
   - `content-system/islam-as-protection/` — positive wisdom-reveal system for Islamic limits as protection.
   - `content-system/prophetic-inversion/` — comparative-history misconception repair around Islam, women, mercy, animals, knowledge, wealth, tribe, and power.
+- `prompt-library/` — reusable prompts and unlock patterns.
+  - `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md` — prompt patterns for metahistorian synthesis, source hardening, canonization, and reimplementation.
 - `research-ledger/` — claims to verify, disputed claims, source priorities, and historical research queues.
   - `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md` — source-hardening ledger for the new Fruit Test / Load-Bearing Questions package.
   - `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md` — source-hardening ledger for the Prophetic Inversion package.
@@ -218,22 +231,24 @@ Every major public-facing claim should move through:
 6. `canon/BLUEPRINT_VS_IMPLEMENTATION_GAP.md`
 7. `canon/BLUEPRINT_BUILDER_BUILDING_FRAMEWORK.md`
 8. `canon/CIVILIZATIONAL_XRAY_MACHINE.md`
-9. `canon/visibility-engine.md`
-10. `content-system/CONTENT_ENGINE.md`
-11. `content-system/EPIPHANY_COMPRESSION_VAULT.md`
-12. `content-system/load-bearing-questions/README.md`
-13. `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md`
-14. `content-system/islam-as-protection/README.md`
-15. `content-system/prophetic-inversion/README.md`
-16. `civilizational-memory/prophetic-age-seed-os/README.md`
-17. `civilizational-memory/islamic-golden-ages/README.md`
-18. `civilizational-memory/decline-and-renewal-os/README.md`
-19. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
-20. `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`
-21. `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md`
-22. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
-23. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
-24. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
+9. `canon/META_UNLOCK_PROTOCOL.md`
+10. `canon/visibility-engine.md`
+11. `content-system/CONTENT_ENGINE.md`
+12. `content-system/EPIPHANY_COMPRESSION_VAULT.md`
+13. `content-system/load-bearing-questions/README.md`
+14. `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md`
+15. `content-system/islam-as-protection/README.md`
+16. `content-system/prophetic-inversion/README.md`
+17. `civilizational-memory/prophetic-age-seed-os/README.md`
+18. `civilizational-memory/islamic-golden-ages/README.md`
+19. `civilizational-memory/decline-and-renewal-os/README.md`
+20. `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md`
+21. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
+22. `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`
+23. `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md`
+24. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
+25. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
+26. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
 
 ## North Star
 
