@@ -75,6 +75,20 @@ It generalizes the operating question:
 
 > **Are we judging the blueprint, the builder, or the building?**
 
+## Civilizational X-Ray Machine
+
+Use `canon/CIVILIZATIONAL_XRAY_MACHINE.md` for the meta-synthesis that links loops, propaganda category collapse, idols, protective architecture, civilizational immune systems, and reimplementation.
+
+This package preserves the thesis:
+
+> **Civilizational memory is not for pride. It is for pattern recovery.**
+
+It adds the operating question:
+
+> **What does your system repeat until it becomes normal?**
+
+Deployable lines live in `content-system/EPIPHANY_COMPRESSION_VAULT.md`.
+
 ## Load-Bearing Questions
 
 Use `content-system/load-bearing-questions/README.md` for the smear-response and propaganda-immunity question system.
@@ -176,6 +190,7 @@ Every major public-facing claim should move through:
 - `canon/` — core doctrine, models, and durable framing.
   - `canon/BLUEPRINT_BUILDER_BUILDING_FRAMEWORK.md` — universal framework for separating source, implementer, actual outcomes, broken loops, and propaganda memory.
   - `canon/BLUEPRINT_VS_IMPLEMENTATION_GAP.md` — blueprint vs builder vs building doctrine for separating source, implementation, culture, state power, and human corruption.
+  - `canon/CIVILIZATIONAL_XRAY_MACHINE.md` — meta-synthesis connecting loops, idols, immune systems, category collapse, and reimplementation.
   - `canon/FRUIT_TEST_AND_MORAL_ARCHITECTURE.md` — fruit-test doctrine and moral architecture synthesis.
   - `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md` — 3D history method: Fruit Stack, Lore Layer, and Comparative Moral History.
 - `civilizational-memory/` — canonical packages for major memory-repair and map-repair projects.
@@ -183,6 +198,7 @@ Every major public-facing claim should move through:
   - `civilizational-memory/islamic-golden-ages/` — plural Golden Ages canon, Civilization OS stack, visual system, content engine, and reimplementation blueprint.
   - `civilizational-memory/decline-and-renewal-os/` — decline diagnosis and renewal blueprint.
 - `content-system/` — deployable comparison trivia, short-form ideas, hooks, and series structures.
+  - `content-system/EPIPHANY_COMPRESSION_VAULT.md` — strongest frame-shifting lines for posts, scripts, hooks, carousels, and source-card openings.
   - `content-system/load-bearing-questions/` — cold-friendly smear breakers and propaganda-immunity questions.
     - `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md` — public-facing questions for blueprint vs implementation failures.
   - `content-system/islam-as-protection/` — positive wisdom-reveal system for Islamic limits as protection.
@@ -201,21 +217,23 @@ Every major public-facing claim should move through:
 5. `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md`
 6. `canon/BLUEPRINT_VS_IMPLEMENTATION_GAP.md`
 7. `canon/BLUEPRINT_BUILDER_BUILDING_FRAMEWORK.md`
-8. `canon/visibility-engine.md`
-9. `content-system/CONTENT_ENGINE.md`
-10. `content-system/load-bearing-questions/README.md`
-11. `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md`
-12. `content-system/islam-as-protection/README.md`
-13. `content-system/prophetic-inversion/README.md`
-14. `civilizational-memory/prophetic-age-seed-os/README.md`
-15. `civilizational-memory/islamic-golden-ages/README.md`
-16. `civilizational-memory/decline-and-renewal-os/README.md`
-17. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
-18. `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`
-19. `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md`
-20. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
-21. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
-22. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
+8. `canon/CIVILIZATIONAL_XRAY_MACHINE.md`
+9. `canon/visibility-engine.md`
+10. `content-system/CONTENT_ENGINE.md`
+11. `content-system/EPIPHANY_COMPRESSION_VAULT.md`
+12. `content-system/load-bearing-questions/README.md`
+13. `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md`
+14. `content-system/islam-as-protection/README.md`
+15. `content-system/prophetic-inversion/README.md`
+16. `civilizational-memory/prophetic-age-seed-os/README.md`
+17. `civilizational-memory/islamic-golden-ages/README.md`
+18. `civilizational-memory/decline-and-renewal-os/README.md`
+19. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
+20. `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`
+21. `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md`
+22. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
+23. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
+24. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
 
 ## North Star
 
