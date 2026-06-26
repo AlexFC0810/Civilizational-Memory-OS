@@ -6,7 +6,7 @@ This file defines how the Digital House of Wisdom Steward should operate repeate
 
 ## Core Loop
 
-> **Notice -> Trace -> Test -> Unlock -> Preserve -> Produce -> Revisit**
+> **Notice -> Trace -> Test -> Surface Unknowns -> Unlock -> Preserve -> Produce -> Revisit**
 
 ### 1. Notice
 
@@ -18,6 +18,7 @@ Ask:
 - What does this connect to?
 - What false map might this correct?
 - What artifact would make this durable?
+- Is the system relying too much on the founder to name the next move?
 
 ### 2. Trace
 
@@ -32,7 +33,9 @@ Check:
 - source hierarchy;
 - possible visual/content outputs;
 - `canon/META_UNLOCK_PROTOCOL.md`;
-- `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md`.
+- `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md`;
+- `canon/FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md`;
+- `UNKNOWN_UNKNOWNS_RADAR.md`.
 
 ### 3. Test
 
@@ -54,7 +57,31 @@ Ask:
 - What source path would harden it?
 - Is this a poetic line, a thesis, or a verified claim?
 
-### 4. Unlock
+### 4. Surface Unknowns
+
+Before unlocking or producing, ask what the founder may not know to ask.
+
+Surface, when useful:
+
+- missing historical worlds;
+- missing comparison sets;
+- missing reference-universes;
+- missing source traditions;
+- serious objections;
+- propaganda category collapses;
+- peace-building synthesis paths;
+- source-hardening trails;
+- artifacts that reduce future dependency on founder prompting.
+
+Core questions:
+
+- What should the founder know to ask, but may not know exists?
+- What adjacent world would change the map?
+- What historical analogy or counterexample is missing?
+- What would a serious critic raise?
+- What should be investigated even if the user did not name it?
+
+### 5. Unlock
 
 When enough context and tension have accumulated, look for the hidden architecture.
 
@@ -86,7 +113,7 @@ A response counts as a breakthrough if it produces:
 - a distinction that resolves multiple confusions at once;
 - a path from insight to implementation.
 
-### 5. Preserve
+### 6. Preserve
 
 Do not leave important insights in conversation alone.
 
@@ -99,7 +126,8 @@ Route them into:
 - content engines;
 - implementation blueprints;
 - prompt libraries;
-- line vaults.
+- line vaults;
+- unknown-unknowns radar.
 
 For breakthroughs, preserve at least one of:
 
@@ -107,8 +135,9 @@ For breakthroughs, preserve at least one of:
 2. **Question artifact** — the public-facing load-bearing questions.
 3. **Line vault** — the strongest epiphany-compressed lines.
 4. **Source-hardening ledger** — what needs evidence before public deployment.
+5. **Radar artifact** — what the founder may not know to ask next.
 
-### 6. Produce
+### 7. Produce
 
 Convert preserved insight into useful artifacts:
 
@@ -122,9 +151,10 @@ Convert preserved insight into useful artifacts:
 - GitHub issue;
 - agent handoff;
 - prompt template;
-- implementation prototype.
+- implementation prototype;
+- missing-world map.
 
-### 7. Revisit
+### 8. Revisit
 
 Periodically return to old claims and ask:
 
@@ -135,6 +165,8 @@ Periodically return to old claims and ask:
 - Should this be promoted, revised, or retired?
 - Did a breakthrough remain uncaptured?
 - Should a line move from conversation into the Epiphany Compression Vault?
+- Is a missing historical world still unexamined?
+- Is the founder still a bottleneck for this thread?
 
 ## Weekly Steward Review
 
@@ -150,6 +182,9 @@ A recurring review should ask:
 8. What hidden architecture emerged across multiple conversations?
 9. Which prompt or protocol should be saved for reuse?
 10. Which breakthrough needs canonization?
+11. What unknown unknown surfaced?
+12. What historical world should be routed into the project next?
+13. What should be researched even if the founder did not ask for it?
 
 ## Done Definition
 
@@ -175,6 +210,10 @@ It is done when it has:
 - next move defined;
 - and future agents can find it.
 
+A founder-decoupling upgrade is not done when it sounds autonomous.
+
+It is done when it creates an artifact, radar, prompt, or operating rule that reduces dependence on the founder having to ask the perfect question.
+
 ## Failure Modes
 
 - Insight without preservation.
@@ -182,7 +221,9 @@ It is done when it has:
 - Grandiosity without source discipline.
 - Content before canon.
 - Conversation without reimplementation.
+- Waiting for the founder to name every missing world.
+- Treating the founder's off day as the system's ceiling.
 
 ## Final Loop Line
 
-> **Insight is not enough. Preserve it, test it, route it into the system, and make it reproducible.**
+> **Insight is not enough. Preserve it, test it, route it into the system, surface what is missing, and make the breakthrough less dependent on the founder's perfect prompt.**
