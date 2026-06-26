@@ -33,10 +33,10 @@ Each source card must include:
 
 - [x] `source-cards/001_women_property_inheritance.md`
 - [x] `source-cards/002_buried_daughter.md`
+- [x] `source-cards/003_animal_mercy.md`
 
 ## Priority Queue
 
-- [ ] `source-cards/003_animal_mercy.md`
 - [ ] `source-cards/004_sharia_moral_ecology.md`
 - [ ] `source-cards/005_knowledge_hospitals_libraries.md`
 - [ ] `source-cards/006_islam_and_modernity.md`
@@ -66,13 +66,15 @@ A card is public-ready only if it passes:
 
 ## Next Move
 
-Build `003_animal_mercy.md` using exact hadith anchors for:
+Build `004_sharia_moral_ecology.md` using source anchors for:
 
-- woman punished for starving/imprisoning a cat;
-- person forgiven for giving water to a thirsty dog;
-- reward in serving every living being;
-- prohibition on using living creatures as targets;
-- ihsan in slaughter.
+- Sharia as path/way rather than punishment-only;
+- Qur'anic justice commands;
+- mercy and ease;
+- no compulsion in religion;
+- no harm principle;
+- objectives/maqasid with careful wording;
+- distinction between Sharia, fiqh, state law, and culture.
 
 ## North Star
 
