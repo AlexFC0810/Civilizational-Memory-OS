@@ -6,6 +6,24 @@ This folder preserves worked examples of breakthrough synthesis, source-hardenin
 
 Use case studies when the system needs more than doctrine: it needs an example of how a breakthrough actually happened.
 
+## Template
+
+Use `CASE_STUDY_TEMPLATE.md` when a future conversation, research sprint, prompt sequence, or workflow produces a reusable insight worth preserving.
+
+The template captures:
+
+- trigger;
+- context before the breakthrough;
+- what changed;
+- why it worked;
+- core insights;
+- files created or updated;
+- useful lines;
+- reusable prompt or workflow;
+- open questions;
+- next best move;
+- final lesson.
+
 ## Current Case Studies
 
 ### `CIVILIZATIONAL_XRAY_UNLOCK_2026-06-26.md`
