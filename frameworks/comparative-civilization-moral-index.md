@@ -30,6 +30,7 @@ A critic may point to an ancient law and say “barbaric,” without asking:
 - Did it make the vulnerable more visible?
 - Did it constrain rulers, warriors, creditors, patriarchs, or slaveholders?
 - Did it create a reform trajectory?
+- Did it extend moral concern beyond the dominant human group?
 
 Comparison does not excuse evil. It clarifies civilizational direction.
 
@@ -177,9 +178,30 @@ Evaluate whether moral concern applies to:
 
 Key question:
 
-> How far does the moral circle extend?
+> How far does the human moral circle extend?
 
-### 3.9 Anti-corruption mechanism
+### 3.9 Animal and creation ethics
+
+Evaluate whether moral concern extends to:
+
+- animals;
+- birds;
+- livestock;
+- working animals;
+- hunted animals;
+- ecosystems;
+- land;
+- water;
+- trees/crops;
+- restraint in consumption;
+- stewardship obligations;
+- cruelty prohibitions.
+
+Key question:
+
+> Does the civilization treat non-human life as pure property, or as entrusted creation under moral responsibility?
+
+### 3.10 Anti-corruption mechanism
 
 Evaluate mechanisms such as:
 
@@ -199,7 +221,7 @@ Key question:
 
 > How does the system correct itself when power captures it?
 
-### 3.10 Transcendent accountability
+### 3.11 Transcendent accountability
 
 Evaluate whether hidden crimes remain accountable through:
 
@@ -215,7 +237,7 @@ Key question:
 
 > Can evil escape if humans never discover it?
 
-### 3.11 Institutional failure mode
+### 3.12 Institutional failure mode
 
 Identify how the system gets corrupted:
 
@@ -234,7 +256,7 @@ Key question:
 
 > What is this system’s predictable corruption pathway?
 
-### 3.12 Internal reform capacity
+### 3.13 Internal reform capacity
 
 Evaluate whether the system contains tools to rebuke itself:
 
@@ -256,9 +278,9 @@ Key question:
 
 ## 4. Evaluation template
 
-| Civilization / tradition | Period | Baseline context | Core moral innovation | Ruler accountability | Vulnerable protection | War ethics | Legal restraint | Sexual/family ethics | Slavery trajectory | Knowledge culture | Universalism | Anti-corruption mechanism | Failure mode | Net contribution | Confidence |
-|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| Civilization / tradition | Period | Baseline context | Core moral innovation | Ruler accountability | Vulnerable protection | War ethics | Legal restraint | Sexual/family ethics | Slavery trajectory | Knowledge culture | Universalism | Animal/creation ethics | Anti-corruption mechanism | Failure mode | Net contribution | Confidence |
+|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|---|
+| TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
 
 ---
 
@@ -307,14 +329,18 @@ Measure both ideals and outcomes.
 
 A beautiful text may not govern the masses. A corrupt society may still preserve a powerful moral seed.
 
+### Do not reduce morality to human politics only
+
+Some traditions extend moral responsibility beyond humans to animals, land, water, ecosystems, and creation. This should be treated as a serious civilizational axis, not a decorative extra.
+
 ---
 
 ## 7. Highest-level comparative question
 
-> Which moral operating system best restrains power, desire, greed, violence, and corruption while preserving truth, mercy, family, freedom, dignity, and accountability?
+> Which moral operating system best restrains power, desire, greed, violence, and corruption while preserving truth, mercy, family, freedom, dignity, accountability, and stewardship of creation?
 
 ---
 
 ## 8. Compressed synthesis
 
-> Comparative meta-history asks not whether any civilization was perfect, but whether it raised humanity above its baseline, protected the vulnerable, restrained domination, expanded moral concern, and built mechanisms to correct its own corruption.
+> Comparative meta-history asks not whether any civilization was perfect, but whether it raised humanity above its baseline, protected the vulnerable, restrained domination, expanded moral concern, built mechanisms to correct its own corruption, and extended responsibility beyond power into stewardship.
