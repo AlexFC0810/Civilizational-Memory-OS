@@ -98,6 +98,29 @@ Best for:
 
 ---
 
+### 5. Anti-Idolatry as Civilizational Guardrail
+
+**File:** `frameworks/anti-idolatry-as-civilizational-guardrail.md`
+
+Use this to explain shirk / idolatry as more than statue worship: the refusal to let any created thing become ultimate.
+
+Core question:
+
+> What is being treated as ultimate, and what is being sacrificed to it?
+
+Best for:
+
+- shirk / tawhid analysis;
+- Pharaoh, Caesar, emperor, and divine-kingship analysis;
+- nationalism, race, state, market, appetite, ideology, and self-idolatry;
+- anti-genocide guardrails;
+- collective guilt analysis;
+- propaganda immunity;
+- animal/creation stewardship;
+- exposing sacred language captured by domination.
+
+---
+
 ## Companion ledgers
 
 ### Abrahamic Criticism Source Ledger
@@ -109,6 +132,16 @@ Tracks claims that need source verification before becoming public-facing argume
 Core rule:
 
 > No claim becomes load-bearing until its source layer, context, confidence level, and counterarguments are visible.
+
+### Anti-Idolatry Proof Stack
+
+**Recommended file:** `source-ledgers/anti-idolatry-proof-stack.md`
+
+Tracks psychology, history, scripture, and modern case studies that ground anti-idolatry as a real civilizational guardrail instead of mere theory.
+
+Core rule:
+
+> Every grand claim about anti-idolatry should be backed by proof from at least one of four layers: psychology, scripture, history, or modern institutional behavior.
 
 ---
 
@@ -126,4 +159,4 @@ When a major conversation produces insights:
 
 ## Current golden thread
 
-> Human beings are morally variable. Civilizations create power at scale. Power creates domination unless restrained. The highest moral operating systems are those that protect the vulnerable, expose hidden evil, place power under accountability, and correct their own corruption.
+> Human beings are morally variable. Civilizations create power at scale. Power creates domination unless restrained. Anti-idolatry dethrones false absolutes. The highest moral operating systems protect the vulnerable, expose hidden evil, place power under accountability, extend moral concern beyond the in-group, and correct their own corruption.
