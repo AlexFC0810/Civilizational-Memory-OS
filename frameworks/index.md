@@ -121,6 +121,71 @@ Best for:
 
 ---
 
+### 6. Moral Visibility and Vulnerability Test
+
+**File:** `frameworks/moral-visibility-and-vulnerability-test.md`
+
+Use this to test whether a moral system protects beings with little or no leverage.
+
+Core question:
+
+> What happens when the victim cannot retaliate, speak, vote, sue, shame the abuser, or raise status costs?
+
+Best for:
+
+- animal ethics;
+- orphan, widow, prisoner, stranger, and disabled-person protection;
+- anti-genocide and dehumanization analysis;
+- hidden cruelty;
+- civilizational benchmarking;
+- measuring whether moral concern reaches beneath power.
+
+---
+
+### 7. Taqwa and Accountability Beyond Convenience
+
+**File:** `frameworks/taqwa-and-accountability-beyond-convenience.md`
+
+Use this to explain “fear of God” as reverent moral vigilance beyond convenience, not crude terror.
+
+Core question:
+
+> What binds the self when goodness is costly, evil is profitable, and nobody can prove what happened?
+
+Best for:
+
+- Islamic moral psychology;
+- fear of God / taqwa clarification;
+- hidden accountability;
+- animal ethics;
+- anti-corruption;
+- resisting convenience morality;
+- connecting private conscience to civilizational design.
+
+---
+
+### 8. Conscience Under Authority
+
+**File:** `frameworks/conscience-under-authority.md`
+
+Use this to prevent outsourcing conscience to leaders, tribes, institutions, states, markets, or commands.
+
+Core question:
+
+> Am I trying to outsource my soul?
+
+Best for:
+
+- war ethics;
+- institutional ethics;
+- obedience and authority;
+- Nuremberg-style moral responsibility;
+- propaganda immunity;
+- sacred language captured by power;
+- refusing illegitimate commands.
+
+---
+
 ## Companion ledgers
 
 ### Abrahamic Criticism Source Ledger
@@ -135,13 +200,22 @@ Core rule:
 
 ### Anti-Idolatry Proof Stack
 
-**Recommended file:** `source-ledgers/anti-idolatry-proof-stack.md`
+**File:** `source-ledgers/anti-idolatry-proof-stack.md`
 
 Tracks psychology, history, scripture, and modern case studies that ground anti-idolatry as a real civilizational guardrail instead of mere theory.
 
 Core rule:
 
 > Every grand claim about anti-idolatry should be backed by proof from at least one of four layers: psychology, scripture, history, or modern institutional behavior.
+
+---
+
+## Public narrative seeds
+
+- `public-narratives/animal-ethics-as-doorway-to-islam.md`
+- `public-narratives/fear-of-god-reframed.md`
+
+These are not final public essays. They are seed drafts for future posts, essays, scripts, and educational content.
 
 ---
 
@@ -159,4 +233,4 @@ When a major conversation produces insights:
 
 ## Current golden thread
 
-> Human beings are morally variable. Civilizations create power at scale. Power creates domination unless restrained. Anti-idolatry dethrones false absolutes. The highest moral operating systems protect the vulnerable, expose hidden evil, place power under accountability, extend moral concern beyond the in-group, and correct their own corruption.
+> Human beings are morally variable. Civilizations create power at scale. Power creates domination unless restrained. Anti-idolatry dethrones false absolutes. Moral visibility sees the vulnerable. Taqwa protects them when visibility becomes costly, inconvenient, or absent. The highest moral operating systems protect the vulnerable, expose hidden evil, place power under accountability, extend moral concern beyond the in-group, and correct their own corruption.
