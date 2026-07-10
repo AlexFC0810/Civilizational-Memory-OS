@@ -136,3 +136,58 @@ Use `canon/FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md` for reducing dep
 This package preserves the thesis:
 
 > **The founder should remain a high-signal catalyst, not the bottleneck for discovery.**
+
+## Civilizational Intelligence
+
+The religion-versus-secularism research thread produced a broader discipline:
+
+> **Civilizational Intelligence is the capacity of a society to perceive reality, preserve wisdom, coordinate action, constrain domination, protect the vulnerable, correct error, and transmit meaning across generations.**
+
+Start with:
+
+- `conversation-logs/2026-07-10_religion-secularism-civilizational-intelligence.md`
+- `frameworks/civilizational-intelligence-stack.md`
+- `frameworks/civilizational-learning-error-correction-alignment.md`
+- `frameworks/moral-progress-three-layer-model.md`
+- `frameworks/inherited-moral-capital-and-civilizational-metabolism.md`
+- `frameworks/worldview-compression-and-cumulative-case.md`
+- `research-agendas/civilizational-intelligence-research-program.md`
+- `prompt-library/CIVILIZATIONAL_INTELLIGENCE_MASTER_PROMPT.md`
+
+This program generalizes the repository beyond isolated historical claims and asks:
+
+> **Which civilizational operating system best explains reality, forms people who remain just under pressure, protects the weak, constrains power, corrects corruption, and preserves meaning without sacrificing truth?**
+
+## Religion-Civilization Causal Data Engine
+
+Use `research-agendas/religion-civilization-causal-data-engine.md` to move beyond screenshot debates and test competing explanations with controlled data.
+
+Core rule:
+
+> **Religion is not one variable.**
+
+The engine separates identity, literacy, inner conviction, political capture, state religion, prophetic accountability, poverty, education, institutions, and existential security.
+
+## Islam, Slavery, and Transition Architecture
+
+Use `source-ledgers/islam-slavery-manumission-transition-architecture.md` for the truth-first research ledger.
+
+It preserves the working thesis without overstating it:
+
+> **Islam did not issue a single universal legal decree abolishing slavery overnight. It placed an inherited institution inside a liberation architecture whose inputs, exits, moral incentives, legal interpretation, and historical performance must be audited separately.**
+
+## Frameworks and Question Sets
+
+The reusable framework suite is indexed at `frameworks/index.md`.
+
+The religion, secularism, democracy, slavery, moral capital, and civilizational design question set lives at:
+
+- `content-system/load-bearing-questions/religion-secularism-civilizational-design.md`
+
+## Expanded North Star
+
+> **Build the science of how civilizations become wise—not merely rich, powerful, religious, secular, or technically advanced.**
+
+The repository's expanded master sentence is:
+
+> **Every civilization is an information-processing and moral-coordination system attempting to stay aligned with reality while transmitting wisdom across generations under conditions of scarcity, conflict, power, and imperfect knowledge.**
