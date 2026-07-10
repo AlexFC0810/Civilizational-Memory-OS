@@ -10,6 +10,24 @@ Many civilizations produced golden ages of intelligence. Far fewer produced gold
 
 This thesis must remain truth-first. Strong claims belong in the system only when they can survive historical scrutiny, source-checking, and fair comparison.
 
+## Digital Waqf Charter
+
+Use `canon/DIGITAL_WAQF_CHARTER.md` for the public-benefit continuity layer.
+
+This package preserves the thesis:
+
+> **A digital waqf is a durable public-benefit knowledge asset that should remain useful even when no single founder, editor, or contributor is actively pushing it forward.**
+
+Historical claims should be preserved with source trails, confidence levels, revision status, and exportable formats so the work can persist beyond one platform or one active session.
+
+## Historical Claim Cards
+
+Use `templates/HISTORICAL_CLAIM_CARD_TEMPLATE.md` for source-led historical claims.
+
+This template keeps public claims strong without becoming brittle:
+
+> **The ideal is truthful strength: powerful claims stated in a form that can survive scrutiny.**
+
 ## Operating Lens
 
 The central evaluation model is:
@@ -61,7 +79,7 @@ It adds the central question:
 
 > **Are we judging the blueprint, the builder, or the building?**
 
-Public-facing questions live in `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md`.
+Public-facing question sets live in `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md`.
 
 ## Blueprint, Builder, Building Framework
 
@@ -119,183 +137,57 @@ This package preserves the thesis:
 
 > **The founder should remain a high-signal catalyst, not the bottleneck for discovery.**
 
-The steward radar lives in `agents/digital-house-of-wisdom/UNKNOWN_UNKNOWNS_RADAR.md`.
+## Civilizational Intelligence
 
-## Breakthrough Case Studies
+The religion-versus-secularism research thread produced a broader discipline:
 
-Use `case-studies/` for worked examples of breakthrough synthesis, prompt unlocks, source-hardening patterns, and canonization sequences.
+> **Civilizational Intelligence is the capacity of a society to perceive reality, preserve wisdom, coordinate action, constrain domination, protect the vulnerable, correct error, and transmit meaning across generations.**
 
-This package preserves the thesis:
+Start with:
 
-> **Doctrine explains the method. Case studies show the method alive.**
+- `conversation-logs/2026-07-10_religion-secularism-civilizational-intelligence.md`
+- `frameworks/civilizational-intelligence-stack.md`
+- `frameworks/civilizational-learning-error-correction-alignment.md`
+- `frameworks/moral-progress-three-layer-model.md`
+- `frameworks/inherited-moral-capital-and-civilizational-metabolism.md`
+- `frameworks/worldview-compression-and-cumulative-case.md`
+- `research-agendas/civilizational-intelligence-research-program.md`
+- `prompt-library/CIVILIZATIONAL_INTELLIGENCE_MASTER_PROMPT.md`
 
-Start with `case-studies/CIVILIZATIONAL_XRAY_UNLOCK_2026-06-26.md` and use `case-studies/CASE_STUDY_TEMPLATE.md` for future breakthroughs.
+This program generalizes the repository beyond isolated historical claims and asks:
 
-## Load-Bearing Questions
+> **Which civilizational operating system best explains reality, forms people who remain just under pressure, protects the weak, constrains power, corrects corruption, and preserves meaning without sacrificing truth?**
 
-Use `content-system/load-bearing-questions/README.md` for the smear-response and propaganda-immunity question system.
+## Religion-Civilization Causal Data Engine
 
-This package preserves the thesis:
+Use `research-agendas/religion-civilization-causal-data-engine.md` to move beyond screenshot debates and test competing explanations with controlled data.
 
-> **A load-bearing question is compressed truth with a question mark.**
+Core rule:
 
-It includes the cold-friendly S-tier standard, smear-to-stress-test method, evaluation rubric, public lines, honest caveats, and content pillars.
+> **Religion is not one variable.**
 
-## Islam as Protection
+The engine separates identity, literacy, inner conviction, political capture, state religion, prophetic accountability, poverty, education, institutions, and existential security.
 
-Use `content-system/islam-as-protection/README.md` for the positive wisdom-reveal content system.
+## Islam, Slavery, and Transition Architecture
 
-This package preserves the thesis:
+Use `source-ledgers/islam-slavery-manumission-transition-architecture.md` for the truth-first research ledger.
 
-> **Islam looks restrictive when you only ask, "What do I want right now?" It starts looking wise when you ask, "What does this protect?"**
+It preserves the working thesis without overstating it:
 
-It covers fasting, alcohol, gambling, modesty, sexual ethics, family responsibility, debt/riba, prayer, zakat, gossip, anger, and halal as protection frames.
+> **Islam did not issue a single universal legal decree abolishing slavery overnight. It placed an inherited institution inside a liberation architecture whose inputs, exits, moral incentives, legal interpretation, and historical performance must be audited separately.**
 
-## Prophetic Inversion
+## Frameworks and Question Sets
 
-Use `content-system/prophetic-inversion/README.md` for the comparative-history and misconception-repair content system around women, daughters, animals, knowledge, wealth, tribe, and power.
+The reusable framework suite is indexed at `frameworks/index.md`.
 
-This package preserves the thesis:
+The religion, secularism, democracy, slavery, moral capital, and civilizational design question set lives at:
 
-> **Islam was not revealed into a humane world and made it cruel. It was revealed into a cruel world and placed God's authority between power and the vulnerable — women, daughters, orphans, the poor, slaves, strangers, and even animals.**
+- `content-system/load-bearing-questions/religion-secularism-civilizational-design.md`
 
-It includes the Prophetic Inversion frame, eight epiphany zones, load-bearing questions, S-tier canon lines, public response templates, a content series architecture, and source-hardening guardrails.
+## Expanded North Star
 
-## Digital House of Wisdom Steward
+> **Build the science of how civilizations become wise—not merely rich, powerful, religious, secular, or technically advanced.**
 
-Use `agents/digital-house-of-wisdom/` for the steward agent that owns continuity, memory, thread discovery, source hardening, unknown-unknowns surfacing, and project routing.
+The repository's expanded master sentence is:
 
-This package preserves the agent mission:
-
-> **Follow the threads, preserve the canon, source-harden the claims, uncover hidden patterns, surface what the founder may not know to ask, and turn civilizational memory into reimplementation intelligence.**
-
-It includes the agent charter, reusable system prompt, memory file, research doctrine, thread radar, unknown-unknowns radar, operating loop, and handoff protocol.
-
-## Prophetic Age Seed OS
-
-Use `civilizational-memory/prophetic-age-seed-os/` for the seed layer behind the Golden Ages.
-
-This package preserves the thesis:
-
-> **Study the seed to understand the fruit.**
-
-It includes the seed operating-system model, Mecca-to-Medina map, seed-to-fruit map, economic seed, knowledge seed, mercy and power layer, claims/proof cards, source hierarchy, visual roadmap, content engine, and source-hardening ledger.
-
-## Islamic Golden Ages Canon Package
-
-Use `civilizational-memory/islamic-golden-ages/` for the June 2026 canon package around the plural **Islamic Golden Ages** frame.
-
-This package preserves the thesis:
-
-> **A Golden Age is not a miracle. It is an operating system.**
-
-It includes the plural framing, Civilization OS stack, claim/proof cards, finance and waqf layer, visual roadmap, content engine, reimplementation blueprint, and source-hardening spine.
-
-## Decline and Renewal OS
-
-Use `civilizational-memory/decline-and-renewal-os/` for the diagnosis and renewal layer.
-
-This package preserves the thesis:
-
-> **The answer is not nostalgia for a lost Golden Age. The answer is to rebuild the loops that made Golden Ages possible.**
-
-It includes decline as system degradation, internal degradation, external shocks and colonial disruption, financial capture and riba, refugee argument response, renewal blueprint, modern waqf and moral capital, claim cards, visual roadmap, content engine, and source-hardening ledger.
-
-## Source Hardening
-
-Use `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md` before turning canon into public claims.
-
-For the Fruit Test and Load-Bearing Questions package, use `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`.
-
-For the Prophetic Inversion package, use `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md`.
-
-For the Prophetic Age package, use `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`.
-
-For the Islamic Golden Ages package, use `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`.
-
-For the Decline and Renewal package, use `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`.
-
-Every major public-facing claim should move through:
-
-1. claim;
-2. source;
-3. evidence grade;
-4. caveat or counterclaim;
-5. safe wording;
-6. unsafe wording;
-7. content angle.
-
-## Repository Structure
-
-- `agents/` — persistent agent roles, prompts, memory, and handoff protocols.
-  - `agents/digital-house-of-wisdom/` — steward agent for civilizational memory, research threads, source hardening, meta-unlock synthesis, and unknown-unknowns surfacing.
-    - `agents/digital-house-of-wisdom/UNKNOWN_UNKNOWNS_RADAR.md` — missing-world, reference, analogy, and research-trail radar.
-- `canon/` — core doctrine, models, and durable framing.
-  - `canon/BLUEPRINT_BUILDER_BUILDING_FRAMEWORK.md` — universal framework for separating source, implementer, actual outcomes, broken loops, and propaganda memory.
-  - `canon/BLUEPRINT_VS_IMPLEMENTATION_GAP.md` — blueprint vs builder vs building doctrine for separating source, implementation, culture, state power, and human corruption.
-  - `canon/CIVILIZATIONAL_XRAY_MACHINE.md` — meta-synthesis connecting loops, idols, immune systems, category collapse, and reimplementation.
-  - `canon/FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md` — anti-bottleneck protocol for surfacing missing references, worlds, and research trails without relying on perfect founder prompting.
-  - `canon/FRUIT_TEST_AND_MORAL_ARCHITECTURE.md` — fruit-test doctrine and moral architecture synthesis.
-  - `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md` — 3D history method: Fruit Stack, Lore Layer, and Comparative Moral History.
-  - `canon/META_UNLOCK_PROTOCOL.md` — repeatable protocol for recreating high-level synthesis breakthroughs.
-  - `canon/REFERENCE_UNIVERSES_AND_CREATIVE_APERTURE.md` — prompt theory for universe stacking, creative aperture, and specificity vs emergence.
-- `case-studies/` — worked examples of breakthrough synthesis, prompt unlocks, and canonization sequences.
-  - `case-studies/CASE_STUDY_TEMPLATE.md` — template for future breakthrough case studies.
-  - `case-studies/CIVILIZATIONAL_XRAY_UNLOCK_2026-06-26.md` — first full unlock case study.
-- `civilizational-memory/` — canonical packages for major memory-repair and map-repair projects.
-  - `civilizational-memory/prophetic-age-seed-os/` — seed-code package for the Prophetic age.
-  - `civilizational-memory/islamic-golden-ages/` — plural Golden Ages canon, Civilization OS stack, visual system, content engine, and reimplementation blueprint.
-  - `civilizational-memory/decline-and-renewal-os/` — decline diagnosis and renewal blueprint.
-- `content-system/` — deployable comparison trivia, short-form ideas, hooks, and series structures.
-  - `content-system/EPIPHANY_COMPRESSION_VAULT.md` — strongest frame-shifting lines for posts, scripts, hooks, carousels, and source-card openings.
-  - `content-system/load-bearing-questions/` — cold-friendly smear breakers and propaganda-immunity questions.
-    - `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md` — public-facing questions for blueprint vs implementation failures.
-  - `content-system/islam-as-protection/` — positive wisdom-reveal system for Islamic limits as protection.
-  - `content-system/prophetic-inversion/` — comparative-history misconception repair around Islam, women, mercy, animals, knowledge, wealth, tribe, and power.
-- `prompt-library/` — reusable prompts, unlock patterns, and prompt experiments.
-  - `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md` — prompt patterns for metahistorian synthesis, source hardening, canonization, and reimplementation.
-  - `prompt-library/PROMPT_SPLIT_TEST_HARNESS.md` — test harness for comparing original, explicit, hybrid, and minimal prompts.
-  - `prompt-library/REFERENCE_UNIVERSE_STACKS.md` — operational cards for choosing reference-universe thinking modes.
-- `research-ledger/` — claims to verify, disputed claims, source priorities, and historical research queues.
-  - `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md` — source-hardening ledger for the new Fruit Test / Load-Bearing Questions package.
-  - `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md` — source-hardening ledger for the Prophetic Inversion package.
-- `brand-architecture/` — naming, movement architecture, and brand primitives derived from the project.
-
-## Current Canonical Spine
-
-1. `agents/digital-house-of-wisdom/README.md`
-2. `canon/MASTER_ARCHITECTURE.md`
-3. `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md`
-4. `canon/FRUIT_TEST_AND_MORAL_ARCHITECTURE.md`
-5. `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md`
-6. `canon/BLUEPRINT_VS_IMPLEMENTATION_GAP.md`
-7. `canon/BLUEPRINT_BUILDER_BUILDING_FRAMEWORK.md`
-8. `canon/CIVILIZATIONAL_XRAY_MACHINE.md`
-9. `canon/META_UNLOCK_PROTOCOL.md`
-10. `canon/REFERENCE_UNIVERSES_AND_CREATIVE_APERTURE.md`
-11. `canon/FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md`
-12. `canon/visibility-engine.md`
-13. `case-studies/README.md`
-14. `case-studies/CIVILIZATIONAL_XRAY_UNLOCK_2026-06-26.md`
-15. `content-system/CONTENT_ENGINE.md`
-16. `content-system/EPIPHANY_COMPRESSION_VAULT.md`
-17. `content-system/load-bearing-questions/README.md`
-18. `content-system/load-bearing-questions/BLUEPRINT_IMPLEMENTATION_QUESTIONS.md`
-19. `content-system/islam-as-protection/README.md`
-20. `content-system/prophetic-inversion/README.md`
-21. `civilizational-memory/prophetic-age-seed-os/README.md`
-22. `civilizational-memory/islamic-golden-ages/README.md`
-23. `civilizational-memory/decline-and-renewal-os/README.md`
-24. `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md`
-25. `prompt-library/PROMPT_SPLIT_TEST_HARNESS.md`
-26. `prompt-library/REFERENCE_UNIVERSE_STACKS.md`
-27. `research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md`
-28. `research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md`
-29. `research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md`
-30. `research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md`
-31. `research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md`
-32. `research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md`
-
-## North Star
-
-> **Source hardening before virality. Study the seed. Understand the fruit. Rebuild the loops. Not nostalgia. Reimplementation.**
+> **Every civilization is an information-processing and moral-coordination system attempting to stay aligned with reality while transmitting wisdom across generations under conditions of scarcity, conflict, power, and imperfect knowledge.**
