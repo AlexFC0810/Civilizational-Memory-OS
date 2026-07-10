@@ -186,6 +186,112 @@ Best for:
 
 ---
 
+### 9. Civilizational Intelligence Stack
+
+**File:** `frameworks/civilizational-intelligence-stack.md`
+
+Use this to model civilization as a layered system of reality, material production, institutions, culture, and meaning.
+
+Core question:
+
+> Can this society perceive reality, coordinate power, protect the vulnerable, correct error, and transmit meaning across generations?
+
+Best for:
+
+- religion vs secularism;
+- civilizational benchmarking;
+- social trust;
+- institutional design;
+- AI alignment analogies;
+- explaining why no single layer can replace the whole stack.
+
+---
+
+### 10. Civilizational Learning, Error Correction, and Alignment
+
+**File:** `frameworks/civilizational-learning-error-correction-alignment.md`
+
+Use this to analyze whether truth can reach power and whether institutions remain aligned with their original purpose.
+
+Core question:
+
+> Can the system detect and correct its own corruption before reality imposes catastrophic correction?
+
+Best for:
+
+- propaganda immunity;
+- democracy;
+- religious reform;
+- institutional capture;
+- movement governance;
+- historical decline;
+- AI alignment.
+
+---
+
+### 11. Moral Progress Three-Layer Model
+
+**File:** `frameworks/moral-progress-three-layer-model.md`
+
+Use this to separate moral vision, material capacity, and institutional enforcement.
+
+Core question:
+
+> Did the society possess the moral claim, the practical capacity, and the durable institutions required to implement it?
+
+Best for:
+
+- abolition;
+- child protection;
+- animal welfare;
+- women’s rights;
+- industrialization and moral progress;
+- historical context without moral surrender.
+
+---
+
+### 12. Inherited Moral Capital and Civilizational Metabolism
+
+**File:** `frameworks/inherited-moral-capital-and-civilizational-metabolism.md`
+
+Use this to prevent mature societies from being treated as culturally newborn.
+
+Core question:
+
+> What did this civilization inherit, reject, secularize, reform, forget, and recombine?
+
+Best for:
+
+- Scandinavia;
+- Spain;
+- secularization;
+- anti-clerical reform;
+- social trust;
+- layered civilizational causality.
+
+---
+
+### 13. Worldview Compression and the Cumulative Case
+
+**File:** `frameworks/worldview-compression-and-cumulative-case.md`
+
+Use this to evaluate worldviews by total explanatory power rather than isolated proof texts, objections, or miracle claims.
+
+Core question:
+
+> Which worldview explains the most reality with the fewest arbitrary assumptions and contradictions?
+
+Best for:
+
+- Islam and atheism dialogue;
+- rational faith;
+- cumulative arguments;
+- epistemic humility;
+- scientific-miracle audits;
+- worldview comparison.
+
+---
+
 ## Companion ledgers
 
 ### Abrahamic Criticism Source Ledger
@@ -207,6 +313,41 @@ Tracks psychology, history, scripture, and modern case studies that ground anti-
 Core rule:
 
 > Every grand claim about anti-idolatry should be backed by proof from at least one of four layers: psychology, scripture, history, or modern institutional behavior.
+
+### Islam, Slavery, Manumission, and Transition Architecture
+
+**File:** `source-ledgers/islam-slavery-manumission-transition-architecture.md`
+
+Separates Qur'an, hadith, jurisprudence, empire, liberation mechanisms, breaker evidence, and confidence levels.
+
+Core rule:
+
+> Do not defend slavery. Do not erase Islamic liberation mechanisms. Do not confuse Qur'an, hadith, jurisprudence, and empire.
+
+---
+
+## Research programs
+
+- `research-agendas/religion-civilization-causal-data-engine.md`
+- `research-agendas/civilizational-intelligence-research-program.md`
+
+These convert debate claims into controlled causal analysis, comparative moral history, mechanism research, and civilizational benchmarks.
+
+---
+
+## Load-bearing question sets
+
+- `content-system/load-bearing-questions/religion-secularism-civilizational-design.md`
+
+Use these questions to expose causal gaps, asymmetrical standards, category errors, and missing mechanisms without becoming trapped in endless point-by-point debate.
+
+---
+
+## Master prompts
+
+- `prompt-library/CIVILIZATIONAL_INTELLIGENCE_MASTER_PROMPT.md`
+
+Use this to reproduce the comparative meta-historian, causal-inference, civilizational-systems, and worldview-compression workflow.
 
 ---
 
@@ -233,4 +374,4 @@ When a major conversation produces insights:
 
 ## Current golden thread
 
-> Human beings are morally variable. Civilizations create power at scale. Power creates domination unless restrained. Anti-idolatry dethrones false absolutes. Moral visibility sees the vulnerable. Taqwa protects them when visibility becomes costly, inconvenient, or absent. The highest moral operating systems protect the vulnerable, expose hidden evil, place power under accountability, extend moral concern beyond the in-group, and correct their own corruption.
+> Human beings are morally variable. Civilizations create power at scale. Power creates domination unless restrained. Anti-idolatry dethrones false absolutes. Moral visibility sees the vulnerable. Taqwa protects them when visibility becomes costly, inconvenient, or absent. Civilizational intelligence keeps reality, capacity, institutions, culture, and meaning aligned. The highest moral operating systems protect the vulnerable, expose hidden evil, place power under accountability, transmit wisdom, and correct their own corruption.
