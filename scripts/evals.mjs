@@ -159,7 +159,7 @@ function anchorBodyWithSubsections(sections, target) {
     // Subsections of an H2 target are H3+ headings that were split out; we re-attach
     // consecutive sections until we hit a heading that matches another REQUIRED section.
     const isMajor = REQUIRED_SECTIONS.some(([re]) => re.test(`## ${sections[j].heading}`)) ||
-      /verification transcript|deployment readiness|next source cards|final canon|status/i.test(sections[j].heading);
+      /^(verification transcript|deployment readiness|next source cards|final canon|status)\b/i.test(sections[j].heading);
     if (isMajor && j > i) break;
     body += "\n" + sections[j].heading + "\n" + sections[j].body;
   }
