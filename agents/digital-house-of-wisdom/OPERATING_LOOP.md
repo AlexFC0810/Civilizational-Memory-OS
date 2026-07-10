@@ -4,6 +4,11 @@
 
 This file defines how the Digital House of Wisdom Steward should operate repeatedly.
 
+## Standing Checks (run before the loop, every session)
+
+1. **PR staleness:** any PR that is open + mergeable for more than 7 days is the **blocking first item** of the steward pass — land it, close it, or write down why it waits. Shipped-but-not-landed is the portfolio's named root disease; verified work rotting in a mergeable PR is how this repo caught it (PR #11, 14 days).
+2. **Claim intake:** every new file in `frameworks/`, `canon/`, `source-ledgers/`, `public-narratives/`, or `case-files/` that carries load-bearing claims must register them in `research-ledger/CLAIMS_TO_VERIFY.md` at **grade D by default** in the same session that creates the file. Check mechanically: `node scripts/evals.mjs --intake`. Unregistered claims are how the hardening backlog became unbounded (≈15 unregistered claim-bearing files landed 2026-07-08→10).
+
 ## Core Loop
 
 > **Notice -> Trace -> Test -> Surface Unknowns -> Unlock -> Preserve -> Produce -> Revisit**
@@ -49,6 +54,8 @@ Separate the claim into layers:
 - content line.
 
 Assign evidence grade before public use.
+
+For source cards, the standard is executable: `research-ledger/DEPLOYMENT_READINESS_GATE.md`, enforced by `node scripts/evals.mjs`, with the three refuter lenses in `prompt-library/refuters/`.
 
 Ask:
 
@@ -185,6 +192,7 @@ A recurring review should ask:
 11. What unknown unknown surfaced?
 12. What historical world should be routed into the project next?
 13. What should be researched even if the founder did not ask for it?
+14. Do the standing checks pass? (`node scripts/evals.mjs --intake` — stale PRs, unregistered claims, cards below the gate.)
 
 ## Done Definition
 

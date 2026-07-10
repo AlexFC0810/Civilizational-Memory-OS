@@ -2,6 +2,10 @@
 
 This ledger protects the integrity of the project. Strong claims should not be treated as canon until researched, sourced, and graded.
 
+## Intake Rule (2026-07-10)
+
+Every new file in `frameworks/`, `canon/`, `source-ledgers/`, `public-narratives/`, or `case-files/` that carries load-bearing claims must register them **here, at grade D by default**, in the same session that creates the file. A claim not in this ledger does not exist for deployment purposes. Mechanical check: `node scripts/evals.mjs --intake`. Deployment standard: `DEPLOYMENT_READINESS_GATE.md`.
+
 ## Evidence Grades
 
 - **A:** Strong primary-source or widely accepted specialist consensus.
