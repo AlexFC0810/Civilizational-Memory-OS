@@ -1,13 +1,13 @@
 # Bek Lover Epistemic Twin — Source Manifest
 
-**Status:** Run 001 active; source URL alignment pending  
+**Status:** Run 001 source-attached; title/date and audio alignment pending  
 **Purpose:** Track every public source included in the Bek Lover corpus with enough provenance to support quotation, reconstruction, verification, evolution mapping, and creator-facing reuse.
 
 ## Source schema
 
 | Source ID | Title | Format | URL / File | Published date | Retrieved date | Duration / Length | Participants | Transcript status | Verification status | Priority | Notes |
 |---|---|---|---|---|---|---:|---|---|---|---|---|
-| BL-SRC-001 | Bek Lover appearance on The Deen Show — exact title pending | Video transcript | Full timestamped transcript pasted by Alex Amaro; original URL pending | Unknown | 2026-07-11 | ~1:24:53 | Bek Lover; Eddie Redzovic; embedded PBD Podcast speakers | First-pass ingestion complete; audio alignment pending | Priority audit complete; full audit open | P0 | Foundational worldview, creator-ethic, Balkan, theology, media, and redemption source |
+| BL-SRC-001 | Bek Lover appearance on The Deen Show — exact title pending | YouTube video + user-pasted transcript | https://youtu.be/ux_2QF6u_Ag | Unknown | 2026-07-11 | ~1:24:53 | Bek Lover; Eddie Redzovic; embedded PBD Podcast speakers | First-pass ingestion complete; audio alignment pending | Priority audit complete; full audit open | P0 | Original URL supplied by Alex Amaro on 2026-07-11; foundational worldview, creator-ethic, Balkan, theology, media, and redemption source |
 
 ## Run 001 outputs
 
@@ -25,10 +25,13 @@ Located under `creator-twins/pilots/BEK_LOVER/runs/BL-ET-001/`:
 - `NEXT_CORPUS_PRIORITY.md`
 - `RUN_LESSONS.md`
 
-Pending after source URL:
+Pending after source attachment:
 
-- `RAW_TRANSCRIPT.md`
-- `NORMALIZED_TRANSCRIPT.md`
+- exact title and publication date;
+- original video description and channel metadata;
+- embedded PBD source clip;
+- `RAW_TRANSCRIPT.md`;
+- `NORMALIZED_TRANSCRIPT.md`;
 - publication-grade quotation alignment.
 
 ## Required metadata
@@ -87,4 +90,4 @@ Optimize for:
 
 ## Next action
 
-Obtain the original video URL, align BL-SRC-001 against audio, then collect the next 20-source batch defined in `runs/BL-ET-001/NEXT_CORPUS_PRIORITY.md`.
+Use the attached YouTube source to complete metadata and quotation alignment, then collect the next 20-source batch defined in `runs/BL-ET-001/NEXT_CORPUS_PRIORITY.md`.
