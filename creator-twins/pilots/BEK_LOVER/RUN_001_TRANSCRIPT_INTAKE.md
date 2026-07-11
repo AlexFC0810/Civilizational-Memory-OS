@@ -1,28 +1,29 @@
 # Bek Lover Epistemic Twin — Run 001 Transcript Intake
 
-**Status:** First-pass run complete; raw/audio alignment pending  
+**Status:** Source attached; first-pass run complete; metadata and audio alignment pending  
 **Source ID:** `BL-SRC-001`  
 **Run ID:** `BL-ET-001`
 
 ## Intake metadata
 
 - **Source title:** Bek Lover appearance on The Deen Show — exact title pending
-- **Original URL:** Pending
+- **Original URL:** https://youtu.be/ux_2QF6u_Ag
 - **Publication date:** Pending
-- **Upload/reference:** Full timestamped transcript pasted by Alex Amaro on 2026-07-11
+- **Upload/reference:** Full timestamped transcript pasted by Alex Amaro on 2026-07-11; original URL supplied the same day
 - **Duration:** Approximately 1:24:53
 - **Participants:** Bek Lover; Eddie Redzovic; embedded PBD Podcast speakers including Patrick Bet-David, Vinny Oshana, and Adam Sosnick
 - **Bek Lover role:** Guest
 - **Transcript origin:** User-pasted automated transcript
 - **Language:** English with Arabic and Balkan-language expressions
 - **Transcription confidence:** Medium; names, speaker labels, and several phrases require audio correction
-- **Reuse constraints:** Source URL and original video terms pending
+- **Reuse constraints:** Original video terms and embedded-clip provenance pending
 
 ## Run sequence
 
 ### 1. Preserve raw material
 
-- [ ] Import the entire raw transcript verbatim after original URL/file is supplied.
+- [ ] Import the entire raw transcript verbatim into `RAW_TRANSCRIPT.md`.
+- [x] Attach original public source URL.
 - [x] Record missing metadata, timestamps, and speaker-label limitations.
 - [x] Mark uncertain transcription and attribution rather than silently treating it as final.
 
@@ -40,6 +41,7 @@
 - [x] Record expressed confidence and uncertainty.
 - [x] Separate Bek's speech from embedded third-party material where the transcript permits.
 - [ ] Confirm every public quotation against audio.
+- [ ] Identify and attach the original embedded PBD clip.
 
 ### 4. Reconstruction Mode
 
@@ -130,11 +132,11 @@ Run 001 is complete as a **first-pass Epistemic Twin dogfood run** because:
 
 It remains incomplete as a publication-grade source ingestion until:
 
-- the original URL is supplied;
+- exact title/date/channel metadata are captured;
 - the raw transcript is imported;
 - the transcript is aligned against audio;
 - exact quotations and embedded speaker attributions are confirmed.
 
 ## Canonical next trigger
 
-> **Obtain the original source, finish alignment, and move directly into creator-facing proof and the next 20-source corpus batch. Do not reopen abstract architecture unless evidence from the run requires it.**
+> **Finish alignment, build the Claim Console and proof reel, seek creator validation, and move into the next 20-source corpus batch. Do not reopen abstract architecture unless the evidence requires it.**
