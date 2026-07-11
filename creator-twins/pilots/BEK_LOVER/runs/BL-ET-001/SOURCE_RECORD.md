@@ -2,7 +2,8 @@
 
 **Source ID:** `BL-SRC-001`  
 **Run ID:** `BL-ET-001`  
-**Status:** Transcript ingested; source URL and exact title pending  
+**Status:** Transcript ingested and original URL attached; exact title/date and audio alignment pending  
+**Original URL:** https://youtu.be/ux_2QF6u_Ag  
 **Transcript duration:** approximately 1:24:53  
 **Transcript origin:** Full timestamped transcript pasted by Alex Amaro into the AIOS working conversation on 2026-07-11  
 **Likely program:** The Deen Show  
@@ -16,9 +17,8 @@ The transcript is sufficient for a first intellectual-map and claim-audit run, b
 
 Before any exact public quotation:
 
-- obtain the original video URL;
-- confirm title and publication date;
-- align quotations against audio;
+- confirm the exact video title and publication date;
+- align quotations against the attached audio/video;
 - correct names, Arabic terms, Balkan place names, and Bible/Qur'an references;
 - determine which embedded PBD clip is being quoted;
 - preserve fair context around any allegation attributed to Patrick Bet-David or another speaker.
@@ -51,9 +51,9 @@ This appears to be a high-value foundational source because it includes:
 - “It’s never over to your last breath.”
 - “You should always double-check and triple-check what I say.”
 
-## Missing metadata
+## Metadata status
 
-- [ ] Original video URL
+- [x] Original video URL
 - [ ] Exact title
 - [ ] Publication date
 - [ ] Channel URL
@@ -64,10 +64,10 @@ This appears to be a high-value foundational source because it includes:
 
 ## Citation rule
 
-Until the source URL and audio alignment are complete, public outputs must cite this as:
+Until audio alignment is complete, public outputs must cite this as:
 
-> “User-provided transcript of a Bek Lover appearance on The Deen Show, source alignment pending.”
+> “User-provided transcript aligned to https://youtu.be/ux_2QF6u_Ag; exact quotations and embedded-speaker attribution pending verification.”
 
 ## Canonical note
 
-The raw transcript itself remains in the originating conversation and should be imported verbatim once the source URL or a transcript file is supplied. This run does not pretend that an unaligned automated transcript is final evidence.
+The raw transcript itself remains in the originating conversation and should be imported verbatim into `RAW_TRANSCRIPT.md`. The attached video now removes the source-identity ambiguity, but not the need for audio verification.
