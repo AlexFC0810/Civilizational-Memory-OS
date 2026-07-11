@@ -16,11 +16,11 @@ A breakthrough that remains only in chat is not yet part of the operating system
 
 ## Mission
 
-Build a truth-aligned, self-correcting system for recovering civilizational wisdom, auditing historical claims, comparing moral operating systems, neutralizing propaganda, and converting deep research into durable public knowledge.
+Build a truth-aligned, self-correcting system for recovering civilizational wisdom, auditing historical claims, comparing moral operating systems, neutralizing propaganda, producing the strongest evidence-bound synthesis, and converting deep research into durable public knowledge and better institutions.
 
 > The goal is not to prove that our favored civilization was perfect. The goal is to make it progressively harder for any civilization, ideology, institution, critic, or believer—including us—to lie to itself.
 
-## The repository has eight jobs
+## The repository has ten jobs
 
 1. **Memory** — preserve insights, corrections, and discovery provenance.
 2. **Ontology** — define claims, sources, actors, institutions, periods, and relationships.
@@ -28,8 +28,10 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 4. **Evidence compilation** — convert disputed claims into traceable ledgers and versioned verdicts.
 5. **Benchmarking** — compare civilizations through common, historically calibrated dimensions.
 6. **Agent coordination** — convert open questions into bounded research packets.
-7. **Public transmission** — turn accepted truth into memorable, source-linked public knowledge.
-8. **Recursive improvement** — convert failure, feedback, and reality tests into stronger defaults.
+7. **Opinionated synthesis** — connect evidence into causal, moral, and historical judgment.
+8. **Public transmission** — turn accepted truth into memorable, source-linked public knowledge.
+9. **Institution building** — convert moral insight into structures that change reality.
+10. **Recursive improvement** — convert failure, feedback, and reality tests into stronger defaults.
 
 ## Read in this order
 
@@ -51,7 +53,22 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 - `frameworks/inherited-moral-capital-and-civilizational-metabolism.md`
 - `frameworks/worldview-compression-and-cumulative-case.md`
 
-### 3. Truth closure and propaganda immunity
+### 3. Digital House of Wisdom and opinionated synthesis
+
+- `canon/DIGITAL_HOUSE_OF_WISDOM.md`
+- `canon/OPINIONATED_TRUTH_SYNTHESIS_LAYER.md`
+- `canon/GRAND_SYNTHESIS_OF_HUMAN_AND_ISLAMIC_HISTORY_V0_1.md`
+- `canon/CIVILIZATIONAL_NARRATIVE_OPERATING_SYSTEM.md`
+- `frameworks/CIVILIZATIONAL_MEDIA_POWER_STACK.md`
+
+These files establish the decisive division:
+
+- GitHub AIOS is the memory and source code;
+- Truth and Peace Engine is the media and distribution layer;
+- Digital House of Wisdom is the living public institution;
+- Grand Synthesis is the versioned, opinionated doctrine layer.
+
+### 4. Truth closure and propaganda immunity
 
 - `protocols/POLEMIC_DISASSEMBLY_AND_CLAIM_NEUTRALIZATION_PROTOCOL.md`
 - `protocols/CANONICAL_INTEGRATION_GATE.md`
@@ -62,14 +79,14 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 - `transcript-immunity/packets/TIP-2026-001_ALEX_JONES_SNEAKO_ISLAM_TAKEOVER.md`
 - `transcript-immunity/LESSONS_FROM_RUN_001.md`
 
-### 4. Qur’anic authority and immunity
+### 5. Qur’anic authority and immunity
 
 - `canon/QURANIC_IMMUNITY_KERNEL.md`
 - `templates/QURANIC_ANCHOR_CLUSTER_TEMPLATE.md`
 - `research-packets/queued/RP-EA-001_islamic-epistemic-authority-stack.md`
 - `research-packets/queued/RP-HA-001_aisha-age-report-provenance.md`
 
-### 5. Animal mercy and moral Golden Ages
+### 6. Animal mercy and moral Golden Ages
 
 - `canon/ANIMAL_CIVILIZATION_BENCHMARK.md`
 - `canon/ANIMAL_MERCY_CONSTELLATION.md`
@@ -77,21 +94,22 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 - `source-ledgers/ANIMAL_MERCY_HADITH_AND_INSTITUTIONS_LEDGER.md`
 - `research-packets/queued/CAE-COMP-001_RETIRED_WORKING_ANIMALS.md`
 
-### 6. Public truth force
+### 7. Public truth force
 
 - `protocols/STRENGTH_WITHOUT_OVERCLAIMING.md`
 - `protocols/PUBLIC_TRUTH_FORCE_COMPILER.md`
 - `public-narratives/ISLAMIC_ANIMAL_MERCY_STRONG_CLAIMS.md`
 - `public-narratives/THE_ANIMALS_CANNOT_WRITE_HISTORY_FORCE_PACK.md`
 
-### 7. Conversation-to-Canon operating system
+### 8. Conversation-to-Canon operating system
 
 - `protocols/CONVERSATION_TO_CANON_MECE_PROTOCOL.md`
 - `templates/END_OF_THREAD_CANONIZATION_PACKET.md`
 - `conversation-logs/2026-07-10_josh-full-dialectic-expansion.md`
 - `conversation-logs/2026-07-11_transcript-immunity-quranic-kernel-animal-mercy-public-force.md`
+- `audits/2026-07-11_FULL_THREAD_GITHUB_INTEGRATION_AUDIT.md`
 
-### 8. Agent research system
+### 9. Agent research system
 
 - `canon/FOUNDER_AGENT_RESEARCH_DIVISION_OF_LABOR.md`
 - `templates/AGENT_RESEARCH_PACKET_TEMPLATE.md`
@@ -110,9 +128,11 @@ Recommended dependency order:
 
 `RP-EA-001 → Qur’anic Anchor Clusters → RP-HA-001`
 
-Run the slavery, inherited-moral-capital, and animal-comparison packets in parallel with independent red teams.
+Run the slavery, inherited-moral-capital, animal-comparison, and rival-grand-narrative packets in parallel with independent red teams.
 
 ## Active build issues
+
+Civilizational Memory OS:
 
 - **#2** — Comparative Civilization Benchmark Atlas
 - **#14** — Civilizational Intelligence MVP
@@ -124,32 +144,44 @@ Run the slavery, inherited-moral-capital, and animal-comparison packets in paral
 - **#21** — Conversation-to-Canon Logging
 - **#22** — Qur’anic Anchor Cluster Library
 - **#23** — Comparative Animal Ethics Atlas
+- **#24** — Canonical Grand Narrative System
 
 Truth and Peace Engine:
 
 - **#77** — Transcript-to-Immunity Pilot
+- **#78** — Digital House of Wisdom MVP
 
 ## Operating pipeline
 
-`Signal → Map → Canonization packet → Deduplicate → Research packet → Scout → Red team → Integration gate → Versioned verdict → Public force compiler → Deployment → Measurement → Revision`
+`Signal → Map → Canonization packet → Deduplicate → Research packet → Scout → Red team → Integration gate → Versioned verdict → Grand synthesis → Public force compiler → Narrative form → Deployment → Measurement → Institution design → Revision`
 
-## Truth plane and force plane
+## Truth, synthesis, and force planes
 
 ### Truth plane
 
 Stores provenance, confidence, scope, competing interpretations, counterevidence, and supersession history.
 
+### Synthesis plane
+
+Connects evidence into causal models, comparative judgment, moral interpretation, canonical narratives, and present implications.
+
 ### Force plane
 
-Produces clear subjects, active verbs, concrete images, moral contrasts, retrieval lines, and audience-fit content.
+Produces clear subjects, active verbs, concrete images, moral contrasts, retrieval lines, archetypes, scenes, and audience-fit content.
 
-The force plane may change delivery, never the verdict.
+The synthesis and force planes may transform meaning into usable form; neither may silently alter the accepted evidence.
 
-Every major result must produce:
+Every major result must eventually produce:
 
 1. canonical verdict;
-2. public claim;
-3. legendary line.
+2. causal model;
+3. public claim;
+4. legendary line;
+5. narrative form;
+6. transferable immunity lesson;
+7. curriculum implication;
+8. institutional implication;
+9. correction trigger.
 
 ## Evidence standards
 
@@ -175,8 +207,26 @@ The operating standard is **maximum justified force**.
 - Preserve reception and normative truth even when exact event historicity is debated.
 - Research promising frontiers aggressively.
 - Reject unsupported promotional claims.
+- State the conclusion before the procedural scaffolding.
+- Do not use complexity as a substitute for judgment.
 
 > Internally, preserve every material caveat. Externally, lead with the strongest humanly intelligible truth.
+
+## Opinionated-synthesis standard
+
+The target is **evidence-bound conviction**.
+
+The AIOS must:
+
+- judge, connect, rank, explain, and narrate;
+- state its best current conclusion clearly;
+- expose the causal spine;
+- represent the strongest rival synthesis;
+- identify what would change the conclusion;
+- preserve revision and supersession history;
+- remain morally directional without becoming tribal propaganda.
+
+> Evidence without synthesis becomes bureaucracy. Opinion without evidence becomes propaganda.
 
 ## Civilizational benchmark dimensions
 
@@ -227,24 +277,31 @@ A controversy is not closed when everyone agrees. It is provisionally closed whe
 ## Division of labor
 
 - **Founder/operator:** signal, anomaly detection, moral judgment, question selection, deployment approval.
-- **AI architect:** ontology, terrain maps, causal models, research sequence, integration logic, force compilation, AIOS updates.
+- **AI architect:** ontology, terrain maps, causal models, research sequence, integration logic, synthesis, force compilation, AIOS updates.
 - **Scout agents:** source retrieval, structured extraction, tables, timelines, datasets.
 - **Red teams:** breaker evidence, asymmetry detection, hostile and apologetic failure analysis.
-- **Integrators:** versioned verdicts and repository updates.
+- **Integrators:** versioned verdicts, grand-narrative updates, and repository integration.
 - **Editors/operators:** truthful compression, production, distribution, measurement.
+- **Institution builders:** convert accepted moral insight into durable systems.
 
 ## Immediate golden path
 
-1. Stabilize `RP-EA-001` and the Qur’anic authority map.
-2. Build the first Qur’anic anchor clusters.
-3. Complete the animal-hadith and institution evidence cells.
-4. Verify and strengthen the Bursa stork-hospital and retired-animal cases.
-5. Build equivalent contemporaneous comparison cells.
-6. Produce and test the first `The Animals Cannot Write History` asset.
-7. Feed audience results and objections back into canon and protocols.
+1. Resolve the open research-hardening PR stack and protect verified work from branch drift.
+2. Source-align SEG-003 and SEG-004 and publish the first `Which Layer Said It?` experiment.
+3. Stabilize `RP-EA-001` and build the first Qur’anic anchor clusters.
+4. Complete the animal-hadith and institution evidence cells.
+5. Verify and strengthen the Bursa stork-hospital and retired-animal cases.
+6. Build equivalent contemporaneous comparison cells.
+7. Red-team Grand Synthesis v0.1 against the strongest rival narratives.
+8. Produce one-page and ten-minute versions of the human and Islamic narratives.
+9. Produce and test the first `The Animals Cannot Write History` flagship asset.
+10. Convert one accepted moral insight into a real institution, beginning with an Animal Service Pension or modern animal-care waqf.
+11. Feed audience results, institutional results, objections, and corrections back into the AIOS.
 
 ## Canonical north star
 
 > Build the science of how civilizations become wise—not merely rich, powerful, religious, secular, or technically advanced.
 
-> Research is the reactor. Public language is the transmission. GitHub is the memory. Reality is the judge.
+> Human history is the unfinished struggle to make expanding power answer to truth, mercy, and durable moral institutions before power outruns wisdom and turns its capacities against life.
+
+> Research is the reactor. Synthesis is the compass. Public language is the transmission. GitHub is the memory. Institutions are the proof. Reality is the judge.
