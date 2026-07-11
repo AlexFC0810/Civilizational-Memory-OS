@@ -2,19 +2,34 @@
 
 This is the command center for understanding, extending, and operating the repository.
 
+## AIOS operating contract
+
+Read first:
+
+- `AIOS.md`
+
+This repository is the project’s **AI Operating System and single source of truth**.
+
+> Conversation is the laboratory. GitHub is the institutional memory. Canon is earned through evidence, structure, adversarial testing, integration, and revision.
+
+A breakthrough that remains only in chat is not yet part of the operating system.
+
 ## Mission
 
 Build a truth-aligned, self-correcting system for recovering civilizational wisdom, auditing historical claims, comparing moral operating systems, neutralizing propaganda, and converting deep research into durable public knowledge.
 
 > The goal is not to prove that our favored civilization was perfect. The goal is to make it progressively harder for any civilization, ideology, institution, critic, or believer—including us—to lie to itself.
 
-## The repository has five jobs
+## The repository has eight jobs
 
-1. **Memory** — preserve insights that would otherwise disappear inside conversations.
-2. **Cartography** — map the full research terrain and the interfaces between domains.
-3. **Evidence compilation** — convert disputed claims into traceable evidence graphs and versioned verdicts.
-4. **Benchmarking** — compare civilizations through common, historically calibrated dimensions.
-5. **Deployment** — turn what survives into essays, claim cards, visual atlases, prompts, datasets, and propaganda-immunity tools.
+1. **Memory** — preserve insights, corrections, and discovery provenance.
+2. **Ontology** — define claims, sources, actors, institutions, periods, and relationships.
+3. **Cartography** — map the full terrain, dependencies, and golden paths.
+4. **Evidence compilation** — convert disputed claims into traceable ledgers and versioned verdicts.
+5. **Benchmarking** — compare civilizations through common, historically calibrated dimensions.
+6. **Agent coordination** — convert open questions into bounded research packets.
+7. **Public transmission** — turn accepted truth into memorable, source-linked public knowledge.
+8. **Recursive improvement** — convert failure, feedback, and reality tests into stronger defaults.
 
 ## Read in this order
 
@@ -24,6 +39,8 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 - `canon/FRUIT_TEST_AND_MORAL_ARCHITECTURE.md`
 - `canon/BLUEPRINT_BUILDER_BUILDING_FRAMEWORK.md`
 - `canon/CIVILIZATIONAL_XRAY_MACHINE.md`
+- `canon/CIVILIZATIONAL_DURABILITY_STACK.md`
+- `canon/GOLDEN_PATHS.md`
 
 ### 2. Expanded Civilizational Intelligence program
 
@@ -34,23 +51,52 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 - `frameworks/inherited-moral-capital-and-civilizational-metabolism.md`
 - `frameworks/worldview-compression-and-cumulative-case.md`
 
-### 3. Truth and propaganda defense
+### 3. Truth closure and propaganda immunity
 
 - `protocols/POLEMIC_DISASSEMBLY_AND_CLAIM_NEUTRALIZATION_PROTOCOL.md`
 - `protocols/CANONICAL_INTEGRATION_GATE.md`
-- `source-ledgers/josh-claims-neutralization-matrix.md`
-- `source-ledgers/2026-07-10_religion-secularism-conversation-claim-audit.md`
+- `canon/MEDIA_TO_IMMUNITY_ENGINE.md`
+- `protocols/TRANSCRIPT_TO_IMMUNITY_PROTOCOL.md`
+- `templates/TRANSCRIPT_IMMUNITY_PACKET.md`
+- `transcript-immunity/README.md`
+- `transcript-immunity/packets/TIP-2026-001_ALEX_JONES_SNEAKO_ISLAM_TAKEOVER.md`
+- `transcript-immunity/LESSONS_FROM_RUN_001.md`
 
-### 4. Agent research system
+### 4. Qur’anic authority and immunity
+
+- `canon/QURANIC_IMMUNITY_KERNEL.md`
+- `templates/QURANIC_ANCHOR_CLUSTER_TEMPLATE.md`
+- `research-packets/queued/RP-EA-001_islamic-epistemic-authority-stack.md`
+- `research-packets/queued/RP-HA-001_aisha-age-report-provenance.md`
+
+### 5. Animal mercy and moral Golden Ages
+
+- `canon/ANIMAL_CIVILIZATION_BENCHMARK.md`
+- `canon/ANIMAL_MERCY_CONSTELLATION.md`
+- `research-agendas/COMPARATIVE_ANIMAL_ETHICS_ATLAS.md`
+- `source-ledgers/ANIMAL_MERCY_HADITH_AND_INSTITUTIONS_LEDGER.md`
+- `research-packets/queued/CAE-COMP-001_RETIRED_WORKING_ANIMALS.md`
+
+### 6. Public truth force
+
+- `protocols/STRENGTH_WITHOUT_OVERCLAIMING.md`
+- `protocols/PUBLIC_TRUTH_FORCE_COMPILER.md`
+- `public-narratives/ISLAMIC_ANIMAL_MERCY_STRONG_CLAIMS.md`
+- `public-narratives/THE_ANIMALS_CANNOT_WRITE_HISTORY_FORCE_PACK.md`
+
+### 7. Conversation-to-Canon operating system
+
+- `protocols/CONVERSATION_TO_CANON_MECE_PROTOCOL.md`
+- `templates/END_OF_THREAD_CANONIZATION_PACKET.md`
+- `conversation-logs/2026-07-10_josh-full-dialectic-expansion.md`
+- `conversation-logs/2026-07-11_transcript-immunity-quranic-kernel-animal-mercy-public-force.md`
+
+### 8. Agent research system
 
 - `canon/FOUNDER_AGENT_RESEARCH_DIVISION_OF_LABOR.md`
 - `templates/AGENT_RESEARCH_PACKET_TEMPLATE.md`
 - `prompt-library/AGENT_RESEARCH_ORCHESTRATOR_PROMPT.md`
 - `research-packets/INDEX.md`
-
-### 5. Conversation that generated the current program
-
-- `conversation-logs/2026-07-10_religion-secularism-civilizational-intelligence.md`
 
 ## Current P0 research packets
 
@@ -58,12 +104,13 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 2. `research-packets/queued/RP-HA-001_aisha-age-report-provenance.md`
 3. `research-packets/queued/RP-SL-001_quranic-slavery-inflow-outflow-model.md`
 4. `research-packets/queued/RP-MC-001_scandinavian-inherited-moral-capital-falsification.md`
+5. `research-packets/queued/CAE-COMP-001_RETIRED_WORKING_ANIMALS.md`
 
-Recommended execution order:
+Recommended dependency order:
 
-`RP-EA-001 -> RP-HA-001`
+`RP-EA-001 → Qur’anic Anchor Clusters → RP-HA-001`
 
-Run `RP-SL-001` and `RP-MC-001` in parallel with independent red teams.
+Run the slavery, inherited-moral-capital, and animal-comparison packets in parallel with independent red teams.
 
 ## Active build issues
 
@@ -73,23 +120,63 @@ Run `RP-SL-001` and `RP-MC-001` in parallel with independent red teams.
 - **#16** — Versioned Truth-Closure Engine
 - **#17** — Islamic Epistemic Authority Stack
 - **#18** — Agent Research Packet Operationalization
+- **#20** — Full Josh Dialectic Expansion
+- **#21** — Conversation-to-Canon Logging
+- **#22** — Qur’anic Anchor Cluster Library
+- **#23** — Comparative Animal Ethics Atlas
+
+Truth and Peace Engine:
+
+- **#77** — Transcript-to-Immunity Pilot
 
 ## Operating pipeline
 
-`Signal -> Map -> Packet -> Scout -> Red team -> Integration gate -> Versioned verdict -> Public compression -> Reality feedback -> Revision`
+`Signal → Map → Canonization packet → Deduplicate → Research packet → Scout → Red team → Integration gate → Versioned verdict → Public force compiler → Deployment → Measurement → Revision`
+
+## Truth plane and force plane
+
+### Truth plane
+
+Stores provenance, confidence, scope, competing interpretations, counterevidence, and supersession history.
+
+### Force plane
+
+Produces clear subjects, active verbs, concrete images, moral contrasts, retrieval lines, and audience-fit content.
+
+The force plane may change delivery, never the verdict.
+
+Every major result must produce:
+
+1. canonical verdict;
+2. public claim;
+3. legendary line.
 
 ## Evidence standards
 
 - no screenshot as final evidence;
 - no Wikipedia or AI synthesis as terminal authority;
 - primary evidence and specialist scholarship first;
-- exact source layer always visible;
+- exact authority layer always visible;
 - ideal compared with ideal, practice with practice, corruption with corruption;
+- contemporaneous comparison before presentist comparison;
 - historical baseline and material constraints included;
 - strongest countercase represented fairly;
 - breaker evidence required;
 - confidence and uncertainty versioned;
-- no public sentence stronger than the accepted evidence.
+- no public claim stronger than the accepted evidence;
+- no real achievement weakened merely because it was not universal.
+
+## Expression standard
+
+The operating standard is **maximum justified force**.
+
+- Publish established and strongly documented claims directly.
+- Name documented cases confidently with bounded scope.
+- Preserve reception and normative truth even when exact event historicity is debated.
+- Research promising frontiers aggressively.
+- Reject unsupported promotional claims.
+
+> Internally, preserve every material caveat. Externally, lead with the strongest humanly intelligible truth.
 
 ## Civilizational benchmark dimensions
 
@@ -101,11 +188,18 @@ Every civilization or system should eventually be evaluated on:
 4. material competence;
 5. social reproduction;
 6. meaning and costly morality;
-7. error correction.
+7. error correction;
+8. succession durability;
+9. institutional capture resistance;
+10. treatment of animals and other beings unable to reciprocate.
 
-The benchmark must also ask:
+The benchmark must ask:
 
 > Peace by what mechanism, at what cost, and with what displaced harms?
+
+And:
+
+> What did the civilization do when mercy offered no strategic return?
 
 ## Contribution rule
 
@@ -115,11 +209,11 @@ Contribute:
 
 > one exact question + one source hierarchy + one comparison class + one output schema + one falsifier requirement.
 
-The correct unit of work is a research packet.
+The correct unit of agent work is a research packet.
 
 ## Truth-closure rule
 
-A controversy is not “closed” when everyone agrees. It is provisionally closed when the system can state:
+A controversy is not closed when everyone agrees. It is provisionally closed when the system can state:
 
 - what is established;
 - what is probable;
@@ -127,25 +221,30 @@ A controversy is not “closed” when everyone agrees. It is provisionally clos
 - what is unsupported;
 - what is a category error;
 - what remains unresolved;
-- what evidence would reopen the verdict.
+- what evidence would reopen the verdict;
+- what public wording is approved.
 
 ## Division of labor
 
-- **Founder:** signal, anomaly detection, moral judgment, question selection.
-- **AI architect:** ontology, terrain maps, causal models, research sequence, integration logic.
+- **Founder/operator:** signal, anomaly detection, moral judgment, question selection, deployment approval.
+- **AI architect:** ontology, terrain maps, causal models, research sequence, integration logic, force compilation, AIOS updates.
 - **Scout agents:** source retrieval, structured extraction, tables, timelines, datasets.
 - **Red teams:** breaker evidence, asymmetry detection, hostile and apologetic failure analysis.
 - **Integrators:** versioned verdicts and repository updates.
-- **Editors:** truthful compression and deployment.
+- **Editors/operators:** truthful compression, production, distribution, measurement.
 
-## Immediate next move
+## Immediate golden path
 
-Assign `RP-EA-001` to a deep-research agent using `prompt-library/AGENT_RESEARCH_ORCHESTRATOR_PROMPT.md`.
-
-Do not begin with a public essay. Begin by stabilizing the authority map that controls every later Islamic claim.
+1. Stabilize `RP-EA-001` and the Qur’anic authority map.
+2. Build the first Qur’anic anchor clusters.
+3. Complete the animal-hadith and institution evidence cells.
+4. Verify and strengthen the Bursa stork-hospital and retired-animal cases.
+5. Build equivalent contemporaneous comparison cells.
+6. Produce and test the first `The Animals Cannot Write History` asset.
+7. Feed audience results and objections back into canon and protocols.
 
 ## Canonical north star
 
 > Build the science of how civilizations become wise—not merely rich, powerful, religious, secular, or technically advanced.
 
-> Map first. Scout second. Integrate third. Publish only what survives.
+> Research is the reactor. Public language is the transmission. GitHub is the memory. Reality is the judge.
