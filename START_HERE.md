@@ -16,9 +16,9 @@ A breakthrough that remains only in chat is not yet part of the operating system
 
 ## Mission
 
-Build a truth-aligned, self-correcting system for recovering civilizational wisdom, auditing historical claims, comparing moral operating systems, neutralizing propaganda, producing the strongest evidence-bound synthesis, and converting deep research into durable public knowledge and better institutions.
+Build a truth-aligned, self-correcting system for recovering civilizational wisdom, auditing historical claims, comparing moral operating systems, neutralizing propaganda, producing the strongest evidence-bound synthesis, equipping trusted messengers, and converting deep research into public knowledge and better institutions.
 
-> The goal is not to prove that our favored civilization was perfect. The goal is to make it progressively harder for any civilization, ideology, institution, critic, or believer—including us—to lie to itself.
+> The goal is not to prove that our favored civilization was perfect. The goal is to make it progressively harder for any civilization, ideology, institution, critic, believer, creator, or AI—including us—to lie to itself.
 
 ## The repository has eleven jobs
 
@@ -27,12 +27,22 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 3. **Cartography** — map the full terrain, dependencies, and golden paths.
 4. **Evidence compilation** — convert disputed claims into traceable ledgers and versioned verdicts.
 5. **Benchmarking** — compare civilizations through common, historically calibrated dimensions.
-6. **Question discovery** — generate and preserve load-bearing questions that redraw the terrain.
-7. **Agent coordination** — convert open questions into bounded research packets.
-8. **Opinionated synthesis** — connect evidence into causal, moral, and historical judgment.
+6. **Question discovery** — identify load-bearing questions that redraw the terrain.
+7. **Opinionated synthesis** — connect evidence into causal, moral, and historical judgment.
+8. **Creator enablement** — route compiled intelligence to trusted messengers with existing motion.
 9. **Public transmission** — turn accepted truth into memorable, source-linked public knowledge.
 10. **Institution building** — convert moral insight into structures that change reality.
 11. **Recursive improvement** — convert failure, feedback, and reality tests into stronger defaults.
+
+## System architecture
+
+- **GitHub AIOS** — memory, canon, source code, corrections, and provenance.
+- **Civilizational Compiler** — truth-to-action reasoning architecture.
+- **Grand Synthesis** — versioned, opinionated worldview layer.
+- **Creator Supercharger Network** — multiplier layer equipping independent trusted messengers.
+- **Truth and Peace Engine** — production, distribution, experiments, and measurement.
+- **Digital House of Wisdom** — living public institution.
+- **Institutions** — proof that learning became real.
 
 ## Read in this order
 
@@ -45,7 +55,7 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 - `canon/CIVILIZATIONAL_DURABILITY_STACK.md`
 - `canon/GOLDEN_PATHS.md`
 
-### 2. Expanded Civilizational Intelligence program
+### 2. Expanded Civilizational Intelligence
 
 - `canon/CIVILIZATIONAL_INTELLIGENCE_TERRAIN_MAP.md`
 - `frameworks/civilizational-intelligence-stack.md`
@@ -54,7 +64,7 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 - `frameworks/inherited-moral-capital-and-civilizational-metabolism.md`
 - `frameworks/worldview-compression-and-cumulative-case.md`
 
-### 3. Digital House of Wisdom, Civilizational Compiler, and opinionated synthesis
+### 3. Compiler, synthesis, and narrative
 
 - `canon/DIGITAL_HOUSE_OF_WISDOM.md`
 - `canon/CIVILIZATIONAL_COMPILER.md`
@@ -65,17 +75,19 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 - `frameworks/CIVILIZATIONAL_MEDIA_POWER_STACK.md`
 - `frameworks/CORAL_BELT_PARETO_FOR_CIVILIZATIONAL_INTELLIGENCE.md`
 
-These files establish the decisive division:
+### 4. Creator Supercharger layer
 
-- GitHub AIOS is the memory and source code;
-- the Civilizational Compiler is the truth-to-action reasoning architecture;
-- Truth and Peace Engine is the media and distribution layer;
-- Digital House of Wisdom is the living public institution;
-- Grand Synthesis is the versioned, opinionated doctrine layer;
-- the Question Genome discovers the load-bearing questions;
-- Coral-Belt Pareto governs sequencing and compounding leverage.
+- `canon/CREATOR_SUPERCHARGER_NETWORK.md`
+- `frameworks/CREATOR_LEVERAGE_GRAPH.md`
+- `templates/CREATOR_SUPERCHARGE_PACKET.md`
 
-### 4. Truth closure and propaganda immunity
+This layer applies the principle:
+
+> Right truth. Right messenger. Right audience. Right moment. Right form.
+
+The creator retains voice and editorial independence. The House of Wisdom strengthens research, source discipline, causal understanding, adversarial preparation, public language, and correction capacity.
+
+### 5. Truth closure and propaganda immunity
 
 - `protocols/POLEMIC_DISASSEMBLY_AND_CLAIM_NEUTRALIZATION_PROTOCOL.md`
 - `protocols/CANONICAL_INTEGRATION_GATE.md`
@@ -86,14 +98,14 @@ These files establish the decisive division:
 - `transcript-immunity/packets/TIP-2026-001_ALEX_JONES_SNEAKO_ISLAM_TAKEOVER.md`
 - `transcript-immunity/LESSONS_FROM_RUN_001.md`
 
-### 5. Qur’anic authority and immunity
+### 6. Qur’anic authority and immunity
 
 - `canon/QURANIC_IMMUNITY_KERNEL.md`
 - `templates/QURANIC_ANCHOR_CLUSTER_TEMPLATE.md`
 - `research-packets/queued/RP-EA-001_islamic-epistemic-authority-stack.md`
 - `research-packets/queued/RP-HA-001_aisha-age-report-provenance.md`
 
-### 6. Animal mercy and moral Golden Ages
+### 7. Animal mercy and moral Golden Ages
 
 - `canon/ANIMAL_CIVILIZATION_BENCHMARK.md`
 - `canon/ANIMAL_MERCY_CONSTELLATION.md`
@@ -101,14 +113,14 @@ These files establish the decisive division:
 - `source-ledgers/ANIMAL_MERCY_HADITH_AND_INSTITUTIONS_LEDGER.md`
 - `research-packets/queued/CAE-COMP-001_RETIRED_WORKING_ANIMALS.md`
 
-### 7. Public truth force
+### 8. Public truth force
 
 - `protocols/STRENGTH_WITHOUT_OVERCLAIMING.md`
 - `protocols/PUBLIC_TRUTH_FORCE_COMPILER.md`
 - `public-narratives/ISLAMIC_ANIMAL_MERCY_STRONG_CLAIMS.md`
 - `public-narratives/THE_ANIMALS_CANNOT_WRITE_HISTORY_FORCE_PACK.md`
 
-### 8. Conversation-to-Canon operating system
+### 9. Conversation-to-Canon
 
 - `protocols/CONVERSATION_TO_CANON_MECE_PROTOCOL.md`
 - `templates/END_OF_THREAD_CANONIZATION_PACKET.md`
@@ -117,7 +129,7 @@ These files establish the decisive division:
 - `conversation-logs/2026-07-11_coral-belt-pareto-and-civilizational-compiler-close.md`
 - `audits/2026-07-11_FULL_THREAD_GITHUB_INTEGRATION_AUDIT.md`
 
-### 9. Agent research system
+### 10. Agent research system
 
 - `canon/FOUNDER_AGENT_RESEARCH_DIVISION_OF_LABOR.md`
 - `templates/AGENT_RESEARCH_PACKET_TEMPLATE.md`
@@ -160,19 +172,20 @@ Run the slavery, inherited-moral-capital, animal-comparison, and rival-grand-nar
 
 ### Compiler research modules
 
-Issues **#29–#34** preserve valuable modules—Invisible Technologies, Objective Functions, Coherent Attention, Civilizational APIs, Truth Compression, and Minimum Viable Civilization—but they are subordinate to #25 rather than simultaneous P0 programs.
+Issues **#29–#34** preserve valuable modules—Invisible Technologies, Objective Functions, Coherent Attention, Civilizational APIs, Truth Compression, and Minimum Viable Civilization—but remain subordinate to #25 rather than simultaneous P0 programs.
 
 ### Truth and Peace Engine
 
 - **#77** — Transcript-to-Immunity Pilot
 - **#78** — Digital House of Wisdom MVP
 - **#79** — Recurring truth rituals
+- **#80** — Creator Supercharger Network MVP
 
 ## Operating pipeline
 
-`Signal → Question gene → Claim family → Authority layer → Evidence graph → Causal model → Comparative judgment → Versioned verdict → Grand synthesis → Truth compression → Narrative form → Recurring ritual → Distribution → Transfer measurement → Institution design → AIOS revision`
+`Signal → Question gene → Claim family → Authority layer → Evidence graph → Causal model → Comparative judgment → Versioned verdict → Grand synthesis → Truth compression → Creator routing → Narrative form → Recurring ritual → Distribution → Transfer measurement → Institution design → AIOS revision`
 
-## Truth, synthesis, and force planes
+## Truth, synthesis, creator, and force planes
 
 ### Truth plane
 
@@ -182,13 +195,19 @@ Stores provenance, confidence, scope, competing interpretations, counterevidence
 
 Connects evidence into causal models, comparative judgment, moral interpretation, canonical narratives, and present implications.
 
+### Creator plane
+
+Matches accepted intelligence to independent messengers by trust, audience fit, topic relevance, adoption probability, transfer potential, and distortion risk.
+
 ### Force plane
 
 Produces clear subjects, active verbs, concrete images, moral contrasts, retrieval lines, archetypes, scenes, and audience-fit content.
 
-The synthesis and force planes may transform meaning into usable form; neither may silently alter the accepted evidence.
+No downstream plane may silently alter the accepted evidence.
 
-Every major result must eventually produce:
+## Required output stack
+
+Every major result should eventually produce:
 
 1. canonical verdict;
 2. causal model;
@@ -196,9 +215,10 @@ Every major result must eventually produce:
 4. legendary line;
 5. narrative form;
 6. transferable immunity lesson;
-7. curriculum implication;
-8. institutional implication;
-9. correction trigger.
+7. Creator Supercharge Packet;
+8. curriculum implication;
+9. institutional implication;
+10. correction trigger.
 
 ## Evidence standards
 
@@ -212,20 +232,12 @@ Every major result must eventually produce:
 - strongest countercase represented fairly;
 - breaker evidence required;
 - confidence and uncertainty versioned;
-- no public claim stronger than the accepted evidence;
+- no public claim stronger than accepted evidence;
 - no real achievement weakened merely because it was not universal.
 
 ## Expression standard
 
 The operating standard is **maximum justified force**.
-
-- Publish established and strongly documented claims directly.
-- Name documented cases confidently with bounded scope.
-- Preserve reception and normative truth even when exact event historicity is debated.
-- Research promising frontiers aggressively.
-- Reject unsupported promotional claims.
-- State the conclusion before the procedural scaffolding.
-- Do not use complexity as a substitute for judgment.
 
 > Internally, preserve every material caveat. Externally, lead with the strongest humanly intelligible truth.
 
@@ -233,104 +245,44 @@ The operating standard is **maximum justified force**.
 
 The target is **evidence-bound conviction**.
 
-The AIOS must:
-
-- judge, connect, rank, explain, and narrate;
-- state its best current conclusion clearly;
-- expose the causal spine;
-- represent the strongest rival synthesis;
-- identify what would change the conclusion;
-- preserve revision and supersession history;
-- remain morally directional without becoming tribal propaganda.
+The AIOS must judge, connect, rank, explain, narrate, identify the strongest rival synthesis, state what would change its mind, and preserve supersession history.
 
 > Evidence without synthesis becomes bureaucracy. Opinion without evidence becomes propaganda.
 
-## Coral-Belt Pareto standard
+## Creator Supercharger standard
 
-The system should optimize the smallest number of compounding loops rather than the largest number of artifacts or issues.
-
-Before creating work, ask:
-
-- What is the current constraint?
-- How many downstream capabilities will this unlock?
-- Can the result be reused across claims, formats, audiences, and institutions?
-- Does it improve the system after the immediate task ends?
-- What coordination surface does it add?
-- Is there a smaller experiment that tests the same assumption?
-
-> Ordinary Pareto finds the vital few. Coral-Belt Pareto builds the loop that repeatedly discovers and strengthens the next vital few.
-
-## Civilizational benchmark dimensions
-
-Every civilization or system should eventually be evaluated on:
-
-1. reality alignment;
-2. power restraint;
-3. vulnerability protection;
-4. material competence;
-5. social reproduction;
-6. meaning and costly morality;
-7. error correction;
-8. succession durability;
-9. institutional capture resistance;
-10. treatment of animals and other beings unable to reciprocate.
-
-The benchmark must ask:
-
-> Peace by what mechanism, at what cost, and with what displaced harms?
-
-And:
-
-> What did the civilization do when mercy offered no strategic return?
-
-## Contribution rule
-
-Do not contribute an unbounded topic.
-
-Contribute:
-
-> one exact question + one source hierarchy + one comparison class + one output schema + one falsifier requirement.
-
-The correct unit of agent work is a research packet.
-
-## Truth-closure rule
-
-A controversy is not closed when everyone agrees. It is provisionally closed when the system can state:
-
-- what is established;
-- what is probable;
-- what is contested;
-- what is unsupported;
-- what is a category error;
-- what remains unresolved;
-- what evidence would reopen the verdict;
-- what public wording is approved.
+- creators are independent partners, not mouthpieces;
+- follower count is not the sole measure of leverage;
+- creator popularity cannot override canon;
+- audience profiling must remain consent-based and non-exploitative;
+- no covert scripts, hidden coordination, or ideological conformity tests;
+- correction support is a core feature;
+- helping one creator should create reusable learning for every future creator.
 
 ## Division of labor
 
-- **Founder/operator:** signal, anomaly detection, moral judgment, question selection, deployment approval.
-- **AI architect:** ontology, terrain maps, causal models, research sequence, integration logic, synthesis, force compilation, AIOS updates.
-- **Scout agents:** source retrieval, structured extraction, tables, timelines, datasets.
+- **Founder/operator:** signal, moral judgment, creator relationships, question selection, and deployment approval.
+- **AI architect:** ontology, evidence graphs, causal models, leverage routing, synthesis, force compilation, and AIOS updates.
+- **Scout agents:** source retrieval, structured extraction, tables, timelines, and datasets.
 - **Red teams:** breaker evidence, asymmetry detection, hostile and apologetic failure analysis.
-- **Integrators:** versioned verdicts, grand-narrative updates, and repository integration.
-- **Editors/operators:** truthful compression, production, distribution, measurement.
+- **Integrators:** versioned verdicts, narrative updates, creator packets, and repository integration.
+- **Editors/operators:** truthful compression, production, distribution, and measurement.
+- **Creators:** independent interpretation, authentic delivery, audience feedback, and correction participation.
 - **Institution builders:** convert accepted moral insight into durable systems.
 
 ## Immediate golden path
 
-1. Resolve the open research-hardening PR stack and protect verified work from branch drift.
-2. Source-align SEG-003 and SEG-004 and publish the first `Which Layer Said It?` experiment.
-3. Measure transfer and update the compiler and protocol.
-4. Produce and test the first `The Animals Cannot Write History` flagship asset.
-5. Stabilize `RP-EA-001` and build the first Qur’anic anchor clusters.
-6. Complete the animal-hadith and institution evidence cells.
-7. Verify and strengthen the Bursa stork-hospital and retired-animal cases.
-8. Build equivalent contemporaneous comparison cells.
-9. Red-team and compress Grand Synthesis v0.1 against the strongest rival narratives.
-10. Establish the first recurring truth ritual.
-11. Prototype the Animal Service Pension or modern animal-care waqf.
-12. Build software only around the proven loop.
-13. Feed audience results, institutional results, objections, and corrections back into the AIOS.
+1. Resolve the open research-hardening PR stack.
+2. Source-align and publish the first `Which Layer Said It?` experiment.
+3. Recruit three to five founding Creator Supercharger partners.
+4. Deliver the first three Creator Supercharge Packets manually.
+5. Measure creator adoption, audience transfer, and returned questions.
+6. Produce `The Animals Cannot Write History` pilot through at least one partner creator.
+7. Establish recurring truth rituals.
+8. Complete Qur’anic authority and first anchor clusters.
+9. Red-team and compress the Grand Synthesis.
+10. Prototype the Animal Service Pension or modern animal-care waqf.
+11. Build software only around loops proven through repeated use.
 
 ## Canonical north star
 
@@ -338,4 +290,4 @@ A controversy is not closed when everyone agrees. It is provisionally closed whe
 
 > Human history is the unfinished struggle to make expanding power answer to truth, mercy, and durable moral institutions before power outruns wisdom and turns its capacities against life.
 
-> Research is the reactor. Questions find the seam. The compiler builds understanding. Synthesis is the compass. Public language is the transmission. GitHub is the memory. Institutions are the proof. Reality is the judge.
+> Research is the reactor. Synthesis is the compass. Creators are the multipliers. Public language is the transmission. GitHub is the memory. Institutions are the proof. Reality is the judge.
