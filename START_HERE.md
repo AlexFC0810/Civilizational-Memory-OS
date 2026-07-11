@@ -20,18 +20,19 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 
 > The goal is not to prove that our favored civilization was perfect. The goal is to make it progressively harder for any civilization, ideology, institution, critic, or believer—including us—to lie to itself.
 
-## The repository has ten jobs
+## The repository has eleven jobs
 
 1. **Memory** — preserve insights, corrections, and discovery provenance.
 2. **Ontology** — define claims, sources, actors, institutions, periods, and relationships.
 3. **Cartography** — map the full terrain, dependencies, and golden paths.
 4. **Evidence compilation** — convert disputed claims into traceable ledgers and versioned verdicts.
 5. **Benchmarking** — compare civilizations through common, historically calibrated dimensions.
-6. **Agent coordination** — convert open questions into bounded research packets.
-7. **Opinionated synthesis** — connect evidence into causal, moral, and historical judgment.
-8. **Public transmission** — turn accepted truth into memorable, source-linked public knowledge.
-9. **Institution building** — convert moral insight into structures that change reality.
-10. **Recursive improvement** — convert failure, feedback, and reality tests into stronger defaults.
+6. **Question discovery** — generate and preserve load-bearing questions that redraw the terrain.
+7. **Agent coordination** — convert open questions into bounded research packets.
+8. **Opinionated synthesis** — connect evidence into causal, moral, and historical judgment.
+9. **Public transmission** — turn accepted truth into memorable, source-linked public knowledge.
+10. **Institution building** — convert moral insight into structures that change reality.
+11. **Recursive improvement** — convert failure, feedback, and reality tests into stronger defaults.
 
 ## Read in this order
 
@@ -53,20 +54,26 @@ Build a truth-aligned, self-correcting system for recovering civilizational wisd
 - `frameworks/inherited-moral-capital-and-civilizational-metabolism.md`
 - `frameworks/worldview-compression-and-cumulative-case.md`
 
-### 3. Digital House of Wisdom and opinionated synthesis
+### 3. Digital House of Wisdom, Civilizational Compiler, and opinionated synthesis
 
 - `canon/DIGITAL_HOUSE_OF_WISDOM.md`
+- `canon/CIVILIZATIONAL_COMPILER.md`
 - `canon/OPINIONATED_TRUTH_SYNTHESIS_LAYER.md`
 - `canon/GRAND_SYNTHESIS_OF_HUMAN_AND_ISLAMIC_HISTORY_V0_1.md`
 - `canon/CIVILIZATIONAL_NARRATIVE_OPERATING_SYSTEM.md`
+- `canon/QUESTION_GENOME.md`
 - `frameworks/CIVILIZATIONAL_MEDIA_POWER_STACK.md`
+- `frameworks/CORAL_BELT_PARETO_FOR_CIVILIZATIONAL_INTELLIGENCE.md`
 
 These files establish the decisive division:
 
 - GitHub AIOS is the memory and source code;
+- the Civilizational Compiler is the truth-to-action reasoning architecture;
 - Truth and Peace Engine is the media and distribution layer;
 - Digital House of Wisdom is the living public institution;
-- Grand Synthesis is the versioned, opinionated doctrine layer.
+- Grand Synthesis is the versioned, opinionated doctrine layer;
+- the Question Genome discovers the load-bearing questions;
+- Coral-Belt Pareto governs sequencing and compounding leverage.
 
 ### 4. Truth closure and propaganda immunity
 
@@ -107,6 +114,7 @@ These files establish the decisive division:
 - `templates/END_OF_THREAD_CANONIZATION_PACKET.md`
 - `conversation-logs/2026-07-10_josh-full-dialectic-expansion.md`
 - `conversation-logs/2026-07-11_transcript-immunity-quranic-kernel-animal-mercy-public-force.md`
+- `conversation-logs/2026-07-11_coral-belt-pareto-and-civilizational-compiler-close.md`
 - `audits/2026-07-11_FULL_THREAD_GITHUB_INTEGRATION_AUDIT.md`
 
 ### 9. Agent research system
@@ -132,7 +140,7 @@ Run the slavery, inherited-moral-capital, animal-comparison, and rival-grand-nar
 
 ## Active build issues
 
-Civilizational Memory OS:
+### Civilizational Memory OS — trunk
 
 - **#2** — Comparative Civilization Benchmark Atlas
 - **#14** — Civilizational Intelligence MVP
@@ -145,15 +153,24 @@ Civilizational Memory OS:
 - **#22** — Qur’anic Anchor Cluster Library
 - **#23** — Comparative Animal Ethics Atlas
 - **#24** — Canonical Grand Narrative System
+- **#25** — Civilizational Compiler MVP
+- **#26** — Question Genome
+- **#27** — Resolve research-hardening PR stack
+- **#28** — Animal Service Pension prototype
 
-Truth and Peace Engine:
+### Compiler research modules
+
+Issues **#29–#34** preserve valuable modules—Invisible Technologies, Objective Functions, Coherent Attention, Civilizational APIs, Truth Compression, and Minimum Viable Civilization—but they are subordinate to #25 rather than simultaneous P0 programs.
+
+### Truth and Peace Engine
 
 - **#77** — Transcript-to-Immunity Pilot
 - **#78** — Digital House of Wisdom MVP
+- **#79** — Recurring truth rituals
 
 ## Operating pipeline
 
-`Signal → Map → Canonization packet → Deduplicate → Research packet → Scout → Red team → Integration gate → Versioned verdict → Grand synthesis → Public force compiler → Narrative form → Deployment → Measurement → Institution design → Revision`
+`Signal → Question gene → Claim family → Authority layer → Evidence graph → Causal model → Comparative judgment → Versioned verdict → Grand synthesis → Truth compression → Narrative form → Recurring ritual → Distribution → Transfer measurement → Institution design → AIOS revision`
 
 ## Truth, synthesis, and force planes
 
@@ -228,6 +245,21 @@ The AIOS must:
 
 > Evidence without synthesis becomes bureaucracy. Opinion without evidence becomes propaganda.
 
+## Coral-Belt Pareto standard
+
+The system should optimize the smallest number of compounding loops rather than the largest number of artifacts or issues.
+
+Before creating work, ask:
+
+- What is the current constraint?
+- How many downstream capabilities will this unlock?
+- Can the result be reused across claims, formats, audiences, and institutions?
+- Does it improve the system after the immediate task ends?
+- What coordination surface does it add?
+- Is there a smaller experiment that tests the same assumption?
+
+> Ordinary Pareto finds the vital few. Coral-Belt Pareto builds the loop that repeatedly discovers and strengthens the next vital few.
+
 ## Civilizational benchmark dimensions
 
 Every civilization or system should eventually be evaluated on:
@@ -288,15 +320,17 @@ A controversy is not closed when everyone agrees. It is provisionally closed whe
 
 1. Resolve the open research-hardening PR stack and protect verified work from branch drift.
 2. Source-align SEG-003 and SEG-004 and publish the first `Which Layer Said It?` experiment.
-3. Stabilize `RP-EA-001` and build the first Qur’anic anchor clusters.
-4. Complete the animal-hadith and institution evidence cells.
-5. Verify and strengthen the Bursa stork-hospital and retired-animal cases.
-6. Build equivalent contemporaneous comparison cells.
-7. Red-team Grand Synthesis v0.1 against the strongest rival narratives.
-8. Produce one-page and ten-minute versions of the human and Islamic narratives.
-9. Produce and test the first `The Animals Cannot Write History` flagship asset.
-10. Convert one accepted moral insight into a real institution, beginning with an Animal Service Pension or modern animal-care waqf.
-11. Feed audience results, institutional results, objections, and corrections back into the AIOS.
+3. Measure transfer and update the compiler and protocol.
+4. Produce and test the first `The Animals Cannot Write History` flagship asset.
+5. Stabilize `RP-EA-001` and build the first Qur’anic anchor clusters.
+6. Complete the animal-hadith and institution evidence cells.
+7. Verify and strengthen the Bursa stork-hospital and retired-animal cases.
+8. Build equivalent contemporaneous comparison cells.
+9. Red-team and compress Grand Synthesis v0.1 against the strongest rival narratives.
+10. Establish the first recurring truth ritual.
+11. Prototype the Animal Service Pension or modern animal-care waqf.
+12. Build software only around the proven loop.
+13. Feed audience results, institutional results, objections, and corrections back into the AIOS.
 
 ## Canonical north star
 
@@ -304,4 +338,4 @@ A controversy is not closed when everyone agrees. It is provisionally closed whe
 
 > Human history is the unfinished struggle to make expanding power answer to truth, mercy, and durable moral institutions before power outruns wisdom and turns its capacities against life.
 
-> Research is the reactor. Synthesis is the compass. Public language is the transmission. GitHub is the memory. Institutions are the proof. Reality is the judge.
+> Research is the reactor. Questions find the seam. The compiler builds understanding. Synthesis is the compass. Public language is the transmission. GitHub is the memory. Institutions are the proof. Reality is the judge.
