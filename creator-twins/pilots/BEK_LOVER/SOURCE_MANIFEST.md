@@ -1,13 +1,35 @@
 # Bek Lover Epistemic Twin — Source Manifest
 
-**Status:** Intake-ready  
+**Status:** Run 001 active; source URL alignment pending  
 **Purpose:** Track every public source included in the Bek Lover corpus with enough provenance to support quotation, reconstruction, verification, evolution mapping, and creator-facing reuse.
 
 ## Source schema
 
 | Source ID | Title | Format | URL / File | Published date | Retrieved date | Duration / Length | Participants | Transcript status | Verification status | Priority | Notes |
 |---|---|---|---|---|---|---:|---|---|---|---|---|
-| BL-SRC-001 | Pending first uploaded transcript | Video transcript | User upload pending | Unknown | Pending | Unknown | Bek Lover + unknown | Awaiting intake | Not started | P0 | First dogfood run |
+| BL-SRC-001 | Bek Lover appearance on The Deen Show — exact title pending | Video transcript | Full timestamped transcript pasted by Alex Amaro; original URL pending | Unknown | 2026-07-11 | ~1:24:53 | Bek Lover; Eddie Redzovic; embedded PBD Podcast speakers | First-pass ingestion complete; audio alignment pending | Priority audit complete; full audit open | P0 | Foundational worldview, creator-ethic, Balkan, theology, media, and redemption source |
+
+## Run 001 outputs
+
+Located under `creator-twins/pilots/BEK_LOVER/runs/BL-ET-001/`:
+
+- `SOURCE_RECORD.md`
+- `SEGMENT_MAP.md`
+- `CLAIM_LEDGER.md`
+- `QUESTION_AND_SALIENCE_MAP.md`
+- `CAUSAL_AND_NARRATIVE_MAP.md`
+- `SOURCE_AUDIT.md`
+- `UNIQUE_INSIGHTS_AND_GOLDEN_THREADS.md`
+- `AIOS_AUGMENTATION.md`
+- `CREATOR_SUPERCHARGE_PACKET.md`
+- `NEXT_CORPUS_PRIORITY.md`
+- `RUN_LESSONS.md`
+
+Pending after source URL:
+
+- `RAW_TRANSCRIPT.md`
+- `NORMALIZED_TRANSCRIPT.md`
+- publication-grade quotation alignment.
 
 ## Required metadata
 
@@ -65,4 +87,4 @@ Optimize for:
 
 ## Next action
 
-Replace the placeholder row when the first transcript is uploaded. Assign `BL-SRC-001`, capture its metadata, and create the Run 001 output folder.
+Obtain the original video URL, align BL-SRC-001 against audio, then collect the next 20-source batch defined in `runs/BL-ET-001/NEXT_CORPUS_PRIORITY.md`.
