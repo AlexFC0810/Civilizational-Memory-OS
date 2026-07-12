@@ -30,3 +30,14 @@ Two honesty notes: (1) single-refuter verdicts are noisy — Fable's own 007 cat
 | Planning, strategy, judge panels, spec-writing | **Fable 5 only** | operator directive 2026-07-10: Fable is reserved for highest-leverage judgment; execution is delegated |
 
 **Demotion achieved this window:** card drafting + 2 of 3 refutation lenses + revision moved from frontier-bound to Sonnet, with the category-collapse lens and final grades explicitly retained at frontier tier. The next Fable-Day re-measures agreement before moving that boundary.
+
+## Role mapping (binding 2026-07-11 — roles from `canon/FOUNDER_AGENT_RESEARCH_DIVISION_OF_LABOR.md`)
+
+| Role (canon doc) | Tier (measured, this table is authoritative) |
+|---|---|
+| Founder | Human — signal, taste, merge decisions, sensitive sign-off |
+| Architect | **Fable 5** — specs, judge panels, adjudication, strategy (operator directive 2026-07-10) |
+| Scout (research/drafting) | **Sonnet 5** — drafting, fetching, formatting (4/4 pilot cards passed gate) |
+| Red-team | **Sonnet 5** for primary-source + hostile-historian lenses (100% agreement); **frontier** for category-collapse (33%); **Opus 4.8** for blast-radius second passes |
+| Integration | **Sonnet 5 + `scripts/evals.mjs`** — mechanical checks are model-free |
+| Editor / force calibration | **Sonnet 5 under the gate**; final grade sign-off stays frontier |

@@ -1,6 +1,7 @@
 # Strength Without Overclaiming
 
 **Status:** Canonical communication protocol
+**Binding (2026-07-11):** adopted as the human taste layer **bound under** the deployment gate. The overclaiming failure mode is mechanically scanned by `scripts/evals.mjs`; the underclaiming failure mode this document names is caught by human/frontier review during grading. Neither mode is fixed by weakening the gate.
 
 ## Why this exists
 

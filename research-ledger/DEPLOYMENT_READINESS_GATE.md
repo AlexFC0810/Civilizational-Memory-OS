@@ -28,6 +28,16 @@ Every card in `source-cards/` must contain all ten, as headings:
 - **Blast-radius rule:** cards answering maximum-hostility smears (e.g. 007 terrorism/collective-guilt) take a **mandatory second adversarial pass** before grading.
 - **Gates are floors, not proofs:** passing evals means mechanically complete, not true. The three refuter lenses (`prompt-library/refuters/`) and human taste remain the truth layer.
 
+## Upstream review steps (adopted from `protocols/CANONICAL_INTEGRATION_GATE.md`, binding 2026-07-11)
+
+Before drafting or grading, the packet/card passes three conceptual checks from the Canonical Integration Gate — enforced here so there is **one gate, not two**:
+
+- **Scope integrity (CIG G0):** one independently testable question; the research question didn't silently mutate.
+- **Comparative symmetry (CIG G4):** same-era, same-category baselines; the comparison would survive being run in reverse.
+- **Causal integrity (CIG G6):** correlation/causation discipline; no outcome attributed to a blueprint without a mechanism.
+
+**Taste layer:** `protocols/MAXIMUM_DEFENSIBLE_FORCE_STANDARD.md` + `protocols/STRENGTH_WITHOUT_OVERCLAIMING.md` calibrate force *within* gate-passing space — seek the strongest wording that survives the scan; anti-timidity never bypasses it. Claim-state vocabulary for creator pilots maps to grades in `products/CREATOR_CLAIM_CONSOLE_MVP_SPEC.md` Appendix A.
+
 ## Refuter lenses (run all three on every new card)
 
 | Lens | Prompt | Kills |

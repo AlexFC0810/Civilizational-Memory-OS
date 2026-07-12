@@ -1,6 +1,7 @@
 # Creator Supercharger — Impact × Ease Matrix
 
-**Status:** Canonical operating strategy  
+**Status:** Judge-panel INPUT — scores are self-graded and un-refuted (binding 2026-07-11). Rankings here are candidates; verdicts and the current authoritative queue live in `/MASTER_PLAN.md`. Per house method, no self-graded score acts without a panel verdict.
+**Original status:** Canonical operating strategy  
 **Purpose:** Rank the highest-leverage interventions for creators who already possess credibility, ideas, or an audience but lack the surrounding intelligence, distribution, and operating system.
 
 ## Governing equation

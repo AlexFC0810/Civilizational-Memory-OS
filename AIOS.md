@@ -11,6 +11,15 @@ Conversation is the laboratory. GitHub is the institutional memory. Canon is ear
 
 > A breakthrough that remains only in chat is not yet part of the operating system.
 
+## Enforcement (executable layer) — binding 2026-07-11
+
+This constitution is enforced by machinery, not prose. One gate, one loop, one routing authority:
+
+- **Gate (deployment floor):** `research-ledger/DEPLOYMENT_READINESS_GATE.md`, run mechanically by `node scripts/evals.mjs` (10-section standard, citation floor, overclaim scan, verification transcripts, `--intake` registration check). Nothing deploy-facing ships without a green run. `protocols/CANONICAL_INTEGRATION_GATE.md` supplies its upstream review steps; `protocols/MAXIMUM_DEFENSIBLE_FORCE_STANDARD.md` and `protocols/STRENGTH_WITHOUT_OVERCLAIMING.md` calibrate force *within* gate-passing space.
+- **Loop (runtime ritual):** `agents/digital-house-of-wisdom/OPERATING_LOOP.md` + its Standing Checks (PR staleness, claim intake, distribution boundary). `protocols/CONVERSATION_TO_CANON_MECE_PROTOCOL.md` is the theory this loop operationalizes.
+- **Routing (measured):** `MODEL_ROUTING.md` — model-tier assignments rest on measured refuter-agreement data, re-measured each Fable-Day. Role definitions in `canon/FOUNDER_AGENT_RESEARCH_DIVISION_OF_LABOR.md` map to tiers there.
+- **Strategy index:** ranked priorities and verdicts live in `/MASTER_PLAN.md`; strategy narratives and self-graded matrices are inputs to its judge panel, never overriding authorities.
+
 ## Source-of-truth hierarchy
 
 When artifacts conflict, use this order:

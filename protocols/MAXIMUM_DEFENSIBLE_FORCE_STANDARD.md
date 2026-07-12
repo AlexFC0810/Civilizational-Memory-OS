@@ -1,6 +1,7 @@
 # Maximum Defensible Force Standard
 
 **Status:** Canonical operating protocol
+**Binding (2026-07-11):** adopted as the human taste layer **bound under** the deployment gate (`research-ledger/DEPLOYMENT_READINESS_GATE.md` + `scripts/evals.mjs`). Maximum force is sought *within* gate-passing space; anti-timidity never licenses bypassing the overclaim scan or shipping without a green run.
 
 ## Purpose
 
