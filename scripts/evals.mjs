@@ -169,7 +169,11 @@ function anchorBodyWithSubsections(sections, target) {
 // --- Intake scan: claim-bearing files not registered in CLAIMS_TO_VERIFY.md ---
 function intakeScan() {
   const ledger = fs.existsSync(LEDGER) ? fs.readFileSync(LEDGER, "utf8") : "";
-  const dirs = ["frameworks", "canon", "source-ledgers", "public-narratives", "case-files"];
+  // Scanner is non-recursive: distribution-boundary subdirs are listed explicitly.
+  const dirs = [
+    "frameworks", "canon", "source-ledgers", "public-narratives", "case-files",
+    "public-packets/after-the-bell", "research-packets/queued", "transcript-immunity/packets",
+  ];
   const unregistered = [];
   for (const d of dirs) {
     const dir = path.join(REPO_ROOT, d);
