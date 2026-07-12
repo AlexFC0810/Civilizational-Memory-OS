@@ -1,5 +1,7 @@
 # ATB-001 — Do Muslims Worship the Devil?
 
+> ⛔ **PRE-GATE — DO NOT PUBLISH (Standing Check #3, 2026-07-11).** This packet ships only with a green gate receipt: its claims registered in `research-ledger/CLAIMS_TO_VERIFY.md` (done — grade D, 2026-07-11 intake), backing cards through `research-ledger/DEPLOYMENT_READINESS_GATE.md` (3 refuter lenses, verification transcripts, `node scripts/evals.mjs` PASS), plus the creator approval already required below. Delivery to Truth & Peace arrives **with** the receipt, per the Bek deconfliction split (civ-memory = claims/evidence; T&P = production/publishing).
+
 **Series:** After the Bell — The Truth Audit  
 **Status:** Internal production blueprint; publication blocked on source alignment and creator approval  
 **Primary source:** `BL-SRC-001` — https://youtu.be/ux_2QF6u_Ag  
