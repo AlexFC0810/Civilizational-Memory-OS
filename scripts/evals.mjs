@@ -22,7 +22,7 @@ const CARDS_DIR = path.join(REPO_ROOT, "source-cards");
 const LEDGER = path.join(REPO_ROOT, "research-ledger", "CLAIMS_TO_VERIFY.md");
 const TRANSCRIPT_CUTOFF = Date.parse("2026-07-10");
 
-// The ten required sections (DEPLOYMENT_READINESS_GATE.md), matched against headings.
+// The ten required sections of the SOURCE-CARD genre (DEPLOYMENT_READINESS_GATE.md).
 const REQUIRED_SECTIONS = [
   [/^#{2,3}\s+.*claim/im, "Claim"],
   [/^#{2,3}\s+.*source anchors/im, "Source Anchors"],
@@ -35,6 +35,27 @@ const REQUIRED_SECTIONS = [
   [/^#{2,3}\s+.*safe wording/im, "Safe Wording"],
   [/^#{2,3}\s+.*counterattack simulation/im, "Counterattack Simulation"],
 ];
+
+// The HISTORICAL-CALIBRATION-CARD genre (HCC-*): a diachronic claim adjudication
+// (seed -> implementation -> distribution -> degradation -> restoration). Shares the
+// universal hard rules (Source Anchors, Evidence Grade, overclaim scan, transcript);
+// differs in its structural sections. See DEPLOYMENT_READINESS_GATE.md "Genres".
+const HCC_REQUIRED_SECTIONS = [
+  [/^#{2,3}\s+.*(exact claim|claim)/im, "Exact Claim"],
+  [/^#{2,3}\s+.*source anchors/im, "Source Anchors"],
+  [/^#{2,3}\s+.*evidence grade/im, "Evidence Grade"],
+  [/^#{2,3}\s+.*(prophetic benchmark|normative seed)/im, "Prophetic Benchmark / Normative Seed"],
+  [/^#{2,3}\s+.*historical distribution/im, "Historical Distribution"],
+  [/^#{2,3}\s+.*(does not prove|proves)/im, "Proves / Does Not Prove"],
+  [/^#{2,3}\s+.*valid criticism/im, "Valid Criticism Preserved"],
+  [/^#{2,3}\s+.*restoration/im, "Restoration-Gap Diagnosis"],
+  [/^#{2,3}\s+.*(core lines|s-tier)/im, "Core Lines"],
+];
+
+// Genre by filename: HCC-2026-001_*.md -> hcc; NNN_*.md or default -> source-card.
+function requiredFor(file) {
+  return /^HCC[-_]/i.test(path.basename(file)) ? HCC_REQUIRED_SECTIONS : REQUIRED_SECTIONS;
+}
 
 const PLACEHOLDERS = /\b(TODO|TBD|FIXME|XXX)\b|\[placeholder\]|lorem ipsum|<insert|\?\?\?/i;
 
@@ -87,9 +108,11 @@ function evalCard(file) {
   const failures = [];
   const warnings = [];
   const sections = splitSections(raw);
+  const required = requiredFor(file);
+  const isHcc = required === HCC_REQUIRED_SECTIONS;
 
-  // --- Ten required sections ---
-  for (const [re, name] of REQUIRED_SECTIONS) {
+  // --- Required sections (genre-specific) ---
+  for (const [re, name] of required) {
     if (!re.test(raw)) failures.push(`missing required section: ${name}`);
   }
 
@@ -100,14 +123,14 @@ function evalCard(file) {
   // --- Citation floor: >=2 https anchors inside Source Anchors ---
   const anchorsSec = sections.find((s) => /source anchors/i.test(s.heading));
   const anchorBody = anchorsSec
-    ? anchorBodyWithSubsections(sections, anchorsSec)
+    ? anchorBodyWithSubsections(sections, anchorsSec, required)
     : "";
   const urls = [...new Set((anchorBody.match(/https?:\/\/[^\s)>\]]+/g) ?? []))];
   if (urls.length < 2) failures.push(`citation floor: only ${urls.length} distinct source URL(s) in Source Anchors (< 2)`);
 
   // --- Evidence grade present ---
   const gradeSec = sections.find((s) => /evidence grade/i.test(s.heading));
-  const gradeBody = gradeSec ? anchorBodyWithSubsections(sections, gradeSec) : "";
+  const gradeBody = gradeSec ? anchorBodyWithSubsections(sections, gradeSec, required) : "";
   if (gradeSec && !/\*?\*?[ABCD]\*?\*?\b/.test(gradeBody)) failures.push("evidence grade: no A/B/C/D grade found");
 
   // --- Overclaim scan on deploy-facing sections only ---
@@ -122,10 +145,20 @@ function evalCard(file) {
     }
   }
 
-  // --- Counterattack minimum: >=3 counters ---
-  const counters = (raw.match(/^#{3,4}\s+Counter/gim) ?? []).length;
-  if (/counterattack simulation/i.test(raw) && counters < 3) {
-    failures.push(`counterattack simulation: only ${counters} counter(s) (< 3)`);
+  // --- Adversarial minimum ---
+  if (isHcc) {
+    // HCC analog: the "Valid criticism preserved" section must actually name criticisms.
+    const vc = sections.find((s) => /valid criticism/i.test(s.heading));
+    const vcBody = vc ? anchorBodyWithSubsections(sections, vc, required) : "";
+    if (vc && vcBody.replace(/\s/g, "").length < 80) {
+      failures.push("valid criticism preserved: section too thin (must genuinely preserve the strongest criticism)");
+    }
+  } else {
+    // Source-card: >=3 counters in the Counterattack Simulation.
+    const counters = (raw.match(/^#{3,4}\s+Counter/gim) ?? []).length;
+    if (/counterattack simulation/i.test(raw) && counters < 3) {
+      failures.push(`counterattack simulation: only ${counters} counter(s) (< 3)`);
+    }
   }
 
   // --- Verification transcript (hard for new cards, WARN for legacy) ---
@@ -140,7 +173,7 @@ function evalCard(file) {
   } else {
     // Transcript present: every anchor URL should reappear in the transcript.
     const tSec = sections.find((s) => /verification transcript/i.test(s.heading));
-    const tBody = tSec ? anchorBodyWithSubsections(sections, tSec) : "";
+    const tBody = tSec ? anchorBodyWithSubsections(sections, tSec, required) : "";
     for (const u of urls) {
       if (!tBody.includes(u)) warnings.push(`transcript does not cover anchor: ${u}`);
     }
@@ -152,13 +185,13 @@ function evalCard(file) {
 }
 
 // A section's content includes its ### subsections until the next same-or-higher heading.
-function anchorBodyWithSubsections(sections, target) {
+function anchorBodyWithSubsections(sections, target, required = REQUIRED_SECTIONS) {
   const i = sections.indexOf(target);
   let body = target.body;
   for (let j = i + 1; j < sections.length; j++) {
     // Subsections of an H2 target are H3+ headings that were split out; we re-attach
     // consecutive sections until we hit a heading that matches another REQUIRED section.
-    const isMajor = REQUIRED_SECTIONS.some(([re]) => re.test(`## ${sections[j].heading}`)) ||
+    const isMajor = required.some(([re]) => re.test(`## ${sections[j].heading}`)) ||
       /^(verification transcript|deployment readiness|next source cards|final canon|status)\b/i.test(sections[j].heading);
     if (isMajor && j > i) break;
     body += "\n" + sections[j].heading + "\n" + sections[j].body;
@@ -173,6 +206,7 @@ function intakeScan() {
   const dirs = [
     "frameworks", "canon", "source-ledgers", "public-narratives", "case-files",
     "public-packets/after-the-bell", "research-packets/queued", "transcript-immunity/packets",
+    "historical-calibration/cards",
   ];
   const unregistered = [];
   for (const d of dirs) {
@@ -188,6 +222,23 @@ function intakeScan() {
   return unregistered;
 }
 
+// Gate targets: source-cards/NNN_*.md + historical-calibration/cards/HCC-*.md
+function discoverCards() {
+  const out = [];
+  if (fs.existsSync(CARDS_DIR)) {
+    for (const f of fs.readdirSync(CARDS_DIR)) {
+      if (/^\d{3}_.*\.md$/.test(f)) out.push(path.join(CARDS_DIR, f));
+    }
+  }
+  const hccDir = path.join(REPO_ROOT, "historical-calibration", "cards");
+  if (fs.existsSync(hccDir)) {
+    for (const f of fs.readdirSync(hccDir)) {
+      if (/^HCC[-_].*\.md$/i.test(f)) out.push(path.join(hccDir, f));
+    }
+  }
+  return out;
+}
+
 function main() {
   const argv = process.argv.slice(2);
   const intake = argv.includes("--intake");
@@ -195,11 +246,7 @@ function main() {
 
   const targets = files.length
     ? files.map((f) => path.resolve(REPO_ROOT, f))
-    : fs.existsSync(CARDS_DIR)
-      ? fs.readdirSync(CARDS_DIR)
-          .filter((f) => /^\d{3}_.*\.md$/.test(f))
-          .map((f) => path.join(CARDS_DIR, f))
-      : [];
+    : discoverCards();
 
   let failed = 0;
   for (const file of targets) {

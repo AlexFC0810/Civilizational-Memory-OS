@@ -4,6 +4,17 @@ The executable standard a source card must pass before its lines may ship public
 
 > **Operating rule (unchanged): no viral line without a source card. New rule: no source card without a green gate run.**
 
+## Genres (one gate, two card shapes — binding 2026-07-13)
+
+The gate covers two card genres. Both obey the **same hard rules** (Source Anchors ≥2 with URLs, Evidence Grade, overclaim scan, Verification Transcript for cards ≥2026-07-10, fetch-failure caps grade at B). They differ only in structural sections; `scripts/evals.mjs` picks the genre by filename.
+
+| Genre | Files | Structural sections | Adversarial section |
+|---|---|---|---|
+| **Source card** (smear-response) | `source-cards/NNN_*.md` | the ten below | Counterattack Simulation (≥3 counters) |
+| **Historical Calibration Card** (diachronic) | `historical-calibration/cards/HCC-*.md` | Exact Claim · Source Anchors · Evidence Grade · Prophetic Benchmark / Normative Seed · Historical Distribution · Proves / Does-Not-Prove · Valid Criticism Preserved · Restoration-Gap Diagnosis · Core Lines | Valid Criticism Preserved (must genuinely name the strongest criticism) |
+
+An HCC calibrates a claim across time (seed → early implementation → historical distribution → degradation → restoration target) — it operationalizes the repo's Seed→System→Fruit→Renewal lens. It is **not** a second gate: it graduates through this same `evals.mjs` and still needs a `Source Anchors` section + `Verification Transcript` (the HCC pilot's "Source-and-actor-layer map" is not a substitute — anchors and fetched excerpts are universal).
+
 ## The ten required sections
 
 Every card in `source-cards/` must contain all ten, as headings:
