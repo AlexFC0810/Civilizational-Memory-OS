@@ -41,3 +41,15 @@ Two honesty notes: (1) single-refuter verdicts are noisy — Fable's own 007 cat
 | Red-team | **Sonnet 5** for primary-source + hostile-historian lenses (100% agreement); **frontier** for category-collapse (33%); **Opus 4.8** for blast-radius second passes |
 | Integration | **Sonnet 5 + `scripts/evals.mjs`** — mechanical checks are model-free |
 | Editor / force calibration | **Sonnet 5 under the gate**; final grade sign-off stays frontier |
+
+## Manifest role mapping (binding 2026-07-13 — roles from `aios/AGENT_MANIFEST.yaml`)
+
+The agent-control-plane wave introduced a second role taxonomy. It maps onto the measured tiers above — this table is authoritative for tier; the manifest is authoritative for lifecycle/WIP.
+
+| Manifest role | Tier | Notes |
+|---|---|---|
+| `aios-steward` (Control Tower) | **Sonnet 5** | runs `agents/digital-house-of-wisdom/OPERATING_LOOP.md` Standing Checks; escalates judgment calls to Fable |
+| `coherence-sentinel` | **Opus 4.8** (adversarial) / **Fable 5** (adjudication) | judgment layer ATOP `scripts/evals.mjs`; a Sentinel PASS never replaces a green run |
+| `nexus-synthesis` | **Fable 5** | invoked for cross-artifact synthesis, not standing |
+| specialist cells | per `templates/AGENT_TASK_PACKET.md` | tier named in the task packet; defaults to Scout=Sonnet, Red-team=Opus |
+| Founder | **Human** | irreversible external approval, sensitive sign-off |

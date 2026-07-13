@@ -4,6 +4,8 @@
 **Companion execution repository:** `AlexFC0810/truth-and-peace-engine`  
 **Purpose:** Perform a full-fidelity repository audit, integrate the newest breakthroughs, identify the true critical path, and begin the highest-leverage unblocked work rather than producing another abstract strategy memo.
 
+> **Binding (2026-07-13).** This prompt's *epistemic and anti-sprawl rules are adopted* (evidence tiers, no-overclaim, "don't create a new canon file when one can be updated," "no platform before the manual bottleneck," "no plan whose first test is >30 days out"). Its *command structure is superseded* by the spine: the authoritative work queue and P0 are `/MASTER_PLAN.md` (current P0 = merge PR #19), delegation is `/MODEL_ROUTING.md` (this prompt does not authorize Fable to personally draft/execute work that routes to Sonnet/Opus), and nothing deploy-facing is committed without a green run of the gate (`research-ledger/DEPLOYMENT_READINESS_GATE.md` + `scripts/evals.mjs`). Any agent invoked with this prompt must read those four spine files first. "Begin execution immediately / commit now" does not override MASTER_PLAN sequencing.
+
 ---
 
 ## Copy-paste kickoff prompt
