@@ -6,6 +6,7 @@
 
 **Read with:**
 - `nexus/NEXUS_FRESH_THREAD_OPERATING_KERNEL.md`
+- `nexus/thread-seeds/ANIMAL_WELFARE_VOICE_DUMP_KICKOFF.md`
 - `canon/ANIMAL_CIVILIZATION_BENCHMARK.md`
 - `research-agendas/COMPARATIVE_ANIMAL_ETHICS_ATLAS.md`
 - issue #23 — Build the Comparative Animal Ethics Atlas
@@ -488,7 +489,8 @@ Do not:
 - ignore rabies, human safety, poverty, livelihoods, food security, ecology, or local capacity;
 - use graphic suffering primarily as engagement bait;
 - promise rescue capacity that does not exist;
-- optimize reports received while cases remain unresolved.
+- optimize reports received while cases remain unresolved;
+- promote one algorithmic outcome into strategy without comparable evidence.
 
 > **Animal advocacy loses moral authority when it treats vulnerable humans as disposable instruments—or when it protects human reputations by abandoning vulnerable animals. The system must refuse both failures.**
 
@@ -527,6 +529,8 @@ Do not:
 ## Measurement
 
 > **Did animal suffering fall—or did only awareness, content, and reporting rise?**
+
+> **Are we observing a repeatable pattern—or an algorithmic outlier?**
 
 ---
 
@@ -614,43 +618,15 @@ Measure:
 
 ---
 
-# 16. Fresh-thread kickoff prompt
+# 16. Fresh-thread kickoff
 
-Paste the following beneath the general Nexus Fresh-Thread Operating Kernel prompt.
+For a voice-dump-first ChatGPT thread, use:
 
-```markdown
-This thread is about animal welfare, protection, and the ANIMA mission.
+- `nexus/thread-seeds/ANIMAL_WELFARE_VOICE_DUMP_KICKOFF.md`
 
-Start from this thesis: the treatment of animals is a civilizational x-ray because animals cannot vote, bargain, testify, reward rulers, or preserve their own testimony. The purpose is not merely compassionate content. It is to convert moral concern into durable protection capacity.
+That prompt intentionally does **not** require Alex to identify the repository, framework, intervention, or precise question in advance.
 
-Before proposing anything new, inspect Civilizational Memory OS for:
-- `canon/ANIMAL_CIVILIZATION_BENCHMARK.md`;
-- `research-agendas/COMPARATIVE_ANIMAL_ETHICS_ATLAS.md`;
-- issue #23 and related animal/civilization issues;
-- prior ANIMA, enforcement, dog-welfare, animal-mercy, and comparative-ethics work;
-- open PRs and possible collisions.
-
-Preserve the source layers: Qur’an, hadith and transmission, tafsir/fiqh, institutions, enforcement, lived practice, modern welfare science, law, and field evidence. Do not infer practice from inspirational texts or exceptional stories. Do not romanticize Muslim history or erase its animal-mercy possibilities. Compare equivalent layers across civilizations.
-
-Use the intervention stack:
-moral ontology → norms → law → reporting/evidence → triage → responder/veterinary/enforcement routing → case resolution → recurrence prevention → measurement → system learning.
-
-Treat ANIMA first as a mission architecture, not permission to build an app. Apply concierge-before-code and enforcement-before-observatory. Identify one bounded local problem and prove the full incident-to-resolution loop manually before productizing.
-
-Account for animal suffering, human safety, rabies, livelihoods, poverty, ecology, local law, responder risk, due process, and implementation capacity. Never use collective blame or graphic suffering as engagement bait.
-
-In your first response, give:
-1. the current repository map;
-2. the deepest first-principles framing;
-3. the binding constraint;
-4. the Pareto research and intervention priorities;
-5. the best sequence;
-6. the next forcing move;
-7. what should be preserved verbatim or added as a suggestion-only draft PR.
-
-My initiating seed for this thread is:
-[PASTE THE ANIMAL-WELFARE QUESTION, STORY, IMAGE, VIDEO, OR IDEA HERE]
-```
+The voice dump supplies the signal. Nexus retrieves context, structures the board, routes durable artifacts, and proposes the next move.
 
 ---
 
