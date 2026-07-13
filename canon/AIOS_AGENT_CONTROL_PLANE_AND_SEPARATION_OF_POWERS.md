@@ -1,6 +1,7 @@
 # AIOS Agent Control Plane and Separation of Powers
 
 **Status:** Canonical operating architecture  
+**Binding (2026-07-13).** This architecture's "one gate, one loop, one routing authority" kernel resolves to the executable spine by name — **gate** = `research-ledger/DEPLOYMENT_READINESS_GATE.md` + `scripts/evals.mjs`; **loop** = `agents/digital-house-of-wisdom/OPERATING_LOOP.md` + Standing Checks; **routing** = `MODEL_ROUTING.md` (measured tiers); **queue** = `/MASTER_PLAN.md`. The Coherence Sentinel is a *judgment layer atop* the mechanical gate: a Sentinel `PASS` never substitutes for a green `evals.mjs` run. The Steward's runtime state (`aios/RUNTIME_STATE_TEMPLATE.yaml`) draws its P0/queue from MASTER_PLAN, and the manifest roles map to measured tiers via MODEL_ROUTING's role table — so this layer does not become the parallel gate/routing its own Steward charter forbids.
 **Purpose:** Decide which responsibilities should live inside one agent, which require independent agents, which should be ephemeral specialist roles, and how every agent can operate with bicycle-like fluency without ingesting the entire repository on every run.
 
 ## Executive verdict

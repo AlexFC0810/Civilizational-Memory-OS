@@ -8,7 +8,9 @@ The goal is to make every strong line truth-safe before it becomes a post, scrip
 
 ## Operating Rule
 
-> **No viral line without a source card.**
+> **No viral line without a source card. No source card without a green gate run.**
+
+Gate: `research-ledger/DEPLOYMENT_READINESS_GATE.md`, enforced by `node scripts/evals.mjs`. Cards dated 2026-07-10 or later also carry a Verification Transcript (live-fetched excerpt per anchor). Priority sprint completed 2026-07-10: all eight cards exist and pass the gate (001–004 as legacy WARN pending transcript backfill; 005–008 fully gated, adversarially refuted at two model tiers, and revised).
 
 Each source card should include:
 

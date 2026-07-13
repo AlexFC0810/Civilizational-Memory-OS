@@ -359,3 +359,19 @@ Compare creator models without averaging them; preserve contradiction, convergen
 ## Canonical close
 
 > **The first AI-native creator product should not imitate a mind. It should help a real mind remember, verify, correct, prepare, collaborate, and compound.**
+## Appendix A — Claim-state ↔ evidence-grade mapping (binding 2026-07-11)
+
+The Console's six claim states and the house evidence grades (`research-ledger/CLAIMS_TO_VERIFY.md` A–D, enforced by `research-ledger/DEPLOYMENT_READINESS_GATE.md` + `scripts/evals.mjs`) are one vocabulary, not two:
+
+| Console state | Grade mapping | Note |
+|---|---|---|
+| Said | pre-grade intake event | registration trigger, not an evidence level — enters the ledger at D by default |
+| Reconstructed | C (B once anchors attach) | "strongest fair meaning" is a wording act; grade tracks the anchors, not the eloquence |
+| Verified | A or B **at stated scope** | A requires frontier adjudication + fetched-excerpt transcripts; Sonnet-tier verification ceilings at B/C per `MODEL_ROUTING.md` |
+| Needs narrowing | C | deployable only with the narrowed wording; unsafe wording recorded |
+| Speculation | D | not public-ready; may ship only in explicitly speculative framing per `protocols/STRENGTH_WITHOUT_OVERCLAIMING.md` |
+| Corrected | grade-change event | logged in the ledger with date + superseding wording; dependent assets flagged (failure mode #6 above) |
+
+Compound states inherit the **lower** grade of their components (`Said + Speculation` = D; `Said + Corrected` = the corrected claim's new grade). A claim's public deployment always requires the gate, regardless of state label.
+
+**Phase-0 reaffirmation:** per this spec's own build sequence and the Stockfish kill rule, the Console remains a **manual discipline** (this mapping + the ledger + the gate) until a creator-validated run produces evidence of creator value. No software before that receipt.

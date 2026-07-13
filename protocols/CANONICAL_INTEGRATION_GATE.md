@@ -4,6 +4,8 @@
 
 > Canon is not where an idea first appears. Canon is where an idea arrives after surviving source audit, comparison audit, and breaker evidence.
 
+**Binding (2026-07-11):** the executable floor is `research-ledger/DEPLOYMENT_READINESS_GATE.md` + `scripts/evals.mjs`. This document remains the conceptual reference; its distinctive gates — G0 scope integrity, G4 comparative symmetry, G6 causal integrity — are enforced as **named upstream review steps** of that gate. There is one gate, not two.
+
 ## Gate 0 — Scope integrity
 
 - Is the packet answering one independently testable question?

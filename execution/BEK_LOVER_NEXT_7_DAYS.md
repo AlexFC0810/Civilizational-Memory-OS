@@ -1,5 +1,7 @@
 # Bek Lover Pilot — Next 7 Days Execution Board
 
+> ⚠️ **PARTIAL PARK (2026-07-11):** Days 1–2 (source alignment, twin/console validation) remain **live**. Days 5–6 (booking package, podcast-ladder activation) are **PARKED until source closure + gate receipts** — distribution never precedes verification (gate-first rule; see `/MASTER_PLAN.md`). Also note the cross-repo split: Truth & Peace Engine already produces Bek Lover clips — production/publishing is theirs; this repo owns the claims/evidence layer.
+
 **Status:** Active  
 **North star:** Produce one creator-validated, source-linked, audience-ready proof that demonstrates the Creator Supercharger changes a real appearance.
 

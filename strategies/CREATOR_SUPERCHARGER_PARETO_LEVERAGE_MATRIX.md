@@ -1,6 +1,7 @@
 # Creator Supercharger — Pareto Leverage Matrix
 
-**Status:** Canonical prioritization framework  
+**Status:** Judge-panel INPUT — scores are self-graded and un-refuted (binding 2026-07-11). Rankings here are candidates; verdicts and the current authoritative queue live in `/MASTER_PLAN.md`. Note: this matrix's top moves (booking/podcast ladder) are PARKED until source closure per the gate-first rule.
+**Original status:** Canonical prioritization framework  
 **Date:** 2026-07-11  
 **Pilot:** Bek Lover  
 **Purpose:** Rank the small number of interventions most likely to create disproportionate creator reach, trust, audience ownership, and compounding distribution.

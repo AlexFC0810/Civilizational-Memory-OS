@@ -1,5 +1,14 @@
 version: 0.1
 status: canonical_runtime_contract
+# Binding (2026-07-13): this manifest's roles are RUNTIME roles; their MODEL-TIER
+# assignment is owned by MODEL_ROUTING.md ("Role mapping" + "Manifest role mapping").
+#   aios-steward       -> Sonnet 5, running agents/digital-house-of-wisdom/OPERATING_LOOP.md Standing Checks
+#   coherence-sentinel -> frontier judgment lens (Opus 4.8 adversarial / Fable 5 adjudication) ATOP scripts/evals.mjs
+#   nexus-synthesis    -> Fable 5
+#   specialist cells   -> tier named per templates/AGENT_TASK_PACKET.md
+# The work queue and P0 are owned by /MASTER_PLAN.md, not by this manifest.
+# The deployment gate is research-ledger/DEPLOYMENT_READINESS_GATE.md + scripts/evals.mjs;
+# a Sentinel verdict never substitutes for a green eval run.
 canonical_authority:
   document: canon/AIOS_AGENT_CONTROL_PLANE_AND_SEPARATION_OF_POWERS.md
   principle: "One control tower. One independent sentinel. Specialists on demand. Human approval at irreversible boundaries."

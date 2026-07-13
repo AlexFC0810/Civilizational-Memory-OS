@@ -1,5 +1,8 @@
 version: 0.1
 status: template
+# Binding (2026-07-13): the p0 and queue fields below are a RUNTIME MIRROR of
+# /MASTER_PLAN.md, which is the authoritative queue. When they disagree, MASTER_PLAN wins.
+# The steward populates this from MASTER_PLAN; it does not set priority independently.
 last_updated: YYYY-MM-DDTHH:MM:SSZ
 updated_by: aios-steward
 

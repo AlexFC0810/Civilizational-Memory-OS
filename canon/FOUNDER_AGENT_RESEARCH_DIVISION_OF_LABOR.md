@@ -1,6 +1,7 @@
 # Founder–Architect–Agent Division of Labor
 
 **Status:** Canonical operating model
+**Binding (2026-07-11):** this document defines *roles* (who does what kind of work). The *measured* model-tier assignment for each role lives in `/MODEL_ROUTING.md` ("Role mapping" section) and is authoritative — tiers move only on re-measured agreement data, not assertion.
 
 ## Core principle
 
