@@ -1,0 +1,128 @@
+version: 0.1
+status: template
+last_updated: YYYY-MM-DDTHH:MM:SSZ
+updated_by: aios-steward
+
+mission_slice: "State the active mission slice in one sentence."
+
+p0:
+  constraint_id: P0-XXX
+  statement: "The single constraint currently limiting the system."
+  why_now: "Why resolving this dominates alternatives."
+  proof_of_resolution: "Observable evidence that the constraint is resolved."
+  owner: "one owner"
+  active_issue: null
+  active_pr: null
+  next_action: "One concrete executable action."
+  blocker: null
+  state: triaged
+
+active_major_packets:
+  - task_id: TASK-XXX
+    title: "Bounded deliverable"
+    state: packeted
+    owner: "agent-or-human-id"
+    role: "specialist role"
+    repository_destination: "path/to/output.md"
+    issue: null
+    pr: null
+    dependencies: []
+    next_action: "Concrete next action"
+    definition_of_done:
+      - "Observable condition"
+    sentinel_review_required: true
+    human_approval_required: false
+    due_signal: null
+
+active_public_experiment:
+  experiment_id: null
+  title: null
+  hypothesis: null
+  owner: null
+  state: parked
+  next_action: null
+  truth_return: null
+  measurement_plan: null
+
+blocked_items:
+  - item_id: BLOCK-XXX
+    blocked_by: "Dependency or external approval"
+    unblock_condition: "Exact condition"
+    owner: "person responsible for seeking unblock"
+    next_check: YYYY-MM-DD
+
+review_queue:
+  - artifact: "path/to/file.md"
+    author: "agent-id"
+    reviewer: coherence-sentinel
+    risk: low|medium|high|catastrophic
+    review_mode:
+      - blind_first
+      - adversarial
+      - systems_coherence
+      - public_force
+    state: awaiting_review
+
+human_approval_queue:
+  - action_id: APPROVAL-XXX
+    action: "Exact irreversible action"
+    evidence_packet: "path/or/issue"
+    risk: medium|high|catastrophic
+    requested_by: aios-steward
+    status: pending
+
+cross_repo_state:
+  canonical_repo:
+    name: AlexFC0810/Civilizational-Memory-OS
+    responsibility: claims_evidence_canon_strategy_and_memory
+  execution_repo:
+    name: AlexFC0810/truth-and-peace-engine
+    responsibility: production_distribution_experiments_and_measurement
+  handoffs:
+    - handoff_id: HANDOFF-XXX
+      from_repo: null
+      to_repo: null
+      artifact: null
+      accepted_state: null
+      next_action: null
+
+canonical_dependencies:
+  - upstream: "path/to/upstream.md"
+    downstream: "path/to/downstream.md"
+    relation: informs|gates|supersedes|implements|measures
+
+recent_decisions:
+  - decision_id: DEC-XXX
+    date: YYYY-MM-DD
+    decision: "What was decided"
+    rationale: "Why"
+    authority: founder|steward|sentinel|accepted_canon
+    supersedes: null
+
+recent_corrections:
+  - correction_id: CORR-XXX
+    date: YYYY-MM-DD
+    original_state: "What was wrong"
+    corrected_state: "What changed"
+    changed_default: "How future behavior changes"
+    affected_files: []
+
+wip_check:
+  p0_count: 1
+  active_major_packet_count: 0
+  active_public_experiment_count: 0
+  violations: []
+
+health:
+  stale_active_items: []
+  orphaned_artifacts: []
+  duplicate_framework_risks: []
+  unresolved_steward_sentinel_disputes: []
+  state_confidence: high|medium|low
+
+next_steward_run:
+  read_first:
+    - AIOS.md
+    - canon/AIOS_AGENT_CONTROL_PLANE_AND_SEPARATION_OF_POWERS.md
+    - aios/AGENT_MANIFEST.yaml
+  first_action: "Update this state from GitHub reality before assigning new work."

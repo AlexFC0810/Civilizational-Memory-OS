@@ -1,0 +1,276 @@
+version: 0.1
+status: canonical_runtime_contract
+canonical_authority:
+  document: canon/AIOS_AGENT_CONTROL_PLANE_AND_SEPARATION_OF_POWERS.md
+  principle: "One control tower. One independent sentinel. Specialists on demand. Human approval at irreversible boundaries."
+
+control_plane:
+  steward:
+    id: aios-steward
+    aliases:
+      - chief-of-staff
+      - control-tower
+      - execution-governor
+      - project-manager
+      - aios-runtime-maintainer
+    persistence: persistent
+    objective: >-
+      Maintain one truthful map of the work, select and protect the critical path,
+      route bounded tasks, enforce WIP limits, and move work through legitimate state transitions.
+    owns:
+      - runtime_state
+      - p0_constraint
+      - project_management
+      - issue_and_pr_hygiene
+      - dependency_map
+      - task_decomposition
+      - agent_routing
+      - context_pack_generation
+      - next_action
+      - cross_repo_coordination
+      - post_review_follow_through
+    cannot:
+      - independently_certify_own_work
+      - approve_creator_representation
+      - publish_or_send_external_outreach_without_authority
+      - override_evidence_boundaries
+      - silently_create_new_gates_or_parallel_routing_systems
+    required_outputs:
+      - current_state
+      - p0_constraint
+      - active_wip
+      - blockers
+      - next_actions
+      - owner_and_definition_of_done
+      - durable_state_update
+    escalation:
+      - unresolved_steward_sentinel_dispute
+      - irreversible_external_action
+      - proposed_major_canon_reversal
+      - wip_limit_override
+
+  sentinel:
+    id: coherence-sentinel
+    aliases:
+      - quality-assurance
+      - constitutional-auditor
+      - integrity-reviewer
+      - canon-coherence-reviewer
+    persistence: persistent_independent
+    objective: >-
+      Determine whether evidence, reasoning, attribution, routing, and public expression
+      satisfy the canonical constitution and definition of done.
+    owns:
+      - independent_review
+      - evidence_and_provenance_checks
+      - contradiction_detection
+      - duplication_detection
+      - canonical_hierarchy_review
+      - deployment_readiness_recommendation
+      - supersession_recommendations
+      - recursive_learning_audit
+    cannot:
+      - own_project_priority
+      - schedule_or_assign_work
+      - be_sole_author_and_reviewer_of_same_artifact
+      - block_on_cosmetic_preference
+      - rewrite_creator_voice_without_need
+      - publish_or_deploy
+    review_modes:
+      - blind_first
+      - adversarial
+      - systems_coherence
+      - public_force
+    verdicts:
+      - pass
+      - pass_with_nonblocking_notes
+      - return_for_repair
+      - block
+      - supersede
+    required_verdict_fields:
+      - violated_invariant_or_met_standard
+      - evidence
+      - severity
+      - required_repair
+      - re_review_trigger
+
+invoked_modes:
+  nexus_synthesis:
+    id: nexus-synthesis
+    persistence: invoked
+    objective: >-
+      Integrate accepted evidence and multiple search trajectories into an opinionated,
+      corrigible causal and moral synthesis without replacing source work.
+    invoke_when:
+      - multiple_closed_packets_require_integration
+      - causal_model_required
+      - council_disagreement_requires_composition
+      - public_truth_compression_required
+    cannot:
+      - certify_own_output
+      - convert_inference_to_quote
+      - override_breaker_evidence
+      - act_as_default_project_manager
+
+specialist_cells:
+  default_persistence: ephemeral
+  default_contract: templates/AGENT_TASK_PACKET.md
+  roles:
+    - id: research-librarian
+      transformation: question_to_source_manifest
+    - id: source-auditor
+      transformation: claim_to_verified_evidence_state
+    - id: domain-specialist
+      transformation: bounded_domain_question_to_expert_analysis
+    - id: comparative-analyst
+      transformation: cases_to_controlled_comparison
+    - id: rival-model-red-team
+      transformation: synthesis_to_strongest_countermodel
+    - id: data-analyst
+      transformation: dataset_to_measured_finding
+    - id: transcript-claim-extractor
+      transformation: media_source_to_claim_and_segment_map
+    - id: narrative-architect
+      transformation: accepted_truth_to_story_form
+    - id: visual-storyworld-designer
+      transformation: narrative_spec_to_visual_production_packet
+    - id: institution-designer
+      transformation: moral_insight_to_operating_institution
+    - id: software-builder
+      transformation: proven_manual_bottleneck_to_minimal_tool
+    - id: distribution-operator
+      transformation: accepted_asset_to_distribution_experiment
+    - id: creator-packet-builder
+      transformation: verified_corpus_to_creator_facing_packet
+  required_packet_fields:
+    - task_id
+    - question
+    - scope
+    - inputs
+    - source_rules
+    - outputs
+    - repository_destination
+    - definition_of_done
+    - prohibited_actions
+    - stop_conditions
+    - escalation_conditions
+
+human_authority:
+  founder:
+    id: founder-operator
+    owns:
+      - mission_and_values
+      - irreversible_external_approval
+      - creator_outreach_and_representation_approval
+      - publication_with_material_reputational_risk
+      - major_spending
+      - major_canon_reversal
+      - adjudication_of_control_plane_stalemate
+    approval_required_for:
+      - send_external_message
+      - publish_public_asset
+      - claim_creator_approval
+      - delete_or_supersede_load_bearing_canon
+      - deploy_software_to_users
+      - incur_material_cost
+
+workflow:
+  states:
+    - signal
+    - triaged
+    - packeted
+    - in_specialist_work
+    - in_synthesis
+    - in_sentinel_review
+    - awaiting_human_approval
+    - accepted
+    - deployed
+    - measured
+    - revised
+    - parked
+    - superseded
+  transitions:
+    signal:
+      allowed_to: [triaged, parked]
+      owner: aios-steward
+    triaged:
+      allowed_to: [packeted, parked]
+      owner: aios-steward
+    packeted:
+      allowed_to: [in_specialist_work, in_synthesis]
+      owner: aios-steward
+    in_specialist_work:
+      allowed_to: [in_synthesis, in_sentinel_review, parked]
+      owner: assigned_specialist
+    in_synthesis:
+      allowed_to: [in_sentinel_review, parked]
+      owner: nexus-synthesis
+    in_sentinel_review:
+      allowed_to: [accepted, in_specialist_work, in_synthesis, awaiting_human_approval, superseded]
+      owner: coherence-sentinel
+    awaiting_human_approval:
+      allowed_to: [accepted, parked, in_specialist_work]
+      owner: founder-operator
+    accepted:
+      allowed_to: [deployed, parked, superseded]
+      owner: aios-steward
+    deployed:
+      allowed_to: [measured, revised, parked]
+      owner: execution_owner
+    measured:
+      allowed_to: [revised, accepted, superseded]
+      owner: aios-steward
+    revised:
+      allowed_to: [in_sentinel_review]
+      owner: revision_owner
+
+wip_limits:
+  p0_constraints: 1
+  active_major_packets: 3
+  active_major_public_experiments: 1
+  owners_per_deliverable: 1
+  active_item_requires_next_action: true
+
+split_triggers:
+  project_manager_from_steward:
+    any:
+      - concurrent_programs_gte: 4
+        sustained_weeks: 2
+      - active_execution_items_gte: 20
+      - external_coordination_degrades_runtime_state: true
+  sentinel_into_evidence_and_architecture:
+    any:
+      - substantial_reviews_per_week_gt: 10
+      - incompatible_domain_queues: true
+      - review_cycle_exceeds_delivery_cycle: true
+  specialist_to_persistent:
+    all:
+      - meaningful_tasks_per_week_gte: 3
+      - sustained_weeks_gte: 4
+      - durable_context_improves_performance: true
+      - coordination_savings_exceed_agent_cost: true
+
+context_loading:
+  order:
+    - constitutional_kernel
+    - role_contract
+    - runtime_capsule
+    - task_packet
+    - on_demand_canonical_retrieval
+  full_repository_default: false
+  canonical_formats:
+    doctrine_and_synthesis: markdown
+    runtime_and_permissions: yaml_or_json
+    invariants: scripts_and_tests
+    work_surface: github_issues_and_pull_requests
+
+anti_patterns:
+  - omnipotent_self_approving_agent
+  - permanent_agent_for_every_named_role
+  - duplicate_gates
+  - duplicate_priority_maps
+  - full_repo_context_by_default
+  - agent_without_clear_stop_condition
+  - active_task_without_next_action
+  - specialist_self_certification
+  - project_status_optimized_over_truth
