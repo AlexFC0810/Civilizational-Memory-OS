@@ -15,7 +15,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { splitSections, parseFrontmatter } from "./lib.mjs";
+import { splitSections, parseFrontmatter, OVERCLAIMS } from "./lib.mjs";
 import { validateFrontmatter, buildIndex, writeIndex, FRONTMATTER_CUTOFF } from "./archive.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -62,15 +62,7 @@ function requiredFor(file) {
 const PLACEHOLDERS = /\b(TODO|TBD|FIXME|XXX)\b|\[placeholder\]|lorem ipsum|<insert|\?\?\?/i;
 
 // Unhedged absolutes that make deploy-facing wording brittle (gate spec: overclaim scan).
-const OVERCLAIMS = [
-  /\bfirst ever\b/i,
-  /\bonly islam\b/i,
-  /\bislam invented\b/i,
-  /\bnever (?:mistreat|wrong|fail)/i,
-  /\balways (?:treated|acted|ruled)/i,
-  /\bproves? (?:that )?islam is\b/i,
-  /\bno other (?:civilization|religion|tradition)\b/i,
-];
+// OVERCLAIMS lives in lib.mjs (shared with the render publish guard) — imported above.
 
 // Sections whose text actually ships. Overclaims are scanned here only —
 // "Unsafe Wording to Avoid" legitimately quotes the brittle versions.

@@ -68,3 +68,16 @@ function unquote(v) {
 export function stripFrontmatter(raw) {
   return parseFrontmatter(raw).body;
 }
+
+// The overclaim lexicon — unhedged absolutes that must never ship in deploy-facing
+// text. ONE list, shared by the gate (evals.mjs, scanned per deploy section) and the
+// publish guard (render.mjs, scanned over rendered output). See DEPLOYMENT_READINESS_GATE.md.
+export const OVERCLAIMS = [
+  /\bfirst ever\b/i,
+  /\bonly islam\b/i,
+  /\bislam invented\b/i,
+  /\bnever (?:mistreat|wrong|fail)/i,
+  /\balways (?:treated|acted|ruled)/i,
+  /\bproves? (?:that )?islam is\b/i,
+  /\bno other (?:civilization|religion|tradition)\b/i,
+];
