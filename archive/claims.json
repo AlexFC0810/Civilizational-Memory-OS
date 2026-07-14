@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 8,
+  "count": 9,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -205,6 +205,32 @@
         "https://quran.com/2/256"
       ],
       "safe_wording": "Dhimmi status under classical Islamic law was a structured, unequal legal category — protected but subordinate, taxed differently, and legally restricted in specific ways, with enforcement that varied by ruler, region, and era and sometimes escalated into forced conversion or massacre (Granada, 1066; the Almohad abolition of dhimma, 12th-13th century). Compared to several same-era alternatives (Visigothic anti-Jewish law in the 7th century, the Crusader sack of Jerusalem in 1099, and the 1492 Spanish decree forcing Jews to convert or leave on pain of execution), that hierarchy more often than not functioned as a survivable, taxable minority status rather than a forced-conversion-or-death choice — a tendency across regimes and centuries, not a guarantee. The scholarly debate over how harmonious \"convivencia\" in al-Andalus actually was remains genuinely contested and should be presented as contested, not resolved in either direction."
+    },
+    {
+      "id": "CMOS-0009",
+      "file": "source-cards/009_byzantine_pantokrator_hospital.md",
+      "claim_layer": "institution",
+      "grade": "B",
+      "grade_scope": "B: the Pantokrator xenon's 1136 founding, its stated ~50-bed capacity, five-ward structure, and salaried physician hierarchy, as reported in Jordan's BMFD English translation of Gautier's Greek critical edition and corroborated by Miller (1985/1997) and subsequent secondary/tertiary scholarship — capped below A because the Greek critical edition itself was not read and no independent second manuscript witness was checked. B also applies to the comparative claim that Byzantine hospitals predate the Pantokrator (Basil of Caesarea's Basileias, Leontius of Antioch, Rabbula of Edessa's Edessa hospital), sourced here only to tertiary Wikipedia coverage.",
+      "closure": "provenance-audited",
+      "source_tier_best": 2,
+      "independent_chains": 2,
+      "epistemic_status": "established",
+      "lifecycle": "verified",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-07-14",
+      "anchors": [
+        "https://macedonia.kroraina.com/bbi/dos_byzantine_monastic_foundation_documents_2000.pdf",
+        "https://en.wikipedia.org/wiki/Byzantine_medicine",
+        "https://novoscriptorium.com/2019/09/21/the-birth-of-the-hospital-in-the-eastern-roman-empire-byzantium-philanthropic-social-welfare-in-the-christian-east/",
+        "https://hekint.org/2017/02/22/byzantium-origin-of-the-modern-hospital/",
+        "https://www.thebyzantinelegacy.com/pantokrator-monastery",
+        "https://www.academia.edu/2625985/Healing_on_the_Fourth_Hill_Searching_for_the_Pantokrator_Hospital",
+        "https://en.wikipedia.org/wiki/Pantokrator_Monastery",
+        "https://en.wikipedia.org/wiki/Molla_Zeyrek_Mosque"
+      ],
+      "safe_wording": "The 1136 Typikon of the Pantokrator Monastery in Constantinople — commissioned by Emperor John II Komnenos, with the project begun under Empress Irene — specifies an attached hospital (xenon) with a stated capacity of roughly 50 beds across five specialized wards (surgery/fractures, eye and intestinal disease, general male illness, and a women's ward), staffed by a graded hierarchy of salaried physicians, including a female physician for the women's ward paid half the wage of her male counterparts. This was not the first Byzantine hospital — Basil of Caesarea, Leontius of Antioch, and Bishop Rabbula of Edessa built medicalized hospices centuries earlier — and the specific numbers here rest on one surviving charter, read here only through secondary and tertiary scholarship, not the Greek critical edition itself."
     }
   ]
 }
