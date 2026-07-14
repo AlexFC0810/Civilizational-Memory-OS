@@ -6,6 +6,7 @@ Public historical, comparative, and civilizational-synthesis interface for the I
 
 - `PUBLIC_KNOWLEDGE_ARCHITECTURE.md` — canonical site architecture and epistemic contract.
 - `../../conversation-logs/2026-07-14_islamic-civilization-prophetic-and-golden-ages-meta-historian-seed.md` — verbatim breakthrough seed.
+- `../../handoffs/2026-07-14_ISLAMIC_GOLDEN_AGES_THREAD_CLOSURE_AND_CLAUDE_CODE_HANDOFF.md` — final meta-synthesis, category firewall, execution phases, and exact Claude Code handoff.
 - `../../research-agendas/UNDENIABLE_ISLAMIC_CIVILIZATION_PUBLIC_CASE.md` — source-hardening and public deployment roadmap.
 - `../../canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md` — canonical internal operating-system model.
 - `../../canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md` — comparative history and fruit-stack method.
