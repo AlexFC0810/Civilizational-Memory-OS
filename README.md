@@ -117,6 +117,18 @@ This package preserves the thesis:
 
 Reusable prompts live in `prompt-library/METAHISTORIAN_UNLOCK_PROMPTS.md`.
 
+## Comparative Islamic Civilization Breakthrough Seed
+
+Start with `conversation-logs/2026-07-14_islamic-civilization-prophetic-and-golden-ages-meta-historian-seed.md` for the preserved verbatim synthesis connecting the Prophetic Age to the overlapping Golden Ages through a portable, distributed civilizational operating system.
+
+Use `prompt-library/COMPARATIVE_ISLAMIC_CIVILIZATION_METAHISTORIAN_PROMPT.md` to recreate the discovery conditions.
+
+Use `research-agendas/UNDENIABLE_ISLAMIC_CIVILIZATION_PUBLIC_CASE.md` for the source-hardening and public-deployment roadmap.
+
+This package preserves the thesis:
+
+> **Islamic civilization's greatest achievements were not isolated inventions. They were outputs of a system that connected transcendence, moral accountability, law, trust, commerce, philanthropy, institutions, knowledge, and further civilizational capacity.**
+
 ## Reference Universes and Creative Aperture
 
 Use `canon/REFERENCE_UNIVERSES_AND_CREATIVE_APERTURE.md` for prompt theory around reference-universe stacking, creative aperture, and specificity vs emergence.
