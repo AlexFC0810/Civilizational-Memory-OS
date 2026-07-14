@@ -1,3 +1,16 @@
+---
+id: CMOS-0008
+claim_layer: outcome
+epistemic_status: established
+closure: reconnaissance
+source_tier_best: 2
+independent_chains: 3
+grade_scope: "A: documentary anchors (Alhambra, Geniza, Visigothic Code, Granada, Almohad); B: Pact of Umar authenticity"
+lifecycle: verified
+supersedes: []
+superseded_by: null
+date: 2026-07-10
+---
 # Source Card 008: Tolerance and Comparative History
 
 Date: 2026-07-10

@@ -1,3 +1,16 @@
+---
+id: CMOS-0004
+claim_layer: fiqh
+epistemic_status: established
+closure: reconnaissance
+source_tier_best: 2
+independent_chains: 1
+grade_scope: "A: Qur'anic Sharia-as-path/justice/mercy/no-compulsion; B: 'no harm' legal maxim"
+lifecycle: triaged
+supersedes: []
+superseded_by: null
+date: 2026-06-25
+---
 # Source Card 004: Sharia as Moral Ecology
 
 Date: 2026-06-25
