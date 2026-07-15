@@ -93,6 +93,27 @@ It generalizes the operating question:
 
 > **Are we judging the blueprint, the builder, or the building?**
 
+## Prophetic Anti-Impunity Operating System
+
+Use `canon/PROPHETIC_ANTI_IMPUNITY_OPERATING_SYSTEM.md` for the cross-project framework connecting taqwa, animal mercy, Jesus, Muhammad ﷺ, asymmetric power, imperial capture, and the moral restraint of strength.
+
+The discovery trail and deployment package live at:
+
+- `conversation-logs/2026-07-15_taqwa-animal-mercy-jesus-rome-prophetic-restraint-seed.md`
+- `research-agendas/PROPHETIC_RESTRAINT_OF_POWER_RESEARCH_PROGRAM.md`
+- `content-system/islam-loves-jesus/WHY_EMPIRES_CALL_MERCY_WEAK_FLAGSHIP_BRIEF.md`
+- `handoffs/2026-07-15_PROPHETIC_ANTI_IMPUNITY_CLAUDE_CODE_HANDOFF.md`
+
+This package preserves the theses:
+
+> **The prophets did not come to make humanity weak. They came to prevent human strength from becoming a god.**
+
+> **Prophetic ethics may weaken predatory efficiency while strengthening civilization.**
+
+Its governing question is:
+
+> **What restrains power when the victim cannot retaliate and earthly accountability fails?**
+
 ## Civilizational X-Ray Machine
 
 Use `canon/CIVILIZATIONAL_XRAY_MACHINE.md` for the meta-synthesis that links loops, propaganda category collapse, idols, protective architecture, civilizational immune systems, and reimplementation.
