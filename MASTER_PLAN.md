@@ -1,54 +1,54 @@
-# MASTER PLAN — 2026-07-11 (rev. 2026-07-14)
+# MASTER PLAN — 2026-07-11 (rev. 2026-07-14b: MECE five-planes structure)
 
-**Supersedes-and-indexes:** `strategies/CREATOR_SUPERCHARGER_STOCKFISH_MASTER_PLAN.md`, both Creator Supercharger matrices, and `prompt-library/FABLE_5_FULL_REPO_REVIEW_AND_EXECUTION_KICKOFF.md` (its "execute-commit-now" command is superseded; its epistemic rules adopted). Self-graded scores = judge-panel input, never authority. One screen; overflow goes to `strategies/`, never here.
+**Supersedes-and-indexes:** the Stockfish plan, both Creator Supercharger matrices, and the Fable-5 kickoff prompt (epistemic rules adopted; command structures superseded). Self-graded scores = judge-panel input, never authority. One screen; overflow goes to `strategies/`, never here.
 
 ## Mission
 See `/MISSION_AND_VISION.md` — universal civilizational-intelligence engine, Islam as first and deepest case; gated assets + skill transfer are the win condition.
 
-## Bindings (one of each — see AIOS.md "Enforcement")
-- **Gate** = `research-ledger/DEPLOYMENT_READINESS_GATE.md` + `scripts/evals.mjs` (two genres: source cards + HCC; same hard rules)
-- **Loop** = `agents/digital-house-of-wisdom/OPERATING_LOOP.md` + Standing Checks
-- **Routing** = `MODEL_ROUTING.md` (measured; role→tier + manifest-role tables inside)
-- **Governance layer** (2026-07-13): the AIOS control plane + **Coherence Sentinel** sit ATOP this spine — a Sentinel `PASS` never substitutes for a green `evals.mjs` run; `RUNTIME_STATE_TEMPLATE.yaml` mirrors this queue; manifest roles route via MODEL_ROUTING.
-- **Substrate** (2026-07-14): the **Canonical Claim Record** (`research-ledger/CANONICAL_CLAIM_RECORD.md`, five typed axes as frontmatter) + the generated index `archive/claims.json` (built by `scripts/archive.mjs` inside the gate) + `EVIDENCE_VOCABULARY_CROSSWALK.md`. The index is the **only** path to publication — `scripts/render.mjs` reads it, never cards. The receipt IS the index row.
+## The system (one sentence) and its five planes — MECE by function
+**A civilizational truth-metabolism: signal is ACQUIRED, ADJUDICATED into records, PRESERVED as memory, EXPRESSED as public assets, and GOVERNED by a spine that corrects itself faster than error accumulates.** Every artifact, PR, issue, and incoming AI wave files into exactly one plane:
+1. **ACQUIRE** — research runs, source universes, TIPs, intake-at-grade-D. *Gap: no question-side capture (what seekers actually ask).*
+2. **ADJUDICATE** — the one gate + refuter factory + closure work. *Gap: human-scholar loop for `source-closed`; backlog ≈200 registered claims.*
+3. **PRESERVE** — Canonical Claim Records + `archive/claims.json` (5 typed axes; `grade ⊥ closure`). *Gap: 9 of ~200 claims are records; legacy ledgers unmigrated.*
+4. **EXPRESS** — `render.mjs` → the 3 domains; claim kits → T&P; every asset carries its receipt. *Gap: 1 rendered page ≠ 3 live sites; kit conveyor unbuilt.*
+5. **GOVERN** — this queue, Standing Checks, measured routing, Sentinel-atop-gate, wave-absorption protocol, fitness backflow. *Gap: backflow not yet wired.*
+Horizons: **H1 PROVE** (≈2wks) · **H2 SCALE** (months) · **H3 INSTITUTIONALIZE** (DHW organs, waqf permanence, second deep case).
 
-## Ranked work queue (house I/E form)
+## Ranked work queue (house I/E form, grouped by plane)
 
-| # | Item | Lane | Exit condition (receipt) | I | E | Verdict |
-|---|---|---|---|---|---|---|
-| 1 | ~~Merge PR #19~~ | Operator | merged 2026-07-13 (57bb606) | 5 | 5 | ✅ **DONE** |
-| 2 | Transcript-immunity + creator-twin claims through the factory: TIP-2026-001 + Bek run-001 CLAIM_LEDGER re-graded via gate | Sonnet draft → Opus verify → Fable grade | gate-PASS receipts in each packet | 4 | 3 | **PULL W1** |
-| 3 | ATB-001 gate run (script claims → cards → green run) then deliver to T&P **with** receipt | Sonnet + Opus | receipt attached; T&P INBOX updated | 4 | 3 | **PULL W1** (publish stays blocked until then) |
-| 4 | Research packets, priority order: RP-EA-001 (epistemic authority stack) → RP-SL-001 (slavery inflow/outflow) → RP-MC-001 (Scandinavian moral capital falsification) → CAE-COMP-001 (retired working animals) → RP-CT-001 (civilizational trauma) | Factory (Sonnet/Opus) | each: hardened ledger/cards on main | 4 | 3 | **PULL W1–2, one at a time** |
-| 5 | RP-HA-001 (Aisha age-report provenance) **+ HCC-2026-002 (Aisha marital age, from PR #45)** — same topic, one lane | **Blast-radius protocol only**: Opus second pass + Fable adjudication + founder sign-off before anything deploy-facing | gated packet + gated HCC, founder-approved wording | 4 | 2 | **PULL W2 — never rushed** |
-| 6 | Console Phase-0 manual discipline (Appendix A mapping is live; run it on Bek claims) | Sonnet | Bek claims carry state+grade labels | 3 | 5 | **PULL now** |
-| 7 | Bek source closure (unblocks the parked booking moves) | Sonnet + Opus | flagship clip source-aligned, gate-PASS | 4 | 3 | **PULL W1** |
-| 8 | Booking package / podcast-ladder activation (matrices' #1) | Founder + T&P | — | 3 | 2 | **PARK** until #7 + creator validation |
-| 9 | Creator Claim Console software build | — | — | 4 | 1 | **PARK** until a creator-validated run proves value (spec's own kill rule) |
-| 10 | Modern Waqf / Moral-Capital Blueprint (charter first deliverable; seed: `canon/DIGITAL_WAQF_CHARTER.md`) | Fable architect + factory | ≥6 gated waqf cases + 3 T&P briefs | 4 | 2 | **SCHEDULED — August Fable-Day** |
-| 11 | **PR #45 (Historical Calibration Cards)** graduation: HCC-001 needs Source Anchors + Verification Transcript to clear the gate; HCC-002 → row 5 lane | Sonnet backfill → Opus verify → Fable grade | HCC-001 `evals.mjs` PASS; then merge | 4 | 3 | **CONDITIONAL** — triage comment posted; not merged as-is |
-| 12 | **Storyworld / anime distribution** ("The First Permission" pilot) — evidence spine (source cards + Truth-Audit anchors) stays here; distribution engine + 5-creator cell + release cadence = **T&P-owned** | This repo (evidence) → T&P (distribution), Standing Check #3 | source cards gated here; pilot shipped by T&P with receipts | 3 | 2 | **HANDOFF to T&P** (flag delivered) |
-| 13 | **Issue #44 — Atrocity Memory & Prevention MVP** (case-packet template + provenance/consent standards + first 3 anchor atrocity case packets) | Fable spec → Sonnet draft → Opus verify | 3 gated case packets | 4 | 3 | **PULL W2** — the lone receipts-shaped build |
-| 14 | **Issues #30–34** (objective functions, coherent-attention, API registry, truth-compression benchmark, min-viable-civilization) | — | — | 2 | 2 | **PARK** — apparatus sprawl; revisit one at a time only after #13 ships receipts |
-| 15 | **The Canonical Claim Record substrate** — schema + crosswalk + `archive.mjs`/`claims.json` + `render.mjs` + 8 cards backfilled + first IGA render | Fable spec + Sonnet build + Opus verify | claims.json = 8 rows; Hospital bundle renders to IGA; gate 8-ok | 5 | 4 | ✅ **SHIPPED this PR** |
-| 16 | **Byzantium / Prophetic-Civ-Science lane** — source-first closure (issue #52 Pantokrator, #50 Byzantium pilot); the Byzantium seed-ledger is registered D | Factory (Sonnet draft → Opus verify → Fable adjudicate) | CMOS-0009 at provenance-audited + closure-gap note (this PR); further claims source-closed by specialist fetch | 4 | 2 | **PULL W1–2** — first card this PR |
-| 17 | **IslamicGoldenAges.org Phase-1 proof bundle** (issue #54: Hospital/University/Waqf, 12 gated cards, 4-layer schema) | Sonnet drafts cards → gate → `render.mjs` | Hospital rendered (this PR); University + Waqf cards next | 4 | 3 | **PULL W1** — Hospital done, 2 bundles to go |
+| # | Item | Lane | Exit condition (receipt) | I | E | H | Verdict |
+|---|---|---|---|---|---|---|---|
+| **P1 · ACQUIRE** ||||||||
+| 1 | Qiblah + Byzantium source universes: reconnaissance → registered atomic claims (ledgers registered D 2026-07-14) | Sonnet + steward | claims registered; `--intake` 0 | 3 | 4 | H1 | **PULL — routine** |
+| 2 | Question-side capture: what do seekers/critics actually ask the 3 domains (search demand, comment mining via T&P) | Sonnet + T&P backflow | demand digest feeding this queue | 4 | 3 | H2 | **PULL W2** |
+| **P2 · ADJUDICATE** ||||||||
+| 3 | Research packets, one at a time: RP-EA-001 → RP-SL-001 → RP-MC-001 → CAE-COMP-001 → RP-CT-001 | Factory (Sonnet→Opus→adjudicate) | gated records on main | 4 | 3 | H1–H2 | **PULL W1–2** |
+| 4 | RP-HA-001 + HCC-2026-002 (Aisha) — one lane | **Blast-radius only**: Opus 2nd pass + frontier adjudication + founder sign-off | gated, founder-approved wording | 4 | 2 | H1 | **PULL W2 — never rushed** |
+| 5 | TIP-2026-001/002/003 + Bek CLAIM_LEDGER re-graded via gate | Factory | gate-PASS receipts in packets | 4 | 3 | H1 | **PULL W1** |
+| 6 | Pantokrator (CMOS-0009) → `source-closed` | **Human/specialist**: fetch Gautier REB 32 + ms witness + collation | first source-closed record | 4 | 2 | H1 | **PULL — needs specialist fetch** |
+| 7 | Issue #44 Atrocity Memory & Prevention MVP (3 anchor case packets) | Fable spec → factory | 3 gated case packets | 4 | 3 | H2 | **PULL W2** — receipts-shaped |
+| 8 | Modern Waqf / Moral-Capital Blueprint (seed: `canon/DIGITAL_WAQF_CHARTER.md`) | Fable architect + factory | ≥6 gated waqf cases + 3 T&P briefs | 4 | 2 | H2 | **SCHEDULED — August Fable-Day** |
+| **P3 · PRESERVE** ||||||||
+| 9 | Migrate the 7 legacy hardening ledgers → Canonical Claim Records (frontmatter + index) | Sonnet batch + Opus spot-check | index grows; body↔index consistency 100% | 4 | 3 | H2 | **PULL W2** |
+| 10 | Waqf-permanence governance (archive outlives founder) — structure, not prose | Fable + founder | charter with named successors/mechanisms | 3 | 2 | H3 | **QUEUED** |
+| **P4 · EXPRESS** ||||||||
+| 11 | IGA Phase-1 proof bundle (issue #54): University + Waqf cards → 3 rendered bundles | Sonnet drafts → gate → `render.mjs` | 3 bundles live in `sites/` | 4 | 3 | H1 | **PULL W1** — Hospital done |
+| 12 | ATB-001 gate run → first receipted T&P delivery | Sonnet + Opus | receipt attached; T&P INBOX updated | 4 | 3 | H1 | **PULL W1** (publish blocked until) |
+| 13 | Bek source closure + Console Phase-0 manual (state+grade labels on Bek claims) | Sonnet + Opus | flagship clip gate-PASS | 4 | 3 | H1 | **PULL W1** |
+| 14 | Claim-kit conveyor → T&P (kits from `claims.json`; `claim_slug` axis into their `rsi-dimensions.json` = backflow) | Sonnet both repos | kits consumed; fitness digest returns | 4 | 3 | H2 | **PULL W2** |
+| 15 | PR #45 (HCC-001) graduation: anchors + transcript → gate → merge | Sonnet backfill → Opus verify | HCC-001 PASS | 4 | 3 | H1 | **CONDITIONAL** |
+| 16 | Storyworld/anime pilot — evidence spine here; engine+cell+cadence **T&P-owned** | Standing Check #3 | pilot ships with receipts | 3 | 2 | H2 | **HANDOFF** (flag delivered) |
+| 17 | Booking/podcast ladder · Console software | — | — | 3 | 1 | — | **PARK** (until #13 + creator-value proof) |
+| **P5 · GOVERN** ||||||||
+| 18 | PRs #47/#48/#53: fold-don't-fork per triage comments (registry→axes; kernel→loop; steward/gate/ladder→spine; adopt #53's truth-contract into `cross_repo_state`) | Operator + Sonnet edits | folded or closed; no parallel authority | 4 | 3 | H1 | **CONDITIONAL** |
+| 19 | Issues #30–34 (apparatus) | — | — | 2 | 2 | — | **PARK** behind #7 |
+| ✅ | Done: PR #19 merged (57bb606) · substrate shipped (records+index+crosswalk+render, PR #55) · UCI-OS logged as deferred dependency (issue #46) ||||||||
 
-## Delegation lanes
-**Sonnet 5** = drafting, fetching, formatting, registration, revision. **Opus 4.8** = adversarial verification, citation passes, blast-radius second passes, diff audits. **Fable 5** = judge panels, adjudication, specs, grade-A sign-off, this plan. **Human** = merges, taste, sensitive sign-off (RP-HA-001, anything naming living persons).
+## Delegation (MECE by actor — nothing has two owners)
+**Code** = gate/index/render/intake (deterministic). **Sonnet 5** = draft/fetch/register/revise. **Opus 4.8** = adversarial verify, citation re-fetch, blast-radius 2nd passes, diff audits. **Fable 5** = specs, panels, adjudication, grade-A sign-off, this plan. **Human** = merges, taste, sensitive sign-off, specialist fetches, the mission.
 
-## Kill rules
-- Zero cards through the gate in a factory run → stop, hand-harden (proven 2026-07-10).
-- No self-graded score acts without a panel verdict.
-- No Console software before creator-value evidence.
-- Distribution never precedes source closure + gate receipt (Standing Check #3).
-- Any open+mergeable PR >7 days = blocking first item of the steward pass.
-- No parallel gate/loop/routing/queue authority: new governance docs bind to the spine or don't ship (the agent-governance wave's own Steward charter forbids "silently creating new gates or parallel routing systems").
-- New card genres graduate through the SAME `evals.mjs` (HCC included); a new schema is never a new gate.
-- **One evidence vocabulary.** A new topic never needs a new grade/status vocabulary — it needs claim records with the five typed axes filled (`EVIDENCE_VOCABULARY_CROSSWALK.md`). Inventing `Established/Likely/Weak` again = naming an axis that already exists.
-- **The index is the only publish path.** `render.mjs` reads `archive/claims.json`, never cards; a claim absent from the index cannot ship. The receipt is the index row.
-- **`grade ⊥ closure`.** Never conflate support-strength (A–D) with provenance-depth (open→source-closed). A claim can be grade-A on consensus yet closure=reconnaissance (card 005).
-- ATB-001 residual risk is doc-level only — the banner, intake registration, and T&P flag are the protection; nothing mechanical stops another repo from publishing. Named, accepted, revisit if violated once.
+## Kill rules (the plane boundaries' immune system)
+One gate · one loop · one routing · one queue · **one evidence vocabulary** (crosswalk, never invent) · **grade ⊥ closure** · **the index is the only publish path** (the receipt IS the index row) · distribution never precedes receipt · no software before manual demand-proof · apparatus parks behind receipts · zero-cards-through-gate → stop, hand-harden · PR mergeable >7 days = blocking · **name the closure gap, never fake an excavation**.
 
 ## Receipts cadence
-`node scripts/evals.mjs` green after every commit; `--intake` zero-delta after every session that adds claim-bearing files; routing table re-measured each Fable-Day; weekly steward pass runs the Standing Checks.
+`node scripts/evals.mjs` green after every commit; `--intake` zero-delta every session; index byte-stable on re-run; routing re-measured each Fable-Day; weekly steward pass runs the Standing Checks.
