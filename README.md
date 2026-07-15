@@ -129,6 +129,28 @@ This package preserves the thesis:
 
 > **Islamic civilization's greatest achievements were not isolated inventions. They were outputs of a system that connected transcendence, moral accountability, law, trust, commerce, philanthropy, institutions, knowledge, and further civilizational capacity.**
 
+## People of the Qiblah Civilizational Commons
+
+Start with `canon/PEOPLE_OF_THE_QIBLAH_CIVILIZATIONAL_COMMONS.md` for the canonical intra-Islamic bridge and institutional design thesis.
+
+The package is supported by:
+
+- `conversation-logs/2026-07-14_sunni-shia-golden-ages-people-of-the-qiblah-breakthrough.md`
+- `source-ledgers/people-of-the-qiblah-rapprochement-momentum-ledger.md`
+- `research-agendas/people-of-the-qiblah-civilizational-commons-roadmap.md`
+- `prompt-library/PEOPLE_OF_THE_QIBLAH_COMPARATIVE_METAHISTORIAN_MASTER_PROMPT.md`
+- `handoffs/2026-07-14_PEOPLE_OF_THE_QIBLAH_CLAUDE_CODE_HANDOFF.md`
+
+This program preserves the doctrine:
+
+> **We do not ask Muslims to surrender their schools. We ask every school to help rebuild the civilization that made room for schools.**
+
+Its governing principle is:
+
+> **Protected difference below; shared civilization above.**
+
+The Commons is not a third sect or merger theology. It combines provenance-aware history, protected difference, shared civilizational work, propaganda immunity, an Islamic AI answer constitution, and anti-capture governance.
+
 ## Reference Universes and Creative Aperture
 
 Use `canon/REFERENCE_UNIVERSES_AND_CREATIVE_APERTURE.md` for prompt theory around reference-universe stacking, creative aperture, and specificity vs emergence.
