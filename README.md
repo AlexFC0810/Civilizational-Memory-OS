@@ -163,6 +163,40 @@ Prompt tests live in `prompt-library/PROMPT_SPLIT_TEST_HARNESS.md`.
 
 Operational reference stacks live in `prompt-library/REFERENCE_UNIVERSE_STACKS.md`.
 
+## The Mīzān Archive Narrative Universe
+
+Start with `narrative-universe/README.md` for the governed narrative, educational, and public-participation layer above Civilizational Memory OS.
+
+The package is anchored by:
+
+- `canon/MIZAN_ARCHIVE_FOUNDING_CONSTITUTION.md`
+- `narrative-universe/MIZAN_ARCHIVE_UNIVERSE_BIBLE.md`
+- `narrative-universe/CHARACTER_FACTION_AND_LONG_ARC_BIBLE.md`
+- `narrative-universe/VISUAL_SOUND_AND_LANGUAGE_SYSTEM.md`
+- `narrative-universe/CASE_001_THE_MISSING_CIVILIZATION.md`
+- `frameworks/MIZAN_TRANSMEDIA_AND_DATA_FLYWHEEL.md`
+- `templates/MIZAN_CASEFILE_TEMPLATE.md`
+- `research-agendas/MISSING_CIVILIZATION_SOURCE_HARDENING_ROADMAP.md`
+- `prompt-library/MIZAN_ARCHIVE_STORYROOM_MASTER_PROMPT.md`
+- `handoffs/2026-07-17_MIZAN_ARCHIVE_CLAUDE_CODE_HANDOFF.md`
+- `conversation-logs/2026-07-17_mizan-archive-full-universe-breakthrough.md`
+
+This package preserves the architecture:
+
+> **Truth infrastructure underneath. Narrative mythology above. Public participation around it. Civilizational construction beyond it.**
+
+Its public promise is:
+
+> **Every civilization leaves fingerprints.**
+
+The Mīzān Archive is not an Islamic reskin of Sherlock Holmes and not a separate historical source of truth. It is an original civilizational mystery and intelligence universe whose stories begin as investigations, become trials of memory, and end in renewal.
+
+The first vertical slice is `Case 001 — The Missing Civilization`.
+
+Canonical constraint:
+
+> **Until Case 001 works, expansion is camouflage.**
+
 ## Founder Decoupling and Unknown-Unknowns
 
 Use `canon/FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md` for reducing dependency on the founder knowing the perfect prompt, historical reference, analogy, or research trail.
