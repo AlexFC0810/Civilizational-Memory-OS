@@ -30,6 +30,7 @@ Horizons: **H1 PROVE** (≈2wks) · **H2 SCALE** (months) · **H3 INSTITUTIONALI
 | 8 | Modern Waqf / Moral-Capital Blueprint (seed: `canon/DIGITAL_WAQF_CHARTER.md`) | Fable architect + factory | ≥6 gated waqf cases + 3 T&P briefs | 4 | 2 | H2 | **SCHEDULED — August Fable-Day** |
 | **P3 · PRESERVE** ||||||||
 | 9 | Migrate the 7 legacy hardening ledgers → Canonical Claim Records (frontmatter + index) | Sonnet batch + Opus spot-check | index grows; body↔index consistency 100% | 4 | 3 | H2 | **PULL W2** |
+| 9b | **The Archivist's carding queue** — Tier-2-D of `archive/LOAD_BEARING_INDEX.md` in rank order (LB-01 tawhid/power → LB-11 Medina covenant → LB-13 decline-warnings → LB-22 decentralized law → LB-29 Maragha [cheapest] → LB-30/31/46/50), then the confessed gap regions (Ottoman/Mughal/Safavid · West Africa/Swahili · Shia/SE-Asia) | Factory; Archivist adjudicates | each: gated card, index entry promoted T2-D→T1 | 4 | 3 | H1–H2 | **PULL — the standing hardening priority** |
 | 10 | Waqf-permanence governance (archive outlives founder) — structure, not prose | Fable + founder | charter with named successors/mechanisms | 3 | 2 | H3 | **QUEUED** |
 | **P4 · EXPRESS** ||||||||
 | 11 | IGA Phase-1 proof bundle (issue #54): University + Waqf cards → 3 rendered bundles | Sonnet drafts → gate → `render.mjs` | 3 bundles live in `sites/` | 4 | 3 | H1 | **PULL W1** — Hospital done |
@@ -42,7 +43,7 @@ Horizons: **H1 PROVE** (≈2wks) · **H2 SCALE** (months) · **H3 INSTITUTIONALI
 | **P5 · GOVERN** ||||||||
 | 18 | PRs #47/#48/#53: fold-don't-fork per triage comments (registry→axes; kernel→loop; steward/gate/ladder→spine; adopt #53's truth-contract into `cross_repo_state`) | Operator + Sonnet edits | folded or closed; no parallel authority | 4 | 3 | H1 | **CONDITIONAL** |
 | 19 | Issues #30–34 (apparatus) | — | — | 2 | 2 | — | **PARK** behind #7 |
-| ✅ | Done: PR #19 merged (57bb606) · substrate shipped (records+index+crosswalk+render, PR #55) · UCI-OS logged as deferred dependency (issue #46) ||||||||
+| ✅ | Done: PR #19 merged (57bb606) · substrate shipped (records+index+crosswalk+render, PR #55) · UCI-OS logged as deferred dependency (issue #46) · **The Archivist coronated** (`agents/digital-house-of-wisdom/THE_ARCHIVIST.md`) + **Load-Bearing Index v1** (50 entries, `archive/LOAD_BEARING_INDEX.md`) + Grand Synthesis v0.2 traceability audit + Fable-Only List (MODEL_ROUTING) ||||||||
 
 ## Delegation (MECE by actor — nothing has two owners)
 **Code** = gate/index/render/intake (deterministic). **Sonnet 5** = draft/fetch/register/revise. **Opus 4.8** = adversarial verify, citation re-fetch, blast-radius 2nd passes, diff audits. **Fable 5** = specs, panels, adjudication, grade-A sign-off, this plan. **Human** = merges, taste, sensitive sign-off, specialist fetches, the mission.

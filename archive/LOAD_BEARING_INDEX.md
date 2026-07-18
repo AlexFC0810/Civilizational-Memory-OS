@@ -46,7 +46,7 @@
 
 **LB-16** · [T2] From the late 8th to 14th century the bimaristan became a durable endowment-funded institution — free inpatient treatment, specialized wards, clinical teaching, care for the mentally ill — inheriting rather than inventing the hospital from Byzantine and Sasanian precedents. — **Carries:** compressed proof that faith → charity → endowment → institution → compounding knowledge; the "inherited, then scaled" honesty beats "invented" and survives hostile review. — *Trace:* ISLAMIC_CIV_OS ledger #9 · A · institution.
 
-**LB-17** · [T2] From its first centuries, Islamic scholarship ran a documented provenance system — isnad and ijaza — making knowledge traceable to a named human chain. — **Carries:** the civilization's information-integrity protocol; the medieval ancestor of citation, peer review, and this repo's own verification transcripts. — *Trace:* ISLAMIC_CIV_OS ledger #19 · A · knowledge.
+**LB-17** · [T2] From its first centuries, Islamic scholarship ran a documented provenance system — isnad and ijaza — making knowledge traceable to a named human chain. — **Carries:** the civilization's information-integrity protocol; an ancestor-in-spirit of citation and peer review (the analogy itself is graded Contested/B — never inflate it into a priority claim) and the direct ancestor of this repo's own verification transcripts. — *Trace:* ISLAMIC_CIV_OS ledger #19 · A · knowledge.
 
 **LB-18** · [T2] The Qur'anic norm of honest measure was institutionalized over centuries into the muhtasib — a publicly appointed market inspector exercising hisbah — via a staged development from Prophetic-era market oversight to a titled Abbasid office. — **Carries:** scripture → institution causal chain made visible in one office; consumer protection as religious infrastructure. — *Trace:* ISLAMIC_CIV_OS ledger #16 · A · institution.
 
@@ -64,9 +64,9 @@
 
 **LB-24** · [T2] Islamic civilization did not merely preserve ancient knowledge; it translated, commented, synthesized, expanded, institutionalized, and transmitted it — preservation was the floor, transformation the achievement. — **Carries:** kills the "just copied the Greeks" smear and the passive-librarian myth in one move. — *Trace:* GOLDEN_AGES ledger Claim 2 · B ("likely A with source package") · knowledge.
 
-**LB-25** · [T2] In early 11th-century Cairo, Ibn al-Haytham argued the intromission theory of vision and insisted claims be tested by systematic controlled experiment combined with mathematical proof. — **Carries:** experimental method as practice inside the civilization — with the "first" superlative honestly contested (Schramm vs Toomer) rather than asserted. — *Trace:* ISLAMIC_CIV_OS ledger #18 · A · knowledge.
+**LB-25** · [T2] In early 11th-century Cairo, Ibn al-Haytham argued the intromission theory of vision and insisted claims be tested by systematic controlled experiment combined with mathematical proof. — **Carries:** experimental method as practice inside the civilization — with the "first" superlative honestly contested (the Schramm-vs-Toomer dispute, documented in CMOS-0005's Evidence Grade notes) rather than asserted. — *Trace:* ISLAMIC_CIV_OS ledger #18 · A · knowledge.
 
-**LB-26** · [T2] Religious obligations — prayer times, qibla, inheritance shares, calendars — generated recurring technical demand for astronomy, geometry, arithmetic, and law. — **Carries:** the causal arrow from worship to science; devotion as R&D driver, not obstacle. — *Trace:* GOLDEN_AGES ledger Claim 5 · B · knowledge.
+**LB-26** · [T2] Religious obligations — prayer times, qibla, inheritance shares, calendars — generated recurring technical demand for astronomy, geometry, arithmetic, and law. — **Carries:** the causal arrow from worship to science; devotion as R&D driver, not obstacle. — *Trace:* GOLDEN_AGES ledger Claim 4 ("Sacred precision") · B* · knowledge.
 
 **LB-27** · [T2] There was no single Islamic Golden Age: plural, overlapping flowerings across regions, centuries, dynasties, and disciplines. — **Carries:** replaces the fragile one-age-then-collapse timeline with the rolling-arc map; prerequisite for every decline claim. — *Trace:* GOLDEN_AGES ledger Claim 1 · B; Byzantium ledger IGA-001 · Probable · culture.
 
@@ -130,4 +130,4 @@ The harvest confirmed three structural blind spots this index inherits and must 
 
 **Carding queue (Tier-2-D first, then Tier-2 by rank):** LB-01 (tawhid/power) → LB-11 (Medina covenant) → LB-13 (Qur'anic decline-warnings) → LB-22 (decentralized law) → LB-29 (Maragha date — cheapest) → LB-30 (multi-confessional) → LB-31 (Arabic intellectual world) → LB-46 (conquest vs conversion) → LB-50 (interoperability) → then the gap regions above.
 
-*Maintained by The Archivist. Entries change only by displacement past 99, by grade/closure promotion, or by breaker evidence — never by mood.*
+*Maintained by The Archivist. Entries change only by displacement past 99, by grade/closure promotion, or by breaker evidence — never by mood. (\* = grade Archivist-assigned conservatively where the cited proof-card file states no explicit letter grade; noted for trace transparency.) Opus trace-verification 2026-07-14: 50/50 traces resolve, zero grade upgrades, calibration entries confirmed.*
