@@ -1,0 +1,26 @@
+{
+  "pack": "mercy-and-the-powerless",
+  "title": "Mercy as law — the powerless given standing",
+  "generated_from": "archive/LOAD_BEARING_INDEX.md + archive/claims.json",
+  "lb_entries": [
+    "LB-02",
+    "LB-06",
+    "LB-07",
+    "LB-08",
+    "LB-21",
+    "LB-19"
+  ],
+  "cmos_records": [
+    "CMOS-0002",
+    "CMOS-0003",
+    "CMOS-0001"
+  ],
+  "upload_as_sources": [
+    "01_SPINE.md",
+    "02_EVIDENCE_CARDS.md"
+  ],
+  "never_upload": [
+    "03_STEERING.md"
+  ],
+  "receipts": "all source content allowlist-extracted from gate-verified material; overclaim-scanned"
+}

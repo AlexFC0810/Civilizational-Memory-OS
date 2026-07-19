@@ -81,3 +81,21 @@ export const OVERCLAIMS = [
   /\bproves? (?:that )?islam is\b/i,
   /\bno other (?:civilization|religion|tradition)\b/i,
 ];
+
+// A match is hedged (not an overclaim) when nearby text negates it — e.g.
+// "Do not say 'Islam invented women's rights'". Shared by the gate and every
+// publish guard so hedged caveat-discipline lines never false-positive.
+export const NEGATION_NEARBY = /\b(not|n't|no|never|refuse|avoid|without|does not|do not|cannot)\b[^.]{0,60}$/i;
+
+// Scan text for unhedged overclaims; returns the first match string or null.
+export function findOverclaim(text) {
+  for (const re of OVERCLAIMS) {
+    let m;
+    const g = new RegExp(re.source, re.flags.includes("g") ? re.flags : re.flags + "g");
+    while ((m = g.exec(text)) !== null) {
+      const before = text.slice(Math.max(0, m.index - 80), m.index);
+      if (!NEGATION_NEARBY.test(before)) return m[0];
+    }
+  }
+  return null;
+}
