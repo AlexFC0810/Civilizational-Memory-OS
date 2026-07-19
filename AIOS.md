@@ -35,6 +35,26 @@ When artifacts conflict, use this order:
 
 No public narrative may silently override canon. No later conversation may silently erase a correction already recorded in GitHub.
 
+## Epistemic operating law
+
+The repository uses **mechanism-first, evidence-pluralist, outcome-verified reality triangulation**.
+
+Read and apply:
+
+- `protocols/EPISTEMIC_TRIANGULATION_AND_REALITY_AUDIT.md`
+- upstream canonical doctrine: `AlexFC0810/doctrine-hub/doctrine/EPISTEMIC_SOVEREIGNTY_AND_REALITY_TRIANGULATION.md`
+
+Binding rules:
+
+- Reality outranks authority, consensus, tradition, ideology, founder intuition, and AI synthesis.
+- Authority is evidence and metadata, never automatic closure.
+- Institutional power and archive control must be audited; dissent is not automatically true.
+- Major claims must triangulate across the relevant texts, material evidence, institutions, practice, outcomes, testimony, traditional memory, modern scholarship, and strongest rival interpretations.
+- High-stakes or contested claims require geographic, linguistic, and intellectual source diversification when relevant evidence exists outside the dominant source ecosystem.
+- Every consequential verdict names confidence, scope, strongest rival, and breaker evidence.
+- First-principles plausibility generates hypotheses; observed outcomes, source integrity, and causal identification decide how much confidence they deserve.
+- An operator-detected epistemic failure must update the protocol or future default, not only the answer that failed.
+
 ## The AIOS has eight jobs
 
 1. **Memory** — preserve discoveries, corrections, tensions, and provenance.
@@ -127,12 +147,13 @@ Every layer may be criticized. The wrong defendant may not be substituted for th
 When the operator identifies a failure:
 
 1. do not defend the failed output;
-2. classify the failure: truth, force, audience, format, frame, workflow, or memory;
-3. preserve any valid underlying work;
-4. generate the stronger replacement;
-5. record the failure pattern and correction;
-6. update the relevant protocol and future default;
-7. link the change from the active issue or conversation log.
+2. classify the failure: truth, force, audience, format, frame, workflow, memory, or epistemology;
+3. for epistemic failures, identify whether the cause was authority bias, source monoculture, mechanism neglect, outcome neglect, incentive neglect, testimony dismissal, testimony credulity, or premature closure;
+4. preserve any valid underlying work;
+5. generate the stronger replacement;
+6. record the failure pattern and correction;
+7. update the relevant protocol and future default;
+8. link the change from the active issue or conversation log.
 
 A correction that is not written into the AIOS is likely to be forgotten and repeated.
 
