@@ -28,7 +28,7 @@ No packet may move directly from raw research to canon.
 | Packet | Question | Priority | Parent issue | Status |
 |---|---|---:|---:|---|
 | `RP-EA-001` | How should Qur’an, Sunnah, hadith, sira, fiqh, consensus, custom, and empire be separated when attributing a claim to Islam? | P0 | #17 | queued |
-| `RP-HA-001` | What is the provenance and historical reliability of the Aisha six/nine age reports? | P0 | #15, #17 | queued |
+| `RP-HA-001` | What is the provenance and historical reliability of the Aisha six/nine age reports? | P0 | #15, #17 | red-team — founder decision packet at `RP-HA-001_FOUNDER_DECISION_PACKET.md` (PR #57 adjudication; awaiting founder sign-off) |
 | `RP-SL-001` | What slavery inflows, protections, and exits are present in the Qur’an, and does the architecture tend toward depletion or reproduction? | P0 | #15 | queued |
 | `RP-MC-001` | Can the inherited-moral-capital hypothesis explain Nordic trust better than competing institutional and material explanations? | P0 | #15 | queued |
 
