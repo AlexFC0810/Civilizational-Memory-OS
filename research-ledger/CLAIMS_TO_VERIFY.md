@@ -148,3 +148,9 @@ Registered per the Intake Rule after the AIOS + Creator Supercharger waves merge
 | File | Load-bearing claim(s), one line | Grade |
 |---|---|---|
 | canon/EPISTEMIC_ARCHITECTURE_AND_KNOWLEDGE_PIPELINE.md | **Methodology, not history** — carries no datable historical claims to grade; registered for completeness because it is claim-*shaped* (it defines what a claim is). Asserts a six-stage epistemic chain (record → adjudication → synthesis → canon → deployment → revision) and a backward-traversable provenance path. Arrived by direct-to-main commit c063a22 (no PR — protocol regression, issue #71). Bound by additive header to the five planes; claims no gate authority — `scripts/evals.mjs` remains the only gate. | D |
+
+## Intake 2026-07-20b — Prophetic Root / scholar-instruments wave, PR #60 (grade D, pre-gate)
+
+| File | Load-bearing claim(s), one line | Grade |
+|---|---|---|
+| frameworks/KHALDUNIAN_HISTORICAL_PLAUSIBILITY_GATE.md | **Method, not history** — a twelve-check plausibility lens (G1–G12) asserting that transmission strength alone cannot establish a report's historicity, and that social/material/institutional constraints must be checked independently. Carries illustrative historical examples that are NOT themselves gated. Bound by header as a review lens upstream of adjudication; claims no pass/fail authority — `scripts/evals.mjs` remains the ONE gate. Companion canon (`canon/PROPHETIC_ROOT_CIVILIZATIONAL_DRIFT_AND_RENEWAL.md`) and the Ibn Khaldun concept map ride with it at the same grade. | D |
