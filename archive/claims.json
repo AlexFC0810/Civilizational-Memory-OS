@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 9,
+  "count": 11,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -231,6 +231,64 @@
         "https://en.wikipedia.org/wiki/Molla_Zeyrek_Mosque"
       ],
       "safe_wording": "The 1136 Typikon of the Pantokrator Monastery in Constantinople — commissioned by Emperor John II Komnenos, with the project begun under Empress Irene — specifies an attached hospital (xenon) with a stated capacity of roughly 50 beds across five specialized wards (surgery/fractures, eye and intestinal disease, general male illness, and a women's ward), staffed by a graded hierarchy of salaried physicians, including a female physician for the women's ward paid half the wage of her male counterparts. This was not the first Byzantine hospital — Basil of Caesarea, Leontius of Antioch, and Bishop Rabbula of Edessa built medicalized hospices centuries earlier — and the specific numbers here rest on one surviving charter, read here only through secondary and tertiary scholarship, not the Greek critical edition itself."
+    },
+    {
+      "id": "CMOS-0010",
+      "file": "source-cards/010_university_madrasa_system.md",
+      "claim_layer": "institution",
+      "grade": "B",
+      "grade_scope": "B: dated, tertiary-sourced institutional facts — al-Qarawiyyin founded as a mosque in the ninth century (857–859 per a contested tradition) and made a state university in 1963; al-Azhar built 970–972 under the Fatimids, designated for higher learning in 988, university statute 1961; the Nizamiyya network from 1065 with waqf-funded salaried posts and student support (al-Ghazali holding the Baghdad chair 1091–95); the ijaza as a personal teacher-to-student license, distinct from the Latin corporate universitas. C: the madrasa-to-European-college influence question (held open in both directions) and the 859 founding-narrative details.",
+      "closure": "reconnaissance",
+      "source_tier_best": 3,
+      "independent_chains": 1,
+      "epistemic_status": "established",
+      "lifecycle": "verified",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-07-20",
+      "anchors": [
+        "https://en.wikipedia.org/wiki/University_of_al-Qarawiyyin",
+        "https://en.wikipedia.org/wiki/Al-Azhar_University",
+        "https://en.wikipedia.org/wiki/Nizamiyya",
+        "https://www.encyclopedia.com/literature-and-arts/art-and-architecture/architecture/madrasa",
+        "https://en.wikipedia.org/wiki/Ijazah",
+        "https://en.wikipedia.org/wiki/Medieval_university",
+        "https://www.thefreelibrary.com/The+Rise+of+Colleges%3A+Institutions+of+Learning+in+Islam+and+the+West.-a0510545561",
+        "https://www.tandfonline.com/doi/full/10.1080/00071005.2021.1901853"
+      ],
+      "safe_wording": "Between the 9th and 12th centuries, Muslim rulers, viziers, and private endowers scaled endowed higher learning into standing institutions: al-Qarawiyyin in Fez (a ninth-century mosque foundation, dated 857–859 by a late tradition that a rival rediscovered inscription — naming a different founder in 877 — and modern scholarship both contest; a state university since 1963), al-Azhar in Cairo (built 970–972 under the Isma'ili Shia Fatimids, designated for higher learning in 988, later the Sunni world's preeminent seat, with a modern university statute in 1961), and the Nizamiyya network the Seljuk vizier Nizam al-Mulk replicated across Baghdad, Nishapur, Isfahan, and other cities from 1065 — institutions legally constituted as waqf charitable endowments whose income paid professors and gave students room, board, and stipends, with the ijaza, a license issued by an individual teacher, as the credential. This was endowed higher education at scale, inherited from older Near Eastern and Mediterranean precedents and then scaled — not a university in the strict sense: the universitas, a chartered self-regulating corporation of masters and students (Bologna 1088, Paris c. 1150, Oxford 1167), is a distinct Latin-European legal form the madrasa did not have, and whether the waqf-funded college shaped Europe's colleges remains a genuinely open scholarly question."
+    },
+    {
+      "id": "CMOS-0011",
+      "file": "source-cards/011_waqf_endowment_engine.md",
+      "claim_layer": "institution",
+      "grade": "B",
+      "grade_scope": "B: the waqf legal mechanism (irrevocable dedication, witnessed waqfiyya deed, qadi oversight, trustee administration), its hadith-based doctrinal seed, and its documented funding of madrasas, hospitals, imarets, fountains, and related civil infrastructure, incl. named cases (Umar-at-Khaybar paradigm report; Hurrem Sultan Jerusalem imaret waqfiyya 1556-57) and the capture/critique record (Ottoman ministry centralization, colonial Zanzibar commission, 20th-c. nationalizations, Kuran rigidity thesis) per fetched secondary/tertiary sources; C: scale figures and the origins-influence question, which remains unresolved",
+      "closure": "reconnaissance",
+      "source_tier_best": 3,
+      "independent_chains": 2,
+      "epistemic_status": "established",
+      "lifecycle": "verified",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-07-20",
+      "anchors": [
+        "https://www.abuaminaelias.com/dailyhadithonline/2011/10/23/sadaqah-al-jariya/",
+        "https://en.tohed.com/hadith/muslim/1632/",
+        "https://en.wikipedia.org/wiki/Waqf",
+        "https://www.encyclopedia.com/history/asia-and-africa/middle-eastern-history/waqf",
+        "https://en.wikipedia.org/wiki/Haseki_Sultan_Imaret",
+        "https://en.wikipedia.org/wiki/Zubaidah_bint_Ja%27far",
+        "https://en.wikipedia.org/wiki/Timur_Kuran",
+        "https://amrayn.com/muslim/25/ch-4",
+        "https://en.wikipedia.org/wiki/Qalawun_complex",
+        "https://en.wikipedia.org/wiki/Ministry_of_Evkaf",
+        "https://www.nationalwaqf.org/blog/the-land-of-khaybar-waqf-of-umar-ibn-al-khattab-rd",
+        "https://sunnah.com/muslim:1631",
+        "https://sunnah.com/bukhari:2737",
+        "https://istanbultarihi.ist/579-istanbul-waqfs-in-the-republican-period"
+      ],
+      "safe_wording": "Classical Islamic law developed the waqf: a founder dedicates income-producing property — farmland, shops, mills, bathhouses — irrevocably once the endowment takes effect (the law schools differed on when irrevocability attaches), so that its revenue funds named public purposes in perpetuity, with the terms recorded in a witnessed deed (waqfiyya) under a judge's oversight; from at latest the ninth century (the oldest surviving dated deed, from 876 CE, endows a Qur'an manuscript) this instrument became a standing funding mechanism for much of the classical Islamic world's civil infrastructure — madrasas, hospitals whose endowments covered staff wages, medicines, beds, and repairs, fountains, bridges, and soup kitchens such as Hürrem Sultan's endowed Jerusalem imaret (charter dated 1556–57), with women documented among founders in named cases and Ottoman registers. The honest limits: charitable foundations predate Islam and the question of influence on waqf's legal form is unresolved; the Qur'an contains no waqf statute (jurists built the institution from hadith reports and general charity teachings); reported capacities are traditional figures rather than audits; family endowments were used to steer wealth around inheritance shares; administration was at times corrupt, and judge-approved property substitutions are reported by specialists as a channel by which ruling elites absorbed endowment assets well before the modern era; economists such as Timur Kuran argue the perpetuity rules bred long-run economic rigidity; and the modern era centralized, captured, or nationalized most of the system."
     }
   ]
 }
