@@ -2,8 +2,7 @@
 // Renders the queryable index (archive/claims.json) to static IslamicGoldenAges.org
 // pages. The substrate publishing ITSELF — the missing "content exports."
 //
-//   node scripts/render.mjs                 # render the default (Hospital) bundle
-//   node scripts/render.mjs --layer institution
+//   node scripts/render.mjs                 # render every proof bundle (see BUNDLES)
 //
 // SAFETY BY CONSTRUCTION, not by filtering:
 //   - reads ONLY archive/claims.json (never cards) — the index is the sole path to publish
@@ -93,26 +92,33 @@ ${body}
   return html;
 }
 
+// The issue-#54 Phase-1 proof bundles. Each bundle is an explicit id-allowlist rendered
+// to one page — adding a lane means adding an entry here, never widening a filter.
+const BUNDLES = [
+  { ids: ["CMOS-0005"], section: "Hospital & Knowledge Institutions", file: "hospital-knowledge-institutions.html" },
+  { ids: ["CMOS-0012"], section: "University & Madrasa System", file: "university-madrasa-system.html" },
+  { ids: ["CMOS-0013"], section: "Waqf Endowment Engine", file: "waqf-endowment-engine.html" },
+];
+
 function main() {
-  const argv = process.argv.slice(2);
-  const layerFilter = argv.includes("--layer") ? argv[argv.indexOf("--layer") + 1] : null;
   if (!fs.existsSync(INDEX)) { console.error("no archive/claims.json — run `node scripts/evals.mjs` first"); process.exit(1); }
   const idx = JSON.parse(fs.readFileSync(INDEX, "utf8"));
 
-  // The Hospital proof bundle = the institution-layer, grade-A knowledge/hospital claim (CMOS-0005).
-  const bundleIds = new Set(["CMOS-0005"]);
-  const nodes = idx.claims.filter((c) =>
-    (layerFilter ? c.claim_layer === layerFilter : bundleIds.has(c.id)) && (c.grade === "A" || c.grade === "B")
-  );
-  if (!nodes.length) { console.error("no publishable nodes matched"); process.exit(1); }
-
-  const section = "Hospital & Knowledge Institutions";
-  const html = renderPage(section, nodes);
   fs.mkdirSync(SITE_OUT, { recursive: true });
-  const outFile = path.join(SITE_OUT, "hospital-knowledge-institutions.html");
-  fs.writeFileSync(outFile, html, "utf8");
-  console.log(`rendered ${nodes.length} claim(s) → ${path.relative(REPO_ROOT, outFile).split(path.sep).join("/")}`);
-  console.log(`  ${nodes.map((n) => `${n.id} (${n.claim_layer}, grade ${n.grade})`).join("; ")}`);
+  for (const bundle of BUNDLES) {
+    const wanted = new Set(bundle.ids);
+    const nodes = idx.claims.filter((c) => wanted.has(c.id) && (c.grade === "A" || c.grade === "B"));
+    if (nodes.length !== bundle.ids.length) {
+      const missing = bundle.ids.filter((id) => !nodes.some((n) => n.id === id));
+      console.error(`bundle '${bundle.section}': ${missing.join(", ")} absent from the index or below the A/B publish floor — refusing to render`);
+      process.exit(1);
+    }
+    const html = renderPage(bundle.section, nodes);
+    const outFile = path.join(SITE_OUT, bundle.file);
+    fs.writeFileSync(outFile, html, "utf8");
+    console.log(`rendered ${nodes.length} claim(s) → ${path.relative(REPO_ROOT, outFile).split(path.sep).join("/")}`);
+    console.log(`  ${nodes.map((n) => `${n.id} (${n.claim_layer}, grade ${n.grade})`).join("; ")}`);
+  }
 }
 
 main();

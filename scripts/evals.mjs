@@ -16,7 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { splitSections, parseFrontmatter, OVERCLAIMS } from "./lib.mjs";
-import { validateFrontmatter, buildIndex, writeIndex, FRONTMATTER_CUTOFF } from "./archive.mjs";
+import { validateFrontmatter, buildIndex, writeIndex, findIdCollisions, FRONTMATTER_CUTOFF } from "./archive.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -258,8 +258,19 @@ function main() {
   // gate runs stay side-effect-free.
   if (!files.length) {
     const { rows, skipped } = buildIndex(discoverCards(), REPO_ROOT);
-    const out = writeIndex(rows, REPO_ROOT);
-    console.log(`\narchive index: ${rows.length} claim(s) → ${path.relative(REPO_ROOT, out).split(path.sep).join("/")}${skipped.length ? ` (${skipped.length} legacy card(s) without frontmatter, not indexed)` : ""}`);
+
+    // Fleet-collision check runs BEFORE the index is written: a corrupt index must
+    // never reach disk, because render.mjs and nlm-pack.mjs trust it completely.
+    const collisions = findIdCollisions(rows);
+    if (collisions.length) {
+      console.log("\nFAIL  fleet collision — the archive was NOT rewritten:");
+      for (const c of collisions) console.log(`      ✗ ${c}`);
+      console.log("      → renumber the later card (filename + id) and re-run.");
+      failed += collisions.length;
+    } else {
+      const out = writeIndex(rows, REPO_ROOT);
+      console.log(`\narchive index: ${rows.length} claim(s) → ${path.relative(REPO_ROOT, out).split(path.sep).join("/")}${skipped.length ? ` (${skipped.length} legacy card(s) without frontmatter, not indexed)` : ""}`);
+    }
   }
 
   console.log(`\n${targets.length} card(s): ${targets.length - failed} ok, ${failed} FAIL`);
