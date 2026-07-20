@@ -184,9 +184,11 @@ Everything already in the dossier's Prohibited Overclaims section stands. Add:
 
 **Still open (blocking "carefully scoped creator use," in priority order):**
 
-1. Direct inspection of Cheema/ICRAA 2024 in full: audit its specific isnād claims (corroborating lines via al-Zuhrī, Abū al-Zinād, ʿAbdullāh b. ʿUrwah; claimed cross-sectarian attestation; claimed pre-Bukhari mursal forms) against Little's ch. 2 treatment of the same tradents — this is the single decisive open audit for rows 8–9.
-2. Direct inspection of al-Idlibi's Arabic study (not just Little's characterization of it).
-3. The Brown–Little exchange, primary texts.
+> **Update 2026-07-19:** items 1–3 are now substantially closed by `RP-HA-001_ADDENDUM_01_COUNTER_SCHOLARSHIP_AUDIT.md` — the thesis-side audit found the classical corroborator enumeration quoted and tested *inside* Little's own thesis (lit. review pp. 10–12 → ch. 2), with every claimed corroborating line dating, at redaction level, to the mid-8th century or later; the Brown engagement is in the thesis itself ("pace Juynboll and Brown," p. 399). Row 8's closure upgrades to `provenance-audited` (thesis side); epistemic statuses unchanged. Residual web-side items are listed in the addendum §5.
+
+1. Direct inspection of Cheema/ICRAA 2024 in full: audit its specific isnād claims (corroborating lines via al-Zuhrī, Abū al-Zinād, ʿAbdullāh b. ʿUrwah; claimed cross-sectarian attestation; claimed pre-Bukhari mursal forms) against Little's ch. 2 treatment of the same tradents — this is the single decisive open audit for rows 8–9. **→ see Addendum 01**
+2. Direct inspection of al-Idlibi's Arabic study (not just Little's characterization of it). **→ see Addendum 01 §5**
+3. The Brown–Little exchange, primary texts. **→ see Addendum 01 §§3, 5**
 4. The fiqh holding answer drafted + Dossier 002 scoped (classical reception with page-level manual citations; modern statutory reform map).
 5. Line-fix pass on the dossier (§5 items 1–3) + the five scripted additions (§5 items 4–8).
 6. Kecia Ali and Spellberg on reception/politics of the narrative (queued in dossier; unstarted).
