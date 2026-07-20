@@ -18,6 +18,20 @@ In operation: follow the threads, preserve the canon, source-harden the claims, 
 
 **A universal civilizational-intelligence engine; Islamic civilization is the first and deepest case study.** "Build the science of how civilizations become wise — not merely rich, powerful, religious, secular, or technically advanced." The Islam work loses nothing by this framing: it keeps every guardrail and gains the credibility of a symmetric method. Civilizational memory is not for pride; it is for pattern recovery. The operating lens stays **Seed → System → Fruit → Renewal**; the operating question stays **"Are we judging the blueprint, the builder, or the building?"**
 
+## The Two Engines — how this repo and truth-and-peace-engine work together (codified 2026-07-19)
+
+One mission, two engines, one boundary:
+
+- **Civilizational Memory OS is the Memory Engine** (planes: acquire → adjudicate → preserve). It owns claims, evidence grades, source closure, the Load-Bearing Index, the canonical claim records, and the packaged exports (claim kits, NotebookLM packs, rendered site pages). **In one sentence: it decides what is safe to say.**
+- **Truth & Peace Engine is the Voice Engine** (planes: express → measure). It owns production, channels, publishing cadence, creator relationships, and fitness measurement (RSI/hook scoring). **In one sentence: it decides what gets heard — and reports back what lands.**
+
+**The contract between them:**
+
+1. **Assets flow down with receipts.** Cards → claim kits → NLM packs → episodes; every artifact crosses the boundary carrying its gate receipt (green `node scripts/evals.mjs` run + registered claims). Standing Check #3 enforces this: nothing ships without one.
+2. **Fitness flows back up.** T&P's measured signal steers CMOS's priorities — proven in practice: the `mercy-and-the-powerless` NLM pack was commissioned because T&P's own RSI data showed the mercy register outperforming. Measured demand sets carding priority; carding priority never overrides measurement.
+3. **Neither engine overrides the other's lane.** CMOS never publishes; T&P never re-derives or re-grades claims. Wording disputes resolve to the card's Safe Wording; scheduling disputes resolve to T&P's operator.
+4. **The handoff artifact is the INBOX file** (`plans/INBOX-*` in T&P), cleared once actioned — the same mechanism both directions.
+
 ## Who it serves, in order
 
 1. **Trusted creators and bridge-builders** — the leverage inversion: equip the messenger, strengthen many downstream conversations at once.

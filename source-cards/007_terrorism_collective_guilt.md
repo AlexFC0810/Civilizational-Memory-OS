@@ -1,3 +1,16 @@
+---
+id: CMOS-0007
+claim_layer: quran
+epistemic_status: established
+closure: reconnaissance
+source_tier_best: 2
+independent_chains: 3
+grade_scope: "A: six Qur'anic verses + Ibn Kathir tafsir (verbatim); B: GTI victim-composition figures"
+lifecycle: verified
+supersedes: []
+superseded_by: null
+date: 2026-07-10
+---
 # Source Card 007: Terrorism and Collective Guilt
 
 Date: 2026-07-10

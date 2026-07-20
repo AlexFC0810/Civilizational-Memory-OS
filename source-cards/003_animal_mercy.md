@@ -1,3 +1,16 @@
+---
+id: CMOS-0003
+claim_layer: prophetic
+epistemic_status: established
+closure: reconnaissance
+source_tier_best: 2
+independent_chains: 2
+grade_scope: "A: sahih hadith mercy anchors; B: broader civilizational animal-welfare norms"
+lifecycle: triaged
+supersedes: []
+superseded_by: null
+date: 2026-06-25
+---
 # Source Card 003: Animal Mercy
 
 Date: 2026-06-25

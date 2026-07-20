@@ -53,3 +53,16 @@ The agent-control-plane wave introduced a second role taxonomy. It maps onto the
 | `nexus-synthesis` | **Fable 5** | invoked for cross-artifact synthesis, not standing |
 | specialist cells | per `templates/AGENT_TASK_PACKET.md` | tier named in the task packet; defaults to Scout=Sonnet, Red-team=Opus |
 | Founder | **Human** | irreversible external approval, sensitive sign-off |
+
+## The Fable-Only List (binding 2026-07-14 — operator directive: Fable usage goes only to what only Fable can do)
+
+**Fable-only** (frontier judgment; no rubric exists yet, or the task IS writing the rubric):
+- Whole-corpus Pareto adjudication — selecting/ranking/displacing entries in `archive/LOAD_BEARING_INDEX.md` (which ~50 of ~200 graded atoms carry the map)
+- Grand-synthesis authorship and audit (the canonical narrative spine and its traceability verdicts)
+- Constitutions, schemas, and charters (the Canonical Claim Record, the MECE five-planes map, THE_ARCHIVIST, gate genres)
+- Judge panels and their final verdicts; grade-**A** promotion sign-off; MECE architecture decisions
+- Reconciling incoming AI waves (fold-vs-fork adjudication of parallel-authority proposals)
+
+**Everything else demotes:** drafting/harvest/fetch/registration/annotation-mechanics → **Sonnet 5**; adversarial verification/citation re-fetch/blast-radius second passes/diff audits → **Opus 4.8**; deterministic checks → **code** (`evals.mjs`, `archive.mjs`, `render.mjs`).
+
+> **The test: if a task has a rubric, it is not Fable work. Fable writes rubrics.**

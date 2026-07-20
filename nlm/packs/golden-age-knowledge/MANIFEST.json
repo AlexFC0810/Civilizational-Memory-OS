@@ -1,0 +1,31 @@
+{
+  "pack": "golden-age-knowledge",
+  "title": "The Knowledge Institutions — how faith funded science",
+  "generated_from": "archive/LOAD_BEARING_INDEX.md + archive/claims.json",
+  "lb_entries": [
+    "LB-15",
+    "LB-16",
+    "LB-17",
+    "LB-18",
+    "LB-23",
+    "LB-24",
+    "LB-25",
+    "LB-26",
+    "LB-27",
+    "LB-28",
+    "LB-43",
+    "LB-44"
+  ],
+  "cmos_records": [
+    "CMOS-0005",
+    "CMOS-0009"
+  ],
+  "upload_as_sources": [
+    "01_SPINE.md",
+    "02_EVIDENCE_CARDS.md"
+  ],
+  "never_upload": [
+    "03_STEERING.md"
+  ],
+  "receipts": "all source content allowlist-extracted from gate-verified material; overclaim-scanned"
+}

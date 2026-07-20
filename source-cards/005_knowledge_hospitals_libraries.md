@@ -1,3 +1,16 @@
+---
+id: CMOS-0005
+claim_layer: institution
+epistemic_status: established
+closure: reconnaissance
+source_tier_best: 3
+independent_chains: 2
+grade_scope: "A: dated institutions (bimaristans, translation movement, Ibn al-Haytham, al-Khwarizmi); B/C: uniform-civilization generalization + 'first' superlatives"
+lifecycle: verified
+supersedes: []
+superseded_by: null
+date: 2026-07-10
+---
 # Source Card 005: Knowledge, Hospitals, and Libraries
 
 Date: 2026-07-10

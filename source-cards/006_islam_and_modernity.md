@@ -1,3 +1,16 @@
+---
+id: CMOS-0006
+claim_layer: quran
+epistemic_status: established
+closure: reconnaissance
+source_tier_best: 2
+independent_chains: 2
+grade_scope: "A: seven Qur'anic anchors (verbatim quran.com); B: riba/finance tertiary anchor"
+lifecycle: verified
+supersedes: []
+superseded_by: null
+date: 2026-07-10
+---
 # Source Card 006: Islam and Modernity
 
 Date: 2026-07-10

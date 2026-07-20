@@ -1,3 +1,16 @@
+---
+id: CMOS-0002
+claim_layer: quran
+epistemic_status: established
+closure: reconnaissance
+source_tier_best: 2
+independent_chains: 1
+grade_scope: "A: Qur'an 81:8-9 condemnation of infanticide; B/C: pre-Islamic prevalence"
+lifecycle: triaged
+supersedes: []
+superseded_by: null
+date: 2026-06-25
+---
 # Source Card 002: The Buried Daughter
 
 Date: 2026-06-25
