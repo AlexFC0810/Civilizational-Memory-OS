@@ -15,6 +15,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { splitSections, parseFrontmatter, OVERCLAIMS } from "./lib.mjs";
+import { validateFrontmatter, buildIndex, writeIndex, findIdCollisions, FRONTMATTER_CUTOFF } from "./archive.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -60,15 +62,7 @@ function requiredFor(file) {
 const PLACEHOLDERS = /\b(TODO|TBD|FIXME|XXX)\b|\[placeholder\]|lorem ipsum|<insert|\?\?\?/i;
 
 // Unhedged absolutes that make deploy-facing wording brittle (gate spec: overclaim scan).
-const OVERCLAIMS = [
-  /\bfirst ever\b/i,
-  /\bonly islam\b/i,
-  /\bislam invented\b/i,
-  /\bnever (?:mistreat|wrong|fail)/i,
-  /\balways (?:treated|acted|ruled)/i,
-  /\bproves? (?:that )?islam is\b/i,
-  /\bno other (?:civilization|religion|tradition)\b/i,
-];
+// OVERCLAIMS lives in lib.mjs (shared with the render publish guard) — imported above.
 
 // Sections whose text actually ships. Overclaims are scanned here only —
 // "Unsafe Wording to Avoid" legitimately quotes the brittle versions.
@@ -81,23 +75,6 @@ function isDeploySection(heading) {
 // A match is hedged (not an overclaim) when the surrounding text negates it.
 const NEGATION_NEARBY = /\b(not|n't|no|never|refuse|avoid|without|does not|do not|cannot)\b[^.]{0,60}$/i;
 
-function splitSections(text) {
-  const sections = [];
-  const lines = text.split(/\r?\n/);
-  let current = { heading: "(preamble)", body: [] };
-  for (const line of lines) {
-    const m = line.match(/^#{2,3}\s+(.*)/);
-    if (m) {
-      sections.push(current);
-      current = { heading: m[1].trim(), body: [] };
-    } else {
-      current.body.push(line);
-    }
-  }
-  sections.push(current);
-  return sections.map((s) => ({ heading: s.heading, body: s.body.join("\n") }));
-}
-
 function cardDate(text) {
   const m = text.match(/^Date:\s*(\d{4}-\d{2}-\d{2})/m);
   return m ? Date.parse(m[1]) : null;
@@ -107,13 +84,26 @@ function evalCard(file) {
   const raw = fs.readFileSync(file, "utf8");
   const failures = [];
   const warnings = [];
-  const sections = splitSections(raw);
+  const { hasFrontmatter, fm, body } = parseFrontmatter(raw);
+  const sections = splitSections(body); // strip frontmatter before splitting (a `#`-led value is not a heading)
   const required = requiredFor(file);
   const isHcc = required === HCC_REQUIRED_SECTIONS;
+  const dated = fm.date ? Date.parse(fm.date) : cardDate(raw); // feed frontmatter.date so migration can't silently downgrade
+
+  // --- Canonical frontmatter (migration: new cards FAIL without it, legacy WARN) ---
+  if (hasFrontmatter) {
+    const fv = validateFrontmatter(fm, body);
+    failures.push(...fv.failures);
+    warnings.push(...fv.warnings);
+  } else if (dated !== null && dated >= FRONTMATTER_CUTOFF) {
+    failures.push("canonical frontmatter: required for cards dated >= 2026-07-14 (see research-ledger/CANONICAL_CLAIM_RECORD.md)");
+  } else {
+    warnings.push("no canonical frontmatter (legacy card — backfill the five typed axes when next revisited)");
+  }
 
   // --- Required sections (genre-specific) ---
   for (const [re, name] of required) {
-    if (!re.test(raw)) failures.push(`missing required section: ${name}`);
+    if (!re.test(body)) failures.push(`missing required section: ${name}`);
   }
 
   // --- Placeholders (whole file) ---
@@ -155,15 +145,14 @@ function evalCard(file) {
     }
   } else {
     // Source-card: >=3 counters in the Counterattack Simulation.
-    const counters = (raw.match(/^#{3,4}\s+Counter/gim) ?? []).length;
-    if (/counterattack simulation/i.test(raw) && counters < 3) {
+    const counters = (body.match(/^#{3,4}\s+Counter/gim) ?? []).length;
+    if (/counterattack simulation/i.test(body) && counters < 3) {
       failures.push(`counterattack simulation: only ${counters} counter(s) (< 3)`);
     }
   }
 
   // --- Verification transcript (hard for new cards, WARN for legacy) ---
-  const hasTranscript = /^#{2,3}\s+.*verification transcript/im.test(raw);
-  const dated = cardDate(raw);
+  const hasTranscript = /^#{2,3}\s+.*verification transcript/im.test(body);
   if (!hasTranscript) {
     if (dated !== null && dated >= TRANSCRIPT_CUTOFF) {
       failures.push("verification transcript: required for cards dated >= 2026-07-10 (URL + retrieval date + verbatim excerpt per anchor)");
@@ -262,6 +251,26 @@ function main() {
     const un = intakeScan();
     console.log(`\nintake scan: ${un.length} claim-bearing file(s) not registered in research-ledger/CLAIMS_TO_VERIFY.md`);
     for (const f of un) console.log(`      ~ ${f}`);
+  }
+
+  // Build the queryable archive index — the ONLY path to publication (render.mjs reads
+  // this, never cards). Only on a full run (no explicit file args), so single-card
+  // gate runs stay side-effect-free.
+  if (!files.length) {
+    const { rows, skipped } = buildIndex(discoverCards(), REPO_ROOT);
+
+    // Fleet-collision check runs BEFORE the index is written: a corrupt index must
+    // never reach disk, because render.mjs and nlm-pack.mjs trust it completely.
+    const collisions = findIdCollisions(rows);
+    if (collisions.length) {
+      console.log("\nFAIL  fleet collision — the archive was NOT rewritten:");
+      for (const c of collisions) console.log(`      ✗ ${c}`);
+      console.log("      → renumber the later card (filename + id) and re-run.");
+      failed += collisions.length;
+    } else {
+      const out = writeIndex(rows, REPO_ROOT);
+      console.log(`\narchive index: ${rows.length} claim(s) → ${path.relative(REPO_ROOT, out).split(path.sep).join("/")}${skipped.length ? ` (${skipped.length} legacy card(s) without frontmatter, not indexed)` : ""}`);
+    }
   }
 
   console.log(`\n${targets.length} card(s): ${targets.length - failed} ok, ${failed} FAIL`);

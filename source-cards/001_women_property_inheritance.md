@@ -1,3 +1,16 @@
+---
+id: CMOS-0001
+claim_layer: quran
+epistemic_status: established
+closure: reconnaissance
+source_tier_best: 2
+independent_chains: 2
+grade_scope: "A: Qur'anic property/dowry/inheritance norms; B: coverture comparison"
+lifecycle: triaged
+supersedes: []
+superseded_by: null
+date: 2026-06-25
+---
 # Source Card 001: Women, Property, Inheritance
 
 Date: 2026-06-25

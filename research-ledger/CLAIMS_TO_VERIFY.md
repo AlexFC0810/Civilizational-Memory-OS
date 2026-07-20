@@ -130,3 +130,21 @@ Registered per the Intake Rule after the AIOS + Creator Supercharger waves merge
 |---|---|---|
 | transcript-immunity/packets/TIP-2026-002_ISLAM_WOMEN_PATRIARCHY_HONOR_KILLING.md | ⚠ HIGH-SENSITIVITY, red-team required pre-publication — atomizes a "totalized Islamic patriarchy" claim across 7 layers (Qur'an→hadith→fiqh→procedure→state law→custom→conduct); highest-risk atoms: "honor killings are Islamic" (flagged category error), stoning-for-adultery (source-layer dependent), a father-stoned-daughter anecdote (source verification required), and a "women had no souls" line (flagged high-risk, must not be reused without strong primary source); media provenance unresolved, no clip until source + reuse documented. | D |
 | transcript-immunity/packets/TIP-2026-003_BECK_LOVER_DEEN_SHOW_MIXED_CLAIM_AUDIT.md | ⚠ SYMMETRY TEST + defamation discipline — audits a *sympathetic* (Muslim-defending) speaker's mixed bundle (moral critique + polemic + Balkan history + conspiracy/end-times + testimony) from a medium-LOW-confidence ASR transcript; stages unverified broad claims about Jews/Zionists/intelligence agencies/media ownership, jinn/black magic, and imminent war; no public output may repeat its graphic/defamatory allegations about named people without necessity and evidence; no publication. | D |
+
+## Intake 2026-07-14 — Byzantium / Prophetic-Civilizational-Science wave (grade D, pre-gate)
+
+| File | Load-bearing claim(s), one line | Grade |
+|---|---|---|
+| source-ledgers/byzantium-golden-ages-and-prophetic-civilization-ledger.md | Seed source-ledger of ~60 atomic claims (BYZ/WAY/JUD/IGA/CTA/CTRL) across Byzantine identity & golden ages, the moral-architecture adherence gap, earliest Christianity ("the Way"), the Abrahamic map, plural Islamic golden ages, civilizational truth-alignment, and Song-China as a control case. Explicitly "research seed; not source-closed" — carries its OWN status vocabulary (Established/Probable/Contested/Unresolved/Unsupported/Category-error + High/Med confidence) which `EVIDENCE_VOCABULARY_CROSSWALK.md` reconciles onto the canonical axes; no fetched excerpts yet. | D |
+
+## Intake 2026-07-14b — People of the Qiblah wave (grade D, pre-gate)
+
+| File | Load-bearing claim(s), one line | Grade |
+|---|---|---|
+| source-ledgers/people-of-the-qiblah-rapprochement-momentum-ledger.md | Seed ledger on Sunni-Shia rapprochement momentum: the Amman Message (2004-05) as cross-school recognition incl. Ja'fari/Zaydi fiqh; 20th-century taqrib efforts (Dar al-Taqrib, Shaltut's 1959 al-Azhar fatwa recognizing Ja'fari fiqh as valid madhhab); "People of the Qiblah" as classical legal-theological category; contemporary intra-Muslim sectarian violence as adherence-gap counter-evidence. Carries its own confidence scale — reconcile via EVIDENCE_VOCABULARY_CROSSWALK. Note: sectarian-rapprochement claims are politically sensitive; red-team before any deploy-facing use. | D |
+
+## Intake 2026-07-20 — epistemic-architecture wave (grade D, pre-gate)
+
+| File | Load-bearing claim(s), one line | Grade |
+|---|---|---|
+| canon/EPISTEMIC_ARCHITECTURE_AND_KNOWLEDGE_PIPELINE.md | **Methodology, not history** — carries no datable historical claims to grade; registered for completeness because it is claim-*shaped* (it defines what a claim is). Asserts a six-stage epistemic chain (record → adjudication → synthesis → canon → deployment → revision) and a backward-traversable provenance path. Arrived by direct-to-main commit c063a22 (no PR — protocol regression, issue #71). Bound by additive header to the five planes; claims no gate authority — `scripts/evals.mjs` remains the only gate. | D |

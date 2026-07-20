@@ -1,8 +1,10 @@
-# Grand Synthesis of Human and Islamic History — Version 0.1
+# Grand Synthesis of Human and Islamic History — Version 0.2
 
 **Status:** Provisional canonical narrative  
 **Purpose:** State the AIOS's current best integrated interpretation clearly enough to guide research, media, education, and institution-building.  
 **Revision rule:** This narrative is meant to be strengthened, narrowed, or superseded as the evidence graph matures.
+
+**v0.2 (2026-07-14):** Islamic-civilization sections annotated for claim-traceability by The Archivist — every load-bearing assertion carries an [LB-##] reference into archive/LOAD_BEARING_INDEX.md or a visible ⚠ungrounded flag. Prose unchanged.
 
 ---
 
@@ -193,9 +195,13 @@ The next civilization will be determined by whether humanity can build instituti
 
 > **Islamic civilization began as a Qur'anic revolution in moral accountability and radical monotheism, became a vast multiethnic civilization that fused worship, law, knowledge, trade, charity, and public life, achieved extraordinary intellectual and ethical heights, and repeatedly struggled with the gap between revelation's moral direction and the realities of empire, hierarchy, inherited custom, and concentrated power.**
 
+[LB-01, LB-50, LB-23, LB-36]
+
 ## Islam was not born as an ethnic civilization
 
 At its core, Islam presented itself not as a new tribal deity or Arabian racial project, but as a restoration of submission to the one God of Abraham and the prophets.
+
+[LB-01, LB-04]
 
 Its primary moral move was to relocate sovereignty:
 
@@ -204,6 +210,8 @@ Its primary moral move was to relocate sovereignty:
 - above ruler;
 - above inherited status;
 - above human appetite.
+
+[LB-01]
 
 The Qur'anic human being is morally accountable, dependent, fallible, capable of knowledge, vulnerable to arrogance, and judged by more than worldly success.
 
@@ -231,6 +239,8 @@ The first Muslim community transformed fragmented Arabian loyalties into a moral
 - military defense and expansion;
 - mechanisms of belonging that could cross ethnicity and clan.
 
+[LB-11]
+
 This transformation was neither a modern liberal democracy nor merely a war band.
 
 It joined spiritual, legal, economic, social, and political life in one project.
@@ -244,33 +254,52 @@ Islamic civilization's greatest achievement was not simply that Muslim rulers co
 It was the creation of a civilizational ecology in which:
 
 - Arabic became a major knowledge language;
+  - [LB-50]
 - Persian, Greek, Syriac, Indian, African, Central Asian, and other inheritances entered shared networks;
+  - [LB-24, LB-50]
 - Muslim, Christian, Jewish, Sabian, and other scholars participated in intellectual life;
+  - [LB-30]
 - law, theology, philosophy, medicine, mathematics, astronomy, literature, trade, and charity developed within connected institutions;
+  - [LB-23]
 - endowments converted private wealth into durable public goods;
+  - [LB-15]
 - cities became engines of scholarship, commerce, worship, welfare, and cosmopolitan exchange.
+  - [LB-50]
 
 Islamic civilization did not merely preserve inherited knowledge.
 
 It translated, organized, criticized, synthesized, extended, institutionalized, and transmitted it.
 
+[LB-24]
+
 Its role in the later development of Latin Europe was not the sole cause of the Renaissance or Enlightenment, but it was a major bridge, catalyst, and source of developed knowledge without which European intellectual development would have followed a different and likely slower path.
+
+[LB-23, LB-31]
 
 ## The moral Golden Ages
 
 The Islamic Golden Ages should not be measured only by algebra, optics, medicine, libraries, observatories, architecture, and trade.
+
+[LB-27]
 
 Their deeper claim to greatness lies in the attempted integration of capacity with moral obligation.
 
 Across scripture, transmitted moral memory, law, literature, regulation, and charitable institutions, Islamic civilization repeatedly taught that:
 
 - wealth owed something to poverty;
+  - [LB-06]
 - knowledge was a duty and public good;
+  - ⚠[ungrounded — grade D, needs carding]
 - rulers stood below moral law;
+  - [LB-09]
 - racial and tribal superiority were spiritually suspect;
+  - [LB-04]
 - captives, travelers, orphans, debtors, and strangers had claims;
+  - [LB-06]
 - animals were communities and their suffering mattered;
+  - [LB-07]
 - mercy could reach beings incapable of political reward.
+  - [LB-07]
 
 The civilization did not consistently fulfill these principles.
 
@@ -285,12 +314,19 @@ The rapid transformation into empire produced immense capacity and immense disto
 Islamic empires:
 
 - conquered;
+  - [LB-46]
 - taxed hierarchically;
+  - [LB-19]
 - fought civil wars;
+  - ⚠[ungrounded — grade D, needs carding]
 - practiced and regulated slavery without eliminating it;
+  - [LB-12, LB-42]
 - concentrated dynastic power;
+  - ⚠[ungrounded — grade D, needs carding]
 - subordinated some communities;
+  - [LB-19]
 - used religious legitimacy politically;
+  - [LB-41]
 - sometimes violated the moral norms they claimed to embody.
 
 The correct conclusion is neither:
@@ -321,9 +357,15 @@ Over time, authority became distributed and contested across:
 - modern states;
 - reform movements.
 
+[LB-22]
+
 This plurality produced intellectual richness and resilience.
 
+[LB-22]
+
 It also allowed later reports, imperial interests, patriarchal norms, and inherited practices to acquire religious authority that may not be securely grounded in the Qur'an.
+
+[LB-14]
 
 The future of Islamic renewal depends heavily on clarifying this authority stack.
 
@@ -335,6 +377,8 @@ The decline narrative is often weaponized into two false stories:
 - “Everything was flourishing until outsiders destroyed it.”
 
 The stronger synthesis is multicausal.
+
+[LB-36]
 
 Different regions and periods faced different combinations of:
 
@@ -352,15 +396,23 @@ Different regions and periods faced different combinations of:
 - foreign intervention;
 - internal failures of reform and correction.
 
+[LB-35, LB-36, LB-37]
+
 The civilization did not simply stop thinking after one siege. Nor was it only an innocent victim.
 
+[LB-28, LB-37]
+
 Its decline was the loss of alignment among moral confidence, intellectual openness, institutional creativity, material power, and correction capacity.
+
+[LB-36]
 
 ## The colonial and modern rupture
 
 European industrial and military power did not encounter an empty or primitive world.
 
 It encountered societies with their own laws, memories, knowledge, institutions, classes, contradictions, and reform movements.
+
+⚠[ungrounded — grade D, needs carding]
 
 Colonial rule then:
 
@@ -373,6 +425,8 @@ Colonial rule then:
 - introduced powerful new technologies and administrative forms;
 - imposed narratives of civilizational inferiority.
 
+[LB-37, LB-38]
+
 Muslim societies responded through competing projects:
 
 - imitation;
@@ -384,6 +438,8 @@ Muslim societies responded through competing projects:
 - anti-colonial struggle;
 - reformist synthesis;
 - reactionary literalism.
+
+⚠[ungrounded — grade D, needs carding]
 
 None has yet fully solved the problem of recovering moral sovereignty while mastering modern complexity.
 
@@ -530,5 +586,7 @@ Its purpose is to help humanity become:
 > **The story of humanity is the race between expanding power and expanding moral intelligence.**
 
 > **The story of Islamic civilization is the attempt to place knowledge, power, wealth, and community under divine accountability—an attempt that produced extraordinary fruit, suffered profound capture, and remains unfinished.**
+
+[LB-01, LB-23, LB-41, LB-42]
 
 > **The work now is to recover what was true, expose what was corrupted, learn from every civilization, and build institutions wise enough for the power humanity already possesses.**

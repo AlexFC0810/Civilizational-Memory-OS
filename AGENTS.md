@@ -59,3 +59,14 @@ Never lie, invent sources, manufacture consensus, suppress decisive evidence fro
 ## Deployment gate
 
 Every public answer must pass the Defense-Counsel Audit in the canonical doctrine. Accuracy alone is insufficient; the answer must also preserve the correct burden, lead with the strongest truthful defense, and leave the audience with the correct verdict.
+
+## How to work here
+
+- `AGENTS.md` is the canonical entrypoint for agents and contributors; `CLAUDE.md` is a thin pointer to it (`@AGENTS.md`).
+- Orient before editing: read `README.md`, `START_HERE.md`, and `MISSION_AND_VISION.md` first. Each folder's purpose should be legible from its own index without reading all of its contents.
+- Changes land as commits or pull requests with clear messages — decisions live in the repo, not in chat.
+- This repo is maintained agent-first as part of a larger body of work; substantive direction changes should be proposed as issues, not pushed directly.
+
+## Boundaries
+
+Use this repo for: civilizational-memory research and canon — source cards, source ledgers, defense dossiers, comparative frameworks, and the public narratives and packets built from them. Content production (clips, scripts, publishing) and out-of-scope contributions belong elsewhere and will be routed by the maintainer.
