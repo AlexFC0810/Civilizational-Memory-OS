@@ -1,5 +1,11 @@
 # Epistemic Architecture and Knowledge Pipeline
 
+> **⛓ BINDING HEADER (added 2026-07-20 by the CoS; body unedited — issue #71).** This file arrived by direct commit to main (c063a22) without a PR, bypassing the wave-absorption protocol. Its content is sound and is retained in full. Two bindings apply:
+> 1. **Vocabulary crosswalk — this document describes the SAME machine as `MASTER_PLAN.md`'s five planes, in different words.** Its chain maps as: *record* → **P1 ACQUIRE**; *adjudication* → **P2 ADJUDICATE**; *synthesis* + *canon* → **P3 PRESERVE**; *deployment* → **P4 EXPRESS**; *revision* → **P5 GOVERN**. Where its terms and the five planes conflict, the planes govern (one queue, one vocabulary — see `research-ledger/EVIDENCE_VOCABULARY_CROSSWALK.md`).
+> 2. **No gate authority.** This is methodology, not an enforcement layer. `scripts/evals.mjs` remains the ONE gate; `research-ledger/DEPLOYMENT_READINESS_GATE.md` remains its spec. Nothing here creates a second pass/fail path, and no claim becomes deploy-facing by satisfying this document alone.
+>
+> Registered at grade D in `research-ledger/CLAIMS_TO_VERIFY.md` (intake 2026-07-20).
+
 **Status:** Canonical operating doctrine  
 **Created:** 2026-07-19  
 **Purpose:** Define how Civilizational Memory OS moves from surviving evidence to justified claims, integrated synthesis, public memory, action, and correction without allowing quotations, inherited narratives, or elegant AI prose to outrun the historical record.

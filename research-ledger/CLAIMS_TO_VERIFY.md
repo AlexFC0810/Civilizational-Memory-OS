@@ -142,3 +142,9 @@ Registered per the Intake Rule after the AIOS + Creator Supercharger waves merge
 | File | Load-bearing claim(s), one line | Grade |
 |---|---|---|
 | source-ledgers/people-of-the-qiblah-rapprochement-momentum-ledger.md | Seed ledger on Sunni-Shia rapprochement momentum: the Amman Message (2004-05) as cross-school recognition incl. Ja'fari/Zaydi fiqh; 20th-century taqrib efforts (Dar al-Taqrib, Shaltut's 1959 al-Azhar fatwa recognizing Ja'fari fiqh as valid madhhab); "People of the Qiblah" as classical legal-theological category; contemporary intra-Muslim sectarian violence as adherence-gap counter-evidence. Carries its own confidence scale — reconcile via EVIDENCE_VOCABULARY_CROSSWALK. Note: sectarian-rapprochement claims are politically sensitive; red-team before any deploy-facing use. | D |
+
+## Intake 2026-07-20 — epistemic-architecture wave (grade D, pre-gate)
+
+| File | Load-bearing claim(s), one line | Grade |
+|---|---|---|
+| canon/EPISTEMIC_ARCHITECTURE_AND_KNOWLEDGE_PIPELINE.md | **Methodology, not history** — carries no datable historical claims to grade; registered for completeness because it is claim-*shaped* (it defines what a claim is). Asserts a six-stage epistemic chain (record → adjudication → synthesis → canon → deployment → revision) and a backward-traversable provenance path. Arrived by direct-to-main commit c063a22 (no PR — protocol regression, issue #71). Bound by additive header to the five planes; claims no gate authority — `scripts/evals.mjs` remains the only gate. | D |
