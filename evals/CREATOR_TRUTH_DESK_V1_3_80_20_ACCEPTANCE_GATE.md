@@ -1,5 +1,12 @@
 # Creator Truth Desk v1.3 — 80/20 Acceptance Gate
 
+> **⛓ BINDING HEADER (added 2026-07-20 by the CoS at merge; body unedited).** This gates **product decisions, not claims** — a different domain from `scripts/evals.mjs`, so the two never compete:
+> - **This file:** "should we build/accept this change to the Truth Desk?" Acceptance criteria for an interface.
+> - **`scripts/evals.mjs`:** "may this historical claim be said in public?" Evidence adjudication.
+> A change may pass every gate here and still contain nothing publishable; a gated claim needs nothing from this file to ship. No claim becomes deploy-facing by satisfying these criteria.
+>
+> **Software status unchanged:** the Creator Truth Desk itself remains **PARKED** behind demonstrated creator value (`MASTER_PLAN.md` row 17 — no software before manual demand-proof). This file is the acceptance standard for *when* it is built, not authorization to build it now.
+
 **Status:** Proposal eval gate v0.1  
 **Purpose:** Prevent Claude Code from implementing attractive changes that weaken source precision, live usability, or truth constraints.
 

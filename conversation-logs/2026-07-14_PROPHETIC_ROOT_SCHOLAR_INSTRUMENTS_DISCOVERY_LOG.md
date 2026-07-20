@@ -1,5 +1,7 @@
 # Discovery Log: Prophetic Root, Civilizational Drift, and Scholarly Instruments
 
+> **⛓ BINDING HEADER (added 2026-07-20 by the CoS at merge; body unedited).** This is **provenance-of-reasoning** — the record of how a conclusion was reached. It complements, and never substitutes for, **provenance-of-claims** (`research-ledger/CANONICAL_CLAIM_RECORD.md`), which records what an assertion rests on. A conclusion may have an impeccable discovery trail and still be ungated: *how well we thought* is not evidence for *whether it is true*. Nothing in this log is deploy-facing until its assertions are carded and pass `scripts/evals.mjs`.
+
 **Date:** 2026-07-14  
 **Status:** Canonical provenance record v1.0  
 **Purpose:** Preserve not only the conclusions reached in this conversation, but the sequence of observations, failures, corrections, abstractions, and implementation decisions that produced them so another agent can reproduce the reasoning rather than merely quote the outputs.

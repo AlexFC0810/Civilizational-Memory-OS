@@ -1,5 +1,12 @@
 # Khaldunian Historical Plausibility Gate
 
+> **⛓ BINDING HEADER (added 2026-07-20 by the CoS at merge; body unedited).** This is a **review lens, not a gate** in the repo's enforcement sense — its own "Core rule" already says it *supplements, does not replace*, and that reading is canonical. Concretely:
+> - **`scripts/evals.mjs` remains the ONE gate.** Nothing passes or fails deployment here. Satisfying G1–G12 never makes a claim deploy-facing, and failing them never removes a record already gated.
+> - **Where it belongs:** upstream of adjudication, as an optional lens during card drafting — especially for `claim_layer: institution | outcome | synthesis`, where transmission-strength alone is weakest evidence. Its G1 ("exact claim") is the same discipline as the LOCK protocol's *lock the exact charge*.
+> - **Naming:** the word "Gate" in this filename is inherited and kept for continuity. Read it as *plausibility lens*. Any future file claiming pass/fail authority must instead extend `research-ledger/DEPLOYMENT_READINESS_GATE.md`.
+>
+> Registered at grade D in `research-ledger/CLAIMS_TO_VERIFY.md` (intake 2026-07-20).
+
 **Status:** Operational framework v0.1  
 **Parent:** `scholar-instruments/IBN_KHALDUN_INSTRUMENT_CARD.md`  
 **Purpose:** Prevent repetition, prestige, sacred labeling, or chain-of-transmission alone from substituting for social, material, institutional, and incentive plausibility.
