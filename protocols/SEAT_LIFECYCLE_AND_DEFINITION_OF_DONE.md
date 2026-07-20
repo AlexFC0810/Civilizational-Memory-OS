@@ -1,5 +1,7 @@
 # Seat Lifecycle & Definition of Done — the anti-sprawl constitution
 
+> **Companion:** this file governs **one seat's life**. When several seats run at once, `FLEET_COORDINATION_SPINE.md` governs the physics between them (namespace allocators, the fleet log, the RE_ENTRY ritual) — read both before spawning a parallel cycle.
+
 **Adopted 2026-07-19 (operator directive: "when we create stuff as a worktree it should have a definition of done… so it just tells me to close it").** Canonical here (Civilizational-Memory-OS holds the governance spine); every repo in the portfolio adopts by pointer. Binds forward into the agentic OS: this is the lifecycle layer `AIOS.md` was missing.
 
 ## The distinction that prevents sprawl
