@@ -117,6 +117,47 @@ export function buildIndex(cardFiles, repoRoot) {
   return { rows, skipped };
 }
 
+// Fleet-collision detection — the single-writer law, enforced.
+//
+// Two seats working in parallel worktrees each mint the "next" card number without
+// seeing the other's branch. Git then merges both silently, because the FILENAMES
+// differ (010_maragha_observatory.md vs 010_university_madrasa_system.md) even though
+// the IDS collide. The archive ships corrupt and the index silently drops one record.
+//
+// Paid for on 2026-07-20: the Archivist and the IGA Builder both minted CMOS-0010 and
+// CMOS-0011 the same night. Nothing in the gate noticed. These two checks make that
+// class of collision loud, at the one place every card must pass.
+export function findIdCollisions(rows) {
+  const errors = [];
+
+  // 1. One id, one card.
+  const byId = new Map();
+  for (const row of rows) {
+    if (!row.id) continue;
+    if (!byId.has(row.id)) byId.set(row.id, []);
+    byId.get(row.id).push(row.file);
+  }
+  for (const [id, files] of byId) {
+    if (files.length > 1) {
+      errors.push(`duplicate id ${id} claimed by ${files.length} cards: ${files.join(" + ")}`);
+    }
+  }
+
+  // 2. The filename prefix IS the allocator: 012_foo.md must carry id CMOS-0012.
+  //    This makes the collision visible in `ls` before a card is ever written.
+  for (const row of rows) {
+    const base = row.file.split("/").pop();
+    const prefix = base.match(/^(\d+)_/);
+    const idNum = row.id ? String(row.id).match(/(\d+)\s*$/) : null;
+    if (!prefix || !idNum) continue;
+    if (parseInt(prefix[1], 10) !== parseInt(idNum[1], 10)) {
+      errors.push(`${row.file}: filename number ${prefix[1]} does not match id ${row.id} (the filename prefix is the allocator)`);
+    }
+  }
+
+  return errors;
+}
+
 // Write archive/claims.json deterministically (sorted, no timestamps) so it diffs in git.
 export function writeIndex(rows, repoRoot) {
   const dir = path.join(repoRoot, "archive");
