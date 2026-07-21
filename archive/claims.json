@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 13,
+  "count": 15,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -374,6 +374,60 @@
         "https://istanbultarihi.ist/579-istanbul-waqfs-in-the-republican-period"
       ],
       "safe_wording": "Classical Islamic law developed the waqf: a founder dedicates income-producing property — farmland, shops, mills, bathhouses — irrevocably once the endowment takes effect (the law schools differed on when irrevocability attaches), so that its revenue funds named public purposes in perpetuity, with the terms recorded in a witnessed deed (waqfiyya) under a judge's oversight; from at latest the ninth century (the oldest surviving dated deed, from 876 CE, endows a Qur'an manuscript) this instrument became a standing funding mechanism for much of the classical Islamic world's civil infrastructure — madrasas, hospitals whose endowments covered staff wages, medicines, beds, and repairs, fountains, bridges, and soup kitchens such as Hürrem Sultan's endowed Jerusalem imaret (charter dated 1556–57), with women documented among founders in named cases and Ottoman registers. The honest limits: charitable foundations predate Islam and the question of influence on waqf's legal form is unresolved; the Qur'an contains no waqf statute (jurists built the institution from hadith reports and general charity teachings); reported capacities are traditional figures rather than audits; family endowments were used to steer wealth around inheritance shares; administration was at times corrupt, and judge-approved property substitutions are reported by specialists as a channel by which ruling elites absorbed endowment assets well before the modern era; economists such as Timur Kuran argue the perpetuity rules bred long-run economic rigidity; and the modern era centralized, captured, or nationalized most of the system."
+    },
+    {
+      "id": "CMOS-0014",
+      "file": "source-cards/014_conquest_and_conversion.md",
+      "claim_layer": "outcome",
+      "grade": "B",
+      "grade_scope": "B: that Muslim POLITICAL rule expanded across most of its eventual extent within roughly a century of the 630s by military conquest, while the CONVERSION of the conquered populations to Islam was a separate and far slower process that unfolded over several centuries — driven mainly by non-coercive factors (trade, intermarriage, social/economic mobility into the ruling class, Sufi networks, and the gradual prestige of the dominant faith) alongside real but secondary coercive pressures (the jizya poll tax and dhimmi disabilities, and episodic forced conversions) — so both 'spread by the sword alone' and 'power played no role' are false. The fast-conquest half, and the datum that conquered core-land populations were still overwhelmingly non-Muslim generations after conquest (Bulliet's under-10% at the end of the Umayyad period), are A-strength and near-uncontested; the full multi-causal synthesis and the precise conversion curves are B — their SHAPE (slow, S-curved, multi-causal) is scholarly consensus while the exact percentages, dating, and the relative weight of coercion vs. voluntarism are contested and method-dependent. Capped below A because no primary source and no specialist monograph (Bulliet 1979, Eaton, Vryonis) was read directly — the quantitative backbone descends largely from ONE modern chain (Bulliet's onomastic method, with its known urban-elite and name-proxy criticisms), fetched here via seven tertiary encyclopedia pages plus one blog reproduction of Eaton's essay. independent_chains: 2 counts (1) that Bulliet quantitative chain and (2) the regional-historical chains that confirm the SAME qualitative shape from wholly different evidence — Eaton's agrarian-frontier thesis for India (heartland converted least) and the trade-diffusion account for Indonesia (converted with no Muslim conquest at all). Axes note: outcome/established certify the DISTINCTION and its direction only — never a blanket verdict on the conquests' conduct (they were wars, with violence, enslavement, and dislocation) and never a claim about what Islamic doctrine mandates (a separate quran/prophetic-layer question).",
+      "closure": "reconnaissance",
+      "source_tier_best": 3,
+      "independent_chains": 2,
+      "epistemic_status": "established",
+      "lifecycle": "verified",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-07-21",
+      "anchors": [
+        "https://en.wikipedia.org/wiki/Spread_of_Islam",
+        "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+        "https://en.wikipedia.org/wiki/Dhimmi",
+        "https://en.wikipedia.org/wiki/Pact_of_Umar",
+        "https://en.wikipedia.org/wiki/Islam_in_Indonesia",
+        "https://en.wikipedia.org/wiki/Islam_by_country",
+        "https://en.wikipedia.org/wiki/Islam_in_Bengal",
+        "https://dilawars.wordpress.com/2013/10/18/islamization-in-india-richard-m-eaton/",
+        "https://jan.ucc.nau.edu/sj6/eatonapproachconversion.pdf"
+      ],
+      "safe_wording": "\"Islam was spread by the sword\" is half a truth wearing the other half's clothes. Muslim political rule did spread fast and by conquest — a vast empire from the Indus to the Atlantic within about a century. But the conversion of those conquered peoples to Islam was a different, much slower story: by the leading quantitative reconstruction, fewer than one in ten people in the conquered core lands were Muslim even a century on, and most regions did not become majority-Muslim until the 9th–11th centuries or later. That conversion moved mainly through trade, intermarriage, Sufi networks, and the social and economic pull of joining the ruling faith — not through forced conversion, which the sources treat as the exception, not the rule. Indonesia, home to the largest Muslim population on earth, was reached by merchants, not armies. Yet the opposite slogan — that power played no part — is just as wrong: non-Muslims paid a special tax (the jizya), lived under real legal disabilities, and in specific times and places were converted by force. The accurate sentence is the unglamorous one: conquest was fast and coercive; conversion was slow and mostly not at swordpoint, but never free of the gravity of power."
+    },
+    {
+      "id": "CMOS-0015",
+      "file": "source-cards/015_decentralized_islamic_law.md",
+      "claim_layer": "fiqh",
+      "grade": "B",
+      "grade_scope": "B: the structural decentralization of classical/pre-modern Sunni (and, by extension, Shia) legal authority — that fiqh was a fallible, jurist-made 'jurists' law' elaborated by independent scholars in plural schools (the four Sunni madhhabs plus the Ja'fari, Zaydi, and Isma'ili schools) that 'recognize each other's validity'; that the qadi applied this jurists' law while the ruler supplied enforcement and held a separate siyasa/mazalim jurisdiction whose judge was 'not bound to the rules of Islamic law (fiqh)'; and the ijtihad/taqlid dynamic — as attested by six live-fetched encyclopedic pages (Wikipedia: Fiqh, Madhhab, Qadi, Ijtihad, Hudud, Sharia) and the scholarly thesis of Noah Feldman (Princeton University Press description + Harvard Islamic Law blog). The resilience conclusion the index entry carries (LB-22: 'could lose political unity without losing legal and scholarly coherence') is a PROBABLE synthesis/outcome-layer inference, carried by LB-28's post-1258 continuation record, not established by this fiqh-layer card alone. Capped below A: Sonnet/Opus drafting ceiling; no primary fiqh text (al-Shafi'i's Risala, the madhhab manuals) or specialist monograph (Schacht, Hallaq, Tyan) read directly; the one specialist PDF attempted (Hallaq) had no extractable text layer, so the fetch-failure cap applies; closure remains reconnaissance; two genuinely independent chains (Wikipedia tertiary consensus + Feldman's monograph thesis).",
+      "closure": "reconnaissance",
+      "source_tier_best": 3,
+      "independent_chains": 2,
+      "epistemic_status": "established",
+      "lifecycle": "triaged",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-07-21",
+      "anchors": [
+        "https://en.wikipedia.org/wiki/Fiqh",
+        "https://en.wikipedia.org/wiki/Madhhab",
+        "https://en.wikipedia.org/wiki/Qadi",
+        "https://en.wikipedia.org/wiki/Ijtihad",
+        "https://en.wikipedia.org/wiki/Hudud",
+        "https://en.wikipedia.org/wiki/Sharia",
+        "https://press.princeton.edu/books/paperback/9780691156248/the-fall-and-rise-of-the-islamic-state",
+        "https://islamiclaw.blog/2017/11/28/scholarship-in-plain-english-noah-feldman-on-law-islam-and-the-future-of-the-middle-east/",
+        "http://uniset.ca/terrorism3/18IslamicLSoc126.pdf"
+      ],
+      "safe_wording": "Classical Islamic law was a \"jurists' law\": for most of its history, what the law *said* was determined by independent religious scholars in competing schools — not legislated by the state — so legal and scholarly life could outlast the empires that rose and fell above it."
     }
   ]
 }
