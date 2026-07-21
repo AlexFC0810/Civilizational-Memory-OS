@@ -56,7 +56,7 @@
 
 **LB-21** · [T2] The Qur'an commands protection of orphans' property with witnesses and no self-dealing, framing misappropriation as damnable — with uneven enforcement across later societies. — **Carries:** fiduciary duty as sacred obligation; the micro-scale proof of wealth-under-accountability. — *Trace:* ISLAMIC_CIV_OS ledger #17 · A · quran.
 
-**LB-22** · [T2-D] Classical Islamic law was more decentralized than the modern word "law" suggests — normative authority distributed among jurists, judges, rulers, and communities — so the civilization could lose political unity without losing legal and scholarly coherence. — **Carries:** the resilience mechanism; why the map survived the empire. — *Trace:* seed thesis 15 · D · fiqh. **CARDING PRIORITY #4.**
+**LB-22** · [T1] Classical Islamic law was more decentralized than the modern word "law" suggests — normative authority distributed among jurists, judges, rulers, and communities — so the civilization could lose political unity without losing legal and scholarly coherence. — **Carries:** the resilience mechanism; why the map survived the empire. — *Trace:* **CMOS-0015** · B · fiqh (carded 2026-07-20; resilience clause firewalled as probable inference carried by LB-28).
 
 ## III · THE FRUIT — knowledge and outcomes
 
@@ -110,7 +110,7 @@
 
 **LB-45** · [T2] The Aisha marital-age report is traditional and canonical within much Sunni hadith; modern source-critical scholarship (Little) questions its reliability; and even accepting it, the clinical smear overreaches the evidence. — **Carries:** the blast-radius topic's honest state — canonical-but-contested — which is the only position that survives both directions of bad faith. Handled ONLY under the blast-radius protocol. — *Trace:* josh-matrix #3 · Contested · prophetic.
 
-**LB-46** · [T2-D] Muslim political conquest expanded in decades; conversion of conquered populations unfolded over centuries through trade, marriage, and opportunity — so neither "spread by the sword alone" nor "power played no role" is accurate. — **Carries:** the conquest/conversion distinction that defuses an entire smear family. — *Trace:* seed thesis 6 · D (supported by religion-secularism audit) · outcome. **CARDING PRIORITY #8.**
+**LB-46** · [T1] Muslim political conquest expanded in decades; conversion of conquered populations unfolded over centuries through trade, marriage, and opportunity — so neither "spread by the sword alone" nor "power played no role" is accurate. — **Carries:** the conquest/conversion distinction that defuses an entire smear family. — *Trace:* **CMOS-0014** · B · outcome (carded 2026-07-20; conquest-speed sub-claim A-strength, multi-causal conversion synthesis B on Bulliet's curve; real coercion conceded).
 
 ## VI · UNITY & THE PRESENT
 
@@ -135,8 +135,8 @@ The harvest confirmed three structural blind spots this index inherits and must 
 - **Domain-demand** — which of the three domains (islamicgoldenages / islamlovesjesus / islamfromfirstprinciples) needs it, and how loudly.
 
 **Leverage-ranked queue (supersedes the flat rank):**
-1. **LB-46** conquest vs conversion — `outcome` (thin) · defuses the "spread by the sword" smear family · absorbs PR #47 · **→ CMOS-0014** *(in production 2026-07-20)*
-2. **LB-22** decentralized law — `fiqh` (thin) · defuses "brutal monolithic sharia" · carries the resilience mechanism · **→ CMOS-0015** *(in production 2026-07-20)*
+1. ~~**LB-46** conquest vs conversion~~ ✅ **carded 2026-07-20 → CMOS-0014 · B · outcome** (anchors frontier-verified: Bulliet curve + Eaton India inversion verbatim-confirmed)
+2. ~~**LB-22** decentralized law~~ ✅ **carded 2026-07-20 → CMOS-0015 · B · fiqh** (anchor frontier-verified: mazalim "not bound to fiqh" verbatim-confirmed)
 3. **LB-11** Medina covenant — foundational · answers "imposed by force from day one" · plural-covenant founding
 4. **LB-30** multi-confessional infrastructure — `culture`/institution · **fills the empty culture layer**
 5. **LB-13** Qur'anic decline-warnings · **LB-31** Arabic intellectual world · **LB-50** interoperability
@@ -144,4 +144,4 @@ The harvest confirmed three structural blind spots this index inherits and must 
 
 *Superseded flat rank (pre-2026-07-20), kept for trace:* LB-11 → LB-13 → LB-22 → LB-30 → LB-31 → LB-46 → LB-50.
 
-*Maintained by The Archivist. Entries change only by displacement past 99, by grade/closure promotion, or by breaker evidence — never by mood. (\* = grade Archivist-assigned conservatively where the cited proof-card file states no explicit letter grade; noted for trace transparency.) Opus trace-verification 2026-07-14: 50/50 traces resolve, zero grade upgrades, calibration entries confirmed. Promotions 2026-07-19 (The Archivist): LB-29 T2-D→T1 (CMOS-0010 · B · institution) and LB-01 T2-D→T1 (CMOS-0011 · B · synthesis) — both through the full pipeline (Sonnet draft → primary-source + hostile-historian [Sonnet] + category-collapse [Opus] refuters → revision → frontier adjudication → green gate); index remains at 50 entries, no displacement required.*
+*Maintained by The Archivist. Entries change only by displacement past 99, by grade/closure promotion, or by breaker evidence — never by mood. (\* = grade Archivist-assigned conservatively where the cited proof-card file states no explicit letter grade; noted for trace transparency.) Opus trace-verification 2026-07-14: 50/50 traces resolve, zero grade upgrades, calibration entries confirmed. Promotions 2026-07-19 (The Archivist): LB-29 T2-D→T1 (CMOS-0010 · B · institution) and LB-01 T2-D→T1 (CMOS-0011 · B · synthesis) — both through the full pipeline (Sonnet draft → primary-source + hostile-historian [Sonnet] + category-collapse [Opus] refuters → revision → frontier adjudication → green gate); index remains at 50 entries, no displacement required. Promotions 2026-07-20 (parallel batch, leverage-ranked #1–2): LB-46 T2-D→T1 (CMOS-0014 · B · outcome) and LB-22 T2-D→T1 (CMOS-0015 · B · fiqh) — two `the-archivist` agents run concurrently with CoS-preallocated ids (no collision; the immune system's allocator), CoS frontier-verified anchors before landing. Both fill starved layers (outcome, fiqh). Next by leverage: LB-11 (Medina covenant). T2-D now 5 (was 7).*
