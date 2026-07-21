@@ -12,3 +12,5 @@
 | 2026-07-20 | ⚖️ Defense-Counsel Prep | `claude/rp-ha-001-founder-packet` | RP-HA-001 founder decision packet + Addendum 01 counter-scholarship audit (ICRAA + al-Idlibi primary-Arabic) | 🏁 awaiting founder |
 | 2026-07-20 | 👨‍💼 CoS (integration) | `claude/fleet-integration-2026-07-20` | All 4 harvested to one branch; CMOS-0010/0011 collision resolved; gate now blocks id collisions (exit 1) | 🏁 |
 | 2026-07-20 | 👨‍💼 CoS (merge train) | main | #55 substrate, #73 fleet integration, #74 governance, #60 Prophetic Root (3 bindings added) all MERGED; #72 closed as already-landed; archive 13 gated | 🏁 |
+| 2026-07-20 | 👨‍💼 CoS (queue ledger) | main | All 11 open PRs triaged to a disposition; #53 closed already-built; #67 minors/memetics quarantined to founder; #45+#57 = one Aisha decision; animal-mercy 4-PR consolidation found (PR #77) | 🏁 |
+| 2026-07-20 | 🏛 the-archivist ×2 (parallel) | `claude/production-frontier` | CMOS-0014 conquest/conversion + CMOS-0015 decentralized law, both grade B; pre-allocated ids → zero collision; anchors CoS-verified (Bulliet/Eaton/mazalim verbatim); archive 13→15 (PR #78) | 🏁 |
