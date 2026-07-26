@@ -57,6 +57,20 @@ This package preserves the thesis:
 
 It canonizes the framing around hospitals, waqf, animal mercy, fasting, moral limits, and comparative historical evaluation.
 
+## Mercy Under Asymmetric Power
+
+Use `canon/MERCY_UNDER_ASYMMETRIC_POWER.md` for the civilizational diagnostic that asks what restrains power when the victim cannot resist, testify, retaliate, organize, vote, or confer status.
+
+This package preserves the thesis:
+
+> **A civilization's moral architecture is revealed most clearly where power is radically asymmetric, reciprocity is absent, and the vulnerable cannot punish the powerful.**
+
+It formalizes the witnessless-victim principle, mercy after utility, moral formation before enforcement, layered religious and secular restraint, the Islamic beachhead, and a comparative-history evidence protocol.
+
+The supporting source-hardening map lives at:
+
+- `source-ledgers/animal-mercy-civilizational-memory-ledger.md`
+
 ## Fruit Stack and Comparative History Method
 
 Use `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md` for the 3D history method.
