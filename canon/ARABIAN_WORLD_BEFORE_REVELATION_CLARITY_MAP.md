@@ -797,7 +797,7 @@ That court was God.
 
 [^7]: N. J. Coulson, “Priorities in Inheritance,” on pre-Islamic agnatic inheritance and the Qur'anic restructuring of succession: https://www.cambridge.org/core/books/abs/succession-in-the-muslim-family/priorities-in-inheritance/EEFA9CCAB922501CCED9494B937C9ABF ; Leila Ahmed, *Women and Gender in Islam*, on the diversity of marriage forms and the Qur'an's gender ethic: https://www.jstor.org/stable/j.ctv1g2495f
 
-[^8]: On the provenance of enslaved people in Mecca and the Hijaz, warfare, unpaid ransom, trade, and remembered pre-Islamic routes into slavery: https://www.cambridge.org/core/journals/international-journal-of-middle-eastern-studies/article/on-the-provenance-of-slaves-in-mecca-during-the-time-of-the-prophet-muhammad/B11A052F86EF0061AD9DFE4C0EB4F5E0
+[^8]: On the provenance of enslaved people in Mecca and the Hijaz, warfare, unpaid ransom, trade, and remembered pre-Islamic routes into slavery: https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/article/on-the-provenance-of-slaves-in-mecca-during-the-time-of-the-prophet-muhammad/B11A052F86EF0061AD9DFE4C0EB4F5E0
 
 ---
 
