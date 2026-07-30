@@ -51,7 +51,7 @@ Method dependencies:
 
 - `canon/PROPHETIC_ROOT_CIVILIZATIONAL_DRIFT_AND_RENEWAL.md`
 - `frameworks/WHICH_LAYER_SAID_IT_AUTHORITY_AND_ATTRIBUTION_PROTOCOL.md`
-- `frameworks/CIVILIZATIONAL_DEVIATION_CASEBOOK_PROTOCOL.md`
+- `frameworks/CIVILIZATIONAL_DEVIATION_AND_RENEWAL_CASEBOOK_PROTOCOL.md`
 
 ## 2. Childhood, Dependency, and Moral Status Atlas
 
@@ -119,7 +119,7 @@ Every program must use:
 
 1. `frameworks/WHICH_LAYER_SAID_IT_AUTHORITY_AND_ATTRIBUTION_PROTOCOL.md`
 2. `research/CIVILIZATIONAL_FRUIT_EVIDENCE_MATRIX.md`
-3. `frameworks/CIVILIZATIONAL_DEVIATION_CASEBOOK_PROTOCOL.md` when the question concerns drift, capture, institutionalization, or renewal.
+3. `frameworks/CIVILIZATIONAL_DEVIATION_AND_RENEWAL_CASEBOOK_PROTOCOL.md` when the question concerns drift, capture, institutionalization, or renewal.
 
 Where public advocacy is likely, also load:
 
