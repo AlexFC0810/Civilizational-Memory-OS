@@ -1,6 +1,7 @@
 # Islamic Civilizational Renewal — Canon Index
 
 Date: 2026-07-30  
+Updated: 2026-07-31  
 Status: Active canonical route
 
 ## Purpose
@@ -27,13 +28,18 @@ Governing thesis:
 
 > **The Golden Ages should not remain a museum of achievements. They should become a reverse-engineered blueprint for civilizational renewal.**
 
-### 3. Women, authority, and revelation versus capture
+### 3. Women, authority, and the Qur'anic immune system
 
 - `WOMEN_SCHOLARS_AND_QURANIC_CIVILIZATIONAL_RENEWAL.md`
+- `QURANIC_IMMUNE_SYSTEM_AGAINST_GENDER_OPPRESSION.md`
 
-Governing thesis:
+Governing theses:
 
 > **The revival of Muslim women is not a reform of Islam. It is a reform of Muslims by Islam.**
+
+> **Islam does not erase culture. It audits culture.**
+
+The first doctrine establishes women's historical intellectual and religious authority. The second supplies the Qur'anic constitutional immune response against domination, forced ignorance, coercion, dispossession, abuse, and the conversion of male responsibility into ownership.
 
 ### 4. Commons architecture and intra-Muslim interoperability
 
@@ -65,9 +71,10 @@ The integrated model is:
 4. **Fruit test** — credibility is earned through truthful knowledge, public benefit, protection of the vulnerable, and durable institutions.
 5. **Commons rather than sect** — the renewal coordinates across inherited schools without requiring theological homogenization or creating a new salvation monopoly.
 6. **Women as authenticity checksum** — a Prophetic intellectual system must make real female authority structurally possible.
-7. **AI as leverage beneath a constitution** — human-agent systems can collapse the cost of research, translation, synthesis, education, media, and institution design, but must remain governed by provenance, uncertainty, moral restraint, and anti-propaganda safeguards.
-8. **Digital waqf and founder decoupling** — knowledge, software, data, and institutions should remain durable public-benefit assets beyond personalities and platforms.
-9. **Undeniable usefulness first** — proof should precede proclamation; one working institution outweighs a thousand revival slogans.
+7. **Qur'anic immune system against gender oppression** — every custom, report, ruling, family structure, and state policy must preserve women's direct accountability to God, moral agency, consent, property, knowledge, honorable treatment, protection from harm, and access to justice.
+8. **AI as leverage beneath a constitution** — human-agent systems can collapse the cost of research, translation, synthesis, education, media, and institution design, but must remain governed by provenance, uncertainty, moral restraint, and anti-propaganda safeguards.
+9. **Digital waqf and founder decoupling** — knowledge, software, data, and institutions should remain durable public-benefit assets beyond personalities and platforms.
+10. **Undeniable usefulness first** — proof should precede proclamation; one working institution outweighs a thousand revival slogans.
 
 ## Master Sequence
 
