@@ -55,7 +55,23 @@ Governing theses:
 
 The first doctrine establishes women's historical intellectual and religious authority. The second supplies the Qur'anic constitutional immune response against domination, forced ignorance, coercion, dispossession, abuse, and the conversion of male responsibility into ownership.
 
-### 5. Commons architecture and intra-Muslim interoperability
+### 5. 'A'isha, minor marriage, and sacred permission
+
+- `AISHA_MINOR_MARRIAGE_AND_SACRED_PERMISSION.md`
+
+Governing theses:
+
+> **The report did not create child marriage. It made inherited permission harder to abolish.**
+
+> **Historical uncertainty must never be converted into coercive certainty over vulnerable people.**
+
+This doctrine separates Qur'an, hadith, historical reconstruction, classical law, social practice, and modern policy. It traces how inherited minor marriage could move through juristic accommodation, contested historical memory, canonical prestige, institutional preservation, and reform blockade.
+
+It also restores the central asymmetry:
+
+> **Her disputed childhood was given more legal power than her indisputable adult intellect.**
+
+### 6. Commons architecture and intra-Muslim interoperability
 
 - `PEOPLE_OF_THE_QIBLAH_CIVILIZATIONAL_COMMONS.md`
 - `QURANIC_CIVILIZATIONAL_REVIVAL_COMMONS.md`
@@ -66,7 +82,7 @@ Governing principles:
 
 > **Mizan should function as a commons and verification constitution, not another sect.**
 
-### 6. Durability and anti-capture
+### 7. Durability and anti-capture
 
 - `DIGITAL_WAQF_CHARTER.md`
 - `FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md`
@@ -77,13 +93,19 @@ Governing requirement:
 
 ## Implementation Assets
 
-### Public content engine
+### Revelation vs Capture public content engine
 
 - `../content-system/series/REVELATION_VS_CAPTURE_CONTENT_ENGINE.md`
 
 This converts the interpretive-capture doctrine into a twelve-part flagship series, short-form hooks, visual diagrams, editorial safeguards, and a source-to-format compilation system.
 
-### Research and data program
+### 'A'isha and child-marriage content engine
+
+- `../content-system/series/AISHA_AGE_CHILD_MARRIAGE_CONTENT_ENGINE.md`
+
+This creates a full public-education sequence spanning the traditional report, historical criticism, classical law, Qur'an 65:4, modern age floors, vulnerability asymmetry, and the restoration of 'A'isha as an adult scholar.
+
+### Interpretive Capture Atlas
 
 - `../research-agendas/INTERPRETIVE_CAPTURE_ATLAS.md`
 
@@ -92,6 +114,12 @@ This defines a structured research system for tracing contested claims through:
 > **source → interpretation → culture → institution → coercion → beneficiary → fruit → inherited memory**
 
 The atlas is designed to power research, AI answers, curricula, public content, and institutional reform.
+
+### 'A'isha source ledger
+
+- `../source-ledgers/aisha-minor-marriage-sacred-permission-ledger.md`
+
+This ledger establishes confidence labels, a hadith-variant program, legal-school mapping, Qur'an 65:4 tafsir research, comparative social history, traditional and modern counter-sweeps, and public-claim safety rules.
 
 ## Unified Doctrine
 
@@ -105,13 +133,15 @@ The integrated model is:
 6. **Commons rather than sect** — the renewal coordinates across inherited schools without requiring theological homogenization or creating a new salvation monopoly.
 7. **Women as authenticity checksum** — a Prophetic intellectual system must make real female authority structurally possible.
 8. **Qur'anic immune system against gender oppression** — every custom, report, ruling, family structure, and state policy must preserve women's direct accountability to God, moral agency, consent, property, knowledge, honorable treatment, protection from harm, and access to justice.
-9. **AI as leverage beneath a constitution** — human-agent systems can collapse the cost of research, translation, synthesis, education, media, and institution design, but must remain governed by provenance, uncertainty, moral restraint, and anti-propaganda safeguards.
-10. **Digital waqf and founder decoupling** — knowledge, software, data, and institutions should remain durable public-benefit assets beyond personalities and platforms.
-11. **Undeniable usefulness first** — proof should precede proclamation; one working institution outweighs a thousand revival slogans.
+9. **Historical uncertainty firewall** — disputed biography, variable chronology, and probabilistic reconstruction may not be converted into permanent coercive permission over vulnerable people.
+10. **Vulnerability asymmetry** — where one party seeks access and the weaker party bears bodily, psychological, reproductive, educational, and lifelong risk, the evidentiary burden belongs to the powerful.
+11. **AI as leverage beneath a constitution** — human-agent systems can collapse the cost of research, translation, synthesis, education, media, and institution design, but must remain governed by provenance, uncertainty, moral restraint, and anti-propaganda safeguards.
+12. **Digital waqf and founder decoupling** — knowledge, software, data, and institutions should remain durable public-benefit assets beyond personalities and platforms.
+13. **Undeniable usefulness first** — proof should precede proclamation; one working institution outweighs a thousand revival slogans.
 
 ## Master Sequence
 
-> **Source → moral formation → interpretive audit → knowledge metabolism → institution → public benefit → trust → greater capacity → renewal**
+> **Source → moral formation → interpretive audit → vulnerability check → knowledge metabolism → institution → public benefit → trust → greater capacity → renewal**
 
 ## Strategic North Star
 
