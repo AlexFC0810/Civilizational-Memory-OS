@@ -76,7 +76,21 @@ Together they restore the central asymmetry:
 
 > **Her disputed childhood was given more legal power than her indisputable adult intellect.**
 
-### 6. Commons architecture and intra-Muslim interoperability
+### 6. Poetic Historical Justice
+
+- `POETIC_HISTORICAL_JUSTICE.md`
+
+Governing thesis:
+
+> **Poetic historical justice occurs when the historical subject reduced, silenced, or weaponized by later institutions becomes the strongest internal witness against the distortion built in their name.**
+
+This lens turns the 'A'isha Corrective into a recurring civilizational method. It identifies cases where symbolic reverence concealed institutional exclusion, where biographies were weaponized against the subject's own intellectual legacy, and where the recovered record contains the strongest internal basis for reform.
+
+Its flagship reversal is:
+
+> **Islamic tradition remembered 'A'isha as a Mother of the Believers, but too often treated her as a subject of hadith rather than a master of it.**
+
+### 7. Commons architecture and intra-Muslim interoperability
 
 - `PEOPLE_OF_THE_QIBLAH_CIVILIZATIONAL_COMMONS.md`
 - `QURANIC_CIVILIZATIONAL_REVIVAL_COMMONS.md`
@@ -87,7 +101,7 @@ Governing principles:
 
 > **Mizan should function as a commons and verification constitution, not another sect.**
 
-### 7. Durability and anti-capture
+### 8. Durability and anti-capture
 
 - `DIGITAL_WAQF_CHARTER.md`
 - `FOUNDER_DECOUPLING_AND_UNKNOWN_UNKNOWNS_PROTOCOL.md`
@@ -116,6 +130,16 @@ This creates a full public-education sequence spanning the traditional report, h
 
 This turns the recovery of 'A'isha's critical method into the flagship piece **The Woman Who Corrected Hadith**, a normativity-ladder explainer, vulnerability-presumption content, visual frameworks, hooks, and editorial safeguards.
 
+### Poetic Historical Justice content engine
+
+- `../content-system/series/POETIC_HISTORICAL_JUSTICE_CONTENT_ENGINE.md`
+
+This creates a recurring series built around:
+
+> **reduction → weaponization → recovered record → reversal → institutional correction**
+
+Its first season centers the 'A'isha Corrective, the revival of Muslim women, the Vulnerability Presumption, and the difference between symbolic reverence and living authority.
+
 ### Interpretive Capture Atlas
 
 - `../research-agendas/INTERPRETIVE_CAPTURE_ATLAS.md`
@@ -131,6 +155,12 @@ The atlas is designed to power research, AI answers, curricula, public content, 
 - `../source-ledgers/aisha-minor-marriage-sacred-permission-ledger.md`
 
 This ledger establishes confidence labels, a hadith-variant program, legal-school mapping, Qur'an 65:4 tafsir research, comparative social history, traditional and modern counter-sweeps, and public-claim safety rules.
+
+### Full thread preservation record
+
+- `../conversation-logs/2026-07-31_women-revelation-capture-aisha-corrective-and-vulnerability-presumption.md`
+
+This preserves the complete conceptual lineage, canonical lines, artifact map, unresolved research, and return topics from the conversation that generated the women-and-renewal doctrine, interpretive-capture framework, 'A'isha dossier, Vulnerability Presumption, and Poetic Historical Justice lens.
 
 ## Unified Doctrine
 
@@ -149,13 +179,14 @@ The integrated model is:
 11. **Historical uncertainty firewall** — disputed biography, variable chronology, and probabilistic reconstruction may not be converted into permanent coercive permission over vulnerable people.
 12. **Burden-of-coercion gradient** — the evidentiary burden rises with the amount of force claimed and the irreversibility of the harm imposed.
 13. **Vulnerability presumption** — where evidence is uncertain, power is unequal, and the weaker party bears the irreversible risk, uncertainty restricts the powerful before it exposes the vulnerable.
-14. **AI as leverage beneath a constitution** — human-agent systems can collapse the cost of research, translation, synthesis, education, media, and institution design, but must remain governed by provenance, uncertainty, moral restraint, and anti-propaganda safeguards.
-15. **Digital waqf and founder decoupling** — knowledge, software, data, and institutions should remain durable public-benefit assets beyond personalities and platforms.
-16. **Undeniable usefulness first** — proof should precede proclamation; one working institution outweighs a thousand revival slogans.
+14. **Poetic Historical Justice** — recover the agency, intelligence, and authority of the historical subjects whom later institutions reduced or weaponized; do not merely correct their story, correct the institutions built through its distortion.
+15. **AI as leverage beneath a constitution** — human-agent systems can collapse the cost of research, translation, synthesis, education, media, and institution design, but must remain governed by provenance, uncertainty, moral restraint, and anti-propaganda safeguards.
+16. **Digital waqf and founder decoupling** — knowledge, software, data, and institutions should remain durable public-benefit assets beyond personalities and platforms.
+17. **Undeniable usefulness first** — proof should precede proclamation; one working institution outweighs a thousand revival slogans.
 
 ## Master Sequence
 
-> **Source → moral formation → interpretive audit → normativity test → vulnerability check → knowledge metabolism → institution → public benefit → trust → greater capacity → renewal**
+> **Source → moral formation → interpretive audit → normativity test → vulnerability check → recovered agency → knowledge metabolism → institution → public benefit → trust → greater capacity → renewal**
 
 ## Strategic North Star
 
