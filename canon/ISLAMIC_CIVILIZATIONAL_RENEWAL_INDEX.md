@@ -55,9 +55,10 @@ Governing theses:
 
 The first doctrine establishes women's historical intellectual and religious authority. The second supplies the Qur'anic constitutional immune response against domination, forced ignorance, coercion, dispossession, abuse, and the conversion of male responsibility into ownership.
 
-### 5. 'A'isha, minor marriage, and sacred permission
+### 5. 'A'isha, minor marriage, and the recovery of critical intelligence
 
 - `AISHA_MINOR_MARRIAGE_AND_SACRED_PERMISSION.md`
+- `AISHA_CORRECTIVE_AND_VULNERABILITY_PRESUMPTION.md`
 
 Governing theses:
 
@@ -65,9 +66,13 @@ Governing theses:
 
 > **Historical uncertainty must never be converted into coercive certainty over vulnerable people.**
 
-This doctrine separates Qur'an, hadith, historical reconstruction, classical law, social practice, and modern policy. It traces how inherited minor marriage could move through juristic accommodation, contested historical memory, canonical prestige, institutional preservation, and reform blockade.
+> **The woman being used to demand unquestioning acceptance of a report was herself famous for questioning reports attributed to the Prophet.**
 
-It also restores the central asymmetry:
+The first doctrine separates Qur'an, hadith, historical reconstruction, classical law, social practice, and modern policy. It traces how inherited minor marriage could move through juristic accommodation, contested historical memory, canonical prestige, institutional preservation, and reform blockade.
+
+The second recovers 'A'isha as a jurist and evaluator of evidence, formalizes the normativity ladder, establishes the burden-of-coercion gradient, and makes the vulnerability presumption a general rule of interpretive risk allocation.
+
+Together they restore the central asymmetry:
 
 > **Her disputed childhood was given more legal power than her indisputable adult intellect.**
 
@@ -105,6 +110,12 @@ This converts the interpretive-capture doctrine into a twelve-part flagship seri
 
 This creates a full public-education sequence spanning the traditional report, historical criticism, classical law, Qur'an 65:4, modern age floors, vulnerability asymmetry, and the restoration of 'A'isha as an adult scholar.
 
+### The 'A'isha Corrective content module
+
+- `../content-system/series/THE_AISHA_CORRECTIVE_CONTENT_MODULE.md`
+
+This turns the recovery of 'A'isha's critical method into the flagship piece **The Woman Who Corrected Hadith**, a normativity-ladder explainer, vulnerability-presumption content, visual frameworks, hooks, and editorial safeguards.
+
 ### Interpretive Capture Atlas
 
 - `../research-agendas/INTERPRETIVE_CAPTURE_ATLAS.md`
@@ -133,15 +144,18 @@ The integrated model is:
 6. **Commons rather than sect** — the renewal coordinates across inherited schools without requiring theological homogenization or creating a new salvation monopoly.
 7. **Women as authenticity checksum** — a Prophetic intellectual system must make real female authority structurally possible.
 8. **Qur'anic immune system against gender oppression** — every custom, report, ruling, family structure, and state policy must preserve women's direct accountability to God, moral agency, consent, property, knowledge, honorable treatment, protection from harm, and access to justice.
-9. **Historical uncertainty firewall** — disputed biography, variable chronology, and probabilistic reconstruction may not be converted into permanent coercive permission over vulnerable people.
-10. **Vulnerability asymmetry** — where one party seeks access and the weaker party bears bodily, psychological, reproductive, educational, and lifelong risk, the evidentiary burden belongs to the powerful.
-11. **AI as leverage beneath a constitution** — human-agent systems can collapse the cost of research, translation, synthesis, education, media, and institution design, but must remain governed by provenance, uncertainty, moral restraint, and anti-propaganda safeguards.
-12. **Digital waqf and founder decoupling** — knowledge, software, data, and institutions should remain durable public-benefit assets beyond personalities and platforms.
-13. **Undeniable usefulness first** — proof should precede proclamation; one working institution outweighs a thousand revival slogans.
+9. **The 'A'isha Corrective** — chain evaluation does not end content criticism; reports remain subject to Qur'anic criteria, context, competence, coherence, and disciplined scrutiny.
+10. **Normativity ladder** — the existence or historical probability of an event does not automatically establish general permission, recommendation, command, or permanent state policy.
+11. **Historical uncertainty firewall** — disputed biography, variable chronology, and probabilistic reconstruction may not be converted into permanent coercive permission over vulnerable people.
+12. **Burden-of-coercion gradient** — the evidentiary burden rises with the amount of force claimed and the irreversibility of the harm imposed.
+13. **Vulnerability presumption** — where evidence is uncertain, power is unequal, and the weaker party bears the irreversible risk, uncertainty restricts the powerful before it exposes the vulnerable.
+14. **AI as leverage beneath a constitution** — human-agent systems can collapse the cost of research, translation, synthesis, education, media, and institution design, but must remain governed by provenance, uncertainty, moral restraint, and anti-propaganda safeguards.
+15. **Digital waqf and founder decoupling** — knowledge, software, data, and institutions should remain durable public-benefit assets beyond personalities and platforms.
+16. **Undeniable usefulness first** — proof should precede proclamation; one working institution outweighs a thousand revival slogans.
 
 ## Master Sequence
 
-> **Source → moral formation → interpretive audit → vulnerability check → knowledge metabolism → institution → public benefit → trust → greater capacity → renewal**
+> **Source → moral formation → interpretive audit → normativity test → vulnerability check → knowledge metabolism → institution → public benefit → trust → greater capacity → renewal**
 
 ## Strategic North Star
 
