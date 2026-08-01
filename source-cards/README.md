@@ -36,6 +36,10 @@ Each source card should include:
 7. `007_terrorism_collective_guilt.md` — criminals are not civilizations.
 8. `008_tolerance_comparative_history.md` — comparative history without romanticizing.
 
+## Additional Source Cards
+
+9. `009_lesley-hazleton_getting-muhammad-right-and-wrong.md` — high-value agnostic Jewish outsider witness for humanizing Muhammad ﷺ, with a claim-level correction matrix and deployment plan.
+
 ## Relationship to Existing Systems
 
 Use these with:
