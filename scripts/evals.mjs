@@ -196,6 +196,11 @@ function intakeScan() {
     "frameworks", "canon", "source-ledgers", "public-narratives", "case-files",
     "public-packets/after-the-bell", "research-packets/queued", "transcript-immunity/packets",
     "historical-calibration/cards",
+    // Added 2026-08-02: a direct-to-main wave landed ~9k lines in these dirs and the scan
+    // reported GREEN, because they were never listed. A blind check that reports healthy is
+    // worse than no check — it manufactures false confidence about exactly the material most
+    // likely to reach an audience.
+    "content-system/series", "research-agendas", "research-programs", "programs/open-social-commons",
   ];
   const unregistered = [];
   for (const d of dirs) {
@@ -204,11 +209,26 @@ function intakeScan() {
     for (const f of fs.readdirSync(dir)) {
       if (!f.endsWith(".md") || /^(index|readme)\.md$/i.test(f)) continue;
       const raw = fs.readFileSync(path.join(dir, f), "utf8");
-      const bearsClaims = /^#{1,4}\s+.*\bclaims?\b/im.test(raw) || /^Claim:/m.test(raw);
-      if (bearsClaims && !ledger.includes(f)) unregistered.push(`${d}/${f}`);
+      if (bearsClaims(raw) && !ledger.includes(f)) unregistered.push(`${d}/${f}`);
     }
   }
   return unregistered;
+}
+
+// Does this file make checkable assertions, or carry lines meant to ship? The original test
+// required a literal "Claim" heading — so 13 canon files dense with historical assertions
+// scanned clean. These signals catch the two shapes that actually matter: sourced historical
+// prose (footnotes / per-item confidence grading) and deploy-facing copy (hooks, scripts,
+// episodes, captions). Kept deliberately narrow: a scanner that flags everything gets ignored,
+// which fails the same way as a scanner that flags nothing.
+function bearsClaims(raw) {
+  return (
+    /^#{1,4}\s+.*\bclaims?\b/im.test(raw) ||
+    /^Claim:/m.test(raw) ||
+    /^#{1,4}\s+.*\b(hooks?|scripts?|episodes?|captions?|deployable lines|public deployment|short[- ]form)\b/im.test(raw) ||
+    /^\[\^[^\]]+\]:/m.test(raw) ||
+    /^\s*[-*]?\s*\*{0,2}Confidence:?\*{0,2}\s*\S/im.test(raw)
+  );
 }
 
 // Gate targets: source-cards/NNN_*.md + historical-calibration/cards/HCC-*.md

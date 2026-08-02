@@ -1,0 +1,27 @@
+{
+  "pack": "how-it-actually-spread",
+  "title": "How it actually spread — and how it was actually governed",
+  "generated_from": "archive/LOAD_BEARING_INDEX.md + archive/claims.json",
+  "lb_entries": [
+    "LB-46",
+    "LB-11",
+    "LB-22",
+    "LB-30",
+    "LB-13"
+  ],
+  "cmos_records": [
+    "CMOS-0014",
+    "CMOS-0016",
+    "CMOS-0015",
+    "CMOS-0017",
+    "CMOS-0018"
+  ],
+  "upload_as_sources": [
+    "01_SPINE.md",
+    "02_EVIDENCE_CARDS.md"
+  ],
+  "never_upload": [
+    "03_STEERING.md"
+  ],
+  "receipts": "all source content allowlist-extracted from gate-verified material; overclaim-scanned"
+}

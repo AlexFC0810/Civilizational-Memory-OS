@@ -87,6 +87,24 @@ export const OVERCLAIMS = [
 // publish guard so hedged caveat-discipline lines never false-positive.
 export const NEGATION_NEARBY = /\b(not|n't|no|never|refuse|avoid|without|does not|do not|cannot)\b[^.]{0,60}$/i;
 
+// A TRAILING repudiation hedges just as well as a leading one. The house's standard
+// caveat idiom quotes the forbidden line first and rejects it after:
+//
+//   "Only the Qur'an has a decline-theory" and "no other tradition warns against
+//    decadence" are all false and must never be deployed.
+//
+// NEGATION_NEARBY only looks backward, so honest prohibition lists tripped the guard and
+// blocked a pack build (CMOS-0018, 2026-08-02). Requires an explicit repudiation verb —
+// not merely a stray negation word — so the guard is widened only for genuine rejections.
+export const REPUDIATION_TRAILING = new RegExp(
+  "^[^.]{0,160}?(?:" +
+    "\\b(?:is|are|was|were)\\s+(?:all\\s+)?(?:false|untrue|wrong|misleading|an overclaim|overclaims)\\b" +
+    "|\\bmust never be (?:deployed|said|used|repeated|claimed)\\b" +
+    "|\\b(?:do not|don't|never)\\s+(?:say|deploy|use|repeat|claim)\\b" +
+  ")",
+  "i",
+);
+
 // Scan text for unhedged overclaims; returns the first match string or null.
 export function findOverclaim(text) {
   for (const re of OVERCLAIMS) {
@@ -94,7 +112,8 @@ export function findOverclaim(text) {
     const g = new RegExp(re.source, re.flags.includes("g") ? re.flags : re.flags + "g");
     while ((m = g.exec(text)) !== null) {
       const before = text.slice(Math.max(0, m.index - 80), m.index);
-      if (!NEGATION_NEARBY.test(before)) return m[0];
+      const after = text.slice(m.index + m[0].length, m.index + m[0].length + 200);
+      if (!NEGATION_NEARBY.test(before) && !REPUDIATION_TRAILING.test(after)) return m[0];
     }
   }
   return null;

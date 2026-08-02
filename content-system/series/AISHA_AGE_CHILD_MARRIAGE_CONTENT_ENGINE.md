@@ -1,7 +1,23 @@
 # 'A'isha, Age, Child Marriage, and Sacred Permission — Content Engine
 
+> ## ⛔ PUBLICATION HOLD — DO NOT PUBLISH ANY EPISODE, HOOK, OR CLIP FROM THIS FILE
+>
+> **Added 2026-08-02 by the Chief of Staff. Body unedited — this is an additive binding header.**
+>
+> This file is **internal preparation material**, not a release plan, until the founder signs. Its "Status: Active content architecture" line and its Phase-1 publish order (*"Publish Episodes 1, 2, 4, and 5"*) were written without reference to the controls that govern this lane. Read this banner as superseding both.
+>
+> **Why:** ʿĀʾisha provenance is the archive's **maximum-blast-radius lane**. The standing rule (`MASTER_PLAN.md` row 4) is *Opus second pass + frontier adjudication + **founder sign-off** before anything deploy-facing — never rushed.* The governing decision packet is `research-packets/RP-HA-001_FOUNDER_DECISION_PACKET.md`; its §7 decisions **D1 (gate ruling), D2 (deployment level), D3 (strategic posture) are unsigned.** Publishing from here would pre-decide D3 — the two-front-cost posture the packet explicitly reserves to the founder — before he has ruled.
+>
+> **Two specific defects to fix before this leaves hold** (both already adjudicated once in RP-HA-001 §5, recurring here in a new artifact):
+> 1. **Hedge-drop on the governing thesis.** *"The report did not create the doctrine. It helped sanctify it."* ships as a bolded, clip-proof line — but this causal reconstruction is graded only **Moderate** in its own supporting ledger (`source-ledgers/aisha-minor-marriage-sacred-permission-ledger.md`). A moderate-confidence inference must not deploy as a flat assertion. Restore the hedge or do not deploy the line.
+> 2. **Unattributed authority.** The 20-second and 60-second answers say the report is *"seriously disputed by modern historical research"* with no named source — weaker and less falsifiable than the packet's approved formulation, and it invites "which research?" with no scripted reply.
+>
+> **What is genuinely strong here and should survive review:** the self-imposed prohibitions ("Do not replace an uncertain nine with a fabricated eighteen"), the correct hedging of Little, and the refusal to deploy "sectarian report" as flat description. Credit where due — this is more disciplined than the earlier PR #57 draft. It is held for the founder's decision, not because the work is poor.
+>
+> **Claims in this file are registered at grade D** (pre-gate) in `research-ledger/CLAIMS_TO_VERIFY.md`. Nothing here has passed `scripts/evals.mjs`.
+
 Date: 2026-07-31  
-Status: Active content architecture
+Status: **HELD — internal preparation only** (was "Active content architecture"; see hold banner above)
 
 ## Mission
 

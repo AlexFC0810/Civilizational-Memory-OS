@@ -1,7 +1,21 @@
 # The 'A'isha Corrective — Content Module
 
+> ## ⏸ HELD PENDING FOUNDER DECISION — but this is the **separable positive half**
+>
+> **Added 2026-08-02 by the Chief of Staff. Body unedited — additive binding header.**
+>
+> This module sits in the ʿĀʾisha lane, so it inherits the standing control: **founder sign-off before anything deploy-facing** (`MASTER_PLAN.md` row 4; decision packet `research-packets/RP-HA-001_FOUNDER_DECISION_PACKET.md` §7, unsigned). Do not publish yet.
+>
+> **But it is materially different from the age/provenance engine, and that difference matters strategically.** "The Woman Who Corrected Hadith" — ʿĀʾisha as a critical evaluator of transmitted reports — **requires no age claim, no dependence on Little's thesis, and no revisionist commitment.** It rests on her recognized role in the tradition's own scholarship.
+>
+> That makes it the strongest candidate for early release **if** the founder chooses **posture B** in D3 (hold the historical-critical provenance case as burden-shifting artillery; lead with a positive case that needs no revisionist premise). It also pre-answers the attack the packet calls deadliest — the fiqh-reception pivot ("the law was built on it") — because the reply becomes *her own method for evaluating the evidence the law was built on*: a positive case rather than a plea in mitigation.
+>
+> **Recommendation on the CoS's desk for the founder:** split the lane — ship this half, hold the age/provenance engine (`AISHA_AGE_CHILD_MARRIAGE_CONTENT_ENGINE.md`, under a full publication hold). That is D3-posture-B executed, at near-zero blast radius.
+>
+> Nothing here has passed `scripts/evals.mjs`; its claims are registered pre-gate at grade D.
+
 Date: 2026-07-31  
-Status: Active public-education module
+Status: **HELD pending founder D3 ruling** — separable positive half (was "Active public-education module")
 
 ## Mission
 
