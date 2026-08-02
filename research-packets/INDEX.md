@@ -31,6 +31,7 @@ No packet may move directly from raw research to canon.
 | `RP-HA-001` | What is the provenance and historical reliability of the Aisha six/nine age reports? | P0 | #15, #17 | red-team — founder decision packet at `RP-HA-001_FOUNDER_DECISION_PACKET.md` (PR #57 adjudication; awaiting founder sign-off) |
 | `RP-SL-001` | What slavery inflows, protections, and exits are present in the Qur’an, and does the architecture tend toward depletion or reproduction? | P0 | #15 | queued |
 | `RP-MC-001` | Can the inherited-moral-capital hypothesis explain Nordic trust better than competing institutional and material explanations? | P0 | #15 | queued |
+| `RP-VP-001` | Is institutional separation of religion and state sufficient to eliminate war or mass political violence? | P1 | #86, #87 | source-closure-needed — upstream TPE source ID `youtube:n6I-V3iNeFo` |
 
 ## Integration dependencies
 
@@ -38,12 +39,17 @@ No packet may move directly from raw research to canon.
 - `RP-HA-001` depends on the distinctions formalized by `RP-EA-001`.
 - `RP-SL-001` may begin in parallel but must separate Qur’anic architecture from later jurisprudence and empire.
 - `RP-MC-001` is independent and should be explicitly assigned to both a supporting researcher and a falsification researcher.
+- `RP-VP-001` depends on alignment of its upstream canonical recording, a matched comparative case matrix, and an independent causal red team; Karen Armstrong is a research mapmaker, not terminal authority.
+
+## Upstream source promotion
+
+Use `templates/SOURCE_PROMOTION_PACKET_TEMPLATE.md` when a bounded knowledge object originates in an external or sibling source-intelligence system. Promotion packets are intake objects and must still pass the existing Canonical Integration Gate and executable deployment-readiness floor. Do not copy raw archives into this repository merely to submit a proposition.
 
 ## Required output bundle
 
 Every completed packet must include:
 
-1. packet markdown using `templates/AGENT_RESEARCH_PACKET_TEMPLATE.md`;
+1. packet markdown using `templates/AGENT_RESEARCH_PACKET_TEMPLATE.md` or the source-promotion template when upstream lineage is load-bearing;
 2. source bibliography with stable links or identifiers;
 3. primary-source excerpt table;
 4. strongest supporting case;
@@ -57,15 +63,19 @@ Every completed packet must include:
 ## Agent role separation
 
 ### Scout agent
+
 Collects and structures evidence. Does not decide canon.
 
 ### Red-team agent
+
 Searches for counterexamples, source problems, mistranslations, anachronisms, and omitted comparison classes.
 
 ### Integration agent
+
 Reconciles scout and red-team outputs, updates claim cards and ledgers, and proposes a provisional verdict.
 
 ### Canon editor
+
 Accepts, narrows, rejects, or defers the proposed verdict.
 
 ## Stop conditions
