@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 18,
+  "count": 19,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -528,6 +528,40 @@
         "https://quran.com/89/14"
       ],
       "safe_wording": "The Qur'an repeatedly tells the story of nations that grew wealthy, mighty, and heedless — ʿĀd, Thamūd, Pharaoh, Korah, and a recurring open-ended \"how many a society We destroyed\" — and it stresses that these peoples were often stronger and richer than the Qur'an's own audience (\"more established in the land than you,\" 6:6; \"far superior in might,\" 30:9). Modern scholars call these the \"punishment narratives.\" Their effect is a built-in caution against mistaking worldly success for divine approval: the mightiest are the case studies in ruin, and the reader is told to travel the land and see how they ended (30:9). This is a claim about what the text says, plus a well-supported reading of it — not a claim that Muslims lived up to it (they often did not, and Muslim empires declined too), nor that the pattern is distinctive to Islam (the Hebrew Bible's prophetic literature and Greco-Roman moralists carry versions). The honest description is that the Qur'an inherited an older Abrahamic prophetic pattern and made it structurally central — which is what lets self-criticism, inside the tradition, count as an act of faith rather than disloyalty."
+    },
+    {
+      "id": "CMOS-0019",
+      "file": "source-cards/019_lesley_hazleton_outsider_witness.md",
+      "claim_layer": "culture",
+      "grade": "B",
+      "grade_scope": "B: the existence, identity, and mainstream reach of Lesley Hazleton (1945-2024) as a non-Muslim outsider witness on Muhammad — British-American writer, psychologist by training, former Jerusalem-based Middle East reporter; characterised on NPR in her own presence as 'an agnostic Jew' and answering 'Firmly agnostic'; author of a sympathetic narrative biography of the Prophet (The First Muslim, Riverhead Books, 2013) trade-reviewed by Kirkus and reviewed by the Islamic-studies scholar Eric Ormsby in Literary Review; and two TED talks whose play counts stood at 2,471,123 and 1,828,587 on 2026-08-02 — as attested by eight live-fetched pages across seven publishers, with every load-bearing quotation reproduced on a second independent fetch. Capped at B by four fetch failures (Sri Lanka's Sunday Observer 403, DOAJ 403, the npr.org article URL timing out twice, the YouTube watch page yielding no metadata), by the three refuter lenses not having been run, and because neither the book nor the Colombo lecture video was consulted directly. This grade certifies RECEPTION ONLY: not one historical assertion Hazleton makes about the Prophet's life is graded here, and the Colombo auto-transcript supplying this card's narrative sections is ungraded and quarantined.",
+      "closure": "reconnaissance",
+      "source_tier_best": 2,
+      "independent_chains": 2,
+      "epistemic_status": "established",
+      "lifecycle": "triaged",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-08-02",
+      "anchors": [
+        "https://en.wikipedia.org/wiki/Lesley_Hazleton",
+        "https://text.npr.org/173244626",
+        "https://www.penguinrandomhouse.com/books/308657/the-first-muslim-by-lesley-hazleton/",
+        "https://www.ted.com/talks/lesley_hazleton_on_reading_the_koran",
+        "https://www.ted.com/talks/lesley_hazleton_the_doubt_essential_to_faith",
+        "https://www.ted.com/speakers/lesley_hazleton",
+        "https://www.kirkusreviews.com/book-reviews/lesley-hazleton/the-first-muslim/",
+        "https://literaryreview.co.uk/making-a-prophet",
+        "https://www.youtube.com/oembed?url=https%3A%2F%2Fyoutu.be%2FdakP5OZa0F0&format=json",
+        "https://www.youtube.com/watch?v=dakP5OZa0F0",
+        "https://www.npr.org/2013/03/01/173244626/new-book-challenges-myths-of-the-first-muslim",
+        "https://www.youtube.com/@KnowledgeBox1\",",
+        "https://www.sundayobserver.lk/2023/05/14/getting-prophet-muhammad-right-explained-lesley-hazleton",
+        "https://doaj.org/article/09dd4b66d4c24ddaa2b1870e8d2cf18c",
+        "https://doaj.org/article/d13db83d1f6244d1a36d724018ea2004",
+        "https://aaminanizar.wordpress.com/2017/04/10/lesley-hazleton/"
+      ],
+      "safe_wording": "Lesley Hazleton (1945–2024) was a British-American writer and journalist, trained as a psychologist, who reported from Jerusalem for *Time* and *The Jerusalem Post* and wrote on the Middle East for *The New York Times*, *The New York Review of Books*, *Harper's*, *The Nation*, and *The New Republic*. She was not a Muslim and did not become one. Asked directly on NPR in 2013 whether she was a believer — the host putting it to her that she described herself as an agnostic Jew — she answered, \"Firmly agnostic.\" Working from the classical Muslim biographical sources, she wrote *The First Muslim: The Story of Muhammad*, published by Riverhead Books in 2013, and argued across that book and two TED talks that the Prophet of Islam is best understood as a psychologically credible human being: an orphan who became trusted, a man who turned to his wife Khadijah in the terror of the first revelation, a reformer confronting concentrated wealth and the abandonment of the vulnerable, and a leader whose story cannot honestly be reduced to fanaticism. Her audience was large by any measure — her two TED talks showed 2,471,123 and 1,828,587 plays when checked on 2 August 2026. She was also not a specialist, and her sharpest reviewer, the Islamic-studies scholar Eric Ormsby, faulted her for leaning almost entirely on one English translation of Ibn Hisham and for filling gaps with novelistic psychology — while still concluding that she \"does provide a good account of Muhammad's life as it is given in standard Muslim sources.\" That is exactly how she should be used: as a witness to how the sources read to a skeptical outsider, not as an authority on what happened. Her sympathy is evidence about reception, not evidence for anyone's theology, and each of her historical statements has to stand or fall on its own sources."
     }
   ]
 }

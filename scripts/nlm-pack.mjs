@@ -52,6 +52,16 @@ const PACKS = [
     style: "museum-doc cinematic (proven photoreal) — archival warmth, manuscripts, astrolabes, hospital courtyards; NO generic 'AI slideshow' look",
   },
   {
+    slug: "how-it-actually-spread",
+    title: "How it actually spread — and how it was actually governed",
+    audience: "skeptics who have absorbed the 'spread by the sword / monolithic sharia' picture; hostile-curious, assumes nothing in Islam's favour and expects to be sold something",
+    lb: ["LB-46", "LB-11", "LB-22", "LB-30", "LB-13"],
+    cards: ["CMOS-0014", "CMOS-0016", "CMOS-0015", "CMOS-0017", "CMOS-0018"],
+    hook: "In India, the regions that spent the longest under Muslim rule converted least. The frontier where that rule was weakest converted most. Whatever spread the faith there, it was not the sword.",
+    payoff: "Conquest and conversion ran on two different clocks; the law was plural rather than monolithic; the founding was a negotiated covenant with non-Muslim parties — and the tradition's own scripture warns that worldly success never proves righteousness. None of that makes the record clean. It makes the honest version more interesting than either cartoon.",
+    style: "archival documentary — maps, manuscripts, treaty documents, conversion-curve charts on aged paper; restrained, evidentiary, zero triumphalism",
+  },
+  {
     slug: "mercy-and-the-powerless",
     title: "Mercy as law — the powerless given standing",
     audience: "warm-story audiences (the mercy lane's proven fitness signal): people moved by kindness stories who have never heard these",
@@ -106,11 +116,22 @@ function loadBearingQuestions(row) {
 }
 
 // ---- pack builders ----------------------------------------------------------
+// Split the facts into a real 3-act arc. The hook takes up to 3 and the payoff up to 2, but
+// both yield so the BUILD is never empty: a 5-fact pack used to produce `slice(3, 3)` — an
+// empty Act II — which hands NotebookLM a broken arc, defeating the structure-in=structure-out
+// lever this file exists for (caught building `how-it-actually-spread`, 2026-08-02).
+// Packs of 6+ facts are unaffected: the arithmetic reproduces the previous split exactly.
+function splitActs(facts) {
+  const n = facts.length;
+  if (n < 3) return [facts, [], []];
+  const payoff = Math.min(2, Math.max(1, Math.floor((n - 1) / 2)));
+  const hook = Math.min(3, Math.max(1, n - payoff - 1));
+  return [facts.slice(0, hook), facts.slice(hook, n - payoff), facts.slice(n - payoff)];
+}
+
 function buildSpine(pack, idx) {
   const facts = pack.lb.map((id) => idx[id]).filter(Boolean);
-  const act1 = facts.slice(0, Math.min(3, facts.length));
-  const act2 = facts.slice(3, facts.length - 2);
-  const act3 = facts.slice(-2);
+  const [act1, act2, act3] = splitActs(facts);
   const fmt = (f) => `- ${f.fact} *(confidence: ${f.tier === "T1" ? "gate-verified record" : f.tier === "T2" ? "graded ledger" : "working synthesis — hedge on air"})*`;
   return `# ${pack.title}
 ## How to read this source (for the AI hosts)

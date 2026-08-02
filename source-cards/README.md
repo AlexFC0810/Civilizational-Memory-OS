@@ -38,7 +38,7 @@ Each source card should include:
 
 ## Additional Source Cards
 
-9. `009_lesley-hazleton_getting-muhammad-right-and-wrong.md` — high-value agnostic Jewish outsider witness for humanizing Muhammad ﷺ, with a claim-level correction matrix and deployment plan.
+19. `019_lesley_hazleton_outsider_witness.md` (renumbered from 009 by the CoS 2026-08-02 — the 009 slot was already held by the gated CMOS-0009 Byzantine Pantokrator card; see `protocols/FLEET_COORDINATION_SPINE.md`, the filename prefix IS the id allocator) — high-value agnostic Jewish outsider witness for humanizing Muhammad ﷺ, with a claim-level correction matrix and deployment plan.
 
 ## Relationship to Existing Systems
 
