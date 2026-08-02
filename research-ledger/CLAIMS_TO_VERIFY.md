@@ -191,3 +191,11 @@ Registered per the Intake Rule after the AIOS + Creator Supercharger waves merge
 | frameworks/civilizational-truth-alignment-and-adherence-gap.md · frameworks/historical-calibration-and-restoration-gap.md | Core adherence-gap and calibration frameworks — long-standing, previously unregistered. | D |
 | research-packets/queued/RP-CT-001_ISLAMIC_CIVILIZATIONAL_TRAUMA_AND_DEFENSIVE_CLOSURE.md · RP-ST-001_OLD_TESTAMENT_HEREM_TEXTUAL_ORIGINS_AND_MORAL_AUTHORITY.md | ⚠ Queued research packets; RP-ST-001 handles another tradition's scripture — the symmetry standard applies with full force (the same acid we apply to ourselves, no harder). | D |
 | programs/open-social-commons/MOVE_ONE_COMMUNITY_PLAYBOOK.md | Program playbook carrying deployable community-migration claims. | D |
+
+## Intake 2026-08-02c — PR #88's promotion packet (grade D, pre-gate)
+
+*Caught in real time by the widened scanner the same session it was fixed — the old scanner would have missed it.*
+
+| File | Load-bearing claim(s), one line | Grade |
+|---|---|---|
+| research-packets/queued/RP-VP-001_ARMSTRONG_RELIGION_VIOLENCE_CAUSAL_SCOPE.md | Causal-scope packet on Karen Armstrong's religion/secularism/violence thesis (*Fields of Blood*): how much explanatory weight "religion" actually carries for organized violence, and what secularization does and does not resolve. **Unusually well-disciplined for its own thesis** — it carries a "Tempting stronger formulations prohibited" section, states that Armstrong "is a research mapmaker, not terminal authority," and concedes against interest that "The failure of secularization to guarantee peace does not show it lacks causal value." Its own status keeps **public compression prohibited pending source closure**. Living scholar: characterize her published thesis only, never her person. | D |
