@@ -134,6 +134,20 @@ The harvest confirmed three structural blind spots this index inherits and must 
 
 Until (1), the Swahili coast, and the Shia traditions are carded, **this index still maps the Sunni core of the story, and says so.** The 2026-08-03 pair narrowed the geographic claim; it did not close the confessional one.
 
+### ⚠ The fourth blind spot: VALENCE (audited 2026-08-03)
+
+The three gaps above are about *where* the corpus looks. This one is about *what it is willing to conclude*, and it is the more dangerous kind.
+
+**Audit result: of 23 gated cards, ZERO have a thesis that is a failure of Islamic civilization.** Every gated thesis is a defence against a smear, a positive achievement, or a bridge claim. The nearest exception is **CMOS-0009**, which credits the Byzantine Pantokrator as a prior institution — honest, but still not *this civilization did wrong.*
+
+Every card carries real concessions **inside** it. That is not the issue. The issue is **selection**: what gets chosen for carding is systematically exculpatory, and per-card honesty cannot detect that — each card passes on its own terms while the corpus tells a systematically favourable story.
+
+This collides directly with the repo's own mission text: *"Detect distortion"*, *"a self-correcting civilizational intelligence institution"*, the guardrail that the institution *"must remain capable of saying 'we were wrong'"*, and the scope note that *"civilizational memory is not for pride; it is for pattern recovery."* **A corpus of 23 exculpatory theses is for pride structurally, whatever the intent behind any individual card.**
+
+**Standing requirement.** The archive must gate claims whose *thesis* is a failure — not merely claims with failures conceded inside them. Until it does, its capacity to say "we were wrong" is untested, and every defensive card is worth less because a reader cannot tell whether the corpus would have reported the opposite had the evidence gone the other way. **This is the same selection-bias law applied to the archive that `canon/POETIC_HISTORICAL_JUSTICE.md` now applies to its own lens (null-case requirement).**
+
+*First failure card in production 2026-08-03: the non-abolition of slavery.*
+
 **Carding leverage rubric (added 2026-07-20 — rank by leverage, not position).** A flat queue order optimizes nothing. Rank each uncarded fact by **L = Attack-surface × Coverage-gap × Foundational-weight × Domain-demand**:
 - **Attack-surface** — is this fact the ground of a *common public smear*? A card that pre-empts a top-3 attack outperforms one that merely adds knowledge. (Highest leverage the archive can buy: turning a smear into a caption-safe correction.)
 - **Coverage-gap** — does carding it fill a *thin claim_layer*? As of 2026-07-20 the archive is skewed **institution ×5 / quran ×4** but **outcome ×1 · fiqh ×1 · prophetic ×1 · culture ×0**. The comfortable "advanced institutions" story is saturated; the contested layers where attacks actually land are starved. Prefer the thin layer.
