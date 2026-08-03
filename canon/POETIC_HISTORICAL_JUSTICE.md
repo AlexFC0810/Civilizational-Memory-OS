@@ -90,6 +90,10 @@ It rejects two false frames:
 
 The restoration comes through revelation judging the institutions that claimed to preserve it.
 
+> **⛓ BINDING (added 2026-08-03 by the CoS; body unedited).** The safeguards in this section govern the **individual case** — they forbid the analyst from manufacturing a reversal. They do **not** catch selection bias, which survives per-case honesty: every case can be verifiably true while the *corpus* tells a systematically consoling story, because the lens only ever gets pointed where an internal corrective exists.
+>
+> **This lens therefore also requires named NULL CASES** — episodes where a group was reduced and the tradition supplies no internal corrective, where the honest verdict is that this was wrong with no elegant reversal. **If the corpus cannot produce null cases, the lens is unfalsifiable and must be demoted from a recovery lens to a storytelling frame.** See `canon/THE_SUCCESSOR_TEST_AND_EPISTEMIC_RESTITUTION.md` §7. Until at least two null cases are named, this is an **internal research lens only** — not a public series.
+
 ## Poetic Justice vs Apologetic Reversal
 
 The lens must not become a machine for manufacturing convenient vindication.
