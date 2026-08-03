@@ -1,5 +1,17 @@
 # Mercy Under Asymmetric Power
 
+> **⛓ CROSSWALK HEADER (added 2026-08-02 by the CoS; body unedited).** This file's **§Evidence ladder** (`Tier 1 … Tier 5`) is a *second* naming of the canonical `source_tier_best` axis in `research-ledger/CANONICAL_CLAIM_RECORD.md`. Both ladders run strongest→weakest, but they are **offset by one at the strong end**, which will silently understate evidence strength if someone reads a tier here and writes it into card frontmatter unchanged.
+>
+> | This file | Canonical `source_tier_best` |
+> |---|---|
+> | Tier 1 — primary normative sources (scripture, waqf deeds, court registers, inscriptions, contemporaneous documents) | **0** — surviving artifact / documentary text |
+> | Tier 2 — specialist scholarship (peer-reviewed, university-press, critical editions) | **1–2** |
+> | Tier 3 — scientific and behavioral evidence | **2–3** |
+> | Tier 4 — corroboration | **3–4** |
+> | Tier 5 — leads only | **5** — discovery-only lead |
+>
+> **When filling a Canonical Claim Record, use the canonical numbers, not this file's tier names.** House rule (`research-ledger/EVIDENCE_VOCABULARY_CROSSWALK.md`): *crosswalk, never invent* — a new naming is never a new scale. The ladder below is retained because its category descriptions are genuinely useful; only its numbering is superseded.
+
 **Status:** Canonical civilizational diagnostic  
 **Created:** 2026-07-26  
 **Applies to:** comparative religion, animal ethics, childhood formation, vulnerable populations, institutional design, law, political power, and civilizational renewal

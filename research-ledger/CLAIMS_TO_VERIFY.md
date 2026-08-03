@@ -2,6 +2,25 @@
 
 This ledger protects the integrity of the project. Strong claims should not be treated as canon until researched, sourced, and graded.
 
+## The drain rule (added 2026-08-02) — registration is not a destination
+
+**The problem this fixes.** By 2026-08-02 this ledger held ~56 files at grade D against a gated archive of 19 cards. It was append-only: files entered at D and never left. Registration was honest, but a queue that only grows stops being a work-list and becomes a graveyard — and a large "unverified claims" number that never moves *manufactures the appearance of rigor while hiding the real backlog.*
+
+**The category error inside it.** "Grade D" means *a claim whose evidence has not been established*. But much of what was registered here is **method** — protocols, frameworks, doctrines, research agendas. A protocol is not an unverified claim; it is not a claim at all. Grading it D is a category mistake that inflates the backlog with items that can never be drained by carding.
+
+**The fix: every entry carries a DISPOSITION.** This is a *workflow* state, not a new evidence vocabulary (the five axes remain the only evidence vocabulary — see `EVIDENCE_VOCABULARY_CROSSWALK.md`; crosswalk, never invent):
+
+| Disposition | Meaning | Exit condition |
+|---|---|---|
+| **CARD** | Contains concrete, checkable historical/empirical claims. This is the *real* backlog. | Carded through `scripts/evals.mjs` → leaves the queue as a gated record. |
+| **METHOD** | Method / doctrine / protocol / framework / agenda. Carries no gradable historical claim of its own; may cite history illustratively. | Never carded. Registered for completeness and **excluded from the backlog count.** If a specific historical assertion inside it later needs deploying, that *assertion* is carded — not the file. |
+| **RETIRE** | Duplicates or is superseded by a canonical file (named in the row). | Bound by pointer to the canonical file, then dropped from the queue. |
+| **HELD** | Founder-gated (the ʿĀʾisha lane). | Not queued for carding at any priority until the founder signs `research-packets/RP-HA-001_FOUNDER_DECISION_PACKET.md` §7. |
+
+**Ranking within CARD** uses the leverage rubric in `archive/LOAD_BEARING_INDEX.md`: *attack-surface × coverage-gap × foundational-weight × domain-demand*.
+
+**The honest metric.** "Unverified claim backlog" = the **CARD** count only. Reporting the raw registration count as a backlog overstates it; reporting zero because intake is green understates it. Both failures have happened here — see the false-green incident (`MASTER_PLAN.md` row 31).
+
 ## Intake Rule (2026-07-10)
 
 Every new file in `frameworks/`, `canon/`, `source-ledgers/`, `public-narratives/`, `case-files/`, `public-packets/`, `research-packets/queued/`, or `transcript-immunity/packets/` that carries load-bearing claims must register them **here, at grade D by default**, in the same session that creates the file. A claim not in this ledger does not exist for deployment purposes. Mechanical check: `node scripts/evals.mjs --intake`. Deployment standard: `DEPLOYMENT_READINESS_GATE.md`.
@@ -199,3 +218,55 @@ Registered per the Intake Rule after the AIOS + Creator Supercharger waves merge
 | File | Load-bearing claim(s), one line | Grade |
 |---|---|---|
 | research-packets/queued/RP-VP-001_ARMSTRONG_RELIGION_VIOLENCE_CAUSAL_SCOPE.md | Causal-scope packet on Karen Armstrong's religion/secularism/violence thesis (*Fields of Blood*): how much explanatory weight "religion" actually carries for organized violence, and what secularization does and does not resolve. **Unusually well-disciplined for its own thesis** — it carries a "Tempting stronger formulations prohibited" section, states that Armstrong "is a research mapmaker, not terminal authority," and concedes against interest that "The failure of secularization to guarantee peace does not show it lacks causal value." Its own status keeps **public compression prohibited pending source closure**. Living scholar: characterize her published thesis only, never her person. | D |
+
+## Intake 2026-08-02d — THE INVERSE COVERAGE GAP: the repo's actual claim sources, never registered
+
+> **The finding that reverses the earlier one.** The 2026-08-02b block was advertised as "the true backlog was 30 files." A per-file disposition triage showed **all 30 were METHOD/RETIRE/HELD — zero CARD entries.** The scanner had been widened to catch deploy-facing headings and confidence grading, and what it caught was doctrine. Meanwhile these eight **source-hardening ledgers (~1,700 lines) — which supply roughly 20 of the 50 traces in `archive/LOAD_BEARING_INDEX.md` — were in `research-ledger/`, a directory the scanner never looked at.**
+>
+> The queue was simultaneously **inflated with method and missing its claims.** Widening coverage is not enough; coverage has to point where claims actually live. Dir added 2026-08-02.
+
+| File | Load-bearing claim(s), one line | Disposition | Grade |
+|---|---|---|---|
+| research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md | **The densest unregistered claim source in the repo** (820 lines, ~19 numbered claim cards). The claim home for `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md` — which is itself METHOD (a 34-concept lexicon whose historical lines appear only as safe/unsafe wording *examples*). Traces LB-04/06/08/15/16/17/18/20/21/25/44. | **CARD** | D |
+| research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md | Source-hardening for the prophetic-inversion thesis (power inverted by moral authority); 361 lines of graded claim material. | **CARD** | D |
+| research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md | Source-hardening for the fruit-test framework — the "judge the tree by its fruit" comparative standard applied to civilizational outcomes. | **CARD** | D |
+| research-ledger/PRE_ISLAMIC_ARABIA_MORAL_CONTEXT_SOURCE_HARDENING_2026-06-25.md | Pre-Islamic Arabian moral baseline — the counterfactual every "what did Islam change" claim silently depends on. Cross-check against PR #89's clarity map, which independently reached the same honest boundary on infanticide prevalence. | **CARD** | D |
+| research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md | Golden-ages source hardening; overlaps gated CMOS-0005/0012/0013 — card the residual, do not re-assert what is already gated. | **CARD** | D |
+| research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md | Decline-and-renewal claim set; pairs with gated CMOS-0018 (the Qur'an's own decline-theory) as its historical counterpart. | **CARD** | D |
+| research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md | Prophetic-age seed claims; feeds the Medina/covenant lane already partly gated as CMOS-0016. | **CARD** | D |
+| research-ledger/CLAIM_QUEUE_ABRAHAMIC_BRIDGE_STORIES_2026-06-11.md | Abrahamic bridge-story claim queue — the islamlovesjesus.org lane's raw material. | **CARD** | D |
+
+## Disposition triage + drain log — 2026-08-02
+
+**The headline correction.** A per-file triage of all **71 registered files** (56 table rows; several rows bundle 2–5 files) found:
+
+| Disposition | Files | Share |
+|---|---|---|
+| **CARD** — the real backlog | **17** | 24% |
+| **METHOD** — never was a claim | **46** | 65% |
+| **RETIRE** — duplicate/superseded | 4 | 6% |
+| **HELD** — ʿĀʾisha lane, founder-gated | 4 | 6% |
+
+**Three quarters of the "unverified claims" were never claims.** The real backlog was *smaller* than the gated archive, not 3× larger — the queue was mislabelled, not overloaded. Corroboration is mechanical, not impressionistic: **44 of the 46 METHOD files contain zero four-digit years, zero URLs, and zero citations across 300–900 lines each**, while every CARD file carries dated anchors.
+
+**The self-correction that matters most:** the 2026-08-02b block, which this ledger advertised as *"the true backlog was 30 files,"* contained **zero CARD entries** — all 30 were METHOD/RETIRE/HELD. The scanner had been widened to catch deploy-facing headings and confidence grading, and what it caught was doctrine. The repo's densest *actual* claim sources were meanwhile unscanned in `research-ledger/` (block 2026-08-02d). **A coverage fix that does not point where claims live produces a confident, wrong number.**
+
+### RETIRE (4) — bind by pointer, then drop
+
+| Retire | Superseded by |
+|---|---|
+| `canon/MASS_ATROCITY_MEMORY_AND_PREVENTION_ENGINE.md` | `canon/ATROCITY_MEMORY_AND_PREVENTION_ENGINE.md` — an orphan fork referenced by nothing in the repo except this ledger |
+| `public-narratives/AFTER_THE_BELL_DO_MUSLIMS_WORSHIP_THE_DEVIL_PRODUCTION_BRIEF.md` | `public-packets/after-the-bell/ATB-001_...md` — same episode; ATB-001 carries the gate banner |
+| `public-narratives/ISLAMIC_ANIMAL_MERCY_STRONG_CLAIMS.md` | `source-ledgers/animal-mercy-civilizational-memory-ledger.md` — a 96-line claim bank with zero sources, beside a ledger with 31 URLs |
+| `public-narratives/THE_ANIMALS_CANNOT_WRITE_HISTORY_FORCE_PACK.md` | `source-ledgers/ANIMAL_MERCY_HADITH_AND_INSTITUTIONS_LEDGER.md` — ⚠ it hardens into an S-tier line the exact Ottoman stork-hospital claim the ledger flags **unsafe** |
+
+### DRAINED — entries that left the queue as gated records
+
+| Was | Now | Result |
+|---|---|---|
+| `case-files/002_SALADIN_JERUSALEM_1187.md` | **CMOS-0020** · B · `outcome` | Gated 2026-08-02. Refuters cut three things: Baha al-Din ibn Shaddad was **not at the 1187 siege** (he joined Saladin in 1188); the "three independent Arabic chroniclers" collapse toward **one chain** (Imad al-Din was used heavily by Ibn al-Athir and Abu Shama); and the "durable memory of restraint" was carried **first in Latin Europe** and re-imported into Arab commemoration after 1898 — firewalled out of the grade. |
+| `case-files/001_MUSLIM_KEYHOLDERS_HOLY_SEPULCHRE.md` | **CMOS-0021** · B · `culture` · **provenance-audited** | Gated 2026-08-02. Chain actually walked: the 1192 Saladin–Richard treaty text says nothing about doors or keys; Cust (1929) names neither family; Sauvaire's 1876 Mujir al-Din has no trace of key-custody. **The two custodian families' own published histories contradict each other by 400+ years.** Present arrangement gated at B; Umar/637 **D**, Saladin/1187 **C**, Ottoman **C** — origin explicitly ungated. Breaker evidence in the Claim itself: al-Hakim destroyed this church in 1009 and the family concedes a ~100-year Crusader gap, so *"Muslims protected Christians for 1,400 years"* is false on this card's own evidence. |
+
+> ⚠ **Source-trail repair needed on `case-files/001`**: all three of its own citations failed this session (CNEWA 403, palquest.org 1852 firman 403, holysepulchre.com/status-quo returns no Status Quo content). CMOS-0021's 21 verified anchors can replace them.
+
+**Backlog after this session: 23 CARD** (17 triaged + 8 newly-found claim ledgers − 2 drained). That is the honest number.

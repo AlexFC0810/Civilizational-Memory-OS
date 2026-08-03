@@ -74,6 +74,19 @@ Pure **`lifecycle`**, more granular. Route to the canonical lifecycle; the extra
 
 None of the six vocabularies had a clean word for **provenance depth** — which is precisely why the Pantokrator pilot could look "done" (grade-able) while being un-excavated ("cartography not excavation"). `closure` (`open|reconnaissance|provenance-audited|source-closed`) + `source_tier_best` (0–5) + `independent_chains` are the new axis that makes "we actually read the primary text" a first-class, queryable fact rather than a buried caveat. This is the axis a *trustworthy historical* substrate cannot do without.
 
+## Wave 7 (2026-07/08) — four more vocabularies arrived; route them here
+
+The July direct-to-main wave introduced four fresh confidence scales. None cited this file. Routing them, so the count of vocabularies stops growing:
+
+| Source file | Its terms | Routes to |
+|---|---|---|
+| `canon/MERCY_UNDER_ASYMMETRIC_POWER.md` §Evidence ladder | `Tier 1 … Tier 5` (1 = primary sources, 5 = leads only) | **`source_tier_best`, but OFFSET BY ONE at the strong end.** Both run strongest→weakest; its Tier 1 (primary/documentary) is canonical **0**, not 1. Reading a tier from that file straight into frontmatter systematically understates strength. Crosswalk table added in that file's header 2026-08-02. |
+| `source-ledgers/aisha-minor-marriage-sacred-permission-ledger.md` | `High / Moderate-high / Moderate / Research hypothesis / Unsupported` | `epistemic_status`: High→`established`, Moderate-high/Moderate→`probable` or `contested` per anchors, Research hypothesis→`unresolved`, Unsupported→`unsupported`. Grade derives from anchors, never from these words. |
+| `canon/AISHA_MINOR_MARRIAGE_AND_SACRED_PERMISSION.md` §Research Discipline | `High / Moderate / Research hypothesis / Unresolved` | same routing as the row above. |
+| `source-ledgers/nagasaki-urakami-christian-nation-sacred-authority-capture.md` | per-item `Confidence: High` | `epistemic_status` + `grade` per anchors; a bare confidence label is not a grade. |
+
+**Why this keeps happening, and the actual fix:** each wave arrives from a context that cannot see this file, so it invents the scale it needs. The durable countermeasure is not exhortation — it is that `scripts/evals.mjs` derives grade from *body evidence*, so an invented scale never reaches the index no matter what a document asserts. These crosswalk rows exist so a human reading the prose isn't misled.
+
 ## One-line rule for future waves
 
 > A new topic never needs a new grade vocabulary. It needs claim records with the five axes filled. If you find yourself inventing `Established/Likely/Weak` again, you are naming an axis that already exists — route it here.

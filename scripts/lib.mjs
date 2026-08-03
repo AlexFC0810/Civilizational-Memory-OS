@@ -7,18 +7,20 @@
 export function splitSections(text) {
   const sections = [];
   const lines = text.split(/\r?\n/);
-  let current = { heading: "(preamble)", body: [] };
+  let current = { heading: "(preamble)", level: 1, body: [] };
   for (const line of lines) {
-    const m = line.match(/^#{2,3}\s+(.*)/);
+    const m = line.match(/^(#{2,3})\s+(.*)/);
     if (m) {
       sections.push(current);
-      current = { heading: m[1].trim(), body: [] };
+      current = { heading: m[2].trim(), level: m[1].length, body: [] };
     } else {
       current.body.push(line);
     }
   }
   sections.push(current);
-  return sections.map((s) => ({ heading: s.heading, body: s.body.join("\n") }));
+  // `level` (2 = H2, 3 = H3) lets callers scope a section together with its own
+  // subsections without swallowing the rest of the document — see deriveFields.
+  return sections.map((s) => ({ heading: s.heading, level: s.level, body: s.body.join("\n") }));
 }
 
 // Minimal YAML-subset frontmatter parser. Handles ONLY what the Canonical Claim
