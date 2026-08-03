@@ -2,6 +2,25 @@
 
 This ledger protects the integrity of the project. Strong claims should not be treated as canon until researched, sourced, and graded.
 
+## The drain rule (added 2026-08-02) — registration is not a destination
+
+**The problem this fixes.** By 2026-08-02 this ledger held ~56 files at grade D against a gated archive of 19 cards. It was append-only: files entered at D and never left. Registration was honest, but a queue that only grows stops being a work-list and becomes a graveyard — and a large "unverified claims" number that never moves *manufactures the appearance of rigor while hiding the real backlog.*
+
+**The category error inside it.** "Grade D" means *a claim whose evidence has not been established*. But much of what was registered here is **method** — protocols, frameworks, doctrines, research agendas. A protocol is not an unverified claim; it is not a claim at all. Grading it D is a category mistake that inflates the backlog with items that can never be drained by carding.
+
+**The fix: every entry carries a DISPOSITION.** This is a *workflow* state, not a new evidence vocabulary (the five axes remain the only evidence vocabulary — see `EVIDENCE_VOCABULARY_CROSSWALK.md`; crosswalk, never invent):
+
+| Disposition | Meaning | Exit condition |
+|---|---|---|
+| **CARD** | Contains concrete, checkable historical/empirical claims. This is the *real* backlog. | Carded through `scripts/evals.mjs` → leaves the queue as a gated record. |
+| **METHOD** | Method / doctrine / protocol / framework / agenda. Carries no gradable historical claim of its own; may cite history illustratively. | Never carded. Registered for completeness and **excluded from the backlog count.** If a specific historical assertion inside it later needs deploying, that *assertion* is carded — not the file. |
+| **RETIRE** | Duplicates or is superseded by a canonical file (named in the row). | Bound by pointer to the canonical file, then dropped from the queue. |
+| **HELD** | Founder-gated (the ʿĀʾisha lane). | Not queued for carding at any priority until the founder signs `research-packets/RP-HA-001_FOUNDER_DECISION_PACKET.md` §7. |
+
+**Ranking within CARD** uses the leverage rubric in `archive/LOAD_BEARING_INDEX.md`: *attack-surface × coverage-gap × foundational-weight × domain-demand*.
+
+**The honest metric.** "Unverified claim backlog" = the **CARD** count only. Reporting the raw registration count as a backlog overstates it; reporting zero because intake is green understates it. Both failures have happened here — see the false-green incident (`MASTER_PLAN.md` row 31).
+
 ## Intake Rule (2026-07-10)
 
 Every new file in `frameworks/`, `canon/`, `source-ledgers/`, `public-narratives/`, `case-files/`, `public-packets/`, `research-packets/queued/`, or `transcript-immunity/packets/` that carries load-bearing claims must register them **here, at grade D by default**, in the same session that creates the file. A claim not in this ledger does not exist for deployment purposes. Mechanical check: `node scripts/evals.mjs --intake`. Deployment standard: `DEPLOYMENT_READINESS_GATE.md`.
