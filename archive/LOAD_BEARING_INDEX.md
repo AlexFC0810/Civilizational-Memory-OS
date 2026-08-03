@@ -146,7 +146,9 @@ This collides directly with the repo's own mission text: *"Detect distortion"*, 
 
 **Standing requirement.** The archive must gate claims whose *thesis* is a failure — not merely claims with failures conceded inside them. Until it does, its capacity to say "we were wrong" is untested, and every defensive card is worth less because a reader cannot tell whether the corpus would have reported the opposite had the evidence gone the other way. **This is the same selection-bias law applied to the archive that `canon/POETIC_HISTORICAL_JUSTICE.md` now applies to its own lens (null-case requirement).**
 
-*First failure card in production 2026-08-03: the non-abolition of slavery.*
+**First failure card gated 2026-08-03: `CMOS-0024` — the non-abolition of slavery** (`outcome`, B). Its central finding was produced by running the hostile-historian lens in the *defensive* direction, and it made the verdict worse: the manumission architecture — normally deployed as mitigation — is structurally implicated, because a slave population continually freed and unable to replenish itself from within must be fed from outside. The exits generated demand at the entrance. **The defence's best card, followed through, indicts.**
+
+The valence gap is now open rather than closed: **1 of 24 gated theses is a failure.** One card does not fix a corpus. But the capacity to say "we were wrong" is no longer untested.
 
 **Carding leverage rubric (added 2026-07-20 — rank by leverage, not position).** A flat queue order optimizes nothing. Rank each uncarded fact by **L = Attack-surface × Coverage-gap × Foundational-weight × Domain-demand**:
 - **Attack-surface** — is this fact the ground of a *common public smear*? A card that pre-empts a top-3 attack outperforms one that merely adds knowledge. (Highest leverage the archive can buy: turning a smear into a caption-safe correction.)
