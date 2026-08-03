@@ -218,3 +218,20 @@ Registered per the Intake Rule after the AIOS + Creator Supercharger waves merge
 | File | Load-bearing claim(s), one line | Grade |
 |---|---|---|
 | research-packets/queued/RP-VP-001_ARMSTRONG_RELIGION_VIOLENCE_CAUSAL_SCOPE.md | Causal-scope packet on Karen Armstrong's religion/secularism/violence thesis (*Fields of Blood*): how much explanatory weight "religion" actually carries for organized violence, and what secularization does and does not resolve. **Unusually well-disciplined for its own thesis** — it carries a "Tempting stronger formulations prohibited" section, states that Armstrong "is a research mapmaker, not terminal authority," and concedes against interest that "The failure of secularization to guarantee peace does not show it lacks causal value." Its own status keeps **public compression prohibited pending source closure**. Living scholar: characterize her published thesis only, never her person. | D |
+
+## Intake 2026-08-02d — THE INVERSE COVERAGE GAP: the repo's actual claim sources, never registered
+
+> **The finding that reverses the earlier one.** The 2026-08-02b block was advertised as "the true backlog was 30 files." A per-file disposition triage showed **all 30 were METHOD/RETIRE/HELD — zero CARD entries.** The scanner had been widened to catch deploy-facing headings and confidence grading, and what it caught was doctrine. Meanwhile these eight **source-hardening ledgers (~1,700 lines) — which supply roughly 20 of the 50 traces in `archive/LOAD_BEARING_INDEX.md` — were in `research-ledger/`, a directory the scanner never looked at.**
+>
+> The queue was simultaneously **inflated with method and missing its claims.** Widening coverage is not enough; coverage has to point where claims actually live. Dir added 2026-08-02.
+
+| File | Load-bearing claim(s), one line | Disposition | Grade |
+|---|---|---|---|
+| research-ledger/ISLAMIC_CIVILIZATION_OS_SOURCE_HARDENING.md | **The densest unregistered claim source in the repo** (820 lines, ~19 numbered claim cards). The claim home for `canon/ISLAMIC_CIVILIZATION_OPERATING_SYSTEM.md` — which is itself METHOD (a 34-concept lexicon whose historical lines appear only as safe/unsafe wording *examples*). Traces LB-04/06/08/15/16/17/18/20/21/25/44. | **CARD** | D |
+| research-ledger/PROPHETIC_INVERSION_SOURCE_HARDENING_2026-06-25.md | Source-hardening for the prophetic-inversion thesis (power inverted by moral authority); 361 lines of graded claim material. | **CARD** | D |
+| research-ledger/FRUIT_TEST_SOURCE_HARDENING_2026-06-25.md | Source-hardening for the fruit-test framework — the "judge the tree by its fruit" comparative standard applied to civilizational outcomes. | **CARD** | D |
+| research-ledger/PRE_ISLAMIC_ARABIA_MORAL_CONTEXT_SOURCE_HARDENING_2026-06-25.md | Pre-Islamic Arabian moral baseline — the counterfactual every "what did Islam change" claim silently depends on. Cross-check against PR #89's clarity map, which independently reached the same honest boundary on infanticide prevalence. | **CARD** | D |
+| research-ledger/ISLAMIC_GOLDEN_AGES_SOURCE_HARDENING_2026-06-24.md | Golden-ages source hardening; overlaps gated CMOS-0005/0012/0013 — card the residual, do not re-assert what is already gated. | **CARD** | D |
+| research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md | Decline-and-renewal claim set; pairs with gated CMOS-0018 (the Qur'an's own decline-theory) as its historical counterpart. | **CARD** | D |
+| research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md | Prophetic-age seed claims; feeds the Medina/covenant lane already partly gated as CMOS-0016. | **CARD** | D |
+| research-ledger/CLAIM_QUEUE_ABRAHAMIC_BRIDGE_STORIES_2026-06-11.md | Abrahamic bridge-story claim queue — the islamlovesjesus.org lane's raw material. | **CARD** | D |

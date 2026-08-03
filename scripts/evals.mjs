@@ -201,13 +201,22 @@ function intakeScan() {
     // worse than no check — it manufactures false confidence about exactly the material most
     // likely to reach an audience.
     "content-system/series", "research-agendas", "research-programs", "programs/open-social-commons",
+    // Added 2026-08-02b — the INVERSE coverage gap. The first widening (above) caught doctrine;
+    // meanwhile the repo's densest ACTUAL claim sources sat here, unscanned: seven
+    // source-hardening ledgers (~1,265 lines) supplying ~20 of the 50 traces in
+    // LOAD_BEARING_INDEX. The queue was simultaneously inflated with method and missing the
+    // claims. Widening coverage is not enough — coverage has to point at where claims live.
+    "research-ledger", "case-files", "source-ledgers",
   ];
+  // Meta files that describe the claim system rather than assert claims; registering the
+  // ledger in itself is a self-reference, not a finding.
+  const META = /^(CLAIMS_TO_VERIFY|CANONICAL_CLAIM_RECORD|EVIDENCE_VOCABULARY_CROSSWALK|DEPLOYMENT_READINESS_GATE)\.md$/i;
   const unregistered = [];
   for (const d of dirs) {
     const dir = path.join(REPO_ROOT, d);
     if (!fs.existsSync(dir)) continue;
     for (const f of fs.readdirSync(dir)) {
-      if (!f.endsWith(".md") || /^(index|readme)\.md$/i.test(f)) continue;
+      if (!f.endsWith(".md") || /^(index|readme)\.md$/i.test(f) || META.test(f)) continue;
       const raw = fs.readFileSync(path.join(dir, f), "utf8");
       if (bearsClaims(raw) && !ledger.includes(f)) unregistered.push(`${d}/${f}`);
     }
