@@ -126,7 +126,13 @@
 
 ## Standing acquisition gaps (the index's own confession — Plane-1 priorities)
 
-The harvest confirmed three structural blind spots this index inherits and must not hide: **(1) Ottoman/Mughal/Safavid institutions** appear only in lists — no graded claim card is *about* any specific one; **(2) West Africa & the Swahili coast** (Mali, Songhai, Timbuktu) are named as necessary and sourced nowhere; **(3) Shia/Zaydi/Ismaili and Southeast Asian Islam** (incl. Indonesia, the largest Muslim population) are nearly absent from the graded corpus. Until these are carded, this index maps the Sunni-Arab/Persian core of the story, and says so.
+The harvest confirmed three structural blind spots this index inherits and must not hide. **Two are now partly paid (2026-08-03); the debt is stated as it actually stands:**
+
+- **(1) Ottoman/Mughal/Safavid institutions** — still open. They appear only in lists; no graded claim card is *about* any specific one.
+- **(2) West Africa & the Swahili coast** — **half closed.** Timbuktu and the Niger bend are now carded as **CMOS-0023** (`culture`, B). *The Swahili coast remains entirely uncarded.*
+- **(3) Shia/Zaydi/Ismaili and Southeast Asian Islam** — **half closed.** Maritime Southeast Asia is now carded as **CMOS-0022** (`outcome`, B), including Indonesia, the largest Muslim population. *Shia/Zaydi/Ismaili Islam remains entirely uncarded* — a serious gap, since it is a confessional absence rather than a regional one.
+
+Until (1), the Swahili coast, and the Shia traditions are carded, **this index still maps the Sunni core of the story, and says so.** The 2026-08-03 pair narrowed the geographic claim; it did not close the confessional one.
 
 **Carding leverage rubric (added 2026-07-20 — rank by leverage, not position).** A flat queue order optimizes nothing. Rank each uncarded fact by **L = Attack-surface × Coverage-gap × Foundational-weight × Domain-demand**:
 - **Attack-surface** — is this fact the ground of a *common public smear*? A card that pre-empts a top-3 attack outperforms one that merely adds knowledge. (Highest leverage the archive can buy: turning a smear into a caption-safe correction.)
