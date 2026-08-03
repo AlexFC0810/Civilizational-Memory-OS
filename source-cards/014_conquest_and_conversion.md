@@ -115,7 +115,7 @@ Why B and not A — four caps, stated so the Archivist can adjudicate:
 
 ## Best Load-Bearing Question
 
-> If Islam was "spread by the sword," why were fewer than one in ten of the conquered — in Iran, Iraq, Syria, Egypt, Tunisia, and Spain — Muslim a full century after the armies arrived? And why is the land with the largest Muslim population on earth today, Indonesia, one that no Muslim army ever conquered — reached by merchants and mystics, not cavalry? But if political power played no part, why did conversion track the jizya, the cities, and access to the ruling class — and why did it come, in some times and places, at the point of a sword after all?
+> If Islam was "spread by the sword," why were fewer than one in ten of the conquered — in Iran, Iraq, Syria, Egypt, Tunisia, and Spain — Muslim a full century after the armies arrived? And why is the land with the largest Muslim population on earth today, Indonesia, one that no *foreign* Muslim army ever conquered — reached first by merchants and teachers rather than cavalry? But if political power played no part, why did conversion track the jizya, the cities, and access to the ruling class — and why did it come, in some times and places, at the point of a sword after all?
 
 ## S-Tier Lines
 
@@ -123,7 +123,7 @@ Why B and not A — four caps, stated so the Archivist can adjudicate:
 
 > A century after the conquest, fewer than one in ten people in the conquered heartlands were Muslim. Whatever converted them, it was not the speed of an army.
 
-> The largest Muslim population on earth — Indonesia — sits in a land no Muslim army ever conquered. It came by merchants and mystics, not cavalry.
+> The largest Muslim population on earth — Indonesia — was reached by merchants and teachers, not by a foreign Muslim conquest. The wars there came later, and between local dynasties that had already converted.
 
 > In India the map is upside-down for the "sword" thesis: the regions deepest under Muslim power converted least; the frontier, where the sword was weakest, converted most.
 
@@ -165,6 +165,8 @@ Why B and not A — four caps, stated so the Archivist can adjudicate:
 - "Islam invented religious tolerance." (Overclaim; the dhimma was a specific, disability-bearing arrangement, not modern pluralism, and toleration has many independent histories.)
 - "Only Islam spread peacefully" / "no other religion used the sword." (Comparative overclaim that inverts the very error being corrected.)
 - "The jizya proves Islam is inherently coercive." (The hostile mirror-overclaim: a graduated tax with a documented toleration rationale is not proof of an essence.)
+- **"No Muslim army ever conquered Indonesia."** (Corrected 2026-08-03 by breaker evidence from **CMOS-0022**. No *foreign* Muslim army conquered the archipelago — that much holds. But once local rulers converted, local Muslim states did wage war on their Hindu-Buddhist neighbours: Demak took the last Javanese Hindu-Buddhist state, Pajajaran fell to Muslim armies, and Aceh's Ali Mughayat Syah "conquered Daya, and submitted the people to Islam" in 1520. **Say "not conquered into Islam from outside," never the bare absolute.**)
+- "Islam spread peacefully in Southeast Asia." (The available evidence supports *not conquered from outside* — not *peaceful*. See CMOS-0022.)
 - "Everyone converted at swordpoint" / "nobody was ever forced to convert." (The two brittle absolutes this card exists to break — one is the smear, the other is the over-correction.)
 
 ## Safe Wording

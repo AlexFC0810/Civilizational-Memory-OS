@@ -63,7 +63,32 @@ export function validateFrontmatter(fm, bodyText) {
 // Derive index fields FROM THE BODY (single source of truth): grade, anchors, safe_wording.
 // Lines that report a retrieval failure — their URLs are evidence of what we could NOT read,
 // and must never be published as sources.
-const FETCH_FAILURE = /\b(403|404|429|500|502|503|paywall|forbidden|blocked|unreachable|paywalled|timed?[ -]?out|timeout|fetch fail|failed to (?:fetch|retrieve|load)|not (?:retriev|access|reach)able|no text layer|could not (?:be )?(?:fetch|retriev|access|read))/i;
+// Kept deliberately paraphrase-tolerant. The literal `no text layer` missed "no **extractable**
+// text layer" and a dead PDF nearly entered the index as an anchor (caught during CMOS-0022,
+// 2026-08-03) — the same failure class as the original bug. Interposed words are allowed, and
+// the bare-status codes are anchored to avoid matching years or page numbers.
+const FETCH_FAILURE = new RegExp(
+  [
+    "\\b(?:40[0-9]|429|5[0-9]{2})\\b(?=[^0-9]|$)",       // HTTP status codes
+    "\\bpaywall(?:ed)?\\b|\\bforbidden\\b|\\bblocked\\b|\\bunreachable\\b",
+    "\\btimed?[ -]?out\\b|\\btimeout\\b",
+    "\\bfetch(?:ing)? fail(?:ed|ure)?\\b|\\bfailed to (?:fetch|retrieve|load|read|open)\\b",
+    "\\bnot (?:retriev|access|reach)able\\b",
+    "\\bno\\b(?:\\W+\\w+){0,3}\\W+\\btext layer\\b",       // "no (extractable/embedded/…) text layer"
+    "\\bcould not (?:be )?(?:fetch|retriev|access|read|open)",
+    "\\b(?:dead|broken) link\\b|\\bdoes not (?:exist|resolve)\\b",
+    "\\berror page\\b|\\bno (?:article |page )?content\\b",
+  ].join("|"),
+  "i",
+);
+
+// Test failure markers against the line with its URLs REMOVED. Otherwise digits inside a URL
+// path trigger the status-code pattern: `/579-istanbul-waqfs…` matched `5[0-9]{2}` and dropped
+// a link for the wrong reason (caught 2026-08-03). A successfully fetched URL containing "404"
+// would have been silently discarded.
+export function reportsFailure(line) {
+  return FETCH_FAILURE.test(line.replace(/https?:\/\/[^\s)>\]]+/g, " "));
+}
 
 export function deriveFields(bodyText) {
   const sections = splitSections(bodyText);
@@ -90,7 +115,7 @@ export function deriveFields(bodyText) {
   const scope = inScope.map((s) => `${s.heading}\n${s.body}`).join("\n");
   const anchors = [...new Set(
     scope.split(/\r?\n/)
-      .filter((line) => !FETCH_FAILURE.test(line))
+      .filter((line) => !reportsFailure(line))
       .join("\n")
       .match(/https?:\/\/[^\s)>\]]+/g) ?? [],
   )];

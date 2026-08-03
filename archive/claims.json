@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 21,
+  "count": 23,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -252,8 +252,7 @@
         "https://en.wikipedia.org/wiki/Constantinople_observatory_of_Taqi_ad-Din",
         "https://web.astronomicalheritage.net/show-entity?identity=184&idsubentity=1",
         "https://en.wikipedia.org/wiki/Hulegu_Khan",
-        "https://en.wikipedia.org/wiki/Tycho_Brahe",
-        "https://journals.uco.es/mediterranea/article/download/13676/12836/27856"
+        "https://en.wikipedia.org/wiki/Tycho_Brahe"
       ],
       "safe_wording": "In February 1258, Hülegü's Mongol army sacked Baghdad — a genuine catastrophe that killed a large share of the city's population, destroyed institutions including its famous libraries, and ended the Abbasid caliphate there. In 1259, one year later, construction of a major astronomical observatory began at Maragha in northwestern Iran — and its patron was Hülegü himself, a non-Muslim Mongol prince, who funded it by directing the conquered civilization's own religious-endowment (waqf) revenue to it, reportedly because he wanted astrological prognostication. Its director, Nasir al-Din al-Tusi, had entered Hülegü's service after the Mongols took the Ismaili fortresses in 1256 and is reported to have been with Hülegü's forces during the Baghdad campaign. The observatory assembled purpose-built instruments, a substantial library (traditional accounts claim about 400,000 volumes — an unverified and likely inflated figure), and a named international team — Mu'ayyad al-Din al-'Urdi of Damascus, Muhyi al-Din al-Maghribi, Qutb al-Din al-Shirazi, the Chinese astronomer Fao Munji — and twelve years of observations there produced the Zij-i Ilkhani astronomical tables by about 1272. The observatory itself declined within roughly half a century, inactive by the early 14th century; the institutional model it pioneered was deliberately revived by later dynasties — Samarkand's Ulugh Beg observatory, built in the 1420s to Maragha's own plans though Maragha had been inactive for more than a century by then, and Istanbul's in 1577, itself demolished in 1580 amid contested court-and-clergy politics. None of this makes the sack of Baghdad minor, and it does not settle the debated question of transmission to Copernicus; it shows something narrower and harder to dismiss — that the scholarly network survived the catastrophe, in part by capturing the conqueror's own patronage."
     },
@@ -354,8 +353,7 @@
         "https://en.wikipedia.org/wiki/Timur_Kuran",
         "https://en.wikipedia.org/wiki/Qalawun_complex",
         "https://en.wikipedia.org/wiki/Ministry_of_Evkaf",
-        "https://www.nationalwaqf.org/blog/the-land-of-khaybar-waqf-of-umar-ibn-al-khattab-rd",
-        "https://istanbultarihi.ist/579-istanbul-waqfs-in-the-republican-period"
+        "https://www.nationalwaqf.org/blog/the-land-of-khaybar-waqf-of-umar-ibn-al-khattab-rd"
       ],
       "safe_wording": "Classical Islamic law developed the waqf: a founder dedicates income-producing property — farmland, shops, mills, bathhouses — irrevocably once the endowment takes effect (the law schools differed on when irrevocability attaches), so that its revenue funds named public purposes in perpetuity, with the terms recorded in a witnessed deed (waqfiyya) under a judge's oversight; from at latest the ninth century (the oldest surviving dated deed, from 876 CE, endows a Qur'an manuscript) this instrument became a standing funding mechanism for much of the classical Islamic world's civil infrastructure — madrasas, hospitals whose endowments covered staff wages, medicines, beds, and repairs, fountains, bridges, and soup kitchens such as Hürrem Sultan's endowed Jerusalem imaret (charter dated 1556–57), with women documented among founders in named cases and Ottoman registers. The honest limits: charitable foundations predate Islam and the question of influence on waqf's legal form is unresolved; the Qur'an contains no waqf statute (jurists built the institution from hadith reports and general charity teachings); reported capacities are traditional figures rather than audits; family endowments were used to steer wealth around inheritance shares; administration was at times corrupt, and judge-approved property substitutions are reported by specialists as a channel by which ruling elites absorbed endowment assets well before the modern era; economists such as Timur Kuran argue the perpetuity rules bred long-run economic rigidity; and the modern era centralized, captured, or nationalized most of the system."
     },
@@ -381,8 +379,7 @@
         "https://en.wikipedia.org/wiki/Islam_in_Indonesia",
         "https://en.wikipedia.org/wiki/Islam_by_country",
         "https://en.wikipedia.org/wiki/Islam_in_Bengal",
-        "https://dilawars.wordpress.com/2013/10/18/islamization-in-india-richard-m-eaton/",
-        "https://jan.ucc.nau.edu/sj6/eatonapproachconversion.pdf"
+        "https://dilawars.wordpress.com/2013/10/18/islamization-in-india-richard-m-eaton/"
       ],
       "safe_wording": "\"Islam was spread by the sword\" is half a truth wearing the other half's clothes. Muslim political rule did spread fast and by conquest — a vast empire from the Indus to the Atlantic within about a century. But the conversion of those conquered peoples to Islam was a different, much slower story: by the leading quantitative reconstruction, fewer than one in ten people in the conquered core lands were Muslim even a century on, and most regions did not become majority-Muslim until the 9th–11th centuries or later. That conversion moved mainly through trade, intermarriage, Sufi networks, and the social and economic pull of joining the ruling faith — not through forced conversion, which the sources treat as the exception, not the rule. Indonesia, home to the largest Muslim population on earth, was reached by merchants, not armies. Yet the opposite slogan — that power played no part — is just as wrong: non-Muslims paid a special tax (the jizya), lived under real legal disabilities, and in specific times and places were converted by force. The accurate sentence is the unglamorous one: conquest was fast and coercive; conversion was slow and mostly not at swordpoint, but never free of the gravity of power."
     },
@@ -408,8 +405,7 @@
         "https://en.wikipedia.org/wiki/Hudud",
         "https://en.wikipedia.org/wiki/Sharia",
         "https://press.princeton.edu/books/paperback/9780691156248/the-fall-and-rise-of-the-islamic-state",
-        "https://islamiclaw.blog/2017/11/28/scholarship-in-plain-english-noah-feldman-on-law-islam-and-the-future-of-the-middle-east/",
-        "http://uniset.ca/terrorism3/18IslamicLSoc126.pdf"
+        "https://islamiclaw.blog/2017/11/28/scholarship-in-plain-english-noah-feldman-on-law-islam-and-the-future-of-the-middle-east/"
       ],
       "safe_wording": "Classical Islamic law was a \"jurists' law\": for most of its history, what the law *said* was determined by independent religious scholars in competing schools — not legislated by the state — so legal and scholarly life could outlast the empires that rose and fell above it."
     },
@@ -610,6 +606,77 @@
         "https://www.holysepulchre.com/status-quo"
       ],
       "safe_wording": "Christianity's holiest church has one main door, and for centuries it has been opened by Muslims. Each morning a member of the Joudeh al-Goudia family brings the key to the Church of the Holy Sepulchre in Jerusalem, and a member of the Nuseibeh family unlocks the door; both are Palestinian Muslim families of the city, and the office passes down the generations. When it began is genuinely disputed: the Nuseibeh family's tradition traces it to Caliph Umar in the 630s, but the family itself acknowledges that the documents held by the Christian denominations mention their role only from the time of Saladin in the twelfth century, and the two custodian families' own published histories disagree with each other by more than four centuries about when one of them started. No firman or deed naming either family has been published outside their custody. What is well attested is the arrangement itself: a British Mandate survey of the Holy Places published in 1929 records Moslem custodians stationed at the entrance, and the practice has continued under Ottoman, British, Jordanian, and Israeli rule. Why it persists is the more interesting part. Six Christian communions — Greek Orthodox, Roman Catholic, Armenian Apostolic, Coptic, Syriac Orthodox, and Ethiopian Orthodox — hold competing rights inside the building under the Status Quo, an Ottoman-era settlement, reaffirmed in 1852 and 1853, under which nothing may change unless all six agree. Under that rule a custodian belonging to none of the six is the practical solution, and once installed he is nearly impossible to remove. So this is not simply a story of goodwill, and it should not be told as one. It is a story about how rival communities build workable arrangements when none of them can win — and the same record that carries the door also carries the Fatimid caliph al-Hakim's order to destroy this church in 1009, and a Crusader century when no Muslim held its key. One arrangement at one building establishes nothing about how Islam or Muslims treat Christians in general; the fact that it has been maintained by Muslim, Christian, and Jewish sovereigns alike is exactly why it belongs to none of them."
+    },
+    {
+      "id": "CMOS-0022",
+      "file": "source-cards/022_southeast_asian_islamization.md",
+      "claim_layer": "outcome",
+      "grade": "B",
+      "grade_scope": "B: that maritime/insular Southeast Asia — Indonesia, the Malay peninsula, Brunei, and the southern Philippines — became predominantly Muslim WITHOUT being conquered by any outside Muslim empire, through commercial networks, the conversion of local rulers, intermarriage, and Sufi teaching, in a gradual and uneven process running from about the late 13th century through the 17th and beyond, producing today the world's largest national Muslim population (Indonesia, c. 249.8 million, c. 13% of all Muslims); and that this absence of EXTERNAL conquest did not mean an absence of force — once local dynasties turned Muslim, Islamization advanced in places through indigenous warfare and coercion (Demak's conquest of the last Javanese Hindu-Buddhist state; Aceh's Ali Mughayat Syah, who in 1520 'conquered Daya, and submitted the people to Islam'), alongside the slave-raiding economies of Muslim polities such as Sulu. The no-external-conquest half and the present-day demographic outcome are A-strength and near-uncontested; the mechanism synthesis is B, its SHAPE (commerce-borne, ruler-first, gradual, syncretic) being scholarly consensus while the ORIGIN (Gujarati/South-Indian vs Arab-Hadhrami vs Persian vs Chinese) and the DATING of the earliest conversions are genuinely disputed and are scoped OUT of the graded claim. Capped below A because no primary text (Hikayat Raja-Raja Pasai, Sejarah Melayu, Tome Pires, Ibn Battuta's Rihla, the gravestone epigraphy itself) and no specialist monograph (Ricklefs, Reid, Johns, Azra, Laffan) was read directly, and four fetches failed. Axes note: outcome/established certify the regional historical result and its main channels only — this card is NOT evidence about what Islamic doctrine mandates (a quran/prophetic-layer question), NOT a generalization about how Islam spread elsewhere (Anatolia and North Africa went differently; see CMOS-0014), and NOT a claim that the region converted completely (Bali, the Papuas, the Batak highlands, and East Nusa Tenggara are non-Muslim-majority today).",
+      "closure": "reconnaissance",
+      "source_tier_best": 3,
+      "independent_chains": 2,
+      "epistemic_status": "established",
+      "lifecycle": "verified",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-08-02",
+      "anchors": [
+        "https://countrystudies.us/indonesia/5.htm",
+        "https://en.wikipedia.org/wiki/Spread_of_Islam_in_Indonesia",
+        "https://en.wikipedia.org/wiki/Islam_in_Indonesia",
+        "https://en.wikipedia.org/wiki/Samudera_Pasai_Sultanate",
+        "https://en.wikipedia.org/wiki/Islam_in_Malaysia",
+        "https://en.wikipedia.org/wiki/Demak_Sultanate",
+        "https://en.wikipedia.org/wiki/Aceh_Sultanate",
+        "https://en.wikipedia.org/wiki/Sultanate_of_Sulu",
+        "https://en.wikipedia.org/wiki/Islam_in_the_Philippines",
+        "https://en.wikipedia.org/wiki/Abangan",
+        "https://en.wikipedia.org/wiki/Religion_in_Indonesia",
+        "https://en.wikipedia.org/wiki/Islam_by_country",
+        "https://en.wikipedia.org/wiki/Wali_Sanga",
+        "https://worldhistoryconnected.press.uillinois.edu/17.3/Hawkley.html",
+        "https://jurnal.uinsu.ac.id/index.php/juspi/article/view/19700"
+      ],
+      "safe_wording": "Maritime Southeast Asia — Indonesia, the Malay peninsula, Brunei, the southern Philippines — became predominantly Muslim without being conquered by any outside Muslim empire. A US Library of Congress country study states it plainly: \"The archipelago was not invaded by outsiders and forcibly converted.\" What carried Islam there instead were the trade routes of the Indian Ocean and South China Sea: Muslim merchants who settled in the ports, married into local ruling families, and made Muslim-ruled harbours the profitable ones; local rulers who converted, after which \"their subjects mirrored their conversion\"; and Sufi teachers who worked through Javanese forms, one of them credited with using shadow-puppet theatre and gamelan music to teach. It was slow and patchy — traders are attested from the 8th century but the spread itself begins around the end of the 13th, accelerates in the 15th, and does not reach a Malay-peninsula majority until the 17th; the evidence \"does not suggest a rolling wave of conversion\" but a process that was \"complicated and slow,\" faster on the coasts than inland. Today Indonesia holds the world's largest national Muslim population, roughly 249.8 million people, about an eighth of all Muslims. But the absence of an outside conquest did not mean the absence of force, and the honest version says so in the same breath: once local dynasties became Muslim, their wars became Muslim wars — Demak conquered the last Hindu-Buddhist state in Java, the Sunda kingdom of Pajajaran fell to Muslim armies in the 16th century, Aceh's Ali Mughayat Syah in 1520 \"conquered Daya, and submitted the people to Islam,\" and the sultanate of Sulu ran a raiding economy in which about half its mid-19th-century population were captives. Conversion was also syncretic and incomplete: Javanese abangan practice \"integrates Hinduism, Buddhism and animism,\" and Bali, the Papuan provinces, East Nusa Tenggara and much of the Batak highlands are not Muslim at all. The claim that survives all of this is narrow and hard to dislodge: Islam was not carried into maritime Southeast Asia by foreign conquest — it came with commerce, courts, marriages and teachers, over centuries — and what happened afterwards, including the coercion, was local. That is a fact about one region's history. It is not an argument about what any religion teaches."
+    },
+    {
+      "id": "CMOS-0023",
+      "file": "source-cards/023_west_african_scholarship_timbuktu.md",
+      "claim_layer": "culture",
+      "grade": "B",
+      "grade_scope": "B: that a substantial indigenous Islamic scholarly culture operated in Timbuktu and the Niger bend under Mali and Songhai patronage (roughly 14th-16th centuries) - mosque-centred teaching circles at Sankore, Djinguereber and Sidi Yahya, hereditary jurist families holding the qadiship and the Sankore imamate (the Sanhaja Berber Aqit family; al-Qadi al-Aqib, qadi 1565-1583, rebuilding four mosques 1569-1579), a book-copying and book-trading economy, private scholarly libraries, indigenous authors writing original works (Ahmad Baba, 40-plus books, deported to Morocco 1594, returned 1608; al-Sadi, Tarikh al-Sudan c. 1655), and a surviving manuscript corpus of which 308,000 items have been digitized by one institution - as attested by ten live-fetched tertiary and institutional pages across four distinct publishers, descending largely from one modern scholarly chain (the Timbuktu Chronicles and Leo Africanus as filtered through Hunwick, Jeppie, Hall and Stewart) plus the physical corpus and standing buildings. C: any total manuscript count for Timbuktu, which the sources themselves call unknown; the dating profile of the surviving corpus, which spans the 15th to the 20th centuries and is NOT a medieval corpus; and the strength of trans-Saharan recognition of Timbuktu jurists beyond Ahmad Babas documented Moroccan exile. Axes note: claim_layer is culture, not institution, because both fetched sources on the question state there was no institutionalized centre of learning - the object here is a scholarly culture of individual teachers, family libraries and jurist lineages, which is a different layer from the waqf-constituted, salaried madrasa graded in CMOS-0012.",
+      "closure": "reconnaissance",
+      "source_tier_best": 3,
+      "independent_chains": 2,
+      "epistemic_status": "established",
+      "lifecycle": "verified",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-08-02",
+      "anchors": [
+        "https://en.wikipedia.org/wiki/Sankore_Madrasah",
+        "https://en.wikipedia.org/wiki/University_of_Timbuktu",
+        "https://en.wikipedia.org/wiki/Timbuktu",
+        "https://en.wikipedia.org/wiki/Timbuktu_Manuscripts",
+        "https://hmml.org/about/global-operations/mali/",
+        "https://en.wikipedia.org/wiki/Ahmad_Baba_al-Timbukti",
+        "https://en.wikipedia.org/wiki/Al-Qadi_Aqib_ibn_Mahmud_ibn_Umar",
+        "https://en.wikipedia.org/wiki/Tarikh_al-Sudan",
+        "https://en.wikipedia.org/wiki/Abd_al-Rahman_al-Sa%27di",
+        "https://en.wikipedia.org/wiki/Tarikh_al-fattash",
+        "https://en.wikipedia.org/wiki/Leo_Africanus",
+        "https://en.wikipedia.org/wiki/Mali_Empire",
+        "https://en.wikipedia.org/wiki/Songhai_Empire",
+        "https://en.wikipedia.org/wiki/Battle_of_Tondibi",
+        "https://en.wikipedia.org/wiki/Trans-Saharan_slave_trade",
+        "https://press.princeton.edu/books/hardcover/9780691273853/writing-timbuktu",
+        "https://www.gresham.ac.uk/watch-now/timbuktu-manuscripts",
+        "https://tombouctoumanuscripts.uct.ac.za/articles/2015-04-13-library-congress-islamic-manuscripts-mali",
+        "https://islamiclaw.blog/2020/02/03/700000-ancient-african-books-have-survived-in-malis-timbuktu-university/",
+        "https://en.wikipedia.org/wiki/Djinguereber_Mosque"
+      ],
+      "safe_wording": "Between roughly the 14th and the late 16th centuries, Timbuktu on the Niger bend — under Mali and then Songhai patronage — sustained a substantial indigenous Islamic scholarly culture. It was not a university, and its own historians say so: there is no evidence of an organized educational institution there, and teaching ran through individual scholars with their own private students, in study circles seated on the floor, largely in scholars' houses, with three mosques (Djinguereber, built 1327; Sankore, 14th–15th century; Sidi Yahya, 1400) as focal points. What made it a culture rather than a scattering of tutors is documented: hereditary jurist families — the Sanhaja Berber Aqit lineage supplied the city's qadis and Sankore's imams, and one of them, al-Qadi al-Aqib (qadi 1565–1583), rebuilt or renovated four mosques between 1569 and 1579; an active book trade and private scholarly libraries; and locally written books, above all Ahmad Baba's forty-plus works and al-Sa'di's *Tarikh al-Sudan*, still the single most important source for the Songhai empire. The manuscripts survive in large numbers — one institution alone has digitized 308,000 of them — though their total is, by the sources' own statement, unknown, and the surviving corpus spans the fifteenth to the twentieth centuries rather than the medieval period alone. This coexisted with enslavement: Mali and Songhai were slave-holding, slave-trading states, Timbuktu's wealth came from gold, salt, and the trans-Saharan slave trade, and Ahmad Baba's treatise on the subject sought to stop Muslims enslaving Muslims rather than to end the trade. In 1591 a Moroccan army with firearms destroyed Songhai at Tondibi in about two hours; in 1593 many of Timbuktu's scholars were executed or exiled, and in 1594 Ahmad Baba and others were deported to Morocco with their manuscript collections. None of this makes Timbuktu a university, and none of it settles any comparison with Cairo, Fez, or Bologna. It shows something narrower and harder to dismiss: that Islamic learning in this period was written, taught, judged, and archived by people who lived south of the Sahara — produced there, not merely delivered there."
     }
   ]
 }

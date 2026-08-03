@@ -146,7 +146,7 @@ const cases = [
 // page or a NotebookLM upload. Higher stakes, and until 2026-08-03 nothing exercised them.
 const { publishRefusal } = await import("./render.mjs").catch(() => ({}));
 const { findOverclaim } = await import("./lib.mjs");
-const { findIdCollisions } = await import("./archive.mjs");
+const { findIdCollisions, reportsFailure } = await import("./archive.mjs");
 const { bearsClaims } = await import("./evals.mjs");
 
 const nonEmpty = (arr) => (arr && arr.length ? arr : null);
@@ -203,6 +203,20 @@ const publishCases = [
   { name: "[intake] a pure protocol with no claims is NOT flagged (avoids crying wolf)",
     run: () => (bearsClaims("# Protocol\n\n## Steps\n\n1. Do the thing.\n2. Then the other thing.") ? "flagged" : null),
     expectRefusal: false },
+
+  // Anchor hygiene: dead links must not reach the index, because render.mjs publishes from it.
+  // Every case below is a real line shape that appeared in a card.
+  { name: "[anchors] a 403 note is recognised as a failure",
+    run: () => (reportsFailure("- https://example.org/a — returned HTTP 403 to this session.") ? "failure" : null), expectRefusal: true },
+  { name: "[anchors] paraphrased 'no EXTRACTABLE text layer' is recognised",
+    run: () => (reportsFailure("- https://example.org/b.pdf — binary PDF with no extractable text layer; not used.") ? "failure" : null), expectRefusal: true },
+  { name: "[anchors] an error-page note is recognised",
+    run: () => (reportsFailure("- https://example.org/c — returned a PHP error page with no article content.") ? "failure" : null), expectRefusal: true },
+  { name: "[anchors] a SUCCESSFUL fetch whose URL contains digits like 404/579 is NOT dropped",
+    run: () => (reportsFailure("- https://example.org/579-waqfs-404-report — fetched 2026-08-03; verbatim excerpt below.") ? "wrongly-dropped" : null),
+    expectRefusal: false },
+  { name: "[anchors] a plain successful anchor is kept",
+    run: () => (reportsFailure("- https://example.org/d — fetched 2026-08-03, quote reproduced.") ? "wrongly-dropped" : null), expectRefusal: false },
 ];
 
 let pass = 0;
