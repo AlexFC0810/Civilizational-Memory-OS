@@ -61,15 +61,39 @@ export function validateFrontmatter(fm, bodyText) {
 }
 
 // Derive index fields FROM THE BODY (single source of truth): grade, anchors, safe_wording.
+// Lines that report a retrieval failure — their URLs are evidence of what we could NOT read,
+// and must never be published as sources.
+const FETCH_FAILURE = /\b(403|404|429|500|502|503|paywall|forbidden|blocked|unreachable|paywalled|timed?[ -]?out|timeout|fetch fail|failed to (?:fetch|retrieve|load)|not (?:retriev|access|reach)able|no text layer|could not (?:be )?(?:fetch|retriev|access|read))/i;
+
 export function deriveFields(bodyText) {
   const sections = splitSections(bodyText);
   const gradeSec = sections.find((s) => /evidence grade/i.test(s.heading));
   const gradeM = gradeSec && gradeSec.body.match(/\b([ABCD])\b/);
   const grade = gradeM ? gradeM[1] : null;
 
+  // Anchors are collected from Source Anchors onward — deliberately wide, because the
+  // Verification Transcript is where successful retrievals are actually recorded (verse
+  // links, hadith mirrors) and those are real anchors.
+  //
+  // But that same transcript also logs fetch FAILURES with their URLs, and those were
+  // entering archive/claims.json as anchors. render.mjs publishes from that index, so this
+  // was a live path to citing dead links as sources — CMOS-0010 was carrying six known
+  // 403-blocked domains this way. Caught during the CMOS-0020 carding, 2026-08-02.
+  //
+  // The fix is a line-level failure filter, NOT a narrower scope: narrowing to the Source
+  // Anchors subtree was tried first and dropped 57 anchors, including legitimate Qur'an
+  // verse links. A URL on a line that reports its own retrieval failure is not an anchor.
+  // Headings are included in scope: cards routinely list an anchor as `### https://…`, and
+  // scanning bodies alone silently missed every one of those.
   const anchorsSec = sections.find((s) => /source anchors/i.test(s.heading));
-  const scope = anchorsSec ? sections.slice(sections.indexOf(anchorsSec)).map((s) => s.body).join("\n") : bodyText;
-  const anchors = [...new Set((scope.match(/https?:\/\/[^\s)>\]]+/g) ?? []))];
+  const inScope = anchorsSec ? sections.slice(sections.indexOf(anchorsSec)) : sections;
+  const scope = inScope.map((s) => `${s.heading}\n${s.body}`).join("\n");
+  const anchors = [...new Set(
+    scope.split(/\r?\n/)
+      .filter((line) => !FETCH_FAILURE.test(line))
+      .join("\n")
+      .match(/https?:\/\/[^\s)>\]]+/g) ?? [],
+  )];
 
   // Safe Wording section — exclude the "Unsafe Wording" heading explicitly.
   const safeSec = sections.find((s) => /safe wording/i.test(s.heading) && !/unsafe/i.test(s.heading));

@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 19,
+  "count": 20,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -110,10 +110,7 @@
         "https://en.wikipedia.org/wiki/Ibn_al-Haytham",
         "https://en.wikipedia.org/wiki/Al-Khwarizmi",
         "https://en.wikipedia.org/wiki/House_of_Wisdom",
-        "https://en.wikipedia.org/wiki/Al-Hakam_II",
-        "https://en.wikipedia.org/wiki/Great_Library_of_C%C3%B3rdoba",
-        "https://en.wikipedia.org/wiki/Library_of_C%C3%B3rdoba",
-        "https://en.wikipedia.org/wiki/Al-Hakam_II,"
+        "https://en.wikipedia.org/wiki/Al-Hakam_II"
       ],
       "safe_wording": "Across roughly the 8th–14th centuries, in cities including Baghdad, Cairo, Damascus, and Cordoba, rulers and elites built durable, endowment-funded institutions for knowledge and healing: a sustained translation movement that corrected and advanced Greek science (while remaining selective by genre and occasionally altered by individual translators), waqf-funded bimaristan hospitals — modeled partly on the earlier Sasanian Gundeshapur hospital — with documented open-admission language and specialized wards (including for mental illness), and named scholars — Ibn al-Haytham in optics, al-Khwarizmi in algebra (whose own astronomy drew on Indian sources) — whose work later fed into European science through named chains of transmission. This tradition also faced real internal opposition, including the destruction of philosophy/science books from Cordoba's royal library by a Muslim successor ruler. None of this means these institutions were first, unique, or flawlessly delivered; it means the record of what was built and transmitted is real and cannot be waved away as \"nothing.\""
     },
@@ -142,7 +139,6 @@
         "https://quran.com/24/31",
         "https://en.wikipedia.org/wiki/Riba",
         "https://quran.com/24/30-31",
-        "https://www.britannica.com/topic/riba",
         "https://www.investopedia.com/terms/r/riba.asp"
       ],
       "safe_wording": "The Qur'an's own text is not a blanket rejection of modern life. It permits trade, praises charity and promise-keeping, models the seeking of knowledge as a prayer, and treats public benefit as a good — while placing specific, named moral limits on riba (interest), intoxicants, gambling, and sexual immorality (zina). Whether any given Muslim society, or the historical juristic tradition, has implemented that filter well and consistently is a separate, much harder historical question — one this card does not resolve."
@@ -226,9 +222,7 @@
         "https://novoscriptorium.com/2019/09/21/the-birth-of-the-hospital-in-the-eastern-roman-empire-byzantium-philanthropic-social-welfare-in-the-christian-east/",
         "https://hekint.org/2017/02/22/byzantium-origin-of-the-modern-hospital/",
         "https://www.thebyzantinelegacy.com/pantokrator-monastery",
-        "https://www.academia.edu/2625985/Healing_on_the_Fourth_Hill_Searching_for_the_Pantokrator_Hospital",
-        "https://en.wikipedia.org/wiki/Pantokrator_Monastery",
-        "https://en.wikipedia.org/wiki/Molla_Zeyrek_Mosque"
+        "https://en.wikipedia.org/wiki/Pantokrator_Monastery"
       ],
       "safe_wording": "The 1136 Typikon of the Pantokrator Monastery in Constantinople — commissioned by Emperor John II Komnenos, with the project begun under Empress Irene — specifies an attached hospital (xenon) with a stated capacity of roughly 50 beds across five specialized wards (surgery/fractures, eye and intestinal disease, general male illness, and a women's ward), staffed by a graded hierarchy of salaried physicians, including a female physician for the women's ward paid half the wage of her male counterparts. This was not the first Byzantine hospital — Basil of Caesarea, Leontius of Antioch, and Bishop Rabbula of Edessa built medicalized hospices centuries earlier — and the specific numbers here rest on one surviving charter, read here only through secondary and tertiary scholarship, not the Greek critical edition itself."
     },
@@ -259,13 +253,7 @@
         "https://web.astronomicalheritage.net/show-entity?identity=184&idsubentity=1",
         "https://en.wikipedia.org/wiki/Hulegu_Khan",
         "https://en.wikipedia.org/wiki/Tycho_Brahe",
-        "https://www.britannica.com/biography/Nasir-al-Din-al-Tusi",
-        "https://iranicaonline.org/articles/maraga-observatory",
-        "https://www.iranicaonline.org/articles/tusi-nasir-al-din-mathematician-astronomer/",
-        "https://www.cambridge.org/core/books/rise-of-early-modern-science/madrasas-and-the-transmitted-sciences/F6AB8A3D053BD7E828557061C776D458",
-        "https://whc.unesco.org/en/statesparties/ir",
-        "https://journals.uco.es/mediterranea/article/download/13676/12836/27856",
-        "https://madainproject.com/maragheh_observatory"
+        "https://journals.uco.es/mediterranea/article/download/13676/12836/27856"
       ],
       "safe_wording": "In February 1258, Hülegü's Mongol army sacked Baghdad — a genuine catastrophe that killed a large share of the city's population, destroyed institutions including its famous libraries, and ended the Abbasid caliphate there. In 1259, one year later, construction of a major astronomical observatory began at Maragha in northwestern Iran — and its patron was Hülegü himself, a non-Muslim Mongol prince, who funded it by directing the conquered civilization's own religious-endowment (waqf) revenue to it, reportedly because he wanted astrological prognostication. Its director, Nasir al-Din al-Tusi, had entered Hülegü's service after the Mongols took the Ismaili fortresses in 1256 and is reported to have been with Hülegü's forces during the Baghdad campaign. The observatory assembled purpose-built instruments, a substantial library (traditional accounts claim about 400,000 volumes — an unverified and likely inflated figure), and a named international team — Mu'ayyad al-Din al-'Urdi of Damascus, Muhyi al-Din al-Maghribi, Qutb al-Din al-Shirazi, the Chinese astronomer Fao Munji — and twelve years of observations there produced the Zij-i Ilkhani astronomical tables by about 1272. The observatory itself declined within roughly half a century, inactive by the early 14th century; the institutional model it pioneered was deliberately revived by later dynasties — Samarkand's Ulugh Beg observatory, built in the 1420s to Maragha's own plans though Maragha had been inactive for more than a century by then, and Istanbul's in 1577, itself demolished in 1580 amid contested court-and-clergy politics. None of this makes the sack of Baghdad minor, and it does not settle the debated question of transmission to Copernicus; it shows something narrower and harder to dismiss — that the scholarly network survived the catastrophe, in part by capturing the conqueror's own patronage."
     },
@@ -294,12 +282,6 @@
         "https://quran.com/4/135",
         "https://quran.com/49/13",
         "https://quran.com/2/44",
-        "https://hadithunlocked.com/bukhari:7144",
-        "https://sunnah.com/bukhari:7144",
-        "https://hadithunlocked.com/bukhari:7257",
-        "https://sunnah.com/bukhari:7257",
-        "https://hadithunlocked.com/muslim:1847b",
-        "https://sunnah.com/muslim:1847b",
         "https://en.wikipedia.org/wiki/Shadow_of_God",
         "https://www.encyclopedia.com/philosophy-and-religion/islam/islam/caliph",
         "https://islamology.in/journal/article/view/69",
@@ -310,10 +292,9 @@
         "https://en.wikipedia.org/wiki/Kharijites",
         "https://cup.columbia.edu/book/gods-rule-government-and-islam/9780231132916/",
         "https://quran.com/112/1-4",
-        "https://hadithunlocked.com/bukhari:7144,",
-        "https://en.wikipedia.org/wiki/Hakimiyya",
-        "https://www.britannica.com/topic/Mihna",
-        "https://www.britannica.com/place/Caliphate"
+        "https://hadithunlocked.com/bukhari:7144",
+        "https://hadithunlocked.com/muslim:1847b",
+        "https://hadithunlocked.com/bukhari:7257"
       ],
       "safe_wording": "The Qur'an's central theological claim — that only God is absolute (tawhid; Surah 112; ayat al-kursi, 2:255) and that associating anything with God is the one sin it says goes unforgiven if unrepented (4:48) — is explicitly turned against human claims to absolute power: the archetype of damnation is a ruler who says \"I am your lord, the most high\" (79:24), and canonical hadith bound obedience to rulers with the ma'ruf limit — \"no obedience for evil deeds, obedience is required only in what is good\" (Sahih al-Bukhari 7257), and if disobedience to God is commanded, \"one should not listen to it or obey it\" (Sahih al-Bukhari 7144). On the reading a body of scholarship gives this architecture (Crone's *God's Rule*; Crone and Hinds's *God's Caliph*), the classical Sunni settlement that eventually emerged — after, not before, a centuries-long contest in which early caliphs claimed to be God's own deputies — denied the ruler the status of source of moral law and lodged interpretive authority over sharia with scholars outside the court: a rule of religious law, not rule by a priestly caste in sovereign office, for the rulers were not the scholars and the scholars were not the state. That is one half of the honest picture. The other half: Muslim rulers adopted exalted titles — \"deputy of God\" (khalifat Allah), later \"the shadow of God on earth\" (zill Allah fi'l-ard) — that pushed back toward the very sacralized authority the Qur'anic material stages as damnable; mainstream classical jurisprudence mostly channeled dissent into endurance and counsel rather than rebellion (Sahih Muslim 1847b: \"even if your back is flogged and your wealth is snatched, you should listen and obey\"); the excommunicate-then-fight reading of \"God alone is sovereign\" is as old as the Khawarij (657–661) and was redeployed in the 20th century (hakimiyya; Mawdudi, Qutb); and when the Abbasid state coerced scholars in the Mihna (833–c.851), imprisoning and flogging Ahmad ibn Hanbal, the vocabulary of limits did not by itself stop the coercion — the episode ended through crowd pressure and a later caliph's political realignment, not through a recognized limit. This is a claim about a documented structure and a documented vocabulary-in-use — established at the text layer, probable as a civilizational synthesis — not a claim that Muslim polities were less autocratic than others, that theology mechanically produced restraint, or that any of this resembles modern constitutionalism."
     },
@@ -338,8 +319,14 @@
         "https://www.encyclopedia.com/literature-and-arts/art-and-architecture/architecture/madrasa",
         "https://en.wikipedia.org/wiki/Ijazah",
         "https://en.wikipedia.org/wiki/Medieval_university",
-        "https://www.thefreelibrary.com/The+Rise+of+Colleges%3A+Institutions+of+Learning+in+Islam+and+the+West.-a0510545561",
-        "https://www.tandfonline.com/doi/full/10.1080/00071005.2021.1901853"
+        "https://en.wikipedia.org/wiki/Al-Azhar_Mosque",
+        "https://en.wikipedia.org/wiki/Al-Ghazali",
+        "https://en.wikipedia.org/wiki/Ibn_Abi_Zar",
+        "https://en.wikipedia.org/wiki/Madrasa",
+        "https://en.wikipedia.org/wiki/Waqf",
+        "https://en.wikipedia.org/wiki/Nizam_al-Mulk",
+        "https://en.wikipedia.org/wiki/Al-Nizamiyya_of_Baghdad",
+        "https://en.wikipedia.org/wiki/George_Makdisi"
       ],
       "safe_wording": "Between the 9th and 12th centuries, Muslim rulers, viziers, and private endowers scaled endowed higher learning into standing institutions: al-Qarawiyyin in Fez (a ninth-century mosque foundation, dated 857–859 by a late tradition that a rival rediscovered inscription — naming a different founder in 877 — and modern scholarship both contest; a state university since 1963), al-Azhar in Cairo (built 970–972 under the Isma'ili Shia Fatimids, designated for higher learning in 988, later the Sunni world's preeminent seat, with a modern university statute in 1961), and the Nizamiyya network the Seljuk vizier Nizam al-Mulk replicated across Baghdad, Nishapur, Isfahan, and other cities from 1065 — institutions legally constituted as waqf charitable endowments whose income paid professors and gave students room, board, and stipends, with the ijaza, a license issued by an individual teacher, as the credential. This was endowed higher education at scale, inherited from older Near Eastern and Mediterranean precedents and then scaled — not a university in the strict sense: the universitas, a chartered self-regulating corporation of masters and students (Bologna 1088, Paris c. 1150, Oxford 1167), is a distinct Latin-European legal form the madrasa did not have, and whether the waqf-funded college shaped Europe's colleges remains a genuinely open scholarly question."
     },
@@ -365,12 +352,9 @@
         "https://en.wikipedia.org/wiki/Haseki_Sultan_Imaret",
         "https://en.wikipedia.org/wiki/Zubaidah_bint_Ja%27far",
         "https://en.wikipedia.org/wiki/Timur_Kuran",
-        "https://amrayn.com/muslim/25/ch-4",
         "https://en.wikipedia.org/wiki/Qalawun_complex",
         "https://en.wikipedia.org/wiki/Ministry_of_Evkaf",
         "https://www.nationalwaqf.org/blog/the-land-of-khaybar-waqf-of-umar-ibn-al-khattab-rd",
-        "https://sunnah.com/muslim:1631",
-        "https://sunnah.com/bukhari:2737",
         "https://istanbultarihi.ist/579-istanbul-waqfs-in-the-republican-period"
       ],
       "safe_wording": "Classical Islamic law developed the waqf: a founder dedicates income-producing property — farmland, shops, mills, bathhouses — irrevocably once the endowment takes effect (the law schools differed on when irrevocability attaches), so that its revenue funds named public purposes in perpetuity, with the terms recorded in a witnessed deed (waqfiyya) under a judge's oversight; from at latest the ninth century (the oldest surviving dated deed, from 876 CE, endows a Qur'an manuscript) this instrument became a standing funding mechanism for much of the classical Islamic world's civil infrastructure — madrasas, hospitals whose endowments covered staff wages, medicines, beds, and repairs, fountains, bridges, and soup kitchens such as Hürrem Sultan's endowed Jerusalem imaret (charter dated 1556–57), with women documented among founders in named cases and Ottoman registers. The honest limits: charitable foundations predate Islam and the question of influence on waqf's legal form is unresolved; the Qur'an contains no waqf statute (jurists built the institution from hadith reports and general charity teachings); reported capacities are traditional figures rather than audits; family endowments were used to steer wealth around inheritance shares; administration was at times corrupt, and judge-approved property substitutions are reported by specialists as a channel by which ruling elites absorbed endowment assets well before the modern era; economists such as Timur Kuran argue the perpetuity rules bred long-run economic rigidity; and the modern era centralized, captured, or nationalized most of the system."
@@ -447,9 +431,7 @@
         "https://en.wikipedia.org/wiki/Constitution_of_Medina",
         "https://yaqeeninstitute.org/read/paper/the-constitution-of-medina-translation-commentary-and-meaning-today",
         "https://journalofislamiclaw.com/current/article/download/anjum/176?inline=1",
-        "https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/article/abs/constitution-of-medina-a-sociolegal-interpretation-of-muhammads-acts-of-foundation-of-the-umma/7F73A56B318684F1098CE75F7219809E",
-        "https://www.oxfordbibliographies.com/display/document/obo-9780195390155/obo-9780195390155-0209.xml",
-        "https://academic.oup.com/reference/62361/reference-article/554576238#554576238"
+        "https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/article/abs/constitution-of-medina-a-sociolegal-interpretation-of-muhammads-acts-of-foundation-of-the-umma/7F73A56B318684F1098CE75F7219809E"
       ],
       "safe_wording": "After the Hijra of 622 CE, the Prophet Muhammad's ﷺ first act of government at Medina was a negotiated written pact — the *Ṣaḥīfa*, later called the \"Constitution of Medina\" — that bound the town's mixed population into one mutual-defense community. Its parties were not of one religion or one tribe: alongside the Muslim Emigrants and Helpers, it names Jewish clans as parties, granting them \"their religion\" and their own law and expenses, and (in the sources that report it) it included pagan Arabs; it obliged the parties to defend Yathrib together, to share the costs of joint war, and to refer disputes \"to God and to Muhammad.\" The point that carries weight is about the founding moment: plurality was there at the start, not added later — the first Muslim polity did not require religious or ethnic sameness to begin. The document survives only in two early recensions (Ibn Ishaq via Ibn Hisham, and Abu Ubayd), carries no sound chain of narration, and scholars debate whether it is one document or several; it is not a modern constitution, not a charter of equal citizenship, and not the later dhimmi/jizya system, which developed afterward. Nor did the founding coalition endure: within a few years the three main Jewish tribes were exiled or executed amid war and alleged treaty-breaking. None of that changes the founding act — and the founding act is the answer to \"imposed by force from day one\": day one was a contract, not a conquest."
     },
@@ -478,8 +460,6 @@
         "https://en.wikipedia.org/wiki/Naubakht",
         "https://en.wikipedia.org/wiki/Dhimmi",
         "https://en.wikipedia.org/wiki/Al-Mutawakkil",
-        "https://en.wikipedia.org/wiki/Yuhanna_ibn_Masawayh",
-        "https://en.wikipedia.org/wiki/Masawaiyh,",
         "https://en.wikipedia.org/wiki/Ibn_al-Muqaffa%27"
       ],
       "safe_wording": "In Abbasid Baghdad and in the Islamic west, the knowledge system was staffed at its highest levels by non-Muslims and recent converts of non-Muslim heritage who were genuine, credited contributors. The caliphs' foremost translator of Greek science, Hunayn ibn Ishaq, was a Church of the East (Nestorian) Christian; their physicians included the Christian Bukhtishu family across roughly six generations and Yuhanna ibn Masawayh, a Christian who directed a Baghdad hospital and taught Hunayn; the court astronomer Thabit ibn Qurra was a Sabian of Harran who translated Archimedes and Ptolemy; in the west, the Jew Hasdai ibn Shaprut ran foreign affairs at the Cordoban court and oversaw the Arabic Dioscorides, and Maimonides served as physician to Saladin's court; the Zoroastrian inheritance entered chiefly through Persian converts such as the Nawbakht family. This does not mean these societies practiced religious equality — they did not. These scholars lived as dhimmis: legally protected, taxed through the jizya, and subject to real disabilities, and specific rulers turned hostile, from al-Mutawakkil's 850 dress-and-office decree to the Almohad persecutions that exiled Maimonides. Both halves are true at once. What the record does refute is the claim that Islamic civilization was insular or hostile to other faiths' knowledge — because those are the people who actually ran its translation movement, its court medicine, and its astronomy."
@@ -554,14 +534,43 @@
         "https://literaryreview.co.uk/making-a-prophet",
         "https://www.youtube.com/oembed?url=https%3A%2F%2Fyoutu.be%2FdakP5OZa0F0&format=json",
         "https://www.youtube.com/watch?v=dakP5OZa0F0",
-        "https://www.npr.org/2013/03/01/173244626/new-book-challenges-myths-of-the-first-muslim",
         "https://www.youtube.com/@KnowledgeBox1\",",
-        "https://www.sundayobserver.lk/2023/05/14/getting-prophet-muhammad-right-explained-lesley-hazleton",
-        "https://doaj.org/article/09dd4b66d4c24ddaa2b1870e8d2cf18c",
-        "https://doaj.org/article/d13db83d1f6244d1a36d724018ea2004",
         "https://aaminanizar.wordpress.com/2017/04/10/lesley-hazleton/"
       ],
       "safe_wording": "Lesley Hazleton (1945–2024) was a British-American writer and journalist, trained as a psychologist, who reported from Jerusalem for *Time* and *The Jerusalem Post* and wrote on the Middle East for *The New York Times*, *The New York Review of Books*, *Harper's*, *The Nation*, and *The New Republic*. She was not a Muslim and did not become one. Asked directly on NPR in 2013 whether she was a believer — the host putting it to her that she described herself as an agnostic Jew — she answered, \"Firmly agnostic.\" Working from the classical Muslim biographical sources, she wrote *The First Muslim: The Story of Muhammad*, published by Riverhead Books in 2013, and argued across that book and two TED talks that the Prophet of Islam is best understood as a psychologically credible human being: an orphan who became trusted, a man who turned to his wife Khadijah in the terror of the first revelation, a reformer confronting concentrated wealth and the abandonment of the vulnerable, and a leader whose story cannot honestly be reduced to fanaticism. Her audience was large by any measure — her two TED talks showed 2,471,123 and 1,828,587 plays when checked on 2 August 2026. She was also not a specialist, and her sharpest reviewer, the Islamic-studies scholar Eric Ormsby, faulted her for leaning almost entirely on one English translation of Ibn Hisham and for filling gaps with novelistic psychology — while still concluding that she \"does provide a good account of Muhammad's life as it is given in standard Muslim sources.\" That is exactly how she should be used: as a witness to how the sources read to a skeptical outsider, not as an authority on what happened. Her sympathy is evidence about reception, not evidence for anyone's theology, and each of her historical statements has to stand or fall on its own sources."
+    },
+    {
+      "id": "CMOS-0020",
+      "file": "source-cards/020_saladin_jerusalem_1187.md",
+      "claim_layer": "outcome",
+      "grade": "B",
+      "grade_scope": "B: that Jerusalem changed hands on 2 October 1187 by negotiated capitulation rather than by storm; that the terms were a published per-head ransom (ten dinars/besants per man, five per woman, one or two per child) with a forty-day grace period; that roughly 15,000 people who could not pay were enslaved (7,000 men and 8,000 women and children, per Saladin's own secretary Imad al-Din); that named acts of remission occurred (7,000 poor ransomed for 30,000 dinars from the city treasury, 1,000 captives released by al-Adil, 700 by the Latin patriarch, the aged freed by order); that the ransomed departed in three columns under a 50-cavalry escort; that native Christians remained, Jews were permitted to resettle, and the Church of the Holy Sepulchre was left standing; and that this differs in kind from the three-day killing of the same city's Muslim and Jewish population by the First Crusade on 15 July 1099. Certified by two contemporary chains that are hostile to each other and agree on the ransom scale: the Arabic chain (reaching this card only through tertiary quotation) and the anonymous Latin De Expugnatione Terrae Sanctae per Saladinum, read in Brundage's 1962 translation of Stevenson's 1875 Rolls Series edition. Capped below A because the load-bearing Arabic primaries (Imad al-Din, Baha al-Din, Ibn al-Athir) were NOT walked to edition or translation, no specialist monograph was read, and the specialist journal literature was fetch-blocked; source_tier_best 2 reports the Latin CORROBORATING chain, not the load-bearing one. Axes note, the category firewall of this card: outcome/established certifies ONE commander's conduct in ONE siege and its comparison to ONE other siege. It certifies nothing about what Islamic law or scripture mandates (a fiqh/quran-layer question, held by LB-10 and the rules-of-war case, which records that Muslim armies repeatedly violated that doctrine), and nothing about Muslim conquest conduct in general (an outcome-layer generalization CMOS-0014 explicitly declines to make). The reception sub-claim - that the 1187/1099 contrast became a durable civilizational memory of restraint - is firewalled OUT of this grade as a separate culture-layer proposition graded no higher than probable, and the fetched evidence runs against its intuitive form: the memory was carried first and chiefly in Latin Europe, and modern Arab commemoration of Saladin is reported to rest substantially on the image built in the 19th-century West.",
+      "closure": "reconnaissance",
+      "source_tier_best": 2,
+      "independent_chains": 2,
+      "epistemic_status": "established",
+      "lifecycle": "verified",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-08-02",
+      "anchors": [
+        "https://sourcebooks.fordham.edu/source/1187saladin.asp",
+        "https://www.jewishvirtuallibrary.org/the-capture-of-jerusalem-by-saladin",
+        "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(1187",
+        "https://en.wikipedia.org/wiki/Balian_of_Ibelin",
+        "https://www.worldhistory.org/article/1553/saladins-conquest-of-jerusalem-1187-ce/",
+        "https://en.wikipedia.org/wiki/Battle_of_Hattin",
+        "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(1099",
+        "https://en.wikipedia.org/wiki/Massacre_of_Jerusalem_(1099",
+        "https://en.wikipedia.org/wiki/Imad_ad-Din_al-Isfahani",
+        "https://en.wikipedia.org/wiki/Baha_ad-Din_ibn_Shaddad",
+        "https://en.wikipedia.org/wiki/Ibn_al-Athir",
+        "https://en.wikipedia.org/wiki/Historiography_of_the_Crusades",
+        "https://en.wikipedia.org/wiki/Nathan_the_Wise",
+        "https://en.wikipedia.org/wiki/Saladin",
+        "https://sourcebooks.fordham.edu/source/raymond-cde.asp"
+      ],
+      "safe_wording": "On 15 July 1099 the First Crusade took Jerusalem by storm and spent roughly three days killing its Muslim and Jewish inhabitants — Crusader eyewitnesses themselves boasted of riding through blood in the Temple of Solomon, and Fulcher of Chartres wrote that \"none of them were left alive; neither women nor children were spared.\" Eighty-eight years later, on 2 October 1187, Saladin took the same city back, and it changed hands by negotiated capitulation instead. That was not saintliness, and it was not free. Saladin refused the first embassy, reportedly saying Jerusalem could be cleansed only by Christian blood; terms came after Balian of Ibelin threatened to demolish the Dome of the Rock and al-Aqsa, kill the city's roughly 5,000 Muslim prisoners, and die on the walls. The terms were a price list — ten dinars a man, five a woman, one or two a child, forty days to pay — and those who could not pay were enslaved: about fifteen thousand people, of whom, by the count of Saladin's own secretary, seven thousand were men and eight thousand were women and children. That same secretary recorded the sexual violation of captive women in celebratory terms. Eight weeks earlier, the same commander had roughly two hundred captured Templars and Hospitallers beheaded after Hattin. Hold all of that, and the comparison still stands — because it is a comparison of categories, not of virtue. In 1099 the population of Jerusalem was killed. In 1187 it was ransomed, escorted out in three columns under armed guard, its native Orthodox and Syriac Christians left in place, its Jews permitted to resettle a city Crusader rule had barred them from, and the Church of the Holy Sepulchre left standing, with Saladin reported as saying he had no wish to discourage Christian pilgrimage. The strongest evidence that this is history rather than court flattery is that the anonymous Latin chronicler who calls Saladin a tyrant records the same ransom terms. Enslavement is a catastrophe. It is not the same catastrophe as extermination, and that difference — not any claim about one man's sanctity or one religion's superiority — is the whole of what this record shows."
     }
   ]
 }
