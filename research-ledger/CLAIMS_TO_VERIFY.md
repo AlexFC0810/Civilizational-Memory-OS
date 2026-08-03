@@ -235,3 +235,38 @@ Registered per the Intake Rule after the AIOS + Creator Supercharger waves merge
 | research-ledger/DECLINE_AND_RENEWAL_OS_SOURCE_HARDENING_2026-06-24.md | Decline-and-renewal claim set; pairs with gated CMOS-0018 (the Qur'an's own decline-theory) as its historical counterpart. | **CARD** | D |
 | research-ledger/PROPHETIC_AGE_SEED_OS_SOURCE_HARDENING_2026-06-24.md | Prophetic-age seed claims; feeds the Medina/covenant lane already partly gated as CMOS-0016. | **CARD** | D |
 | research-ledger/CLAIM_QUEUE_ABRAHAMIC_BRIDGE_STORIES_2026-06-11.md | Abrahamic bridge-story claim queue — the islamlovesjesus.org lane's raw material. | **CARD** | D |
+
+## Disposition triage + drain log — 2026-08-02
+
+**The headline correction.** A per-file triage of all **71 registered files** (56 table rows; several rows bundle 2–5 files) found:
+
+| Disposition | Files | Share |
+|---|---|---|
+| **CARD** — the real backlog | **17** | 24% |
+| **METHOD** — never was a claim | **46** | 65% |
+| **RETIRE** — duplicate/superseded | 4 | 6% |
+| **HELD** — ʿĀʾisha lane, founder-gated | 4 | 6% |
+
+**Three quarters of the "unverified claims" were never claims.** The real backlog was *smaller* than the gated archive, not 3× larger — the queue was mislabelled, not overloaded. Corroboration is mechanical, not impressionistic: **44 of the 46 METHOD files contain zero four-digit years, zero URLs, and zero citations across 300–900 lines each**, while every CARD file carries dated anchors.
+
+**The self-correction that matters most:** the 2026-08-02b block, which this ledger advertised as *"the true backlog was 30 files,"* contained **zero CARD entries** — all 30 were METHOD/RETIRE/HELD. The scanner had been widened to catch deploy-facing headings and confidence grading, and what it caught was doctrine. The repo's densest *actual* claim sources were meanwhile unscanned in `research-ledger/` (block 2026-08-02d). **A coverage fix that does not point where claims live produces a confident, wrong number.**
+
+### RETIRE (4) — bind by pointer, then drop
+
+| Retire | Superseded by |
+|---|---|
+| `canon/MASS_ATROCITY_MEMORY_AND_PREVENTION_ENGINE.md` | `canon/ATROCITY_MEMORY_AND_PREVENTION_ENGINE.md` — an orphan fork referenced by nothing in the repo except this ledger |
+| `public-narratives/AFTER_THE_BELL_DO_MUSLIMS_WORSHIP_THE_DEVIL_PRODUCTION_BRIEF.md` | `public-packets/after-the-bell/ATB-001_...md` — same episode; ATB-001 carries the gate banner |
+| `public-narratives/ISLAMIC_ANIMAL_MERCY_STRONG_CLAIMS.md` | `source-ledgers/animal-mercy-civilizational-memory-ledger.md` — a 96-line claim bank with zero sources, beside a ledger with 31 URLs |
+| `public-narratives/THE_ANIMALS_CANNOT_WRITE_HISTORY_FORCE_PACK.md` | `source-ledgers/ANIMAL_MERCY_HADITH_AND_INSTITUTIONS_LEDGER.md` — ⚠ it hardens into an S-tier line the exact Ottoman stork-hospital claim the ledger flags **unsafe** |
+
+### DRAINED — entries that left the queue as gated records
+
+| Was | Now | Result |
+|---|---|---|
+| `case-files/002_SALADIN_JERUSALEM_1187.md` | **CMOS-0020** · B · `outcome` | Gated 2026-08-02. Refuters cut three things: Baha al-Din ibn Shaddad was **not at the 1187 siege** (he joined Saladin in 1188); the "three independent Arabic chroniclers" collapse toward **one chain** (Imad al-Din was used heavily by Ibn al-Athir and Abu Shama); and the "durable memory of restraint" was carried **first in Latin Europe** and re-imported into Arab commemoration after 1898 — firewalled out of the grade. |
+| `case-files/001_MUSLIM_KEYHOLDERS_HOLY_SEPULCHRE.md` | **CMOS-0021** · B · `culture` · **provenance-audited** | Gated 2026-08-02. Chain actually walked: the 1192 Saladin–Richard treaty text says nothing about doors or keys; Cust (1929) names neither family; Sauvaire's 1876 Mujir al-Din has no trace of key-custody. **The two custodian families' own published histories contradict each other by 400+ years.** Present arrangement gated at B; Umar/637 **D**, Saladin/1187 **C**, Ottoman **C** — origin explicitly ungated. Breaker evidence in the Claim itself: al-Hakim destroyed this church in 1009 and the family concedes a ~100-year Crusader gap, so *"Muslims protected Christians for 1,400 years"* is false on this card's own evidence. |
+
+> ⚠ **Source-trail repair needed on `case-files/001`**: all three of its own citations failed this session (CNEWA 403, palquest.org 1852 firman 403, holysepulchre.com/status-quo returns no Status Quo content). CMOS-0021's 21 verified anchors can replace them.
+
+**Backlog after this session: 23 CARD** (17 triaged + 8 newly-found claim ledgers − 2 drained). That is the honest number.

@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 20,
+  "count": 21,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -571,6 +571,45 @@
         "https://sourcebooks.fordham.edu/source/raymond-cde.asp"
       ],
       "safe_wording": "On 15 July 1099 the First Crusade took Jerusalem by storm and spent roughly three days killing its Muslim and Jewish inhabitants — Crusader eyewitnesses themselves boasted of riding through blood in the Temple of Solomon, and Fulcher of Chartres wrote that \"none of them were left alive; neither women nor children were spared.\" Eighty-eight years later, on 2 October 1187, Saladin took the same city back, and it changed hands by negotiated capitulation instead. That was not saintliness, and it was not free. Saladin refused the first embassy, reportedly saying Jerusalem could be cleansed only by Christian blood; terms came after Balian of Ibelin threatened to demolish the Dome of the Rock and al-Aqsa, kill the city's roughly 5,000 Muslim prisoners, and die on the walls. The terms were a price list — ten dinars a man, five a woman, one or two a child, forty days to pay — and those who could not pay were enslaved: about fifteen thousand people, of whom, by the count of Saladin's own secretary, seven thousand were men and eight thousand were women and children. That same secretary recorded the sexual violation of captive women in celebratory terms. Eight weeks earlier, the same commander had roughly two hundred captured Templars and Hospitallers beheaded after Hattin. Hold all of that, and the comparison still stands — because it is a comparison of categories, not of virtue. In 1099 the population of Jerusalem was killed. In 1187 it was ransomed, escorted out in three columns under armed guard, its native Orthodox and Syriac Christians left in place, its Jews permitted to resettle a city Crusader rule had barred them from, and the Church of the Holy Sepulchre left standing, with Saladin reported as saying he had no wish to discourage Christian pilgrimage. The strongest evidence that this is history rather than court flattery is that the anonymous Latin chronicler who calls Saladin a tyrant records the same ransom terms. Enslavement is a catastrophe. It is not the same catastrophe as extermination, and that difference — not any claim about one man's sanctity or one religion's superiority — is the whole of what this record shows."
+    },
+    {
+      "id": "CMOS-0021",
+      "file": "source-cards/021_holy_sepulchre_keyholders.md",
+      "claim_layer": "culture",
+      "grade": "B",
+      "grade_scope": "B: the present-day operation of the arrangement — the Joudeh al-Goudia family's custody of the key and the Nuseibeh family's opening and closing of the single main door of the Church of the Holy Sepulchre — together with its six-communion Status Quo setting (1757 firman, 1852-53 reaffirmation, unanimous-consent rule), its continuation across Ottoman, British, Jordanian and Israeli sovereignty, and THE FACT THAT ITS ORIGIN IS DISPUTED; as attested by eighteen live-fetched pages across twelve publishers, including L. G. A. Cust's 1929 British Mandate survey, whose plan of the church notes Moslem custodians at the entrance independently of both families. This grade certifies NO origin date. Graded separately in the body: Umar/637 = D (family tradition; contradicted by the family's own admission that the Christian-held documents begin with Saladin, and Umar's Assurance says nothing about doors or keys); Saladin/1187 or 1192 = C (tertiary consensus, no primary document located, and the two custodian families' own published histories contradict each other by more than four centuries); Ottoman formalization = C (the general Status Quo firman chain is corroborated, but no firman naming either family has been located, published, or catalogued). Axes note: claim_layer is culture, not institution — this is a hereditary customary office at one site sustained by successive sovereigns of three religions, not a designed Islamic institutional form, and it certifies nothing at the fiqh or quran layers.",
+      "closure": "provenance-audited",
+      "source_tier_best": 1,
+      "independent_chains": 3,
+      "epistemic_status": "established",
+      "lifecycle": "verified",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-08-02",
+      "anchors": [
+        "https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre",
+        "https://en.wikipedia.org/wiki/Nusaybah_family",
+        "https://en.wikipedia.org/wiki/Status_Quo_(Jerusalem_and_Bethlehem",
+        "https://en.wikipedia.org/wiki/Immovable_Ladder",
+        "https://en.wikisource.org/wiki/The_Status_Quo_in_the_Holy_Places",
+        "https://sourcebooks.web.fordham.edu/source/1192peace.asp",
+        "https://archive.org/stream/histoiredejrus00ulayuoft/histoiredejrus00ulayuoft_djvu.txt",
+        "https://nuseibehfamily.net/articles/12-articles/61-the-nuseibeh-al-khazraj-family-and-its-relation-with-the-holy-sepulchre-in-jerusalem",
+        "https://thejoudehfamily.simdif.com/",
+        "https://www.christiantoday.com/article/why-does-a-muslim-hold-the-key-to-the-church-where-jesus-was-buried/121439.htm",
+        "https://www.saxum.org/interview-with-adeeb-joudeh-alhusseini-on-the-custody-of-the-key-to-the-holy-sepulcher/",
+        "https://newlinesmag.com/spotlight/in-the-holy-land-six-christian-faiths-jockey-for-power-at-the-church-of-the-holy-sepulchre/",
+        "https://www.aljazeera.com/news/2008/11/10/faithful-fight-at-jerusalem-church",
+        "https://www.ibtimes.com/who-guards-most-sacred-site-christendom-two-muslims-1161517",
+        "https://worldliteraturetoday.org/2021/summer/keys-church-holy-sepulchre-yousef-khanfar",
+        "https://en.wikipedia.org/wiki/Al-Hakim_bi-Amr_Allah",
+        "https://en.wikipedia.org/wiki/Umar%27s_Assurance",
+        "https://en.wikipedia.org/wiki/Sophronius_of_Jerusalem",
+        "https://www.cnn.com/2016/03/26/middleeast/easter-muslim-keyholder",
+        "https://holysepulchre.custodia.org/en/status-quo/",
+        "https://www.holysepulchre.com/status-quo"
+      ],
+      "safe_wording": "Christianity's holiest church has one main door, and for centuries it has been opened by Muslims. Each morning a member of the Joudeh al-Goudia family brings the key to the Church of the Holy Sepulchre in Jerusalem, and a member of the Nuseibeh family unlocks the door; both are Palestinian Muslim families of the city, and the office passes down the generations. When it began is genuinely disputed: the Nuseibeh family's tradition traces it to Caliph Umar in the 630s, but the family itself acknowledges that the documents held by the Christian denominations mention their role only from the time of Saladin in the twelfth century, and the two custodian families' own published histories disagree with each other by more than four centuries about when one of them started. No firman or deed naming either family has been published outside their custody. What is well attested is the arrangement itself: a British Mandate survey of the Holy Places published in 1929 records Moslem custodians stationed at the entrance, and the practice has continued under Ottoman, British, Jordanian, and Israeli rule. Why it persists is the more interesting part. Six Christian communions — Greek Orthodox, Roman Catholic, Armenian Apostolic, Coptic, Syriac Orthodox, and Ethiopian Orthodox — hold competing rights inside the building under the Status Quo, an Ottoman-era settlement, reaffirmed in 1852 and 1853, under which nothing may change unless all six agree. Under that rule a custodian belonging to none of the six is the practical solution, and once installed he is nearly impossible to remove. So this is not simply a story of goodwill, and it should not be told as one. It is a story about how rival communities build workable arrangements when none of them can win — and the same record that carries the door also carries the Fatimid caliph al-Hakim's order to destroy this church in 1009, and a Crusader century when no Muslim held its key. One arrangement at one building establishes nothing about how Islam or Muslims treat Christians in general; the fact that it has been maintained by Muslim, Christian, and Jewish sovereigns alike is exactly why it belongs to none of them."
     }
   ]
 }
