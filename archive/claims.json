@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 23,
+  "count": 24,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -677,6 +677,46 @@
         "https://en.wikipedia.org/wiki/Djinguereber_Mosque"
       ],
       "safe_wording": "Between roughly the 14th and the late 16th centuries, Timbuktu on the Niger bend — under Mali and then Songhai patronage — sustained a substantial indigenous Islamic scholarly culture. It was not a university, and its own historians say so: there is no evidence of an organized educational institution there, and teaching ran through individual scholars with their own private students, in study circles seated on the floor, largely in scholars' houses, with three mosques (Djinguereber, built 1327; Sankore, 14th–15th century; Sidi Yahya, 1400) as focal points. What made it a culture rather than a scattering of tutors is documented: hereditary jurist families — the Sanhaja Berber Aqit lineage supplied the city's qadis and Sankore's imams, and one of them, al-Qadi al-Aqib (qadi 1565–1583), rebuilt or renovated four mosques between 1569 and 1579; an active book trade and private scholarly libraries; and locally written books, above all Ahmad Baba's forty-plus works and al-Sa'di's *Tarikh al-Sudan*, still the single most important source for the Songhai empire. The manuscripts survive in large numbers — one institution alone has digitized 308,000 of them — though their total is, by the sources' own statement, unknown, and the surviving corpus spans the fifteenth to the twentieth centuries rather than the medieval period alone. This coexisted with enslavement: Mali and Songhai were slave-holding, slave-trading states, Timbuktu's wealth came from gold, salt, and the trans-Saharan slave trade, and Ahmad Baba's treatise on the subject sought to stop Muslims enslaving Muslims rather than to end the trade. In 1591 a Moroccan army with firearms destroyed Songhai at Tondibi in about two hours; in 1593 many of Timbuktu's scholars were executed or exiled, and in 1594 Ahmad Baba and others were deported to Morocco with their manuscript collections. None of this makes Timbuktu a university, and none of it settles any comparison with Cairo, Fez, or Bologna. It shows something narrower and harder to dismiss: that Islamic learning in this period was written, taught, judged, and archived by people who lived south of the Sahara — produced there, not merely delivered there."
+    },
+    {
+      "id": "CMOS-0024",
+      "file": "source-cards/024_the_non_abolition_of_slavery.md",
+      "claim_layer": "outcome",
+      "grade": "B",
+      "grade_scope": "B: that slaveholding and long-distance slave trading persisted in Muslim societies from the 7th century into the 20th; that the tradition's internal correctives (freeing as righteousness at Quran 2:177, the zakat category at 9:60, expiation-freeing at 58:3, the mukataba contract at 24:33, release-or-ransom of captives at 47:4, and the orthodox rule that no free Muslim of any race could be enslaved) existed, were invoked, and did not produce abolition; that the rule against enslaving Muslims was violated at scale; and the dated abolition sequence (Tunisia 1841-1846, Ottoman firmans of 1854 and 1857, the Hejaz rebellion of 1854-1856 and the Hijaz exemption, the Frere treaty of 1873, the Anglo-Ottoman Convention of 1880, Egypt 1895, Zanzibar 1897 and 1909, Afghanistan 1921, Iran 1929, Bahrain 1937, Kuwait 1949, Qatar 1952, Saudi Arabia and Yemen 1962, Oman 1970, Mauritania 1981, Mauritanian criminalisation 2007) - attested by twenty-two live-fetched pages across four distinct publishers, though overwhelmingly one publisher for the historical detail. C: the causal weighting of external versus internal drivers of abolition, which is live scholarly dispute and was resolved by no fetched scholarly statement; any total scale figure, since two fetched pages give irreconcilable totals (6-10 million and 10-18 million); the composition of the Zanj rebel force, which modern historians dispute; and every present-day enslavement count. Axes note: claim_layer is outcome, not quran or fiqh - this card grades what Muslim societies and the jurists who served them DID and failed to do, and certifies nothing about whether Islamic scripture mandates slavery, which is a different claim on a different layer needing different evidence.",
+      "closure": "reconnaissance",
+      "source_tier_best": 2,
+      "independent_chains": 2,
+      "epistemic_status": "established",
+      "lifecycle": "triaged",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-08-03",
+      "anchors": [
+        "https://en.wikipedia.org/wiki/History_of_slavery_in_the_Muslim_world",
+        "https://en.wikipedia.org/wiki/Trans-Saharan_slave_trade",
+        "https://en.wikipedia.org/wiki/Red_Sea_slave_trade",
+        "https://en.wikipedia.org/wiki/Islamic_views_on_slavery",
+        "https://en.wikipedia.org/wiki/Zanj_Rebellion",
+        "https://en.wikipedia.org/wiki/Al-Tabari",
+        "https://en.wikipedia.org/wiki/Hejaz_rebellion",
+        "https://en.wikipedia.org/wiki/Prohibition_of_the_Circassian_and_Georgian_Slave_Trade",
+        "https://en.wikipedia.org/wiki/Prohibition_of_the_Black_Slave_Trade",
+        "https://en.wikipedia.org/wiki/Anglo-Ottoman_Convention_of_1880",
+        "https://en.wikipedia.org/wiki/Slavery_in_Zanzibar",
+        "https://en.wikipedia.org/wiki/Slavery_in_Tunisia",
+        "https://en.wikipedia.org/wiki/Slavery_in_Saudi_Arabia",
+        "https://en.wikipedia.org/wiki/Slavery_in_Mauritania",
+        "https://www.antislavery.org/slavery-today/descent-based-slavery/",
+        "https://warwick.ac.uk/fac/arts/history/students/modules/archive/sharia/programme/abolition",
+        "https://quran.com/2/177",
+        "https://quran.com/9/60",
+        "https://quran.com/24/33",
+        "https://quran.com/47/4",
+        "https://quran.com/58/3",
+        "https://en.wikipedia.org/wiki/Arab_slave_trade"
+      ],
+      "safe_wording": "Muslim societies held, worked, and traded slaves for more than a thousand years, and Islamic civilization did not abolish slavery from within. That is the fact, and no context repairs it. The tradition was not without resources against it: the Qur'an names spending \"for freeing captives\" among the marks of righteousness, makes freeing slaves one of the fixed categories of the obligatory alms-tax, imposes it as expiation, and instructs owners to grant an emancipation contract to any bondsperson who asks for one and to fund it; and the orthodox jurists held that no free Muslim of any race could be enslaved. Those resources were real, and they were used continuously for twelve centuries. They did not end the institution — and they did not even hold the line they drew, because the record of the trans-Saharan trade states that it ran \"despite the orthodox Muslim jurist position that no Muslim, regardless of race, could be enslaved,\" and a nineteenth-century Moroccan Muslim historian complained that most of those being trafficked were Muslims who should have been exempt. Worse, the correctives and the traffic were coupled: because a population that is continually freed and cannot be replenished from within must be fed from outside, the same injunctions \"led to the massive importation of slaves from the outside.\" When abolition came, it came late and largely under outside pressure. The Ottoman ban on the Circassian trade in 1854 drew condemnation from ulema in Mecca as contrary to sharia and helped set off a revolt in the Hijaz — though the Şeyhülislam himself later ruled the firman *did not* violate sharia, and the shape of that ruling is the real indictment: it permitted the ban on the trade precisely because it \"did not prohibit slavery itself and did not threaten the slaveowners possession of their human property.\" The 1857 prohibition of the African slave trade then exempted the holy province — and went unenforced anyway. Britain forced Zanzibar's sultan to abolish slavery in 1897 and to extend it to concubines in 1909. Egypt abolished in 1895, Iran in 1929, Saudi Arabia and Yemen in 1962, Oman in 1970, and Mauritania — the last country in the world to do so — in 1981, with criminal penalties only in 2007 and one prosecution by 2011. There is one real counter-case and it deserves to be named at full strength: in Tunisia, Ahmad Bey obtained fatwas from his own Bach-mufti forbidding slavery categorically, closed the slave market of Tunis in 1841, freed everyone born in the country in 1842, and abolished slavery by decree on 23 January 1846. So the abolitionist argument was available inside the tradition, was made, and was ratified by a jurist — and almost no one else made it for another fifty years. I am not going to tell you standards were different, or that other people did it too. The honest charge is narrower and heavier: this is a failure of Muslim societies and of the jurists who served them, measured against a standard the tradition itself supplied and did not meet. What it is not is evidence that Islamic scripture commands enslavement, or that this was the same institution as Atlantic racial chattel slavery. Those are different claims on different layers, and they need their own evidence — which this is not."
     }
   ]
 }
