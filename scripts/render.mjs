@@ -39,14 +39,26 @@ function esc(s) {
   return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
-function renderNode(c) {
-  if (!c.claim_layer || !LAYER_ROUTING[c.claim_layer]) {
-    throw new Error(`${c.id}: missing/unknown claim_layer '${c.claim_layer}' — every published node must declare its category firewall`);
+// The publish floor, as one testable predicate. Returns a refusal reason, or null to allow.
+//
+// Exported so `scripts/gate-selftest.mjs` can plant violations against it directly. These are
+// the highest-stakes rules in the repo — they decide what reaches a public page — and until
+// 2026-08-03 they existed only as inline throws that nothing ever exercised. A rule nobody
+// has attacked is a claim, not a check.
+export function publishRefusal(c, layerRouting = LAYER_ROUTING) {
+  if (!c.claim_layer || !layerRouting[c.claim_layer]) {
+    return `${c.id}: missing/unknown claim_layer '${c.claim_layer}' — every published node must declare its category firewall`;
   }
   if (!(c.grade === "A" || c.grade === "B")) {
-    throw new Error(`${c.id}: grade '${c.grade}' is below the publish floor (A/B only)`);
+    return `${c.id}: grade '${c.grade}' is below the publish floor (A/B only)`;
   }
-  if (!c.safe_wording) throw new Error(`${c.id}: no Safe Wording to publish`);
+  if (!c.safe_wording) return `${c.id}: no Safe Wording to publish`;
+  return null;
+}
+
+function renderNode(c) {
+  const refusal = publishRefusal(c);
+  if (refusal) throw new Error(refusal);
   const label = LAYER_ROUTING[c.claim_layer][1];
   const anchors = (c.anchors ?? []).map((u) => `      <li><a href="${esc(u)}" rel="nofollow noopener">${esc(u)}</a></li>`).join("\n");
   return `  <article class="claim" id="${esc(c.id)}" data-layer="${esc(c.claim_layer)}">
