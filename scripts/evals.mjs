@@ -230,7 +230,7 @@ function intakeScan() {
 // prose (footnotes / per-item confidence grading) and deploy-facing copy (hooks, scripts,
 // episodes, captions). Kept deliberately narrow: a scanner that flags everything gets ignored,
 // which fails the same way as a scanner that flags nothing.
-function bearsClaims(raw) {
+export function bearsClaims(raw) {
   return (
     /^#{1,4}\s+.*\bclaims?\b/im.test(raw) ||
     /^Claim:/m.test(raw) ||
@@ -306,4 +306,8 @@ function main() {
   process.exit(failed ? 1 : 0);
 }
 
-main();
+// Run only when invoked directly, so the gate's own helpers (bearsClaims) can be imported
+// by scripts/gate-selftest.mjs without executing a full gate run as a side effect.
+if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url))) {
+  main();
+}

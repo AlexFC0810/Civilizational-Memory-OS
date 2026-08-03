@@ -70,3 +70,42 @@ node scripts/evals.mjs --intake      # also scan frameworks/canon/source-ledgers
 ```
 
 Exit code 1 on any FAIL. Statuses: PASS / WARN / FAIL.
+
+## What "green" actually means (added 2026-08-03 — the self-test)
+
+A check nobody has attacked is a **claim**, not a check. On 2026-08-02 three checks in this
+repo reported healthy while blind: `--intake` returned 0 while ~9,000 lines were unscanned;
+the index published 403-blocked URLs as anchors; the claim queue reported 56 unverified
+claims when 17 were claims. None were caught by reading code — all surfaced late, downstream,
+by accident.
+
+`scripts/gate-selftest.mjs` closes that gap. It plants the exact violation each rule claims to
+catch and asserts the gate FAILS — **31 checks proven**, covering:
+
+- **Card structure** — missing sections, placeholders, citation floor, missing grade, thin
+  counterattack simulation, undated verification transcript.
+- **Frontmatter schema** — missing required keys, derived fields re-typed in frontmatter
+  (the drift failure), every closed enum, tier range, id namespacing.
+- **The overclaim lexicon** — an unhedged absolute fails; the house idiom of quoting a
+  forbidden line to reject it passes; and a real overclaim followed by an unrelated sentence
+  containing "false" is still caught (the trailing-repudiation guard is sentence-bounded).
+- **The publish floor** (`publishRefusal`, exported from `render.mjs`) — grade C/D refused,
+  missing or unknown `claim_layer` refused, missing Safe Wording refused, clean B allowed.
+- **The id allocator** — duplicate ids caught, filename-prefix/id disagreement caught.
+- **Intake detection** — claim-bearing prose with no "Claim" heading is caught via footnotes;
+  deploy-facing copy caught via hooks headings; a pure protocol is *not* flagged (a scanner
+  that cries wolf gets ignored, which fails the same way as one that stays silent).
+
+**Documented non-coverage.** The gate deliberately does **not** scan `Honest Caveats` for
+overclaims — caveats are argued prose where forbidden lines get quoted in order to reject
+them. But `scripts/nlm-pack.mjs` *exports* that section as an uploadable source, so its own
+`findOverclaim` guard is the only backstop there. Both facts are pinned by self-test cases, so
+neither can rot silently.
+
+**Run it whenever you touch `evals.mjs`, `archive.mjs`, `lib.mjs`, or `render.mjs`:**
+
+```
+node scripts/gate-selftest.mjs
+```
+
+A green gate means something only if this is green too.
