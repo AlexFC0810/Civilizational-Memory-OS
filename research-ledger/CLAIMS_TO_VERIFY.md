@@ -270,3 +270,11 @@ Registered per the Intake Rule after the AIOS + Creator Supercharger waves merge
 > ⚠ **Source-trail repair needed on `case-files/001`**: all three of its own citations failed this session (CNEWA 403, palquest.org 1852 firman 403, holysepulchre.com/status-quo returns no Status Quo content). CMOS-0021's 21 verified anchors can replace them.
 
 **Backlog after this session: 23 CARD** (17 triaged + 8 newly-found claim ledgers − 2 drained). That is the honest number.
+
+## Intake 2026-08-03 — orphaned thread concepts rescued from chat (grade D)
+
+> The 2026-07-31 ChatGPT thread's closing summary asserted "everything from this thread is now preserved in GitHub." True of the earlier movements; **false of the last one.** A repo-wide search on 2026-08-03 found **zero** occurrences of "Successor Test," "role capture," or "epistemic restitution" — they existed only in a chat window until the operator pasted them back. Law 1 (`durable state beats chat`): a summary claiming preservation is not preservation.
+
+| File | Load-bearing claim(s), one line | Disposition | Grade |
+|---|---|---|---|
+| canon/THE_SUCCESSOR_TEST_AND_EPISTEMIC_RESTITUTION.md | **Method, not history.** Preserves four concepts lost from the source thread: the **Successor Test** (reverence without living successors is neutralization — notable for being *falsifiable by observation*), **role capture** (a tradition permits a person only in the role useful to it), the **preservation→retrieval→recognition→authority→institutional-reproduction** sequence, and **epistemic restitution** (with its own guardrail: entry into the arena of evidence includes the right to be wrong without one woman's error discrediting women as a class). Adds a CoS Red-Team finding the source lacked — a **null-case requirement**, because selection bias survives per-case honesty. §§3–4 are a *normative program about present-day institutions*, explicitly fenced from the historical-claim genre: `evals.mjs` gates claims about the past and cannot validate a reform prescription. | **METHOD** | D |
