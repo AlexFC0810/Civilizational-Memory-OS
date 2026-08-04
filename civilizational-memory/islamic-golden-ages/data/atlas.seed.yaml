@@ -1,0 +1,299 @@
+schema_version: "0.1"
+dataset_id: islamic-golden-ages-atlas-seed
+status: working_seed
+created: "2026-08-04"
+canonical_spec: ../ATLAS_MASTER_SPEC.md
+warning: >-
+  These records are routing seeds, not publish-ready historical claims. Dates,
+  labels, institutions, people, and contributions require source hardening,
+  breaker evidence, and specialist review before public deployment.
+
+records:
+  - id: iga-place-period-medina-foundation
+    name: Medina
+    alternate_names: [Yathrib, al-Madinah]
+    record_type: place_period
+    region: Hijaz
+    modern_country_or_countries: [Saudi Arabia]
+    coordinates: {latitude: 24.4672, longitude: 39.6024}
+    period:
+      start_year: 622
+      end_year: 661
+      precision: working_range
+      rationale: Prophetic community and Rashidun-era foundation
+    political_context: [Prophetic community, Rashidun caliphate]
+    languages: [Arabic]
+    signature_domains: [moral architecture, law, charity, community formation, knowledge transmission]
+    research_prompts:
+      - How were accountability, charity, contracts, consultation, and protection of the vulnerable institutionalized?
+      - Which later civilizational loops can be traced to this foundation without overstating causation?
+    women_recovery_targets: [Aisha bint Abi Bakr, Umm Salama, Hafsa bint Umar, female companions as transmitters and interlocutors]
+    failures_and_exclusions: []
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-damascus-umayyad
+    name: Damascus
+    alternate_names: [Dimashq]
+    record_type: place_period
+    region: Syria and the Levant
+    modern_country_or_countries: [Syria]
+    coordinates: {latitude: 33.5138, longitude: 36.2765}
+    period:
+      start_year: 661
+      end_year: 750
+      precision: dynasty_anchor
+      rationale: Umayyad imperial capital
+    political_context: [Umayyad caliphate]
+    languages: [Arabic, Greek, Syriac]
+    signature_domains: [administration, architecture, translation precursors, imperial integration]
+    research_prompts:
+      - What administrative knowledge was inherited, translated, or transformed?
+      - How should dynastic coercion and imperial expansion be separated from civilizational integration?
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-baghdad-abbasid
+    name: Baghdad
+    alternate_names: [Madinat al-Salam]
+    record_type: place_period
+    region: Mesopotamia
+    modern_country_or_countries: [Iraq]
+    coordinates: {latitude: 33.3152, longitude: 44.3661}
+    period:
+      start_year: 762
+      end_year: 1258
+      precision: broad_city_arc
+      rationale: Abbasid foundation through Mongol destruction
+    political_context: [Abbasid caliphate, successor political fragmentation]
+    languages: [Arabic, Persian, Syriac, Greek and others to verify]
+    signature_domains: [translation, medicine, mathematics, philosophy, astronomy, libraries, hospitals]
+    research_prompts:
+      - Which institutions actually sustained translation and scholarship beyond the House of Wisdom shorthand?
+      - How did court patronage, private wealth, commerce, waqf, and professional networks interact?
+      - Which Christian, Jewish, Persian, Central Asian, Arab, and other contributors should be restored to the map?
+    women_recovery_targets: [female patrons, transmitters, physicians, court intellectual actors]
+    required_tensions: [court power, sectarian conflict, slavery, elite concentration, destruction]
+    pilot_priority: P1
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-cordoba-al-andalus
+    name: Cordoba
+    alternate_names: [Qurtuba]
+    record_type: place_period
+    region: Al-Andalus
+    modern_country_or_countries: [Spain]
+    coordinates: {latitude: 37.8882, longitude: -4.7794}
+    period:
+      start_year: 756
+      end_year: 1031
+      precision: polity_anchor
+      rationale: Umayyad emirate and caliphate, followed by transition
+    political_context: [Emirate of Cordoba, Caliphate of Cordoba]
+    languages: [Arabic, Latin, Hebrew, Romance varieties]
+    signature_domains: [medicine, libraries, philosophy, agriculture, architecture, literature, urban life]
+    research_prompts:
+      - What was distinctive about Cordoba versus the wider Andalusi network?
+      - How did coexistence vary by ruler, community, period, and legal status?
+    required_tensions: [hierarchy, persecution episodes, civil war, romanticized convivencia]
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-palermo-islamic-sicily
+    name: Palermo
+    alternate_names: [Balarm]
+    record_type: place_period
+    region: Sicily and the central Mediterranean
+    modern_country_or_countries: [Italy]
+    coordinates: {latitude: 38.1157, longitude: 13.3615}
+    period:
+      start_year: 831
+      end_year: 1072
+      precision: city_rule_anchor
+      rationale: Muslim capture and Norman transition; wider Sicilian dates require separate record
+    political_context: [Aghlabid, Fatimid-aligned, Kalbid and Norman transition contexts]
+    languages: [Arabic, Greek, Latin and local varieties]
+    signature_domains: [Mediterranean trade, agriculture, administration, geography, architecture, translation relay]
+    research_prompts:
+      - Which Islamic-era systems persisted under Norman rule?
+      - How did Muslim, Christian, and Jewish communities shape the island's afterlife?
+    deliberate_contrast_priority: P2
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-cairo-multiple-flowerings
+    name: Cairo and Fustat
+    alternate_names: [al-Qahira, Misr al-Fustat]
+    record_type: place_period
+    region: Nile and eastern Mediterranean
+    modern_country_or_countries: [Egypt]
+    coordinates: {latitude: 30.0444, longitude: 31.2357}
+    period:
+      start_year: 969
+      end_year: 1517
+      precision: composite_arc
+      rationale: Fatimid, Ayyubid, and Mamluk scholarly-commercial flowerings; must be split in hardened version
+    political_context: [Fatimid caliphate, Ayyubid sultanate, Mamluk sultanate]
+    languages: [Arabic, Coptic, Hebrew and others to verify]
+    signature_domains: [trade, scholarship, medicine, libraries, architecture, law, manuscript culture]
+    research_prompts:
+      - How did Cairo sustain or renew scholarship after Baghdad's destruction?
+      - What changed across Fatimid, Ayyubid, and Mamluk institutional systems?
+    required_tensions: [sectarian policy variation, military elite rule, slavery, inequality]
+    confidence: working_seed
+    review_status: requires_period_splitting
+
+  - id: iga-place-period-nishapur-persianate
+    name: Nishapur
+    alternate_names: [Neyshabur, Nishapur]
+    record_type: place_period
+    region: Khurasan and the Persianate East
+    modern_country_or_countries: [Iran]
+    coordinates: {latitude: 36.2141, longitude: 58.7961}
+    period:
+      start_year: 800
+      end_year: 1221
+      precision: working_range
+      rationale: Broad scholarly flowering before Mongol destruction; exact periodization required
+    political_context: [Tahirid, Saffarid, Samanid, Ghaznavid, Seljuk and Khwarazmian contexts]
+    languages: [Arabic, Persian]
+    signature_domains: [hadith, theology, law, literature, medicine, philosophy, trade]
+    research_prompts:
+      - How did Nishapur function as a networked knowledge city rather than merely a list of famous men?
+      - What can Iranian audiences recover from Persianate Islamic history without converting it into state apologetics?
+    corrective_priority: P3
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-samarkand-timurid
+    name: Samarkand
+    alternate_names: [Samarqand]
+    record_type: place_period
+    region: Transoxiana and Central Asia
+    modern_country_or_countries: [Uzbekistan]
+    coordinates: {latitude: 39.6542, longitude: 66.9597}
+    period:
+      start_year: 1370
+      end_year: 1507
+      precision: dynasty_anchor
+      rationale: Timurid flowering; earlier Islamic periods require separate records
+    political_context: [Timurid empire]
+    languages: [Persian, Chagatai Turkic, Arabic]
+    signature_domains: [astronomy, mathematics, architecture, manuscript arts, education]
+    research_prompts:
+      - How did observatory, court, workshop, and scholarly networks interact?
+      - How should monumental beauty be evaluated alongside conquest and dynastic violence?
+    required_tensions: [imperial violence, court concentration, succession conflict]
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-fez-learning-network
+    name: Fez
+    alternate_names: [Fes]
+    record_type: place_period
+    region: Maghreb
+    modern_country_or_countries: [Morocco]
+    coordinates: {latitude: 34.0181, longitude: -5.0078}
+    period:
+      start_year: 800
+      end_year: 1500
+      precision: broad_working_range
+      rationale: Long scholarly and commercial arc requiring internal periodization
+    political_context: [Idrisid and later Maghrebi dynastic contexts]
+    languages: [Arabic, Amazigh languages, Hebrew and others to verify]
+    signature_domains: [law, education, trade, manuscript culture, urban institutions]
+    women_recovery_targets: [Fatima al-Fihri and source-critical institutional history]
+    research_prompts:
+      - Which claims about al-Qarawiyyin are established, later tradition, or modern superlative framing?
+      - How did Fez connect Andalusi, Saharan, Maghrebi, Jewish, and wider Islamic networks?
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-timbuktu-manuscript-city
+    name: Timbuktu
+    alternate_names: [Tombouctou]
+    record_type: place_period
+    region: West African Sahel
+    modern_country_or_countries: [Mali]
+    coordinates: {latitude: 16.7666, longitude: -3.0026}
+    period:
+      start_year: 1300
+      end_year: 1600
+      precision: broad_working_range
+      rationale: Mali and Songhai-era commercial and manuscript flowering
+    political_context: [Mali empire, Songhai empire, Moroccan conquest transition]
+    languages: [Arabic, Songhay and other regional languages]
+    signature_domains: [manuscripts, law, theology, astronomy, commerce, education]
+    research_prompts:
+      - What did Timbuktu produce locally versus receive through trans-Saharan networks?
+      - How can the atlas recover African intellectual agency without romanticization?
+    required_tensions: [slavery, elite literacy, political conquest, archive survival bias]
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-kilwa-indian-ocean
+    name: Kilwa Kisiwani
+    alternate_names: [Kilwa]
+    record_type: place_period
+    region: Swahili coast and Indian Ocean
+    modern_country_or_countries: [Tanzania]
+    coordinates: {latitude: -8.9578, longitude: 39.5222}
+    period:
+      start_year: 1000
+      end_year: 1505
+      precision: broad_working_range
+      rationale: Urban-commercial flowering before Portuguese conquest
+    political_context: [Swahili city-state and sultanate networks]
+    languages: [Swahili, Arabic and others to verify]
+    signature_domains: [Indian Ocean trade, architecture, coinage, urban Islam, cultural synthesis]
+    research_prompts:
+      - How did African, Arab, Persian, and Indian Ocean elements combine without erasing local agency?
+      - What public institutions and social distributions can be documented beyond elite trade?
+    required_tensions: [slavery, class hierarchy, external conquest, archaeology-text imbalance]
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-isfahan-safavid
+    name: Isfahan
+    alternate_names: [Esfahan]
+    record_type: place_period
+    region: Iranian plateau
+    modern_country_or_countries: [Iran]
+    coordinates: {latitude: 32.6546, longitude: 51.6680}
+    period:
+      start_year: 1598
+      end_year: 1722
+      precision: capital_anchor
+      rationale: Safavid capital flowering under and after Shah Abbas I
+    political_context: [Safavid empire]
+    languages: [Persian, Arabic, Armenian, Georgian and others to verify]
+    signature_domains: [urban design, architecture, philosophy, trade, arts, manuscript culture]
+    research_prompts:
+      - How did the city integrate imperial planning, commerce, minority communities, and religious institutions?
+      - How should sectarian centralization and coercion be included alongside artistic achievement?
+    required_tensions: [sectarian state formation, forced movement, court power, gender hierarchy]
+    confidence: working_seed
+    review_status: requires_source_hardening
+
+  - id: iga-place-period-delhi-persianate-south-asia
+    name: Delhi
+    alternate_names: [Dihli]
+    record_type: place_period
+    region: North India and the Persianate South Asian world
+    modern_country_or_countries: [India]
+    coordinates: {latitude: 28.6139, longitude: 77.2090}
+    period:
+      start_year: 1206
+      end_year: 1857
+      precision: composite_arc
+      rationale: Delhi Sultanate and Mughal periods must be separated into multiple records
+    political_context: [Delhi sultanates, Mughal empire and successor contexts]
+    languages: [Persian, Arabic, Sanskrit, Hindavi-Urdu and others]
+    signature_domains: [architecture, administration, literature, music, law, translation, urban culture]
+    research_prompts:
+      - Which distinct Delhi flowerings should be separated by dynasty and domain?
+      - How did Muslim, Hindu, Jain, Sikh and other contributors shape the cultural system?
+    required_tensions: [conquest, temple and court politics, hierarchy, slavery, communal memory conflicts]
+    confidence: working_seed
+    review_status: requires_period_splitting
