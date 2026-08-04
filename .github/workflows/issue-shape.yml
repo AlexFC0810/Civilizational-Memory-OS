@@ -1,0 +1,229 @@
+name: issue-shape-check
+
+# Names missing issue shape. Does NOT impose it.
+#
+# This workflow can only DETECT a gap and make it queryable. It cannot know who
+# should own an issue or what "done" means for it. So it labels, it comments
+# once, and it stops. It never assigns anyone and never claims to have fixed
+# anything.
+#
+# --- Why it does not auto-assign (do not "restore" this) ---------------------
+# The 2026-07-29 version auto-assigned every new issue to the repo owner and
+# commented that the convention was now satisfied. Three defects:
+#
+#   1. AlexFC0810 is the ONLY assignable user on this repo (verified:
+#      GET /repos/:repo/assignees returns exactly one login). In a single-human
+#      org the GitHub assignee field carries ZERO bits — it cannot distinguish
+#      one owner from another, so setting it conveys no ownership information.
+#      It converted "nobody owns this" into "the founder owns everything",
+#      which is worse than unowned: it launders the gap into a false signal.
+#   2. Ownership was never the binding constraint. Of 344 open issues portfolio
+#      -wide, 91% are missing an owner or a done-condition or both, and the
+#      done-condition is by far the larger half. Auto-assigning "fixed" the
+#      smaller, cheaper half and left the real one untouched.
+#   3. It reported an effect it did not achieve. That is the false-green class
+#      portfolio-command#57 exists to sweep for — a guard that manufactures
+#      confidence is strictly worse than no guard, because nobody investigates
+#      a green check.
+#
+# Ownership belongs in the issue BODY as a role/agent/human name
+# ("Owner: cto-architect"), which is expressive, not in the assignee field,
+# which here is not. This matches `execution_owner` in the Work Cell schema
+# (portfolio-command#24), which is deliberately free text for the same reason.
+#
+# --- Relationship to the Work Cell template (pc#24) --------------------------
+# The Work Cell issue template makes desired_state / success_evidence /
+# execution_owner required — but GitHub issue-form `required: true` validates
+# ONLY in the web "New issue" form. `gh issue create --body` and the REST API
+# bypass templates entirely, and that is how nearly every issue here is born.
+# So the template and this workflow are complementary, not redundant: the
+# template shapes what it can see, this catches what it structurally cannot.
+# The markers below deliberately match the Work Cell field labels so that
+# template-created issues pass this check with no extra work.
+
+on:
+  issues:
+    types: [opened, edited]
+
+# Least privilege: labels + comments only. Labels live under the issues scope.
+permissions:
+  contents: none
+  issues: write
+
+jobs:
+  flag-unshaped:
+    # Skip bot-authored issues so automation does not nag automation.
+    if: github.event.issue.user.type != 'Bot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Detect missing shape, label it, and verify the label landed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          # Issue body reaches the script as an ENV VAR, never interpolated
+          # into the run: block — a body containing backticks or $() would
+          # otherwise execute as shell.
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          set -euo pipefail
+
+          MARKER="<!-- issue-shape-check -->"
+
+          # ---------------------------------------------------------------
+          # 1. DETECT. Markers cover both the legacy freeform conventions
+          #    observed in this repo and the Work Cell field labels, so the
+          #    two mechanisms converge instead of colliding.
+          # ---------------------------------------------------------------
+          # Both markers must be a FIELD or a HEADING, never bare prose.
+          # Anchoring to line start is load-bearing: without it, a body saying
+          # "we still need to define the done-condition" reads as if it HAD a
+          # done-condition. That false negative under-reports the 91% problem,
+          # which is the whole point of this check. (Caught by live fire on
+          # pc#70, whose prose mention of the phrase suppressed the label.)
+          #
+          # The prefix tolerates the ways these fields really appear:
+          #   Done when: x   ## Definition of done   - [ ] Acceptance: x
+          #   **Owner:** x   ### Execution owner   > Success evidence
+          # "### Execution owner" is how a GitHub issue FORM renders the Work
+          # Cell execution_owner field — a heading with no colon.
+          LEAD='^[[:space:]]*([-*+>][[:space:]]*)?(\[[ xX]\][[:space:]]*)?#{0,6}[[:space:]]*[*_]*[[:space:]]*'
+          OWNER_RE="${LEAD}(execution[ _])?(owner|owned by)[*_]*[[:space:]]*(:|\$)"
+          DONE_RE="${LEAD}(done when|done[ -]condition|definition of done|acceptance criteria|acceptance[*_]*[[:space:]]*:|success evidence|success_evidence|exit criteria|desired state|desired_state)"
+
+          # Never read our own prior comment back as if the issue satisfied it.
+          CLEAN=$(printf '%s' "${BODY:-}" | grep -vF "$MARKER" || true)
+
+          MISSING_OWNER=0
+          MISSING_DONE=0
+          printf '%s' "$CLEAN" | grep -qiE "$OWNER_RE" || MISSING_OWNER=1
+          printf '%s' "$CLEAN" | grep -qiE "$DONE_RE"  || MISSING_DONE=1
+
+          echo "detected: missing_owner=$MISSING_OWNER missing_done_condition=$MISSING_DONE"
+
+          # ---------------------------------------------------------------
+          # 2. Two labels, not one, so the binding constraint is queryable
+          #    on its own:
+          #      label:needs-done-condition   <- the 91% problem
+          #      label:needs-owner            <- the smaller half
+          # ---------------------------------------------------------------
+          OWNER_LABEL="needs-owner"
+          DONE_LABEL="needs-done-condition"
+
+          ensure_label() {
+            if ! gh label list --repo "$REPO" --limit 200 --json name \
+                 --jq '.[].name' | grep -qxF "$1"; then
+              gh label create "$1" --repo "$REPO" --color "$2" \
+                --description "$3" >/dev/null 2>&1 || true
+            fi
+          }
+          ensure_label "$OWNER_LABEL" "D93F0B" \
+            "Body names no owner (role/agent/human). Set by issue-shape-check."
+          ensure_label "$DONE_LABEL" "B60205" \
+            "Body names no done-condition. Set by issue-shape-check."
+
+          # ---------------------------------------------------------------
+          # 3. APPLY. Add what is missing, REMOVE what is no longer missing.
+          #    Removal matters: a needs-* label left on a now-shaped issue is
+          #    itself a false signal, just inverted.
+          # ---------------------------------------------------------------
+          ADD=""; REMOVE=""
+          if [ "$MISSING_OWNER" -eq 1 ]; then ADD="$ADD,$OWNER_LABEL"; else REMOVE="$REMOVE,$OWNER_LABEL"; fi
+          if [ "$MISSING_DONE"  -eq 1 ]; then ADD="$ADD,$DONE_LABEL";  else REMOVE="$REMOVE,$DONE_LABEL";  fi
+          ADD="${ADD#,}"; REMOVE="${REMOVE#,}"
+
+          HAS=$(gh issue view "$NUMBER" --repo "$REPO" --json labels --jq '.labels[].name')
+
+          if [ -n "$ADD" ]; then
+            gh issue edit "$NUMBER" --repo "$REPO" --add-label "$ADD"
+          fi
+          # Only remove labels actually present: --remove-label on an absent
+          # label errors out under `set -e`.
+          if [ -n "$REMOVE" ]; then
+            for l in $(printf '%s' "$REMOVE" | tr ',' ' '); do
+              if printf '%s\n' "$HAS" | grep -qxF "$l"; then
+                gh issue edit "$NUMBER" --repo "$REPO" --remove-label "$l"
+              fi
+            done
+          fi
+
+          # ---------------------------------------------------------------
+          # 4. ASSERT THE EFFECT, NOT THE EXECUTION.
+          #    Re-read state from the API and prove the intended label set is
+          #    what is actually on the issue. A mutation command exiting 0 is
+          #    not evidence the mutation took. If the effect did not land this
+          #    run FAILS RED rather than reporting a green it did not earn.
+          # ---------------------------------------------------------------
+          FINAL=$(gh issue view "$NUMBER" --repo "$REPO" --json labels --jq '.labels[].name')
+          fail=0
+          assert_present() {
+            if printf '%s\n' "$FINAL" | grep -qxF "$1"; then
+              echo "  VERIFIED present: $1"
+            else
+              echo "  ASSERTION FAILED: expected label '$1' present, it is not"; fail=1
+            fi
+          }
+          assert_absent() {
+            if printf '%s\n' "$FINAL" | grep -qxF "$1"; then
+              echo "  ASSERTION FAILED: expected label '$1' absent, it is present"; fail=1
+            else
+              echo "  VERIFIED absent: $1"
+            fi
+          }
+          echo "verifying effect against live issue state:"
+          if [ "$MISSING_OWNER" -eq 1 ]; then assert_present "$OWNER_LABEL"; else assert_absent "$OWNER_LABEL"; fi
+          if [ "$MISSING_DONE"  -eq 1 ]; then assert_present "$DONE_LABEL";  else assert_absent "$DONE_LABEL";  fi
+
+          if [ "$fail" -ne 0 ]; then
+            echo "::error::issue-shape-check could not achieve the effect it detected. Failing red rather than reporting a green it did not earn."
+            exit 1
+          fi
+
+          # ---------------------------------------------------------------
+          # 5. COMMENT ONCE, and only to NAME THE GAP. Never claims a fix.
+          #    Idempotent via the HTML marker so edits do not spam the thread.
+          # ---------------------------------------------------------------
+          if [ -z "$ADD" ]; then
+            echo "both shape markers present — no label, no comment, no assignment."
+            exit 0
+          fi
+
+          if gh issue view "$NUMBER" --repo "$REPO" --json comments \
+               --jq '.comments[].body' | grep -qF "$MARKER"; then
+            echo "gap comment already present — not repeating it."
+            exit 0
+          fi
+
+          {
+            printf '%s\n\n' "$MARKER"
+            printf '**Shape check — this issue is missing the fields below.** Nothing has been assigned and nothing has been fixed; this comment only names the gap so it is visible and queryable.\n\n'
+            if [ "$MISSING_OWNER" -eq 1 ]; then
+              printf -- '- **Owner** — the role, agent, or human that will execute it.\n'
+            fi
+            if [ "$MISSING_DONE" -eq 1 ]; then
+              printf -- '- **Done-condition** — what must become observably true, and the receipt that proves it.\n'
+            fi
+            printf '\nThe exact edit — add to the issue body:\n\n'
+            printf '```\n'
+            if [ "$MISSING_OWNER" -eq 1 ]; then
+              printf 'Owner: <role / agent / human, e.g. cto-architect>\n'
+            fi
+            if [ "$MISSING_DONE" -eq 1 ]; then
+              printf 'Done when: <observable end state> — receipt: <artifact that proves it>\n'
+            fi
+            printf '```\n\n'
+            printf 'This check is marker-based: it looks for the field, it does not judge the content. The label clears on your next body edit, once the field is present.\n\n'
+            printf 'Ownership goes in the **body as a name**, not in the GitHub assignee field: this repo has exactly one assignable user, so the assignee field cannot express who owns what. Queryable: `label:needs-done-condition` / `label:needs-owner`.\n'
+          } > "$RUNNER_TEMP/shape-comment.md"
+
+          gh issue comment "$NUMBER" --repo "$REPO" --body-file "$RUNNER_TEMP/shape-comment.md"
+
+          # Assert the comment landed too — same discipline as the labels.
+          if gh issue view "$NUMBER" --repo "$REPO" --json comments \
+               --jq '.comments[].body' | grep -qF "$MARKER"; then
+            echo "  VERIFIED: gap comment is on the issue."
+          else
+            echo "::error::comment command exited 0 but the comment is not on the issue."
+            exit 1
+          fi
