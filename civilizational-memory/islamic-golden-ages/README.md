@@ -50,6 +50,7 @@ Canonical line:
 - [`CONTENT_ENGINE.md`](./CONTENT_ENGINE.md) — hooks, series formats, short-form scripts, and deployment architecture.
 - [`REIMPLEMENTATION_BLUEPRINT.md`](./REIMPLEMENTATION_BLUEPRINT.md) — translating the Golden Ages into a 21st-century Civilization OS project.
 - [`SOURCE_SPINE.md`](./SOURCE_SPINE.md) — high-level sources and hardening requirements.
+- [`IRAN_WOMEN_AND_GOLDEN_AGES_CLARITY_MAP.md`](./IRAN_WOMEN_AND_GOLDEN_AGES_CLARITY_MAP.md) — separates Qur'anic blueprint, historical civilization, and modern state power; adds the Iran, women, visual, music, and plural Golden Ages map.
 
 ## Current Visual Drafts From Chat
 
