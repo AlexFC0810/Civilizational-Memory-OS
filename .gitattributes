@@ -1,0 +1,11 @@
+# Enforcement-layer hooks. `core.autocrlf=true` on the founder's machine would
+# otherwise hand these to bash with CRLF endings. Git Bash tolerates that today
+# (measured: a CRLF-ified guard still passes the selftest 64/0), but a stray CR
+# is a classic silent-failure source in shell -- and a hook that silently stops
+# enforcing is exactly the failure this layer exists to end. Pin LF.
+.claude/hooks/*.sh               text eol=lf
+.claude/settings.json            text eol=lf
+
+# CI: a workflow with CRLF line endings fails on the runner in ways that read as
+# a script bug rather than a checkout bug.
+.github/workflows/*.yml          text eol=lf
