@@ -1,6 +1,6 @@
 # Fable-Day Charter (monthly frontier-model window, this seat)
 
-**Standing rule (frontier-model-window playbook, ai-ops-hub):** a frontier window improves the whole operating system; it is never merely the strongest laborer. Every Fable-Day here must name, **before it starts**: (1) the task class it will demote to a cheaper model by shipping artifacts, and (2) its external receipt.
+**Standing rule (frontier-model-window playbook, doctrine-hub):** a frontier window improves the whole operating system; it is never merely the strongest laborer. Every Fable-Day here must name, **before it starts**: (1) the task class it will demote to a cheaper model by shipping artifacts, and (2) its external receipt.
 
 ## What Fable does on this seat (frontier uncertainty only)
 

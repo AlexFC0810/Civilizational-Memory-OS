@@ -66,7 +66,7 @@ Avoid treating the Islamic Golden Age as one frozen period. Track regional and t
 4. `comparative-history/stewardship-vs-extraction.md`
 
 ## Connection to larger architecture
-- `ai-ops-hub`: root doctrine.
+- `doctrine-hub`: root doctrine.
 - `truth-and-peace-engine`: educational narrative.
 - `business-growth-truth-engine`: trust/proof commercial translation.
 - This repo: civilizational evidence and source discipline.
