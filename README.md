@@ -206,6 +206,34 @@ This program generalizes the repository beyond isolated historical claims and as
 
 > **Which civilizational operating system best explains reality, forms people who remain just under pressure, protects the weak, constrains power, corrects corruption, and preserves meaning without sacrificing truth?**
 
+## Transcendent Accountability and Moral Self-Governance
+
+Use `frameworks/transcendent-accountability-and-moral-self-governance.md` for the moral-formation mechanism that connects belief in God to durable self-government, brotherhood, anger restraint, hidden accountability, and justice against self-interest.
+
+The originating synthesis lives at:
+
+- `conversation-logs/2026-08-04_transcendent-accountability-and-moral-self-governance.md`
+
+This package preserves the dual thesis:
+
+> **Transcendence can place the ego beneath a moral horizon it does not control. Counterfeit sacred authority can place human domination beyond moral challenge.**
+
+It formalizes:
+
+- the sacred third presence;
+- religion as an adherence architecture;
+- the self-indictment test;
+- brotherhood as anti-rivalry technology;
+- anger as a self-governance problem;
+- the formation loop vs the capture loop;
+- source hierarchy as anti-capture architecture;
+- secular sacred values and relocated idolatry;
+- provenance, conscience, correction, and fruit tests.
+
+Its governing question is:
+
+> **What keeps truth, justice, mercy, and restraint binding when the ego, tribe, institution, or ruler wants an exemption?**
+
 ## Religion-Civilization Causal Data Engine
 
 Use `research-agendas/religion-civilization-causal-data-engine.md` to move beyond screenshot debates and test competing explanations with controlled data.
