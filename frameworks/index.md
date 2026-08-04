@@ -292,6 +292,31 @@ Best for:
 
 ---
 
+### 14. Transcendent Accountability and Moral Self-Governance
+
+**File:** `frameworks/transcendent-accountability-and-moral-self-governance.md`
+
+Use this to explain why belief in an authority beyond the ego can make moral teaching more durable—and why falsely claimed divine authority can make domination more dangerous.
+
+Core question:
+
+> What keeps truth, justice, mercy, and restraint binding when the ego, tribe, institution, or ruler wants an exemption?
+
+Best for:
+
+- Abrahamic moral psychology;
+- religion vs secularism;
+- ritual and character formation;
+- brotherhood and anti-rivalry;
+- anger and self-government;
+- divine witness and hidden conduct;
+- source hierarchy and authority provenance;
+- religious capture by rulers, patriarchy, culture, or institutions;
+- secular sacred values and relocated idolatry;
+- testing whether a worldview can indict its own side.
+
+---
+
 ## Companion ledgers
 
 ### Abrahamic Criticism Source Ledger
@@ -374,4 +399,4 @@ When a major conversation produces insights:
 
 ## Current golden thread
 
-> Human beings are morally variable. Civilizations create power at scale. Power creates domination unless restrained. Anti-idolatry dethrones false absolutes. Moral visibility sees the vulnerable. Taqwa protects them when visibility becomes costly, inconvenient, or absent. Civilizational intelligence keeps reality, capacity, institutions, culture, and meaning aligned. The highest moral operating systems protect the vulnerable, expose hidden evil, place power under accountability, transmit wisdom, and correct their own corruption.
+> Human beings are morally variable. Civilizations create power at scale. Power creates domination unless restrained. Anti-idolatry dethrones false absolutes. Moral visibility sees the vulnerable. Taqwa protects them when visibility becomes costly, inconvenient, or absent. Transcendent accountability places the ego beneath a moral horizon it does not control, while provenance and conscience tests prevent human power from impersonating God. Civilizational intelligence keeps reality, capacity, institutions, culture, and meaning aligned. The highest moral operating systems protect the vulnerable, expose hidden evil, place power under accountability, transmit wisdom, and correct their own corruption.
