@@ -1,0 +1,52 @@
+name: hooks-selftest
+
+# The capture-guard hook is a SILENT NO-OP when broken: settings.json maps every
+# exit code except 42 to 0, deliberately, so that a typo in the guard can never
+# hard-block every Bash command in the repo. The cost of that (correct) trade is
+# that NOTHING notices when the guard stops enforcing -- and the likeliest
+# breakage event is someone editing the guard.
+#
+# This workflow is the thing that notices. It runs the selftest on every push and
+# PR. A red run means "the guard is no longer enforcing what it claims", which is
+# strictly more urgent than a normal test failure, because in the meantime the
+# repo LOOKS protected and is not.
+#
+# The selftest asserts the EFFECT (exit codes out of the real hook, driven by
+# synthetic PreToolUse envelopes) rather than the execution. It creates no
+# issues and touches no live state.
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  selftest:
+    name: capture-guard selftest
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      # The guard resolves python3 or python and FAILS OPEN when neither exists.
+      # Pinning one here means a green run proves the real logic ran, not the
+      # no-interpreter shortcut.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Prove the harness can actually fail
+        run: |
+          set -euo pipefail
+          # A selftest that cannot go red is decoration. Break the guard on a
+          # scratch copy and require a non-zero exit before trusting a green one.
+          cp -r .claude "$RUNNER_TEMP/broken"
+          printf '#!/usr/bin/env bash\nexit 0\n' > "$RUNNER_TEMP/broken/hooks/capture-guard.sh"
+          if bash "$RUNNER_TEMP/broken/hooks/selftest.sh" >/dev/null 2>&1; then
+            echo "::error::selftest PASSED against a guard that enforces nothing — the harness is decoration"
+            exit 1
+          fi
+          echo "verified: the selftest goes red when the guard stops enforcing"
+      - name: capture-guard selftest
+        run: bash .claude/hooks/selftest.sh

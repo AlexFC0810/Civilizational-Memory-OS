@@ -1,0 +1,18 @@
+{
+  "$comment": "Enforcement layer. Project-scoped, checked in, shared. Per-hook docs, off-switches and the 30-day kill rule live in .claude/hooks/README.md. Hook entries MERGE with ~/.claude/settings.json rather than replacing it, so any user-level hooks still run alongside these.",
+  "$comment_failopen": "The exit-code mapping in the command is load-bearing, not noise. bash exits 2 on a SYNTAX ERROR and Claude Code blocks a tool call on exit 2 -- so a typo in the hook script would otherwise hard-block every Bash command in the repo. capture-guard.sh therefore signals a deliberate block with sentinel 42, and this wrapper maps 42->2 and everything else->0. Do not collapse this into a bare script call.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/capture-guard.sh\"; if [ $? -eq 42 ]; then exit 2; fi; exit 0",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
