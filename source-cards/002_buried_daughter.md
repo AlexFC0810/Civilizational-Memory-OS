@@ -1,6 +1,7 @@
 ---
 id: CMOS-0002
 claim_layer: quran
+thesis_valence: achievement
 epistemic_status: established
 closure: reconnaissance
 source_tier_best: 2

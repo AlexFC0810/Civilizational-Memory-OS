@@ -16,7 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { splitSections, parseFrontmatter, OVERCLAIMS } from "./lib.mjs";
-import { validateFrontmatter, buildIndex, writeIndex, findIdCollisions, FRONTMATTER_CUTOFF } from "./archive.mjs";
+import { validateFrontmatter, buildIndex, writeIndex, findIdCollisions, corpusDistribution, FRONTMATTER_CUTOFF } from "./archive.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -257,6 +257,31 @@ function discoverCards() {
   return out;
 }
 
+// Print what the corpus is actually made of. Composition is REPORTED, never gate-FAILED:
+// a card is right or wrong on its own evidence, and refusing to gate a sound card because
+// the corpus already leans one way would corrupt the individual verdict to fix an aggregate.
+// The aggregate is a commissioning signal — it tells the Archivist what to card next.
+function reportComposition(rows) {
+  const d = corpusDistribution(rows);
+  const fmt = (pairs) => pairs.map(([k, n]) => `${k} ×${n}`).join(" · ");
+  const pct = d.total ? Math.round((d.failures / d.total) * 100) : 0;
+
+  console.log(`      claim_layer     ${fmt(d.layer)}`);
+  console.log(`      thesis_valence  ${fmt(d.valence)}  — ${d.failures}/${d.total} (${pct}%) of gated theses are failures or null-cases`);
+
+  if (d.unlabelled) {
+    console.log(`      ~ ${d.unlabelled} card(s) carry no thesis_valence — the valence metric is under-counting`);
+  }
+  // The one condition that is a red line rather than a data point. See the fourth blind spot
+  // in archive/LOAD_BEARING_INDEX.md: with zero failure-theses, the archive's capacity to say
+  // "we were wrong" is untested, and every defensive card is worth less — a reader cannot tell
+  // whether the corpus would have reported the opposite had the evidence gone the other way.
+  if (d.failures === 0 && d.total > 0) {
+    console.log(`      ⚠ ZERO failure-theses gated: the archive's capacity to say "we were wrong" is untested`);
+    console.log(`        (archive/LOAD_BEARING_INDEX.md — the fourth blind spot: valence)`);
+  }
+}
+
 function main() {
   const argv = process.argv.slice(2);
   const intake = argv.includes("--intake");
@@ -299,6 +324,7 @@ function main() {
     } else {
       const out = writeIndex(rows, REPO_ROOT);
       console.log(`\narchive index: ${rows.length} claim(s) → ${path.relative(REPO_ROOT, out).split(path.sep).join("/")}${skipped.length ? ` (${skipped.length} legacy card(s) without frontmatter, not indexed)` : ""}`);
+      reportComposition(rows);
     }
   }
 

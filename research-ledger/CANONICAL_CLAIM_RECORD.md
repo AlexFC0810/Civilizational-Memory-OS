@@ -1,8 +1,8 @@
 # The Canonical Claim Record (v1 — 2026-07-14)
 
-The single structured form for every atom of the historical substrate. It ends the six-vocabulary fragmentation not by collapsing the vocabularies but by giving each claim **five typed, orthogonal axes** as machine-readable frontmatter, on top of the prose card the gate already checks. One record, one identity, one queryable index — from which every site (islamicgoldenages.org, islamlovesjesus.org, islamfromfirstprinciples.org) and every downstream consumer renders.
+The single structured form for every atom of the historical substrate. It ends the six-vocabulary fragmentation not by collapsing the vocabularies but by giving each claim **six typed, orthogonal axes** as machine-readable frontmatter, on top of the prose card the gate already checks. One record, one identity, one queryable index — from which every site (islamicgoldenages.org, islamlovesjesus.org, islamfromfirstprinciples.org) and every downstream consumer renders.
 
-> **The load-bearing insight:** evidence *grade* and source *closure* are independent. Card 005 is grade **A** (specialist consensus) yet **not** source-closed on primaries. A single status word cannot carry both; five axes can.
+> **The load-bearing insight:** evidence *grade* and source *closure* are independent. Card 005 is grade **A** (specialist consensus) yet **not** source-closed on primaries. A single status word cannot carry both; six axes can.
 
 ## The record = frontmatter (typed axes) + prose body (the argument) + generated index row
 
@@ -12,6 +12,7 @@ Every card in `source-cards/` and `historical-calibration/cards/` carries a YAML
 ---
 id: CMOS-0001                      # stable, namespaced, immutable once assigned
 claim_layer: institution           # category firewall — which source layer this claim lives on
+thesis_valence: achievement        # what the card's CENTRAL thesis concludes (the selection-bias axis)
 epistemic_status: established       # the verdict about the proposition itself
 closure: reconnaissance             # how deep the provenance actually goes
 source_tier_best: 4                 # best source tier ACTUALLY reached (0 strongest … 5 weakest)
@@ -24,10 +25,18 @@ date: 2026-07-10                    # authored/last-hardened date
 ---
 ```
 
-## The five axes (why five, and why orthogonal)
+## The six axes (why these, and why orthogonal)
 
 1. **`claim_layer`** — the category firewall. Which layer of reality the claim is about; prevents "the sources teach X" collapsing into "Muslims did X" (or the reverse smear). This is also the **routing key** to a site's public layers.
    `quran | prophetic | fiqh | institution | culture | outcome | synthesis`
+1b. **`thesis_valence`** — the selection-bias axis (added 2026-08-17). What the card's **central thesis concludes** — *not* what it concedes inside itself.
+   `corrective` (rebuts a smear) · `achievement` (asserts something done well) · `bridge` (links across traditions) · `failure` (**the thesis itself is a failure, wrong, or harm** of Islamic civilization) · `null-case` (an expected pattern is reported absent)
+
+   **Why this axis exists.** The 2026-08-03 valence audit found that **23 of 23 gated theses were exculpatory**. Every card conceded honestly *inside* itself, and it did not matter: **per-card honesty cannot detect selection bias.** Each card passed on its own terms while the corpus told a systematically favourable story — which collides with the repo's own mission text (*"detect distortion"*, *"must remain capable of saying 'we were wrong'"*, *"civilizational memory is not for pride"*).
+
+   The audit was prose, and prose is precisely the shape of the three checks that reported healthy while blind on 2026-08-02. So the axis is typed, required, and **counted on every full gate run** — the skew is now a number the gate prints rather than a finding someone must remember to re-derive.
+
+   **Assign it to what the card argues, never to what the archive needs.** Labelling a defensive card `failure` to improve the metric is worse than having no metric, because it makes the number lie in the flattering direction. Composition is reported, never gate-FAILed: a card is right or wrong on its own evidence, and refusing a sound card because the corpus already leans would corrupt the individual verdict to fix an aggregate. The aggregate is a **commissioning signal** — it tells the Archivist what to card next.
 2. **`grade`** (DERIVED from the body's Evidence Grade section, A–D) — strength of support for the claim *as scoped*. Not in frontmatter. Scoped by `grade_scope`.
 3. **`closure`** — provenance depth: how far the evidence chain has actually been walked. Orthogonal to grade (you can be grade-A on consensus with closure=reconnaissance).
    `open` (no sources yet) · `reconnaissance` (sources identified, not audited) · `provenance-audited` (chain walked to edition/translation, primary gap named) · `source-closed` (primary text + edition + translation + corroboration + counterevidence all verified)

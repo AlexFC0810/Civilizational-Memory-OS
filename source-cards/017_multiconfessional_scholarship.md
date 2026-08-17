@@ -1,6 +1,7 @@
 ---
 id: CMOS-0017
 claim_layer: culture
+thesis_valence: bridge
 epistemic_status: established
 closure: reconnaissance
 source_tier_best: 3

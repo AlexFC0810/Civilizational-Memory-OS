@@ -1,6 +1,7 @@
 ---
 id: CMOS-0012
 claim_layer: institution
+thesis_valence: achievement
 epistemic_status: established
 closure: reconnaissance
 source_tier_best: 3

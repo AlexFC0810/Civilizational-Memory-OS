@@ -108,7 +108,7 @@ const cases = [
 
   // ---- Frontmatter schema ----------------------------------------------------------
   { name: "frontmatter: missing required key (id)", expect: "FAIL", want: /missing required key/i,
-    boundary: "The five typed axes are mandatory for post-cutoff cards.",
+    boundary: "The six typed axes are mandatory for post-cutoff cards.",
     mutate: (t) => dropFrontmatter(t, "id") },
 
   { name: "frontmatter: derived field re-typed (grade)", expect: "FAIL", want: /derived from the body/i,
@@ -135,6 +135,14 @@ const cases = [
     boundary: "Ids must be CMOS-####/HCC-#### so the allocator and index stay coherent.",
     mutate: (t) => setFrontmatter(t, "id", "card-10") },
 
+  { name: "frontmatter: missing thesis_valence", expect: "FAIL", want: /missing required key/i,
+    boundary: "An unlabelled card is invisible to the selection-bias metric. The valence audit was prose once; unenforced, it would become prose again.",
+    mutate: (t) => dropFrontmatter(t, "thesis_valence") },
+
+  { name: "frontmatter: thesis_valence outside the enum", expect: "FAIL", want: /thesis_valence/i,
+    boundary: "A card cannot invent a flattering valence label ('nuanced', 'balanced') to escape the failure count.",
+    mutate: (t) => setFrontmatter(t, "thesis_valence", "heroic") },
+
   // ---- Deliberate NON-coverage: documented, not accidental -------------------------
   { name: "[boundary] overclaim in Honest Caveats is NOT gate-blocked", expect: "PASS", want: null,
     boundary: "Caveats are argued prose where forbidden lines get quoted to reject them; the gate deliberately does not scan them. NOTE: nlm-pack.mjs DOES export this section, so its own findOverclaim guard is the backstop — that guard is what must hold here.",
@@ -146,10 +154,15 @@ const cases = [
 // page or a NotebookLM upload. Higher stakes, and until 2026-08-03 nothing exercised them.
 const { publishRefusal } = await import("./render.mjs").catch(() => ({}));
 const { findOverclaim } = await import("./lib.mjs");
-const { findIdCollisions, reportsFailure } = await import("./archive.mjs");
+const { findIdCollisions, reportsFailure, corpusDistribution } = await import("./archive.mjs");
 const { bearsClaims } = await import("./evals.mjs");
 
 const nonEmpty = (arr) => (arr && arr.length ? arr : null);
+
+// Synthetic index rows for the composition metric. `null` models a card that reached the
+// index without a valence label — the case the metric must never quietly drop.
+const vRows = (...valences) =>
+  valences.map((v, i) => ({ id: `CMOS-90${i}`, claim_layer: "outcome", thesis_valence: v }));
 
 const publishCases = [
   { name: "[publish] grade C is refused at the publish floor",
@@ -217,6 +230,32 @@ const publishCases = [
     expectRefusal: false },
   { name: "[anchors] a plain successful anchor is kept",
     run: () => (reportsFailure("- https://example.org/d — fetched 2026-08-03, quote reproduced.") ? "wrongly-dropped" : null), expectRefusal: false },
+
+  // The selection-bias metric (added 2026-08-17). This one measures the ARCHIVE rather than a
+  // card, so its failure mode is different and nastier: a miscounted composition does not break
+  // anything visibly — it just reports a flattering number and everyone believes it. That is the
+  // false-green shape exactly, so the metric gets attacked the same way every other check does.
+  { name: "[valence] a card with no thesis_valence is surfaced, never silently excluded",
+    run: () => (corpusDistribution(vRows("failure", null)).unlabelled ? "surfaced" : null), expectRefusal: true },
+
+  { name: "[valence] unlabelled cards DILUTE the failure share (they are in the denominator)",
+    // The dangerous direction is flattery: dropping unlabelled rows from `total` would turn
+    // 1-failure-of-2 into 1-of-1 and report a 100% failure share for a corpus that is half unlabelled.
+    run: () => (corpusDistribution(vRows("failure", null)).total === 2 ? null : "inflated-share"), expectRefusal: false },
+
+  { name: "[valence] zero-count categories are still reported ('culture ×0' was the original finding)",
+    run: () => (corpusDistribution(vRows("corrective")).valence.some(([k, n]) => k === "failure" && n === 0) ? "reported" : null),
+    expectRefusal: true },
+
+  { name: "[valence] an invented valence value is counted, not silently dropped",
+    // The gate refuses invented values on the way in; if one ever reaches the index anyway,
+    // the tally must show it rather than quietly discard the row and shrink the denominator.
+    run: () => (corpusDistribution(vRows("heroic")).valence.some(([k, n]) => k === "heroic" && n === 1) ? "counted" : null),
+    expectRefusal: true },
+
+  { name: "[valence] failure AND null-case both count toward the honest metric",
+    run: () => (corpusDistribution(vRows("failure", "null-case", "achievement")).failures === 2 ? "counted" : null),
+    expectRefusal: true },
 ];
 
 let pass = 0;

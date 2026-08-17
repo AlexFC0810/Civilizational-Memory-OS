@@ -1,6 +1,7 @@
 ---
 id: CMOS-0003
 claim_layer: prophetic
+thesis_valence: achievement
 epistemic_status: established
 closure: reconnaissance
 source_tier_best: 2

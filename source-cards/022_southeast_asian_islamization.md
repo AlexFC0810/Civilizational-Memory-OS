@@ -1,6 +1,7 @@
 ---
 id: CMOS-0022
 claim_layer: outcome
+thesis_valence: corrective
 epistemic_status: established
 closure: reconnaissance
 source_tier_best: 3

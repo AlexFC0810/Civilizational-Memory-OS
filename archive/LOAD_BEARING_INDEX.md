@@ -150,6 +150,21 @@ This collides directly with the repo's own mission text: *"Detect distortion"*, 
 
 The valence gap is now open rather than closed: **1 of 24 gated theses is a failure.** One card does not fix a corpus. But the capacity to say "we were wrong" is no longer untested.
 
+**The metric is now machinery, not memory (2026-08-17).** The audit above was prose — and prose is exactly the shape of the three checks that reported healthy while blind on 2026-08-02. An audit nobody re-runs decays into a claim the same way an unattacked check does. So valence is now the sixth typed axis of the Canonical Claim Record: `thesis_valence ∈ {corrective | achievement | bridge | failure | null-case}`, **required** in frontmatter, enum-enforced by `scripts/evals.mjs`, and **counted on every full gate run** beside the `claim_layer` skew. All 24 existing cards were backfilled by reading each card's own Claim section; that independent pass reproduced the audit's 23/23 finding exactly, which is the cross-check that the labels are honest rather than flattering.
+
+What the gate now prints:
+
+```
+claim_layer     institution ×5 · outcome ×5 · quran ×5 · culture ×4 · fiqh ×2 · prophetic ×2 · synthesis ×1
+thesis_valence  achievement ×11 · corrective ×9 · bridge ×3 · failure ×1 · null-case ×0  — 1/24 (4%)
+```
+
+Three rules govern the axis, and they matter more than the enum:
+
+1. **Composition is reported, never gate-FAILed.** A card is right or wrong on its own evidence. Refusing a sound card because the corpus already leans would corrupt an individual verdict to fix an aggregate. The aggregate is a **commissioning signal** — it tells the Archivist what to card next.
+2. **Label what the card argues, never what the archive needs.** A defensive card labelled `failure` to improve the number is worse than no number, because it makes the metric lie in the flattering direction. Five planted-violation tests in `scripts/gate-selftest.mjs` pin the metric's own failure modes — including that unlabelled cards *dilute* rather than inflate the failure share, and that zero-count categories are still printed (`culture ×0` was the finding that started this).
+3. **Zero failure-theses is a red line, not a data point.** The gate prints an explicit warning at `failure + null-case = 0`, because at zero the archive's capacity to say "we were wrong" is untested and every defensive card is worth less.
+
 **Carding leverage rubric (added 2026-07-20 — rank by leverage, not position).** A flat queue order optimizes nothing. Rank each uncarded fact by **L = Attack-surface × Coverage-gap × Foundational-weight × Domain-demand**:
 - **Attack-surface** — is this fact the ground of a *common public smear*? A card that pre-empts a top-3 attack outperforms one that merely adds knowledge. (Highest leverage the archive can buy: turning a smear into a caption-safe correction.)
 - **Coverage-gap** — does carding it fill a *thin claim_layer*? As of 2026-07-20 the archive is skewed **institution ×5 / quran ×4** but **outcome ×1 · fiqh ×1 · prophetic ×1 · culture ×0**. The comfortable "advanced institutions" story is saturated; the contested layers where attacks actually land are starved. Prefer the thin layer.

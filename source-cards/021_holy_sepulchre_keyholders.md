@@ -1,6 +1,7 @@
 ---
 id: CMOS-0021
 claim_layer: culture
+thesis_valence: bridge
 epistemic_status: established
 closure: provenance-audited
 source_tier_best: 1

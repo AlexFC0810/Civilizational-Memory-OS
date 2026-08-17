@@ -1,6 +1,7 @@
 ---
 id: CMOS-0024
 claim_layer: outcome
+thesis_valence: failure
 epistemic_status: established
 closure: reconnaissance
 source_tier_best: 2

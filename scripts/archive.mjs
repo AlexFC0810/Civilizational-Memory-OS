@@ -19,8 +19,22 @@ const CLAIM_LAYERS = ["quran", "prophetic", "fiqh", "institution", "culture", "o
 const EPISTEMIC = ["established", "probable", "contested", "unresolved", "unsupported", "category-error"];
 const CLOSURE = ["open", "reconnaissance", "provenance-audited", "source-closed"];
 const LIFECYCLE = ["untriaged", "triaged", "verified", "disputed", "stale", "superseded", "retracted"];
+
+// The valence axis — what the card's CENTRAL THESIS concludes, not what it concedes inside.
+//
+// Added 2026-08-17, and the reason matters more than the enum. The 2026-08-03 audit found
+// that 23 of 23 gated theses were exculpatory: every card a smear-correction, an achievement,
+// or a bridge claim. Each one conceded honestly INSIDE itself, and it did not matter —
+// **per-card honesty cannot detect selection bias.** Every card passes on its own terms while
+// the corpus tells a systematically favourable story.
+//
+// That audit was prose. Prose is exactly the shape of the three checks that reported healthy
+// while blind on 2026-08-02. So the axis is typed, required, and counted on every gate run:
+// the skew is now a number the gate prints, not a finding someone must remember to re-derive.
+export const THESIS_VALENCE = ["corrective", "achievement", "bridge", "failure", "null-case"];
+
 const REQUIRED_KEYS = [
-  "id", "claim_layer", "epistemic_status", "closure",
+  "id", "claim_layer", "thesis_valence", "epistemic_status", "closure",
   "source_tier_best", "independent_chains", "grade_scope", "lifecycle", "date",
 ];
 // Derived fields must live in the body only — never duplicated in frontmatter.
@@ -45,6 +59,7 @@ export function validateFrontmatter(fm, bodyText) {
   }
   if (fm.id !== undefined && !/^(CMOS|HCC)-[A-Za-z0-9-]+$/.test(String(fm.id))) failures.push(`frontmatter: id '${fm.id}' must be namespaced (CMOS-#### or HCC-####)`);
   if (fm.claim_layer !== undefined && !CLAIM_LAYERS.includes(fm.claim_layer)) failures.push(`frontmatter: claim_layer '${fm.claim_layer}' not in {${CLAIM_LAYERS.join("|")}}`);
+  if (fm.thesis_valence !== undefined && !THESIS_VALENCE.includes(fm.thesis_valence)) failures.push(`frontmatter: thesis_valence '${fm.thesis_valence}' not in {${THESIS_VALENCE.join("|")}}`);
   if (fm.epistemic_status !== undefined && !EPISTEMIC.includes(fm.epistemic_status)) failures.push(`frontmatter: epistemic_status '${fm.epistemic_status}' not in {${EPISTEMIC.join("|")}}`);
   if (fm.closure !== undefined && !CLOSURE.includes(fm.closure)) failures.push(`frontmatter: closure '${fm.closure}' not in {${CLOSURE.join("|")}}`);
   if (fm.lifecycle !== undefined && !LIFECYCLE.includes(fm.lifecycle)) failures.push(`frontmatter: lifecycle '${fm.lifecycle}' not in {${LIFECYCLE.join("|")}}`);
@@ -148,6 +163,7 @@ export function buildIndex(cardFiles, repoRoot) {
       id: fm.id ?? null,
       file: path.relative(repoRoot, file).split(path.sep).join("/"),
       claim_layer: fm.claim_layer ?? null,
+      thesis_valence: fm.thesis_valence ?? null,
       grade: derived.grade,
       grade_scope: fm.grade_scope ?? null,
       closure: fm.closure ?? null,
@@ -205,6 +221,40 @@ export function findIdCollisions(rows) {
   }
 
   return errors;
+}
+
+// Corpus composition — printed on every full gate run.
+//
+// Two skews have already cost this archive real credibility, and BOTH were found by hand,
+// late: the claim_layer skew (institution/quran saturated, `culture` at zero) and the valence
+// skew (23/23 exculpatory theses). A distribution discovered by a human who happened to look
+// is not a check. Counting it here makes both visible at the one place every card must pass.
+//
+// Zero-count categories are printed deliberately. `culture ×0` was the finding; a category
+// omitted because it is empty is exactly the category that most needs to be seen.
+export function corpusDistribution(rows) {
+  const tally = (key, enumValues) => {
+    const counts = new Map(enumValues.map((v) => [v, 0]));
+    for (const r of rows) {
+      const v = r[key];
+      if (v == null) continue;
+      counts.set(v, (counts.get(v) ?? 0) + 1); // unknown values still counted, never silently dropped
+    }
+    return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  };
+
+  const valence = tally("thesis_valence", THESIS_VALENCE);
+  const failures = (valence.find(([v]) => v === "failure")?.[1] ?? 0) +
+    (valence.find(([v]) => v === "null-case")?.[1] ?? 0);
+  const unlabelled = rows.filter((r) => r.thesis_valence == null).length;
+
+  return {
+    layer: tally("claim_layer", CLAIM_LAYERS),
+    valence,
+    failures,
+    unlabelled,
+    total: rows.length,
+  };
 }
 
 // Write archive/claims.json deterministically (sorted, no timestamps) so it diffs in git.

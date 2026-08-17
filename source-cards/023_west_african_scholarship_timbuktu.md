@@ -1,6 +1,7 @@
 ---
 id: CMOS-0023
 claim_layer: culture
+thesis_valence: achievement
 epistemic_status: established
 closure: reconnaissance
 source_tier_best: 3

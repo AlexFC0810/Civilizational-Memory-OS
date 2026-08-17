@@ -133,4 +133,12 @@ function main() {
   }
 }
 
-main();
+// Run only when invoked directly. scripts/gate-selftest.mjs imports this module to test
+// `publishRefusal`, and without this guard that import PUBLISHED — every self-test run
+// rewrote sites/*.html as a side effect. It went unnoticed because the output happened to
+// be byte-identical; a changed safe_wording would have silently republished a live page,
+// and render's `process.exit(1)` on a missing bundle id would have killed the self-test
+// mid-run with an error that pointed nowhere near the cause. Same guard evals.mjs uses.
+if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url))) {
+  main();
+}

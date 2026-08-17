@@ -1,6 +1,7 @@
 ---
 id: CMOS-0016
 claim_layer: prophetic
+thesis_valence: achievement
 epistemic_status: probable
 closure: reconnaissance
 source_tier_best: 2
