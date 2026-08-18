@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 26,
+  "count": 27,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -815,6 +815,35 @@
         "https://www.state.gov/reports/2023-report-on-international-religious-freedom/egypt/"
       ],
       "safe_wording": "Al-Azhar — today the foremost institution in the Islamic world for the study of Sunni theology and sharia — was founded by an Ismaili Shia dynasty. The Fatimid general Jawhar al-Siqilli began it on 4 April 970 for the Imam-Caliph al-Mu'izz and, in the record's own words, \"had al-Azhar built as a base to spread Isma'ili Shi'a Islam\"; it was completed in 972, made a centre of legal instruction by the Fatimid vizier Ibn Killis in 988, and endowed with its first manuscript collection in 1005. The Metropolitan Museum of Art, independently, describes it as having \"became the spiritual center for Isma'ili Shi'i.\" That is the contribution, and it is the premise, not the point. The point is what came next. Saladin ended the dynasty in 1171, and the record states the consequence without hedging: \"Because it was founded as a Shiite Ismaili institution, Saladin and the Sunni Ayyubid dynasty that he founded shunned al-Azhar, removing its status as a congregational mosque and denying stipends to students and teachers at its school.\" Congregational prayers were banned by the qadi Saladin appointed; the professors \"were forced to find other means to earn their living\"; \"manuscripts of Fatimid teachings that were held at al-Azhar were destroyed\"; and Saladin \"ordered the removal from the mihrab of the mosque a silver band on which the names of the Fatimid caliphs had been inscribed.\" When Friday prayer returned under Baibars in 1266, the stated precondition was that al-Azhar had by then \"lost its association with the Fatimids and Ismāʿīli doctrines,\" which allowed the sultan \"to disregard al-Azhar's history.\" And the sequence has a present tense: the US State Department's 2023 religious-freedom report records that Shia Muslims in Egypt \"remained unable to establish public places of worship,\" that there are no husseiniyas in the country, and that an outside review of the al-Azhar school curriculum found a textbook that treats Twelvers and Zaydis as legitimate while it \"rejects Ismailis, Ahmadis, and Baha'is as heretical.\" The Fatimids are not owed a clean version of this, and they do not get one here: al-Hakim imposed differentiation laws on Jews and Christians in 1005 and ordered the destruction of the Church of the Holy Sepulchre in 1009; his successor's reign brought mass persecution of the Druze; Ismaili doctrine was kept from the uninitiated; and Ismailis \"always remained a minority\" in their own state, ruling a population that stayed Sunni throughout. Nor is this Sunni against Shia: in 1011 the Abbasid caliph assembled \"a number of Sunni and Twelver Shiite scholars\" to deny the Fatimids' descent from Ali and Fatima, and the Shia Buyids in Baghdad were tolerant of their Sunni majority and hostile to the Fatimids. I am not going to tell you other civilizations did the same to their minorities, because that is not an answer to this. The honest charge is narrower and heavier: Islamic civilization kept the building and lost the builders, and it is still losing them. What this is not is a verdict on any theological question between Sunni, Twelver, Ismaili, and Zaydi Islam — that is a different claim on a different layer, needing evidence this card does not have and does not pretend to."
+    },
+    {
+      "id": "CMOS-0028",
+      "file": "source-cards/028_the_house_of_wisdom.md",
+      "claim_layer": "institution",
+      "thesis_valence": "null-case",
+      "grade": "B",
+      "grade_scope": "B: that the institution most people mean by 'the House of Wisdom' — a formal academy, a research institute with departments, a school of translation, or the first university — is absent from the primary record, and is instead a modern construction assembled between 1858 and the late twentieth century out of an editorial mistranslation (Fluegel 1858), a borrowed institutional model (Brockelmann 1898, under the influence of the European academy), a fixed but unevidenced founding date and translation school (Meyerhof 1928-1930), an explicit university claim (Totah 1928), and the popularisation that fixed it (Hitti 1937); that the surviving primary base is very thin and consists mainly of a handful of references in al-Nadim's Fihrist (draft completed 988, roughly two centuries after the fact) plus later biographical dictionaries; that what those sources DO support is a real caliphal palace library with a named director (sahib) — Salm under Harun al-Rashid, Sahl ibn Harun under al-Ma'mun — an associate (sharik), catalogues, copyists and bookbinders, translation work attested from Persian, and a small number of named scholars attached to it under al-Ma'mun including al-Khwarizmi (described as devoted to it full-time) and the three Banu Musa placed there with Yahya ibn Abi Mansur; that Gutas (1998) argues no report of Greek-into-Arabic translation mentions the bayt al-hikma and that Hunayn ibn Ishaq never mentions it; and that English Wikipedia's lead nonetheless cites Gutas 1998 pp. 53-60 as authority for calling it 'a major Abbasid-era public academy' and for saying al-Ma'mun 'turned it into a public academy', which is the reverse of what those pages argue. C: what the library's precise functions were, where Gutas's minimalist reconstruction, Ihsanoglu's middle position, and Di Branco's argument for real involvement in Greek translation are three live scholarly readings this card records without adjudicating; whether the Fihrist's report that Salm coordinated a revision of Ptolemy's Almagest is authentic, which Di Branco relies on and which Gutas and van Bladel call a fictitious account; and any claim about the library's size, holdings, staffing numbers, or physical form, for which no fetched source supplies figures.",
+      "closure": "reconnaissance",
+      "source_tier_best": 2,
+      "independent_chains": 3,
+      "epistemic_status": "established",
+      "lifecycle": "triaged",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-08-18",
+      "anchors": [
+        "https://erenow.org/postclassical/abbasid-house-of-wisdom-between-myth-and-reality/3.php",
+        "https://erenow.org/postclassical/abbasid-house-of-wisdom-between-myth-and-reality/4.php",
+        "https://erenow.org/postclassical/abbasid-house-of-wisdom-between-myth-and-reality/8.php",
+        "https://erenow.org/postclassical/abbasid-house-of-wisdom-between-myth-and-reality/11.php",
+        "https://archive.org/details/DimitriGutasGreekThoughtArabicCultureTheGraecoArabicTranslationMovementInBaghdad",
+        "https://learningroads.cfs.unipi.it/wp-content/uploads/2015/10/DiBranco_SGA_II.pdf",
+        "https://en.wikipedia.org/w/index.php?oldid=1365449389&action=raw",
+        "https://erenow.org/postclassical/abbasid-house-of-wisdom-between-myth-and-reality/7.php",
+        "https://erenow.org/postclassical/abbasid-house-of-wisdom-between-myth-and-reality/9.php",
+        "https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&titles=House%20of%20Wisdom"
+      ],
+      "safe_wording": "The House of Wisdom was a real institution — the Abbasid caliphs' palace library in Baghdad, with a named director, catalogues, copyists, bookbinders, and scholars including al-Khwarizmi attached to it. It was not an academy, a university, or a research institute with departments: that image was assembled by modern scholars between 1858 and the twentieth century, starting from a mistranslation and shaped by the model of the European academy, and it has been dismantled in detail by historians of science working from the Arabic sources. Specialists still disagree about how far the library was involved in translating Greek works. What is not in dispute is that the Abbasid translation movement was real, was very large, and was broader than any single institution — much of it driven by private patrons and paying customers rather than by the caliph's library."
     }
   ]
 }

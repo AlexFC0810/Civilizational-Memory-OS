@@ -106,7 +106,7 @@
 
 **LB-43** · [T1] Byzantium ran endowed hospitals before and alongside the bimaristans — the 1136 Pantokrator Typikon specifies a ~50-bed, five-ward hospital with salaried physicians, and it was not the first Byzantine hospital. — **Carries:** the comparative anchor that keeps LB-16/LB-23 honest; crediting the precedent is what makes the Islamic case trustworthy. — *Trace:* CMOS-0009 · B · provenance-audited · institution.
 
-**LB-44** · [T2] The House of Wisdom is associated with Abbasid Baghdad's library and translation culture, but popular narratives may overstate its institutional form. — **Carries:** the myth-calibration duty on our own side's favorite symbol. — *Trace:* ISLAMIC_CIV_OS ledger #10 · B/C · institution.
+**LB-44** · [T1] The House of Wisdom was a real Abbasid palace library — a named director (sahib), an associate, catalogues, copyists, bookbinders, and scholars including al-Khwarizmi attached to it — but the academy / university / research-institute image is a modern construction, assembled between an 1858 editorial mistranslation and a 1937 popularisation and dismantled in detail by historians of science working from the Arabic sources; specialists still disagree how far the library touched the Greek translation movement, which was itself larger than the library and substantially privately funded. — **Carries:** the myth-calibration duty on our own side's favorite symbol — and the archive's first `null-case`, the proof that the honesty standard aims inward as well as outward. — *Trace:* **CMOS-0028** · B · institution (carded 2026-08-18; Ihsanoglu 2022 + Gutas 1998 + Di Branco 2012 agree the academy model is anachronistic and disagree about function, all three recorded; English Wikipedia's lead cites Gutas pp. 53–60 as authority for the "public academy" claim those pages refute).
 
 **LB-45** · [T2] The Aisha marital-age report is traditional and canonical within much Sunni hadith; modern source-critical scholarship (Little) questions its reliability; and even accepting it, the clinical smear overreaches the evidence. — **Carries:** the blast-radius topic's honest state — canonical-but-contested — which is the only position that survives both directions of bad faith. Handled ONLY under the blast-radius protocol. — *Trace:* josh-matrix #3 · Contested · prophetic.
 
@@ -150,7 +150,7 @@ This collides directly with the repo's own mission text: *"Detect distortion"*, 
 
 **First failure card gated 2026-08-03: `CMOS-0024` — the non-abolition of slavery** (`outcome`, B). Its central finding was produced by running the hostile-historian lens in the *defensive* direction, and it made the verdict worse: the manumission architecture — normally deployed as mitigation — is structurally implicated, because a slave population continually freed and unable to replenish itself from within must be fed from outside. The exits generated demand at the entrance. **The defence's best card, followed through, indicts.**
 
-The valence gap is now open rather than closed: **3 of 26 gated theses are failures (12%)**, after **CMOS-0025** (the Mihna — an Islamic state coercing belief, with the creed itself as the instrument) and **CMOS-0026** (the Ismaili founding of al-Azhar and its erasure) landed on 2026-08-17. Three cards do not fix a corpus that is still 88% exculpatory. But the capacity to say "we were wrong" is no longer untested, and it is now **measured on every gate run** rather than re-audited by hand.
+The valence gap is now open rather than closed: **4 of 27 gated theses are failures or null-cases (15%)**, after **CMOS-0025** (the Mihna — an Islamic state coercing belief, with the creed itself as the instrument) and **CMOS-0026** (the Ismaili founding of al-Azhar and its erasure) landed on 2026-08-17, and **CMOS-0028** (the House of Wisdom) closed the `null-case ×0` hole on 2026-08-18 — the first card whose thesis deflates one of the archive's own favourite claims rather than an opponent's. Four cards do not fix a corpus that is still 85% exculpatory. But the capacity to say "we were wrong" is no longer untested, and it is now **measured on every gate run** rather than re-audited by hand.
 
 Two things worth recording about how those two cards were produced, because the method is the transferable part. First, both were adversarially verified before landing, and **both came back `NEEDS_WORK`** — the verifiers caught deploy-facing lines that violated the cards' *own* stated rules, and in CMOS-0025's case an overclaim ("defeated it") leaning in the **flattering** direction inside a failure card. A failure thesis is not self-policing; it can still drift exculpatory in its most quotable sentences, which is exactly where drift does damage. Second, CMOS-0025's verification transcript **overstated its own rigour** ("all thirty-eight present", "no string was repaired") and has been retracted in place. A check described more confidently than it was performed is the same defect as a check that reports healthy while blind.
 
@@ -159,8 +159,8 @@ Two things worth recording about how those two cards were produced, because the 
 What the gate now prints:
 
 ```
-claim_layer     institution ×5 · outcome ×5 · quran ×5 · culture ×4 · fiqh ×2 · prophetic ×2 · synthesis ×1
-thesis_valence  achievement ×11 · corrective ×9 · bridge ×3 · failure ×1 · null-case ×0  — 1/24 (4%)
+claim_layer     institution ×7 · outcome ×6 · quran ×5 · culture ×4 · fiqh ×2 · prophetic ×2 · synthesis ×1
+thesis_valence  achievement ×11 · corrective ×9 · bridge ×3 · failure ×3 · null-case ×1  — 4/27 (15%) of gated theses are failures or null-cases
 ```
 
 Three rules govern the axis, and they matter more than the enum:
