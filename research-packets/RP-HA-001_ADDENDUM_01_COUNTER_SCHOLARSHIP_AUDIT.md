@@ -104,3 +104,22 @@ The dispatched agent died on a session limit before producing verified output. *
 ---
 
 *Prepared under `canon/TRUTH_CONSTRAINED_ZEALOUS_ADVOCACY_DOCTRINE.md`. Possibility was not converted into proof in either direction: Little's own "certainly possible … cannot be demonstrated" boundary (p. 399) governs every line above.*
+
+---
+
+## 7. Follow-up verifications (2026-08-18, founder Q&A session)
+
+**7.1 The "hadith are unreliable" sentence — full text recovered (thesis p. 22, ch. 1 opening).** Cheema's critique quotes it with an ellipsis ("That Hadith are unreliable … cannot be seriously contested") and builds the "Freudian confession" charge on the splice. The full sentence, verbatim:
+
+> "That Hadith are unreliable — that any given matn cannot be taken at face value as an accurate datum from the 1st Islamic Century, and that any given ʾisnād cannot be taken at face value as an accurate record of a matn's provenance — cannot be seriously contested, for multiple reasons."
+
+The ellipsis drops the defining middle clause. Little's actual claim is methodological — *no single report may be accepted at face value without verification* — not corpus nihilism; his own ICMA then **authenticates** many transmissions (multiple genuine CLs verified to the mid-8th century, ch. 2 conclusion). House rule: any deployment of "Little says hadith are unreliable" must carry the defining clause or not be said at all.
+
+**7.2 Hisham rijāl data upgraded.** The Mālik-refused-Hisham's-Iraqi-reports and Yaʿqūb b. Šaybah deterioration notices are carried in the thesis's own literature review (p. 13, reporting Shanavas's citations of Ibn Ḥajar) — previously held at *reported* status in the packet steelman. Now thesis-side confirmed as data Little himself transmits; the Tahḏīb page-level check itself remains queued. Note Little also *rebuts* the adjacent overclaim ("no other Madinans transmitted it" is "ostensibly wrong," p. 13) — the thesis polices its own side's arguments.
+
+**7.3 New queue items (from founder Q&A):**
+
+1. **Little interview/biography corpus.** The founder flags Little's personal arc (reportedly a former anti-Islam polemicist who used this very smear before researching it) as potentially decisive framing. Status: **unverified in-archive** — the story lives in interviews (e.g., Blogging Theology appearances) and his site, none of which this archive has inspected; the thesis contains no autobiography. Queue: pull the interview corpus, verify the arc in his own recorded words before ANY creator use (defamation discipline applies to favorable characterizations too). Deployment note: double-edged — a conversion-arc narrative is powerful, but leading with the scholar's *person* invites the identity-based rebuttals the packet's steelman already mapped (both flanks); the house method remains "inherit the labor, not the persona."
+2. **The "up to 24" ceiling claim — find or kill.** The founder has heard ranges reaching age 24. Nothing in this archive anchors 24: the highest primary-verified reconstruction is **al-Idlibi's 18** (ʿaqd 14 / dukhūl 18, 2013 text, §5.2); Little's own probabilistic estimates are **12–14** (p. 512) and **"at least fourteen — plausibly even older"** (p. 514). House rule until a qualified source for a higher figure is produced and audited: **the number 24 does not leave internal prep.** "The age is unknowable with certainty; qualified reconstructions run from the traditional nine up to al-Idlibi's eighteen" is the deployable envelope.
+
+**7.4 Founder lean registered (not a decision).** In this session the founder articulated: age unknowable; Little possibly the strongest single case; hadith should not carry Qur'an-level authority ("keep what's good, more room for questioning"). This is the D3 posture question of the decision packet §7. Lean registered here for the record; the formal D1–D3 calls remain open and his. The two-front cost mapped in packet §3 (traditionalist flank + consistency challenge) applies in full to this lean; the native-scaffolding framing (al-Idlibi's uṣūlī matn-criticism principle, §5.2; the tradition's own rijāl scrutiny of Hisham, §7.2) is the deployable form that carries the same content without the corpus-nihilism exposure.
