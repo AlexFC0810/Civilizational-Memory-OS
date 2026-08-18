@@ -1,6 +1,6 @@
 {
   "schema": "canonical-claim-record/v1",
-  "count": 26,
+  "count": 27,
   "claims": [
     {
       "id": "CMOS-0001",
@@ -815,6 +815,42 @@
         "https://www.state.gov/reports/2023-report-on-international-religious-freedom/egypt/"
       ],
       "safe_wording": "Al-Azhar — today the foremost institution in the Islamic world for the study of Sunni theology and sharia — was founded by an Ismaili Shia dynasty. The Fatimid general Jawhar al-Siqilli began it on 4 April 970 for the Imam-Caliph al-Mu'izz and, in the record's own words, \"had al-Azhar built as a base to spread Isma'ili Shi'a Islam\"; it was completed in 972, made a centre of legal instruction by the Fatimid vizier Ibn Killis in 988, and endowed with its first manuscript collection in 1005. The Metropolitan Museum of Art, independently, describes it as having \"became the spiritual center for Isma'ili Shi'i.\" That is the contribution, and it is the premise, not the point. The point is what came next. Saladin ended the dynasty in 1171, and the record states the consequence without hedging: \"Because it was founded as a Shiite Ismaili institution, Saladin and the Sunni Ayyubid dynasty that he founded shunned al-Azhar, removing its status as a congregational mosque and denying stipends to students and teachers at its school.\" Congregational prayers were banned by the qadi Saladin appointed; the professors \"were forced to find other means to earn their living\"; \"manuscripts of Fatimid teachings that were held at al-Azhar were destroyed\"; and Saladin \"ordered the removal from the mihrab of the mosque a silver band on which the names of the Fatimid caliphs had been inscribed.\" When Friday prayer returned under Baibars in 1266, the stated precondition was that al-Azhar had by then \"lost its association with the Fatimids and Ismāʿīli doctrines,\" which allowed the sultan \"to disregard al-Azhar's history.\" And the sequence has a present tense: the US State Department's 2023 religious-freedom report records that Shia Muslims in Egypt \"remained unable to establish public places of worship,\" that there are no husseiniyas in the country, and that an outside review of the al-Azhar school curriculum found a textbook that treats Twelvers and Zaydis as legitimate while it \"rejects Ismailis, Ahmadis, and Baha'is as heretical.\" The Fatimids are not owed a clean version of this, and they do not get one here: al-Hakim imposed differentiation laws on Jews and Christians in 1005 and ordered the destruction of the Church of the Holy Sepulchre in 1009; his successor's reign brought mass persecution of the Druze; Ismaili doctrine was kept from the uninitiated; and Ismailis \"always remained a minority\" in their own state, ruling a population that stayed Sunni throughout. Nor is this Sunni against Shia: in 1011 the Abbasid caliph assembled \"a number of Sunni and Twelver Shiite scholars\" to deny the Fatimids' descent from Ali and Fatima, and the Shia Buyids in Baghdad were tolerant of their Sunni majority and hostile to the Fatimids. I am not going to tell you other civilizations did the same to their minorities, because that is not an answer to this. The honest charge is narrower and heavier: Islamic civilization kept the building and lost the builders, and it is still losing them. What this is not is a verdict on any theological question between Sunni, Twelver, Ismaili, and Zaydi Islam — that is a different claim on a different layer, needing evidence this card does not have and does not pretend to."
+    },
+    {
+      "id": "CMOS-0027",
+      "file": "source-cards/027_righteousness_over_lineage.md",
+      "claim_layer": "synthesis",
+      "thesis_valence": "failure",
+      "grade": "B",
+      "grade_scope": "B overall, split grade. A-strength sublayer: what Qur'an 49:13 says, fetched verbatim this session from the quran.com API in Arabic (Uthmani script) and in two independent English translations (Abdel Haleem; Saheeh International), together with 30:22 and 49:11; and the two Ibn Khaldun passages, read directly in the full text of Franz Rosenthal's standard translation rather than through any summary, and cross-checked against a second retrieval. A-strength also: that classical exegesis read 49:13 as ranking taqwa above lineage, evidenced by Tafsir Ibn Kathir fetched from the same API, which glosses the verse 'you earn honor with Allah the Exalted on account of Taqwa, not family lineage.' B sublayer: the institutional and legal breakers - continued jizya on non-Arab converts under the Umayyads and its abolition by Umar II followed by its reimposition by Yazid II; the Qurashi-descent qualification for the caliphate across the Sunni schools; lineage as a kafa'ah criterion in Shafi'i and Hanbali marriage doctrine; the Shu'ubiyya controversy - all of which rest on encyclopedic retrieval, not on the underlying monographs (Hawting, Crone, Lewis, Mottahedeh, Savant) read directly. C: any quantification of how widespread ethnic hierarchy was at any given time or place; whether conversion in the first Islamic century strictly required Arab clientage, which this card records as an attributed scholarly position and does not certify; and whether Umayyad fiscal policy toward the mawali is best explained ethnically or as revenue protection. Capped below A by closure=reconnaissance, by the encyclopedic dependence of every practice-layer breaker, and by the fact that no Arabic primary chronicle and no classical fiqh text was read in its own language.",
+      "closure": "reconnaissance",
+      "source_tier_best": 2,
+      "independent_chains": 3,
+      "epistemic_status": "established",
+      "lifecycle": "triaged",
+      "supersedes": [],
+      "superseded_by": null,
+      "date": "2026-08-18",
+      "anchors": [
+        "https://api.quran.com/api/v4/verses/by_key/49:13?language=en&fields=text_uthmani",
+        "https://api.quran.com/api/v4/verses/by_key/49:13?language=en&translations=85",
+        "https://api.quran.com/api/v4/verses/by_key/49:13?language=en&translations=20",
+        "https://api.quran.com/api/v4/verses/by_key/30:22?language=en&translations=85",
+        "https://api.quran.com/api/v4/verses/by_key/49:11?language=en&translations=85",
+        "https://api.quran.com/api/v4/tafsirs/169/by_ayah/49:13",
+        "https://en.wikipedia.org/wiki/Shu%27ubiyya",
+        "https://en.wikipedia.org/wiki/Umayyad_Caliphate",
+        "https://en.wikipedia.org/wiki/Mawla",
+        "https://en.wikipedia.org/wiki/Caliphate",
+        "https://en.wikipedia.org/wiki/Kafa%27ah",
+        "https://traditionalhikma.com/wp-content/uploads/2015/08/The-Muqaddimah-by-Ibn-Khaldun-Translated-by-Franz-Rosenthal.pdf",
+        "https://en.wikipedia.org/wiki/Racism_in_the_Arab_world",
+        "https://en.wikipedia.org/wiki/Al-Jahiz",
+        "https://api.quran.com/api/v4/resources/translations",
+        "https://api.quran.com/api/v4/resources/tafsirs",
+        "https://en.wikipedia.org/wiki/Muqaddimah"
+      ],
+      "safe_wording": "Qur'an 49:13 recognizes peoples and tribes but makes righteousness — not lineage — the measure of nobility, and the classical exegetical tradition read it that way. Muslim societies then built ethnic hierarchy against that standard, and part of it entered the law: a Qurashi-descent qualification for the caliphate, lineage as a marriage-compatibility criterion in two of the four Sunni schools, a poll tax kept on non-Arab converts and restored after being abolished, and a slave trade patterned by ethnicity. Ibn Khaldun rejected the theory that Black Africans were cursed and still wrote that they were suited to slavery. The standard is genuine and the failure against it is genuine; both belong in any honest account, and the standard by which the failure is judged came from inside the tradition, which is why the tradition also produced the movements and reformers who fought it."
     }
   ]
 }
