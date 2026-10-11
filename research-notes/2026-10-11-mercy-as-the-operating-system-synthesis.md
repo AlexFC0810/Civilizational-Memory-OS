@@ -128,3 +128,24 @@ Build **one primary-source 'mercy under maximum stress' case dossier** in two ha
 - **Historical test**: 1187 Jerusalem under Saladin (surrender terms, ransom, released/enslaved populations, contemporary accounts, comparison baselines without cherry-picking).
 
 Then extract a 150–300 word conversation-quality story for **the sword tattoo**, and one chapter prospectus for the possible book. Preserve explicit facts/interpretations/unknowns. **Do not publish the thesis as settled or add new production teams until sources are hardened.**
+
+
+## VIII. 2026-10-11 owner insight — the *vital few* / minimum sufficient moral kernel
+
+**Source:** User's experience building AI operating systems suggests that proliferating rules can distort attention, create contradictions and encourage performative compliance. He is drawn to a **Qur'an-first** inquiry, while *Qur'an-only* remains an unchosen possibility. He wants the **few load-bearing principles** that organize the rest rather than an indefinitely growing checklist. This is a working thesis, **not proof** that the Qur'an can be reduced to a handful of verses or that all difficult texts can be ignored.
+
+**Proposed architecture (analogy, not revealed taxonomy):**
+- **Kernel: orienting principles.** Mercy and compassion, justice even against self/out-group, truthfulness/verification, accountable power, duty to vulnerable people.
+- **Interface: repeatable practices.** Individual discipline, mutual exhortation, accountable community, real distributive obligations; trace to verified source-language passages.
+- **Modules: contextual application.** Specific legal, social and institutional practices with provenance, scope and evidence of effects; not automatically equivalent to revelation.
+- **Audit/error handling.** Hard Qur'anic texts and genuine tensions; strongest external critics; hadith/fiqh authority debates; different histories, cultures, minorities, women, coercion, conscience, politics.
+
+**Research question:** Which Qur'anic themes demonstrably recur most centrally, based on more than raw word frequency? Evaluate repetitions, placement, semantic connections, scope, ethics under stress, prophetic examples, interpretive disagreements and strong counterinstances. A phrase's presence at 113 surah openings is a compelling structural fact **but frequency alone does not establish the rank or override other obligations**.
+
+**Two user-selected gateways:**
+1. **90:17**, Arabic-Indic numeric reference **`٩٠:١٧`**: mutual exhortation to endurance and mercy/compassion. Full verse and 90:11–18 context should be retained even if physical artwork only displays a number.
+2. **Basmala** **`بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ`**: opens 113 surahs (exception Surah 9); appears within 27:30. This could be the one intentionally written-out text in a personal creative collection, **but respect and tattoo permissibility remain unresolved**. It may belong in a book's frontispiece, manuscript artwork or home display rather than permanent ink.
+
+**Source links:** https://quran.com/90/17 ; https://quran.com/1/1 ; https://quran.com/27/30 ; [Tattoo inscription candidates](https://github.com/AlexFC0810/alex-personal-os/blob/main/60-style-presence/tattoo-references/2026-10-11-verse-reference-constellation-and-basmala.md).
+
+**Highest-leverage artifact:** a compact **moral-kernel source card** comparing 90:17, 5:8, 4:135, 16:90, 21:107 and Qur'an 107:1–7 with their **original Arabic, immediate contexts, different exegeses, and objections**. Rank no more than 3-5 principles provisionally; do not conflate similarity with identical Arabic meaning or pretend the kernel exhausts revelation. Write the small public explanation **after** the source audit, not before.
