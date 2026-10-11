@@ -37,6 +37,12 @@ This is an *interpretive synthesis* — a proposed cross-text model, not a revea
 
 **Hard counterexample gate:** mercy cannot be used to erase or evade Qur'anic texts about judgment, punishment, war, hierarchy, gender, compulsion, or political power. Those are where competing interpretations must be compared openly and on their strongest evidence. Read historical context carefully, distinguish normative/particularized cases, and surface unresolved tensions. Do not relabel every difficult passage merciful by fiat.
 
+### Worship cannot substitute for care or truth
+- **Qur'an 107:1–7** is an especially strong bridge between outward piety and protection of the weak: it critiques those who rebuff orphans, neglect encouraging care for the needy, make a show of prayer and withhold small assistance. https://legacy.quran.com/107
+- **Qur'an 4:135** demands evenhanded justice even against oneself, family or those with wealth/status. https://legacy.quran.com/04/135
+- **Qur'an 49:13** characterizes human diversity of peoples/tribes as an opportunity to know each other rather than a warrant for superiority; God-conscious character, not tribal identity, is the differentiator within the verse. https://quran.com/49/13
+- This strengthens an important safeguard: **a claim to piety is not proof of morally aligned behavior; examine how the vulnerable are treated and whether the group accepts internal criticism.**
+
 ### Jesus as a bridge, without theological flattening
 - Matthew 22:37–40 — love of God and neighbor described as central to the law and prophets. https://www.biblegateway.com/passage/?search=Matthew+22%3A37-40&version=NIV
 - Matthew 25:31–46, esp. 25:40 — how the vulnerable are treated is connected to how one treats Jesus; note scholarly disputes over the referent of `least of these`, do not falsely claim all Christian exegesis agrees on one scope. https://www.biblegateway.com/passage/?search=Matthew+25%3A31-46&version=NIV
