@@ -5,6 +5,8 @@
 **Ownership:** Civilizational Memory OS (evidence and research), with possible downstream Truth & Peace Engine storytelling and Alex Personal OS tattoo meaning.
 **Human source:** User reflection linking Qur'anic mercy, Jesus' ethics, human violence, historical Islamic institutions, personal encounters with hospitality, and Salahuddin's sword.
 
+> **Source-language audit required before canon/publishing:** [Original-Language First — Research Protocol](../methodologies/original-language-first-source-audit-protocol-2026-10-11.md). The protocol includes verified short Arabic Qur'anic extracts, a Greek Matthew 25:40 extract, corresponding English working translations, and unresolved semantic/exegetical questions. Original-language text outranks English paraphrase; neither replaces full context or counterevidence.
+
 ## Central question
 
 > If human beings are capable of tribal aggression, rationalized cruelty, domination, and increasingly destructive technologies, what moral-and-social operating system could train human beings to exercise power without abandoning mercy and justice?
