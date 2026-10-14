@@ -57,3 +57,15 @@ Karen Armstrong; **Garry Wills** (not Gary Willis); Joshua Little. Distinguish s
 
 ## Launch acceptance
 A publicly accessible, mobile-readable page with Arabic primary excerpts, clear interpretive labels, primary-source links, a correction path, and no pseudoscientific claim that statistical frequency by itself proves doctrinal rank. Stay modest, reproducible and nonsectarian in public tone.
+
+## New linked research lanes (2026-10-13)
+### Arabic-first translation edition — proposal
+- Owner/decision: issue [#109](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/109); pilot and QA protocol: [TRANSLATION_LAB_V0_1.md](TRANSLATION_LAB_V0_1.md).
+- Goal: a defensible, human-reviewed, versioned Qur'an translation, with side-by-side original Arabic, close/readable drafts, interpretive alternatives and audit trails. Do **not** assert the AI's translation is 'best' without independently tested evidence. Maintain Arabic/Quranic specialist review, including dissenting views and context.
+- Working illustrations: 1:1 (including alternate interpretations of ar-Raḥmān/ar-Raḥīm) and 6:38 (animals described as communities). Pilot does not confer canonical translation status.
+
+### Animal mercy fruit test — source-led comparison
+- Owner/decision: issue [#110](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/110); evidence ledger: [animal mercy audit](../../source-ledgers/animal-mercy-translation-and-fruit-audit-v0-1.md).
+- Reuse *Mercy Under Asymmetric Power*, *Fruit Test and Moral Architecture* and the canonical claim record; do not create rival scales or repeat doctrine.
+- Truth boundary: Muslim legal/charitable animal-welfare practices are a real subject for historical inquiry, but sweeping 'a millennium before Europe' priority rankings require comparative proof. Muslim 1955a on blade sharpening is hadith, not Qur'an. EFSA research warns against claims of instant/painless unconsciousness after unstunned neck cutting; the norm of seeking to minimize suffering and empirical welfare outcome must be assessed separately.
+- Comparative moral inspiration: Matthew 7:15–20 identifies people by fruits, immediately in the context of false prophets; treating fruits as a civilizational diagnostic is a *methodological analogy*.
