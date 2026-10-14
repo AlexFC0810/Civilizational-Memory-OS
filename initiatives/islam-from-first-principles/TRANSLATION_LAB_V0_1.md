@@ -79,3 +79,8 @@ corrections: []
 
 ## Editor's principle
 A powerful translation must sometimes leave hard Arabic ambiguities unresolved in English or explicitly footnoted. **Clarity that invents certainty is an error.**
+
+
+## Update — Complete Al-Fātiḥa Pilot (2026-10-14)
+
+The original 1:1 and 6:38 illustrations above remain initial work. **The current Al-Fātiḥa translation pilot is v0.2**: [all seven verses with working Arabic, English, qirāʾāt and contextual analysis](AL_FATIHA_DRAFT_V0_2.md). The current [benchmark/reviewer protocol](TRANSLATION_BENCHMARK_PROTOCOL.md) sets explicit blind-review rubrics and publication blockers. Neither is a certified, reviewed translation. Source edition licensing and exact integrity hashing still need to be completed before mass translation or release.
