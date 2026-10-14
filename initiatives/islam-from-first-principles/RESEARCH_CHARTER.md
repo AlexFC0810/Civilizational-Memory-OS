@@ -69,3 +69,8 @@ A publicly accessible, mobile-readable page with Arabic primary excerpts, clear 
 - Reuse *Mercy Under Asymmetric Power*, *Fruit Test and Moral Architecture* and the canonical claim record; do not create rival scales or repeat doctrine.
 - Truth boundary: Muslim legal/charitable animal-welfare practices are a real subject for historical inquiry, but sweeping 'a millennium before Europe' priority rankings require comparative proof. Muslim 1955a on blade sharpening is hadith, not Qur'an. EFSA research warns against claims of instant/painless unconsciousness after unstunned neck cutting; the norm of seeking to minimize suffering and empirical welfare outcome must be assessed separately.
 - Comparative moral inspiration: Matthew 7:15–20 identifies people by fruits, immediately in the context of false prophets; treating fruits as a civilizational diagnostic is a *methodological analogy*.
+
+
+## Translation Lab milestone (2026-10-14)
+
+The first *complete draft* pilot now exists: [Al-Fātiḥa 1:1–7 working translation and Arabic notes](AL_FATIHA_DRAFT_V0_2.md), with [independent review/benchmark gate](TRANSLATION_BENCHMARK_PROTOCOL.md). It explicitly documents divine mercy terminology, 1:4 `māliki/maliki` qirāʾāt, 1:7 participle and group-identity attribution risks, and differing verse-numbering conventions. Its current approval status remains **draft/unreviewed**, not a published replacement for existing translations. Initial Arabic transcriptions have been checked against Quran.com and the Quranic Arabic Corpus but are **not yet** locked to a downloaded, licensed, hashed source edition. Owner: [issue #109](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/109).
