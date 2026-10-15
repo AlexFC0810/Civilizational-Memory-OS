@@ -35,6 +35,43 @@ When artifacts conflict, use this order:
 
 No public narrative may silently override canon. No later conversation may silently erase a correction already recorded in GitHub.
 
+## Epistemic operating law
+
+The repository uses **mechanism-first, evidence-pluralist, outcome-verified reality triangulation**.
+
+Read and apply:
+
+- `protocols/EPISTEMIC_TRIANGULATION_AND_REALITY_AUDIT.md`
+- upstream canonical doctrine: `AlexFC0810/doctrine-hub/doctrine/EPISTEMIC_SOVEREIGNTY_AND_REALITY_TRIANGULATION.md`
+
+Binding rules:
+
+- Reality outranks authority, consensus, tradition, ideology, founder intuition, and AI synthesis.
+- Authority is evidence and metadata, never automatic closure.
+- Institutional power and archive control must be audited; dissent is not automatically true.
+- Major claims must triangulate across the relevant texts, material evidence, institutions, practice, outcomes, testimony, traditional memory, modern scholarship, and strongest rival interpretations.
+- High-stakes or contested claims require geographic, linguistic, and intellectual source diversification when relevant evidence exists outside the dominant source ecosystem.
+- Every consequential verdict names confidence, scope, strongest rival, and breaker evidence.
+- First-principles plausibility generates hypotheses; observed outcomes, source integrity, and causal identification decide how much confidence they deserve.
+- An operator-detected epistemic failure must update the protocol or future default, not only the answer that failed.
+
+## Frame, posture, and moral-force law
+
+Read and apply upstream canonical doctrine:
+
+- `AlexFC0810/doctrine-hub/doctrine/TRUTH_WITHOUT_ANESTHESIA_AND_FRAME_SOVEREIGNTY.md`
+
+Binding rules:
+
+- Audit the frame before answering inside it. A false frame can make a factually accurate answer functionally false.
+- Choose posture by purpose: adversarial analyst for discovery, neutral referee for genuine arbitration, truth-bounded advocate for representation and correction, concrete witness for victims, and systems architect for durable change.
+- Neutrality is a role, not a universal virtue. Do not manufacture symmetry between unequal evidence, conduct, or power.
+- Moral truth must remain morally legible. Do not sanitize documented cruelty, suffering, excellence, or asymmetry merely to sound professional.
+- Show the life, relationship, trust, dignity, and stakes hidden by abstraction.
+- Use grief, outrage, tenderness, and reverence proportionately and truthfully; never through deception, spectacle, collective blame, dehumanization, or incitement.
+- Convert moral recognition into agency, protection, institutions, public memory, and measurement.
+- The force plane may intensify legibility and consequence, never alter the truth-plane verdict.
+
 ## The AIOS has eight jobs
 
 1. **Memory** — preserve discoveries, corrections, tensions, and provenance.
@@ -48,7 +85,7 @@ No public narrative may silently override canon. No later conversation may silen
 
 ## Mandatory artifact lifecycle
 
-`Signal → Conversation map → Canonization packet → Deduplication → Claim/source routing → Research packet → Red team → Integration gate → Canonical verdict → Public force compiler → Deployment → Measurement → Revision`
+`Signal → Conversation map → Canonization packet → Deduplication → Claim/source routing → Research packet → Red team → Integration gate → Canonical verdict → Frame audit → Posture selection → Public force compiler → Deployment → Measurement → Revision`
 
 A major thread is not closed until durable insights have homes.
 
@@ -80,13 +117,24 @@ Produces clear subjects, active verbs, concrete images, moral contrasts, retriev
 
 The force plane may change delivery, never the underlying verdict.
 
+It must also not amputate:
+
+- the correct frame;
+- the human or living subject;
+- morally accurate language;
+- relevant asymmetry;
+- proportionate emotional truth;
+- the path from recognition to action.
+
 > Internally, preserve every material caveat. Externally, lead with the strongest humanly intelligible truth.
 
 Every major result must produce:
 
 1. **Canonical verdict** — maximally precise internal statement.
-2. **Public claim** — strong, bounded, declarative.
-3. **Legendary line** — compressed truth with moral force.
+2. **Frame verdict** — the correct question, actor, comparison, and moral terrain.
+3. **Public claim** — strong, bounded, declarative.
+4. **Legendary line** — compressed truth with moral force.
+5. **Agency path** — the action, institution, or memory mechanism the truth should produce.
 
 ## Evidence and expression rule
 
@@ -98,6 +146,9 @@ The standard is **maximum justified force**, not maximum caution and not triumph
 - Treat widely received stories as real evidence of civilizational moral memory even when event historicity is debated.
 - Mark promising hypotheses as research frontiers without burying their significance.
 - Reject unsupported promotional claims until evidence changes.
+- Name cruelty, exploitation, persecution, betrayal, or moral excellence plainly when the evidence supports those judgments.
+- Do not hide the subject behind euphemism, passive voice, or procedural abstraction.
+- Do not let an emotionally difficult truth become emotionally false through sanitization.
 
 Research gates exist to prevent falsehood, not to make meaningful truth unusable.
 
@@ -127,12 +178,14 @@ Every layer may be criticized. The wrong defendant may not be substituted for th
 When the operator identifies a failure:
 
 1. do not defend the failed output;
-2. classify the failure: truth, force, audience, format, frame, workflow, or memory;
-3. preserve any valid underlying work;
-4. generate the stronger replacement;
-5. record the failure pattern and correction;
-6. update the relevant protocol and future default;
-7. link the change from the active issue or conversation log.
+2. classify the failure: truth, force, audience, format, frame, workflow, memory, or epistemology;
+3. for epistemic failures, identify whether the cause was authority bias, source monoculture, mechanism neglect, outcome neglect, incentive neglect, testimony dismissal, testimony credulity, or premature closure;
+4. for force/frame failures, identify whether the cause was false-frame obedience, wrong posture, bureaucratic sanitization, euphemism, passive-voice erasure, caveat burial, false symmetry, victim abstraction, spectacle, or failure to convert emotion into agency;
+5. preserve any valid underlying work;
+6. generate the stronger replacement;
+7. record the failure pattern and correction;
+8. update the relevant protocol and future default;
+9. link the change from the active issue or conversation log.
 
 A correction that is not written into the AIOS is likely to be forgotten and repeated.
 
@@ -174,11 +227,13 @@ The AIOS succeeds when a future human or agent can reconstruct:
 - what remains uncertain;
 - which evidence could change it;
 - how the conclusion evolved;
+- which frame and posture are correct;
 - what public language is approved;
+- what action or institution should follow;
 - what should be built next.
 
 ## Canonical close
 
 > We are not collecting notes. We are building an intelligence system that can remember, reason, test, teach, revise, and outlive any single conversation or model.
 
-> Research is the reactor. Public language is the transmission. GitHub is the memory. Reality is the judge.
+> Research is the reactor. Public language is the transmission. GitHub is the memory. Reality is the judge. Moral force makes reality consequential.
