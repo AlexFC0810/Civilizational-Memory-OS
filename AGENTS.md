@@ -1,5 +1,10 @@
 # Civilizational Memory OS — Agent Instructions
 
+## Fresh-thread / cold-brain boot (2026-11-12)
+
+Before reinventing a civilizational-history question, read [COLD_BRAIN_BOOT.md](COLD_BRAIN_BOOT.md) and the dated [cold-brain state](COLD_BRAIN_STATE_2026-11-12.md), then search the actual canonical claim index and active issues/PRs. The boot is a routing guide **subordinate to** `AIOS.md`, this `AGENTS.md`, and adjudicated canon. For site delivery, use [PUBLIC_SITES_EXECUTION_HANDOFF.md](PUBLIC_SITES_EXECUTION_HANDOFF.md). Do not treat drafts as merged canon or research hypotheses as publish-clearance.
+
+
 ## Mission
 
 Build a truth-aligned civilizational intelligence system that can survive adversarial scrutiny and produce strong public-facing outputs without sacrificing honesty.
