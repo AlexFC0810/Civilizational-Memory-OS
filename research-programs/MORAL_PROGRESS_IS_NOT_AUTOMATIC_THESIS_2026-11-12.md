@@ -51,17 +51,27 @@ Distinguish the following at every stage:
 
 **Evidence:** Channel News Asia 2026, https://www.channelnewsasia.com/east-asia/china-animal-cruelty-law-debate-companion-animals-chongqing-chutou-6186376 ; World Animal Protection China legal profile, https://api.worldanimalprotection.org/country/china
 
-### H2 — Early Islamic traditions articulated animal mercy with striking concreteness
+### H2 — Islamic animal mercy became jurisprudence, state regulation and enforceable obligations centuries before Britain 1822
 
-**Strong as an attributed, early-textual moral tradition. Not automatically strong as proof of 7th-century events or later average practice.** Qur'an 6:38 describes animals/birds as communities; hadith traditions about the thirsty dog and imprisoned cat dramatize mercy and responsibility. The religious status is different from a statute with a state enforcement mechanism.
+**Upgraded on 2026-11-12 after founder correction and original-source research.** The core Islamic animal-protection record is **not limited to religious exhortations**. Hadith and Qur'anic moral teachings inspired elaborate fiqh duties, administrative responsibility under `ḥisba`, and formal Ottoman `kanunnāme` regulations against animal overloading. Treat source type and implementation separately, but **do not demote laws to mere sermons**.
 
-**Evidence / internal:** Qur'an 6:38 https://corpus.quran.com/translation.jsp?chapter=6&verse=38 ; Bukhari 2363 https://sunnah.com/bukhari/42/11 ; `canon/ANIMAL_MERCY_CONSTELLATION.md` ; `source-ledgers/ANIMAL_MERCY_HADITH_AND_INSTITUTIONS_LEDGER.md`
+**11th-century juristic-administrative law:** al-Māwardī (d. 1058) described wrongdoing in overloading and failing to relieve a resting animal's burden and the role of the `muḥtasib` in correcting it (secondary peer-reviewed edition-based report, Kızılkaya 2020 §3).
 
-**Comparative lesson:** UK's 1822 Cruel Treatment of Cattle Act criminalized defined cruelties toward specified working/farm animals. This is a major documented **British parliamentary statutory milestone**, not evidence that humans lacked laws, compassion, or animal protections until 1822. Ancient Indian Aśokan edicts included limits on killing certain animals centuries before Islam. Never say Islam “invented animal rights” or was first in all civilizations.
+**13th-century explicit animal rights:** ʿIzz al-Dīn ibn ʿAbd al-Salām (d. 1262) specified humans' duty to cover animal maintenance **even after illness or age made the animal unprofitable**. Arabic primary text: `Qawāʿid al-aḥkām`, p. 167, https://islamweb.com/ar/library/content/39/199/ ; scholarly examination https://doi.org/10.3390/rel11080412 . This is a jurist's legal-ethical formulation, not proof of universal historical animal pensions.
 
-**Sources:** American Bar Association https://www.americanbar.org/groups/international_law/resources/international-law-news/2022-summer/two-hundred-years-enactment-worlds-first-animal-protection-law/ ; UK Parliament https://questions-statements.parliament.uk/written-questions/detail/2022-06-15/hl988 ; Aśokan study https://doi.org/10.1007/978-3-030-68042-8_4
+**Owner duties and legal compulsion:** The `Kuwaiti Fiqh Encyclopedia` entry `Ḥayawān` synthesizes classical legal manuals: feed/water even sick or no longer productive animals; majority juristic positions accepted judicial compulsion to care, with nuanced Hanafi exceptions. https://www.fiqhpedia.org/articles/article:kwfe:v18:a044?lang=en . Inspect cited medieval manual editions before declaring school-by-school policy source-closed.
 
-**High-value original question:** What does a civilization owe an animal after it stops being useful? This `Post-Use Obligation` allows one historically grounded case to generate a modern ethical proposal **without misrepresenting a speculative sanctuary story as fact**.
+**Enacted Ottoman statutes, 1502–1507:** In Istanbul's market legal code (Art. 58), care of horses/mules/donkeys and prohibitions on overloading were mandated. Bursa's code (Art. 74) regulated horseshoe use. Under Selim I (1512–1520), regulations prescribed punishment and loss of entitlement to use certain burdened animals; a 1587 Istanbul imperial edict forbade overloading with punishment on noncompliance. Peer-reviewed legal history: Necmettin Kızılkaya, `Be Gentle to Them`, *Religions* 11(10):538 (2020), https://doi.org/10.3390/rel11100538 . These are actual formal regulations and prospective enforcement, even though representative court-case compliance remains an open measurement.
+
+**Chronological comparison to Britain:** Britain's landmark Cruel Treatment of Cattle Act (`Martin's Act`) was enacted in **1822**, criminalizing specific cruelty against listed working and farm animals. The dated Ottoman municipal regulations preceded it by approximately **315–320 years**. This is a real law-to-law chronological contrast across distinct legal jurisdictions, not a claim that laws had identical coverage or that Britain previously had zero protections. UK Parliament history and ABA summary: https://publications.parliament.uk/pa/cm200405/cmselect/cmenvfru/52/52ii.pdf ; https://dev.americanbar.org/groups/international_law/resources/international-law-news/2022-summer/two-hundred-years-enactment-worlds-first-animal-protection-law/
+
+**Prior error explicitly superseded:** “Islamic ethics were teachings; Britain's were criminal laws” is historically misleading because Islamic jurisprudence and Ottoman statutory codes also carried legal obligations. Saying “different evidence types” is important **only if it tracks the concrete actual evidence** and never functions as a reason to delete the earlier formal law.
+
+**Other civilizations:** Jewish animal welfare law, Jain/Buddhist nonviolence and Aśokan edicts predate or coexist with parts of Islamic animal ethics. They are important comparative standards, **not automatic excuses to discount an Ottoman provision actually on the books**.
+
+**Public-safe working synthesis (subject to final CMOS gate):** `Islamic legal traditions addressed animal mistreatment centuries before Britain's famous 1822 legislation. Ottoman authorities formally regulated overloading and mistreatment of working animals at least by the early sixteenth century.`
+
+**Read the detailed legal chronology and open primary-source questions:** `research-packets/queued/ANIMAL_LAW_BEFORE_MARTINS_ACT_2026-11-12.md`. Existing animal cases and broader source caveats remain active.
 
 ### H3 — Sanitation is historically measurable; “everyone threw everything into the street” is not a baseline
 
