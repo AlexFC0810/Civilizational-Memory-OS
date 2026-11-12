@@ -1,5 +1,10 @@
 # Civilizational Memory OS — Start Here
 
+## Fast orientation for a fresh conversation
+
+**Don't restart the research:** open [COLD_BRAIN_BOOT.md](COLD_BRAIN_BOOT.md) for the one-minute retrieval and routing contract, [COLD_BRAIN_STATE_2026-11-12.md](COLD_BRAIN_STATE_2026-11-12.md) for a dated baseline, and [PUBLIC_SITES_EXECUTION_HANDOFF.md](PUBLIC_SITES_EXECUTION_HANDOFF.md) for both public sites. Then use this document's deeper reading order only as needed. The constitution in `AIOS.md` and binding agent rules still govern.
+
+
 This is the command center for understanding, extending, and operating the repository.
 
 ## AIOS operating contract
