@@ -1,6 +1,6 @@
 # Cold Brain — Verified baseline and activation plan
 
-**Captured:** 2026-11-12 from GitHub main contents and existing issues. **Status:** observed snapshot plus proposed actions, not evergreen truth. Refresh via repository contents and issue/API before reusing.
+**Captured:** 2026-11-12 from GitHub main contents, existing issues, and read-only connected Vercel project/DNS checks. **Status:** observed snapshot plus proposed actions, not evergreen truth. Refresh via repository contents and issue/API before reusing.
 
 ## Present (verified via GitHub)
 
@@ -12,8 +12,8 @@
 | Existing research | `source-cards/` 24 cards and many `canon/`, `source-ledgers/`, `research-ledger/`, `research-packets/`, and `civilizational-memory/` | One high-value "build out" move is provenance closure and de-duplication; don't restate all 24 cards. |
 | Gate | `research-ledger/DEPLOYMENT_READINESS_GATE.md`, `scripts/evals.mjs` | Structural gate exists; code not executed by this GitHub audit. Gate output/primary source transcript must accompany any claim promoted for publication. |
 | Islam from First Principles research | `initiatives/islam-from-first-principles/RESEARCH_CHARTER.md`, `TRANSLATION_LAB_V0_1.md`; issues [#107](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/107), [#109](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/109) open | Primary Arabic edition/translation peer review pending, not “complete”. |
-| Islam from First Principles site | `sites/islam-from-first-principles/index.html` dependency-free alpha; documented Vercel project and alias | README dated 2026-10-10 says apex DNS misconfigured; **not live-verified in this audit**. Use fresh Vercel status + DNS + HTTPS checks rather than assuming fixed/failed. |
-| IslamicGoldenAges.org site | `sites/islamicgoldenages.org/PUBLIC_KNOWLEDGE_ARCHITECTURE.md` + three rendered HTML proof pages in `public/` | Pages are `noindex` proof renders. No verified deployed site; Phase 1 proof bundle [#54](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/54) open. |
+| Islam from First Principles site | `sites/islam-from-first-principles/index.html` dependency-free alpha; documented Vercel project and alias | Connected Vercel project read: latest deployment **READY preview**, `live=false`; custom domain remains **misconfigured** at SpaceShip with old apex A records. Public GET/HTTPS not verified; detailed receipt in `PUBLIC_SITES_EXECUTION_HANDOFF.md`. |
+| IslamicGoldenAges.org site | `sites/islamicgoldenages.org/PUBLIC_KNOWLEDGE_ARCHITECTURE.md` + three rendered HTML proof pages in `public/` | Pages are `noindex` proof renders. Connected Vercel search only found the First Principles project under 'islam'; Golden Ages domain DNS returned **misconfigured**. No verified deployed site; Phase 1 proof bundle [#54](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/54) open. |
 | Atlas | [#98](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/98) open; Baghdad → Palermo → Nishapur | Rich plan, not a completed tri-city source-closed atlas. |
 | Production | `AlexFC0810/truth-and-peace-engine` (Golden Ages movement + foundries + review surfaces) | Human per-item release approval; review/current channel status separately. |
 | November research upgrade | CMOS [draft #111](https://github.com/AlexFC0810/Civilizational-Memory-OS/pull/111) | Includes animal-law chronology and moral-progress thesis; not merged, so do not silently treat as main canon. |
