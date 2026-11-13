@@ -22,6 +22,8 @@ A fresh thread should begin from this repo's **accepted canon and actual evidenc
 4. **Evidence and QA:** [research-ledger/CANONICAL_CLAIM_RECORD.md](research-ledger/CANONICAL_CLAIM_RECORD.md), [research-ledger/DEPLOYMENT_READINESS_GATE.md](research-ledger/DEPLOYMENT_READINESS_GATE.md), [protocols/CANONICAL_INTEGRATION_GATE.md](protocols/CANONICAL_INTEGRATION_GATE.md), [source-ledgers/](source-ledgers/), [research-packets/](research-packets/). `node scripts/evals.mjs` is the existing mechanical gate. A structural PASS is not source truth.
 5. **Conversation → memory:** [protocols/CONVERSATION_TO_CANON_MECE_PROTOCOL.md](protocols/CONVERSATION_TO_CANON_MECE_PROTOCOL.md). Every meaningful thread changes a canonical artifact, contributes a source/correction, or receives a bounded issue; another transcript dump by itself is not progress.
 
+**Comparative-history trigger:** If the question concerns Islamic civilization's moral achievements, ask *what was actually normal at the time?* Read [the Fruit Stack & Comparative History Method](canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md), especially **Historical Calibration Loop — Evidence Before Intuition**. It preserves the founder's observation that deeper historical study sharpens recognition of benevolent institutions, while requiring actual contemporaries, law-to-law comparisons, and the full seed → law → enforcement → outcome chain. Report the genuinely new research delta rather than replaying generic claims.
+
 **No three-page onboarding before every task:** Read this boot, run targeted repo search, load just the governing files for that task, inspect latest issues/PRs, then execute.
 
 ## The map: where each kind of work lives
