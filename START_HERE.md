@@ -2,6 +2,8 @@
 
 ## Fast orientation for a fresh conversation
 
+**Reusable House of Wisdom prompt:** [Open the continuous-discovery launcher](prompt-library/HOUSE_OF_WISDOM_CONTINUOUS_DISCOVERY_BOOT.md). Run a single focused case or separate evidence seats for source discovery, comparison and synthesis; let one adjudicator integrate the accepted result. This file is the fresh-session prompt, not a parallel knowledge base.
+
 **Don't restart the research:** open [COLD_BRAIN_BOOT.md](COLD_BRAIN_BOOT.md) for the one-minute retrieval and routing contract, [COLD_BRAIN_STATE_2026-11-12.md](COLD_BRAIN_STATE_2026-11-12.md) for a dated baseline, and [PUBLIC_SITES_EXECUTION_HANDOFF.md](PUBLIC_SITES_EXECUTION_HANDOFF.md) for both public sites. Then use this document's deeper reading order only as needed. The constitution in `AIOS.md` and binding agent rules still govern.
 
 
