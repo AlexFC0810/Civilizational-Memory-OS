@@ -153,6 +153,39 @@ Core line:
 
 > Context is not an excuse. Context is the measuring instrument.
 
+## Historical Calibration Loop — Evidence Before Intuition
+
+**Founder observation, 2026-11-13:** The more deeply we study the actual historical record, including what other societies were doing at the same moment, the clearer the distinctive benevolent features of Islamic civilizational systems can become. This observation is a **research motivation and interpretive hypothesis**, not a pre-certified verdict that every Islamic polity was benevolent or superior on every measure.
+
+**Improvement to the existing fruit-stack method:** Stop repeating generic praise or generic counterarguments. Recover the **actual world in which a rule, institution, or moral advance emerged**. Historical context changes the denominator: what seems ordinary today may have been rare, costly, or unusual in its own time. But *rarity itself must be researched*, not assumed.
+
+### Required agent loop — discover → verify → compare → synthesize → preserve
+
+1. **Retrieve prior work first:** find the existing `CMOS-####` record, historical case, source ledger, and any active research PR/issue. Report the best *already established* point before researching. Never silently replace a documented legal advance with a weaker generic "teaching" because the stronger source was overlooked.
+2. **Reconstruct the world at that time:** date and locate the institution or rule, its immediate predecessors and actual contemporaries; reconstruct ordinary incentives, material conditions, available knowledge, power relations and moral practices. Avoid anachronistically comparing one society's eleventh century against another's nineteenth.
+3. **Follow the entire seed-to-fruit chain:** distinguish scriptural moral guidance, hadith tradition, juristic doctrine, enacted law, administrative enforcement mechanisms, documented court actions, funded practice, and ordinary lived outcomes. **Each level can be remarkable on its own**, even when a later level remains unverified.
+4. **Ask what was distinctive, and for whom:** compare like with like (law to law; hospital to hospital; actual care to actual care). Identify protected and excluded people or animals, counterexamples, implementation gaps and rival civilizations' real achievements. Do not suppress documented benevolent innovation out of caution; do not infer universality from exceptional cases.
+5. **Make an evidence-bound judgment:** `firm finding / plausible interpretation / open question / disconfirmed claim`, plus strongest rival explanation, what would reverse the verdict, and exact public-safe wording.
+6. **Preserve the delta:** update the **existing** claim/ledger/case and add supersession notes; point Truth & Peace to the resulting source-approved insight. Capture one genuinely *new* research frontier so the next thread does not redo introductory discovery.
+
+### Example: animal protection and the missing legal layer
+
+A shallow comparison juxtaposes early Islamic exhortations to kindness with Britain's 1822 animal-cruelty statute. **That misses Islamic legal history.** The existing research upgrade in [draft PR #111](https://github.com/AlexFC0810/Civilizational-Memory-OS/pull/111) identifies medieval `ḥisba` obligations regarding overloaded animals, a thirteenth-century jurist's maintenance duties toward nonproductive animals, and Ottoman city legal regulations centuries before 1822. These deserve **law-to-law** and **norm-to-practice** investigation, using dated original texts and court records. Don't turn a real statute into "merely a sermon"; equally, don't turn a legal provision into proof every animal was protected.
+
+Use the existing [Animal Civilization Benchmark](ANIMAL_CIVILIZATION_BENCHMARK.md), [Fruit Test](FRUIT_TEST_AND_MORAL_ARCHITECTURE.md), and the November animal-law research packet on draft PR #111. The legal-source packet is **not merged or adjudicated canon** until reviewed. Its value is the deeper research direction and a correction to an earlier omission.
+
+### Example: rules of war and care institutions
+
+Look beyond whether a prohibition or hospital was mentioned in a text. Compare who was protected; how the rule was interpreted; which court, inspector, charitable endowment or professional staff could give it force; where practice diverged; what the nearest contemporaries actually regulated; and how surviving archives might bias the comparison. The object is not an artificial score for "most benevolent civilization"; it is an explanation of **how mercy and accountability entered—or failed to enter—the operating system**.
+
+**North Star for historical learning:** *More context, better comparisons, clearer judgments, stronger memory.* A strong case may become more impressive through scrutiny; a weak one must become narrower. Both outcomes improve civilizational intelligence.
+
+### Minimum output contract for a future thread
+
+`Prior best finding + citation → new primary/independent evidence → matched-period comparator → verified institutional mechanism → strongest counterevidence → revised judgment and exactly what changed → next frontier → commit/issue receipt.`
+
+**The highest-impact question should become more precise every time we return to it, not merely longer.**
+
 ## Raw History vs Public Content
 
 The research synthesis should not be sanitized.
