@@ -1,6 +1,6 @@
 # Civilizational Memory OS — Fresh-Thread Boot
 
-**Status:** Proposed canonical front door; merge this PR before treating the root `main` pointer as active.  
+**Status:** Active canonical front door on the default branch (activated via PR #113, 2026-11-13); ongoing research source-gating and editorial review remain separate.  
 **Owner:** Civilizational Memory OS (research and truth); **operator interface:** an agent in a fresh conversation or a code agent with repository access.  
 **Snapshot:** 2026-11-12. Operational facts age; verify issue/PR/deployment state at runtime.
 
@@ -73,6 +73,6 @@ At **2026-11-12**, the `main` `archive/claims.json` contains **24 claim records:
 
 ## Fresh thread / code agent handoff
 
-> Read `AlexFC0810/Civilizational-Memory-OS/COLD_BRAIN_BOOT.md` on the **merged default branch** (or use this boot PR's branch until merged), then `AIOS.md` and `AGENTS.md`. Treat accepted claims and corrections as prior work, not fresh hypotheses. For my request, search the canonical index and relevant ledgers first; return a 5-line "Known / Evidence status / Missing / Recommended delta / Execution owner" diagnosis; execute the smallest source-validated improvement and commit it. Check latest active issues/PRs and avoid duplicate architectures. Truth & Peace owns production; two public sites own presentation; nobody auto-publishes. End with a commit or issue receipt, not only a chat summary.
+> Read `AlexFC0810/Civilizational-Memory-OS/COLD_BRAIN_BOOT.md` on the **default branch**, then `AIOS.md` and `AGENTS.md`. Treat accepted claims and corrections as prior work, not fresh hypotheses. For my request, search the canonical index and relevant ledgers first; return a 5-line "Known / Evidence status / Missing / Recommended delta / Execution owner" diagnosis; execute the smallest source-validated improvement and commit it. Check latest active issues/PRs and avoid duplicate architectures. Truth & Peace owns production; two public sites own presentation; nobody auto-publishes. End with a commit or issue receipt, not only a chat summary.
 
 **Work now, not from scratch.**
