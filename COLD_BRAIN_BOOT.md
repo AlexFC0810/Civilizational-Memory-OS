@@ -24,6 +24,8 @@ A fresh thread should begin from this repo's **accepted canon and actual evidenc
 
 **Comparative-history trigger:** If the question concerns Islamic civilization's moral achievements, ask *what was actually normal at the time?* Read [the Fruit Stack & Comparative History Method](canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md), especially **Historical Calibration Loop — Evidence Before Intuition**. It preserves the founder's observation that deeper historical study sharpens recognition of benevolent institutions, while requiring actual contemporaries, law-to-law comparisons, and the full seed → law → enforcement → outcome chain. Report the genuinely new research delta rather than replaying generic claims.
 
+**House of Wisdom launcher:** For a free-form new investigation or parallel research missions, use [HOUSE_OF_WISDOM_CONTINUOUS_DISCOVERY_BOOT.md](prompt-library/HOUSE_OF_WISDOM_CONTINUOUS_DISCOVERY_BOOT.md). Its run modes retrieve the evidence floor, seek genuinely new sources, form bounded archetypes, and save the **delta**. Companion working research in [CMOS draft PR #111](https://github.com/AlexFC0810/Civilizational-Memory-OS/pull/111) covers phase archetypes and ranked golden threads; a draft PR is not accepted canon.
+
 **No three-page onboarding before every task:** Read this boot, run targeted repo search, load just the governing files for that task, inspect latest issues/PRs, then execute.
 
 ## The map: where each kind of work lives
