@@ -60,6 +60,20 @@ Parallel witnesses:
 
 > Prophetic teaching presents mercy to a suffering animal as spiritually weight-bearing and generalizes reward to service toward living creatures.
 
+## 2026-11-17 corrective research intake: halal is not a welfare outcome metric
+
+**Full experimental/comparative assignment:** [Mercy Before the Cut: Halal Life-Cycle Welfare and Meta-History](../research-packets/queued/2026-11-17_HALAL_ANIMAL_WELFARE_LIFECYCLE_AND_COMPARATIVE_HISTORY.md) on CMOS draft PR #115. This supplements the existing hadith/fiqh materials; does **not** upgrade an uncertified welfare claim into accepted canon.
+
+- **Ihsan source:** Sahih Muslim 1955a demands ethical slaughter and avoiding unnecessary suffering. This is normative religious instruction, **not evidence every certified facility follows it**.
+- **Empirical scientific boundary:** EFSA 2021 concludes sheep/goat slaughter without effective prior stunning leads to severe welfare concerns including pain and fear; an ineffective stun is also hazardous. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2021.6882
+- **Practice diversity:** 2023 scientific review documents reversible methods accepted by some Muslim scholars and rejected by others; https://pmc.ncbi.nlm.nih.gov/articles/PMC10571904/ . NZ MPI requires pre-stun in its commercial slaughter code and regulates halal export with the animal alive after stun: https://www.mpi.govt.nz/animals/animal-welfare/codes/all-animal-welfare-codes/code-of-welfare-commercial-slaughter ; https://www.mpi.govt.nz/dmsdocument/12867/direct
+- **Scoped modern statistic:** UK Food Standards Agency June 2026 states 88% of halal **meat chickens**, England/Wales, 2024 survey, were stunned; not the sheep rate or all global halal: https://food.blog.gov.uk/2026/06/03/food-fact-check-animal-welfare-in-abattoirs-and-slaughterhouses/
+- **Lifetime objective:** births, farms, transport, handling/restraint, stunning/cutting, time to unconsciousness, error remediation and external oversight; WOAH 2024 chapter https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_aw_slaughter.htm
+- **Strongest earlier civilizational countercase:** Ashoka's 3rd-century BCE Rock Edict II specifies medical treatment for people and cattle and wells/trees; Pillar Edict V restricts slaughter of named species and pregnant/lactating animals: https://indike.org/pramana/inp.epigraphy.asoka.re.re02 ; https://www.puratattva.in/the-mauryas-20/ . Do NOT credit Islam with inventing all animal protection.
+- **Original user observation not authenticated:** worker reportedly violently threw sheep at slaughterhouse; video URL not provided, no evidence of animal injury or facility's religious certification. Never use as proof non-halal treatment without provenance.
+
+**Safe conceptual line:** “Mercy is not proved by the label. It must be measured in the animal's lived experience.” Original ethical synthesis, not a scientific causal result.
+
 ## Sahih Muslim 1955a — ihsan in slaughter
 
 **Canonical interface:** https://sunnah.com/muslim:1955a
