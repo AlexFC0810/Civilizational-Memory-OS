@@ -60,6 +60,20 @@ Parallel witnesses:
 
 > Prophetic teaching presents mercy to a suffering animal as spiritually weight-bearing and generalizes reward to service toward living creatures.
 
+## 2026-11-17 follow-up: scale, longevity and selective species protection
+
+**Research owner and full provenance:** [CMOS comparative lifecycle packet](../research-packets/queued/2026-11-17_HALAL_ANIMAL_WELFARE_LIFECYCLE_AND_COMPARATIVE_HISTORY.md) section I. The founder emphasized that India and Ashoka had serious animal welfare traditions and that the comparison should test **scale, longevity, implementation and moral consistency**, not who was “first.”
+
+**New precise historian corrections:**
+- Ashoka's Rock Edict II reports medical treatment for humans and cattle/animals; it does **not** independently establish hospital buildings or a continuous network. Dominik Wujastyk, “The Evidence for Hospitals in Early India,” *History of Science in South Asia* (2022), DOI https://doi.org/10.18732/hssa70 ; direct PDF https://journals.library.ualberta.ca/hssa/index.php/hssa/article/download/70/123/857 (pp. 8–10). Royal reach claim ≠ verified population coverage.
+- Hindu gaushalas and Jain panjarapoles described in later traveler narratives, c. 14th–17th centuries, represent **distinct later traditions**. Their continuity across places does not establish the direct survival of Ashokan administration. Scholarly review https://pmc.ncbi.nlm.nih.gov/articles/PMC5981275/ and modern welfare study of 54 shelters in six states https://pmc.ncbi.nlm.nih.gov/articles/PMC7070297/ (selection not representative).
+- Necmettin Kızılkaya's 2020 primary-source-grounded study identifies Ottoman law in 1502–07, 1587 and dated 1765, 1806, 1810 Istanbul orders, **named court register verdicts** and descriptions of inspection against excessive load and denied rest, with repeated violations. https://www.mdpi.com/2077-1444/11/10/538 ; fetch actual Istanbul court register *25 Numaralı Sicil* verdict **604** and *97 Numaralı Sicil* verdict **415** before source-closed historical outcome statements.
+- **Strongest internal counterexample:** 1910 late-Ottoman Istanbul authorities' mass deportation of street dogs to Sivriada resulted in mass deaths, widely estimated around 80,000 but with historical-count uncertainty. Cihangir Gündoğdu (2018), https://doi.org/10.1080/00263206.2018.1432482 ; Mine Yıldırım (2025), https://www.internationaleonline.org/contributions/between-care-and-violence-the-dogs-of-istanbul/ . Earlier Ottoman-era dog killings are also discussed; do not blame Westernization as the sole cause without testing rival explanations.
+
+**New cross-tradition analytical lever:** `normative persistence ≠ institutional survival ≠ actual welfare coverage ≠ legal enforcement ≠ inclusion of unproductive or unpopular animals`. Apply the same six-axis test to all cases; no universal country/religion score yet.
+
+**Working epiphany, not sourced historical quote:** “Compassion is easiest when animals are useful. Its institutional test begins when they are not.” The case of protected Ottoman horses alongside abandoned Istanbul dogs offers a powerful, uncomfortable comparison inside one historical tradition.
+
 ## 2026-11-17 corrective research intake: halal is not a welfare outcome metric
 
 **Full experimental/comparative assignment:** [Mercy Before the Cut: Halal Life-Cycle Welfare and Meta-History](../research-packets/queued/2026-11-17_HALAL_ANIMAL_WELFARE_LIFECYCLE_AND_COMPARATIVE_HISTORY.md) on CMOS draft PR #115. This supplements the existing hadith/fiqh materials; does **not** upgrade an uncertified welfare claim into accepted canon.
