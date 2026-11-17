@@ -99,6 +99,23 @@ And a fourth for **transmission**: who learned from, translated, modified or exp
 - See the full [T&P source triage](https://github.com/AlexFC0810/truth-and-peace-engine/blob/nexus/mercy-jesus-sprint-2026-11-16/Context/sources/media/2026-11-16_muslim-inventions-and-moral-fruit-compilation.md) and its bibliography; do not duplicate that claim matrix.
 - **Why retain science?** Understand if science and moral care *shared* institutions, funding and training; avoid treating co-occurrence as causation.
 
+## 3A. Stronger historical discovery: the moral cost of making a merciful institution
+
+**New source check from 2026-11-16:** the Qalawun VR Project's *Construction and Renovations* page, citing premodern histories, says the Cairo complex was completed in 13 months after evictions from Quṭbīya residence, reports that passers-by were compelled to work and that Mongol war prisoners contributed labor, and notes opposition from some jurists to worship at the site because of construction practices. Source: https://qalawun.aa-ken.jp/en/facility/history/ . Independent museum-history treatment records that the director mobilized craftspeople and prohibited them from working elsewhere until completion: https://islamicart.museumwnf.org/database_item.php?id=monument%3BISL%3Beg%3BMon01%3B15%3BfrComplear . Qalawun VR links these reports to al-Maqrīzī's `Khiṭaṭ` (4:698), Ibn al-Furāt and modern Northrup. **These are scholarly presented historical reports, NOT independently read Arabic chronicles here; the degree, character and evidentiary independence of compulsion need verification before public wording.** A separate historical account records resident women being relocated with alternative property rather than simply disappearing; do not imply every displaced person was uncompensated.
+
+**Crucial methodological upgrade:** A charitable institution may generate welfare for one group while imposing costs on another during financing, construction, staffing or admission. **Track the entire moral balance sheet without inventing a numeric moral net score:**
+
+1. **Input ethics:** How acquired the land, labor, taxes, war revenues, endowment capital and materials? Were they voluntary, coerced, conquered or compensated? Who could object?
+2. **Process ethics:** Who worked, under what conditions and legal safeguards? Did petitions, complaints or religious/legal critiques change construction or governance?
+3. **Output ethics:** Who received treatment, training, stipends and benefit? How much? For how long? What evidence shows care was effective?
+4. **Access ethics:** Who was denied access due to religion, class, gender, free/slave status, geography or insider relations?
+5. **Institutional self-critique:** Were abuses criticized or reformed? Who had sufficient authority to enforce a correction?
+6. **Counterfactual:** What actual contemporary welfare institution delivered similar benefits with different coercive/exclusionary costs? Avoid a utopian imaginary baseline.
+
+**New testable synthesis:** *The most sophisticated civilizational accomplishment is not merely providing charity, but constraining the exploitation, coercion and arbitrary exclusion that may finance or accompany it.* A hospital must be evaluated at **both ends of its doors**—the building process and the admission process, as well as the care inside.
+
+**Required addition to H-02 deliverable:** alongside the hospital admission deed, source-check the `Khiṭaṭ` construction claims and Northrup; preserve any conflicting account about compensation to displaced residents. Report what was witnessed directly versus compiled by later historians. This is a more demanding and more interesting case than a generic boast about “free hospitals”.
+
 ## 4. History assignment — 7-day execution sprint, not a new project
 
 **Scope from Monday 2026-11-16 to Monday 2026-11-23.** At most **three active source-closure investigations**. Follow existing issue ownership and review gates. Other interesting topics are backlogged, not staffed by imaginary agents.
