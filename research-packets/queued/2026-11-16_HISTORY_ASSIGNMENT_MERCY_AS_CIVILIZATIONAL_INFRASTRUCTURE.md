@@ -68,6 +68,14 @@ Moral narrative and obligation (scripture, philosophy, religious duty)
 
 And a fourth for **transmission**: who learned from, translated, modified or exported a practice. “Borrowed” and “original” are not opposites.
 
+## New primary-document thread — ruler accountability, not just a sentimental anecdote
+
+**Source-led pilot:** [The Ruler Who Feared Being Asked — four separately attributed narratives](2026-11-16_UMAR_RULER_ACCOUNTABILITY_NARRATIVE_SOURCE_AUDIT.md) is now queued in CMOS, and [the matched T&P review-only story pack](https://github.com/AlexFC0810/truth-and-peace-engine/blob/nexus/mercy-jesus-sprint-2026-11-16/proposals/2026-11-16_POWER_UNDER_JUDGMENT_EPIPHANY_STORY_PACKET.md) lives only in the creative repo. The research identifies the actual sheep wording in Ibn Abi Shaybah 34486, the hungry-children narrative as printed in al-Tabari/G. Rex Smith XIV pp. 110–111, and different later reports about Umar ibn Abd al-Aziz's tears. **Do not conflate a sheep with a dog, two Umars or a reported moral reaction with a proved national welfare policy.**
+
+**Proposed deeper test, critical even to the founder's favorite insight:** Fear of God's judgment might restrain a ruler's private abuses, but it might also be **claimed** by rulers who govern coercively or construe themselves as uniquely authorized by God. Do not suppose transcendent accountability replaces accessible complaint channels, independent judges, justiciable rights and transparent budgets. Ask **when fear of divine judgment complements effective institutional checks, and when it is invoked to evade them**. This can produce a stronger modern lesson than “a pious ruler was kind.”
+
+**Go deeper on a specific evidence candidate:** separately source-close a reported stipend reform in which Umar altered payment eligibility for newborn children after recognizing that payments only after weaning incentivized dangerous early weaning. That would be a rare normative `tears → policy incentives → budget correction` case **if the original evidence supports it**, with comparison to actual population eligibility. Until then it is a promising unverified lead.
+
 ## 3. Source-backed reconnaissance: what we can already say, and not say
 
 ### Case A — Animal restraint in law
