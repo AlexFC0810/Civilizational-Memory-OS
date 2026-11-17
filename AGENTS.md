@@ -2,6 +2,9 @@
 
 ## Fresh-thread / cold-brain boot (2026-11-12)
 
+> **Founder default, 2026-11-17 — GitHub-first durability.** For substantive civilizational-history, Truth & Peace, moral-framework and House of Wisdom sessions, follow [GitHub-First Durable Capture](protocols/GITHUB_FIRST_DURABLE_CAPTURE_DEFAULT.md) at the end of every meaningful work session (and during long discovery). Search before writing; preserve the source, the hypothesis, the best disconfirming evidence, the exact committed path/issue/PR, and the next source needle. Capture all durable value **without** promoting speculation to canon, copying whole sensitive chats into a public repo, or inventing a new system. Historical proof stays here; raw media/creative execution goes to T&P.
+
+
 Before reinventing a civilizational-history question, read [COLD_BRAIN_BOOT.md](COLD_BRAIN_BOOT.md) and the dated [cold-brain state](COLD_BRAIN_STATE_2026-11-12.md), then search the actual canonical claim index and active issues/PRs. The boot is a routing guide **subordinate to** `AIOS.md`, this `AGENTS.md`, and adjudicated canon. For site delivery, use [PUBLIC_SITES_EXECUTION_HANDOFF.md](PUBLIC_SITES_EXECUTION_HANDOFF.md). Do not treat drafts as merged canon or research hypotheses as publish-clearance.
 
 
