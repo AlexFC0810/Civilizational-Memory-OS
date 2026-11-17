@@ -1,5 +1,8 @@
 # Conversation-to-Canon MECE Protocol
 
+> **Founder default (2026-11-17):** For every substantive House of Wisdom / Truth & Peace conversation with connected GitHub access, `capture → deduplicate → classify → truth-gate → commit and crosslink` is the default **during the conversation and at its end**. See [GitHub-First Durable Capture](GITHUB_FIRST_DURABLE_CAPTURE_DEFAULT.md). Don't wait for an explicit “save this,” nor blindly dump private chat content in the public research repository. Preserve meaningful insights with their evidence grade and next frontier; skip duplicative filler and don't imply a draft is merged canon.
+
+
 **Purpose:** Convert long, high-insight conversations into durable repository infrastructure without losing breakthroughs, duplicating ideas, canonizing speculation, or leaving execution gaps.
 
 ## Governing principle
