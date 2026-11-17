@@ -1,11 +1,18 @@
 # History Assignment H-2026-11-16 — When Conscience Became Infrastructure
 **Subtitle:** Science, wealth, mercy and the institutional restraint of power in Islamic civilizations — historically comparable, falsifiable, reusable.
 **Created:** 2026-11-16. **Authoring:** NEXUS founder-directed research synthesis. **Status:** QUEUED ASSIGNMENT + preliminary historiography; **NOT** source-closed evidence, canonical finding, historical ranking or release approval.
-**Responsible research owner:** CMOS Comparative Historian / Source Adjudicator. **Handoff:** T&P Golden Ages Studio & Epiphany Foundry, only from claim-approved sentences. **Draft branch:** \`nexus/moral-capacity-to-mercy-historical-assignment-2026-11-16\`.
+**Responsible research owner:** CMOS Comparative Historian / Source Adjudicator. **Handoff:** T&P Golden Ages Studio & Epiphany Foundry, only from claim-approved sentences. **Draft branch:** `nexus/moral-capacity-to-mercy-historical-assignment-2026-11-16`.
 **Intake origin:** operator-supplied X compilation https://x.com/abdullq_kawu/status/2122304636698743278/video/1?a=txF_ahZRsHZd30IEVpM&s=46 ; 13:40 TranscriptX.ai user transcription; T&P [timecoded source-intelligence intake](https://github.com/AlexFC0810/truth-and-peace-engine/blob/nexus/mercy-jesus-sprint-2026-11-16/Context/sources/media/2026-11-16_muslim-inventions-and-moral-fruit-compilation.md). The original video was **not independently played**. This assignment is not a second transcript archive.
-**Before working:** \`AGENTS.md\`, \`COLD_BRAIN_BOOT.md\`, \`canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md\`, \`research-agendas/UNDENIABLE_ISLAMIC_CIVILIZATION_PUBLIC_CASE.md\`, \`research-agendas/POWER_UNDER_JUDGMENT_AND_WAQF_CIVILIZATIONAL_PROGRAM.md\`, \`source-ledgers/WAQF_LONGEVITY_PUBLIC_BENEFIT_LEDGER.md\`, \`source-ledgers/animal-mercy-civilizational-memory-ledger.md\`, and the specific existing source/claim records under investigation. Follow the canonical claim schema and gate, not this assignment, when source closing.
+**Before working:** `AGENTS.md`, `COLD_BRAIN_BOOT.md`, `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md`, `research-agendas/UNDENIABLE_ISLAMIC_CIVILIZATION_PUBLIC_CASE.md`, `research-agendas/POWER_UNDER_JUDGMENT_AND_WAQF_CIVILIZATIONAL_PROGRAM.md`, `source-ledgers/WAQF_LONGEVITY_PUBLIC_BENEFIT_LEDGER.md`, `source-ledgers/animal-mercy-civilizational-memory-ledger.md`, and the specific existing source/claim records under investigation. Follow the canonical claim schema and gate, not this assignment, when source closing.
 
 ---
+
+## 0. Assignment history — how the question matured
+- **July 14, 2026:** `research-agendas/UNDENIABLE_ISLAMIC_CIVILIZATION_PUBLIC_CASE.md` had already rejected an inventions-only museum and described a system of theology → practices → public goods → comparison → renewal. That remains foundational; this packet does **not** claim to invent the method.
+- **August 9:** `research-agendas/POWER_UNDER_JUDGMENT_AND_WAQF_CIVILIZATIONAL_PROGRAM.md` formalized power as trust, elite status incentives, waqf mission capital, and durable welfare, with the vital caveat that religious/political motives coexist.
+- **November 12–13:** The source-ledger/animal law work and `canon/FRUIT_STACK_AND_COMPARATIVE_HISTORY_METHOD.md` sharpened the historical calibration method: compare same-era law to law, enforcement to enforcement, actual beneficiary to actual beneficiary.
+- **November 16:** The founder submitted a 13:40 compilation celebrating Islamic science and inventions and articulated the more ambitious research thesis: **what if the most unusual accomplishment was integrating material capacity with sustained moral obligations?** T&P preserved the original time-coded source and corrected technological myths. This packet converts that insight into falsifiable, existing-issue assignments.
+- **Acceptance progression:** hypothesis → dated source → counterexample → comparison → adjudication → approved sentence → creative review → explicit publication GO → audience learning and correction. Earlier praise or draft files do not satisfy later stages.
 
 ## 1. Assignment question (not a predetermined answer)
 
@@ -29,7 +36,7 @@ Technological skill tells us what a society **could** do. Institutional records 
 
 The causal proposal:
 
-\`\`\`text
+```text
 Moral narrative and obligation (scripture, philosophy, religious duty)
           + material capacity (wealth, knowledge, trade, labor)
           + incentives (salvation, legitimacy, prestige, competition)
@@ -41,7 +48,7 @@ Moral narrative and obligation (scripture, philosophy, religious duty)
   who benefited / who was excluded / how much / for how long
                     ↓
   beneficiaries' welfare + institutional failures, capture and reform
-\`\`\`
+```
 
 **New conceptual tools (proposed, not historical facts):**
 1. **Mercy conversion:** Did resources become reliable care rather than private consumption or display? Evaluate documented flow, not a guessed moral ratio.
@@ -65,7 +72,7 @@ And a fourth for **transmission**: who learned from, translated, modified or exp
 
 ### Case A — Animal restraint in law
 - **Evidence of legal-institutional layer:** Overloading draft animals is discussed in the medieval jurist al-Māwardī and the jurisdiction of the muḥtasib; an academic study traces Ottoman legal codes/fatwā literature on working-animal welfare and points to court records. This supports a serious historical research lead, not proof of uniformly humane treatment.
-- **Sources:** https://www.mdpi.com/2077-1444/11/10/538 ; https://academic.oup.com/edited-volume/28121/chapter-abstract/212291852 ; existing \`source-ledgers/animal-mercy-civilizational-memory-ledger.md\` and [#23](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/23).
+- **Sources:** https://www.mdpi.com/2077-1444/11/10/538 ; https://academic.oup.com/edited-volume/28121/chapter-abstract/212291852 ; existing `source-ledgers/animal-mercy-civilizational-memory-ledger.md` and [#23](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/23).
 - **Vivid related source:** detailed art-historical scholarship on Ottoman birdhouses and endowed care, with named visual/archival witnesses: https://journal18.org/issue11/like-hearts-of-birds-ottoman-avian-microarchitecture-in-the-eighteenth-century/ . Birdhouse architecture isn't identical to consistent species-wide welfare.
 - **Countercases:** Buddhist/Jain non-harming traditions, Jewish animal-care duties, European legislation and local practices. Use evidence type and matched century; ancient Ashokan policy deserves consideration.
 
@@ -77,7 +84,7 @@ And a fourth for **transmission**: who learned from, translated, modified or exp
 - **Existing same-century creative task:** [T&P #245](https://github.com/AlexFC0810/truth-and-peace-engine/issues/245) compares 1123 London, 1136 Constantinople and 1154 Damascus. **Keep Qalawun 1284–85 in a separate later-Cairo case** unless chronology is clearly marked.
 
 ### Case C — Waqf as continuity engineering
-- **Evidence:** Waqf supplied hospitals, water, kitchens, schools and varied social functions; women established endowments. See \`source-ledgers/WAQF_LONGEVITY_PUBLIC_BENEFIT_LEDGER.md\`, [CMOS #103](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/103), and https://www.jstor.org/stable/j.ctt15m7kvw .
+- **Evidence:** Waqf supplied hospitals, water, kitchens, schools and varied social functions; women established endowments. See `source-ledgers/WAQF_LONGEVITY_PUBLIC_BENEFIT_LEDGER.md`, [CMOS #103](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/103), and https://www.jstor.org/stable/j.ctt15m7kvw .
 - **Substantial counterargument:** Timur Kuran examines founder rigidity, circumvention and eventual state confiscation as institutional failure modes: https://www.cambridge.org/core/journals/law-and-society-review/article/abs/provision-of-public-goods-under-islamic-law-origins-impact-and-limitations-of-the-waqf-system/6653A7019DB49C8AE0542E017FDCEF54 .
 - **Question:** When does a mission-locked endowment ensure care survives a founder, and when does rigidity become a failure? Don't label centuries of *building use* as uninterrupted operation of the same service, or any charity as pure altruism.
 
@@ -98,7 +105,7 @@ And a fourth for **transmission**: who learned from, translated, modified or exp
 
 | ID | Existing work owner | Precise question | First evidence to obtain | Completion receipt |
 |---|---|---|---|---|
-| **H-01** | [CMOS #23](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/23), [#112](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/112) | Did a dated Islamic jurisdiction **enforce** working-animal welfare, versus only writing moral/legal advice? | Dated original Arabic/Ottoman text + edition/folios + enforcement court/inspection case; Stilt/Saraçoğlu for institution context; comparative peer rule of same class | One \`CMOS-####\` claim, exact translated primary clause, source grade/closure, counterexample, limitations, approved one-sentence finding (or a documented failure to find enforcement) |
+| **H-01** | [CMOS #23](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/23), [#112](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/112) | Did a dated Islamic jurisdiction **enforce** working-animal welfare, versus only writing moral/legal advice? | Dated original Arabic/Ottoman text + edition/folios + enforcement court/inspection case; Stilt/Saraçoğlu for institution context; comparative peer rule of same class | One `CMOS-####` claim, exact translated primary clause, source grade/closure, counterexample, limitations, approved one-sentence finding (or a documented failure to find enforcement) |
 | **H-02** | [CMOS #54](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/54), [T&P #245](https://github.com/AlexFC0810/truth-and-peace-engine/issues/245) | What did Qalawun's 1284–85 foundation deed **actually** prescribe about hospital patients, staff and religious access? How does it differ from other hospitals? | Exact waqf deed passage and edition; Ragab; Qalawun VR; medieval Jewish-physician scholarship; comparable institution of similar period and function | One reconciled hospital claim + a **correction note** against generic “all religions at Qalawun” wording; then separately maintain existing 1123/1136/1154 story |
 | **H-03** | [CMOS #114](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/114), [#97](https://github.com/AlexFC0810/Civilizational-Memory-OS/issues/97) | Can we document a woman actually exercising property/administrative/court power — beyond abstract legal entitlement — and evaluate who else had that option? | Tatarkhān's foundation deed OR a named court register of a **non-elite** claimant; date, court/folio, acts and outcome; matched comparator | One named, scoped personal case with source edition, procedure, documented outcome, class/gender limits; one visually teachable true line |
 
@@ -106,8 +113,8 @@ And a fourth for **transmission**: who learned from, translated, modified or exp
 
 ### Delivery stages and evidence gates
 - **Nov 16–18: retrieval and gap map.** Each active lane reports current claim ID (if existing), best source **actually inspected**, contradictory sources, missing primary text/folio, and what likely changes the verdict. Do not regenerate generic lore.
-- **Nov 19–21: source close where possible.** One bilingual primary excerpt with precise provenance, one independent scholarly check, strongest disconfirming primary or specialist case, scoped comparative cell, full rights/visual notes. If full source inaccessible, preserve \`provenance-audited\` not \`source-closed\`.
-- **Nov 22–23: red-team and production handoff.** Adjudicator assigns accurate claim status using existing CMOS schema/gate (\`node scripts/evals.mjs\` where applicable); T&P takes **at most two** claim-safe review-only 4:5 artifacts, no publication without per-item founder approval.
+- **Nov 19–21: source close where possible.** One bilingual primary excerpt with precise provenance, one independent scholarly check, strongest disconfirming primary or specialist case, scoped comparative cell, full rights/visual notes. If full source inaccessible, preserve `provenance-audited` not `source-closed`.
+- **Nov 22–23: red-team and production handoff.** Adjudicator assigns accurate claim status using existing CMOS schema/gate (`node scripts/evals.mjs` where applicable); T&P takes **at most two** claim-safe review-only 4:5 artifacts, no publication without per-item founder approval.
 - **If capacity constrained:** complete H-01 and one honest hospital correction before starting H-03. A single source-closed paradox beats 20 weak viral facts.
 
 ### Adversarial-review questions for EVERY lane
@@ -130,7 +137,7 @@ And a fourth for **transmission**: who learned from, translated, modified or exp
 - Beneficiary classification and documented exclusion. Duration type (building/service/legal entity).
 - Same **era, function, source category** comparator, with acknowledged archive imbalance.
 - Public-safe one-line finding; strongest skeptical objection; the strongest **non-Muslim** counterpart; strongest Islamic countercase.
-- Epistemic status \`established/probable/contested/unresolved/unsupported\`, source closure, confidence and revision trigger.
+- Epistemic status `established/probable/contested/unresolved/unsupported`, source closure, confidence and revision trigger.
 - Access and licensing for any image/manuscript/film.
 - What improved a previous claim; links to the existing source card/ledger/issue; handoff to T&P.
 
@@ -178,7 +185,7 @@ And a fourth for **transmission**: who learned from, translated, modified or exp
 > Find the story we are most tempted to tell triumphantly. Make the strongest specific documented challenge against it, even if the finding undermines a favorite thesis. Correct the existing claim or public copy with a supersession note, quantify what can be known, and preserve one genuinely surprising defensible fact. No hiding critical counterevidence.
 
 **E. Source-to-Story handoff**
-> Take ONE \`source-closed\` CMOS sentence and attach its exact source and counterevidence. In T&P Golden Ages existing lane, draft two 4:5 source-labelled treatments with different visual mechanisms and one authentic human-source possibility. Keep the documentary claim fixed, include archive date, context and rights, add existing founder-review link. No posting or scheduling without asset-specific GO.
+> Take ONE `source-closed` CMOS sentence and attach its exact source and counterevidence. In T&P Golden Ages existing lane, draft two 4:5 source-labelled treatments with different visual mechanisms and one authentic human-source possibility. Keep the documentary claim fixed, include archive date, context and rights, add existing founder-review link. No posting or scheduling without asset-specific GO.
 
 ## 9. Acceptance criteria and non-goals
 **By the Nov 23 review checkpoint, acceptable minimum:**
@@ -202,6 +209,6 @@ And a fourth for **transmission**: who learned from, translated, modified or exp
 - Kuran, “The Provision of Public Goods under Islamic Law,” 2024: https://www.cambridge.org/core/journals/law-and-society-review/article/abs/provision-of-public-goods-under-islamic-law-origins-impact-and-limitations-of-the-waqf-system/6653A7019DB49C8AE0542E017FDCEF54
 - Tatarkhān woman waqf deed: https://doi.org/10.5356/orient.54.41
 - Women/waqf Ottoman specialist: https://academic.oup.com/edited-volume/61799/chapter-abstract/564969129
-- CMOS existing own ledgers are the preferred operational evidence plane: \`source-ledgers/WAQF_LONGEVITY_PUBLIC_BENEFIT_LEDGER.md\`, \`source-ledgers/animal-mercy-civilizational-memory-ledger.md\`, \`research-agendas/POWER_UNDER_JUDGMENT_AND_WAQF_CIVILIZATIONAL_PROGRAM.md\`.
+- CMOS existing own ledgers are the preferred operational evidence plane: `source-ledgers/WAQF_LONGEVITY_PUBLIC_BENEFIT_LEDGER.md`, `source-ledgers/animal-mercy-civilizational-memory-ledger.md`, `research-agendas/POWER_UNDER_JUDGMENT_AND_WAQF_CIVILIZATIONAL_PROGRAM.md`.
 
 **Final truth boundary:** The moral-institutional integration idea is a promising historical **research hypothesis and narrative lens**, not the proof of a civilization-wide title. The point is to find evidence that can surprise even a well-read skeptic, including when it contradicts our starting intuition.
