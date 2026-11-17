@@ -6,6 +6,10 @@
 **Owner:** Civilizational Memory OS (research and truth); **operator interface:** an agent in a fresh conversation or a code agent with repository access.  
 **Snapshot:** 2026-11-12. Operational facts age; verify issue/PR/deployment state at runtime.
 
+## New November 17 continuation front door (DRAFT PR #115)
+
+**For “resume our best conversation / map the full civilizational synthesis / continue from an epiphany”:** read [Epiphany State Recovery & Compounding Session](prompt-library/EPIPHANY_STATE_RECOVERY_AND_COMPOUNDING_SESSION.md) first; its *dated capsule* retrieves the current conceptual ceiling and the strongest open contradiction. The substantive, era-by-era [Power–Mercy–Capture–Renewal historical atlas](research-atlases/2026-11-17_CIVILIZATIONAL_POWER_MERCY_CAPTURE_AND_RENEWAL_ATLAS.md) supports targeted case selection. Follow only the relevant accepted claim cards, issue/PR status and original sources. Do not read every file by default or treat these draft documents as accepted historical proof. **CMOS alone owns historical findings.** Truth & Peace handles expression/production through its [creative launcher](https://github.com/AlexFC0810/truth-and-peace-engine/blob/nexus/mercy-jesus-sprint-2026-11-16/prompt-library/TRUTH_PEACE_FRESH_THREAD_EPIPHANY_BOOT.md) and existing review system. “Resume” must produce one sourced discovery, correction or new evidence—not another recap.
+
 ## The one-minute contract
 
 > **We do not start over. We retrieve, challenge, improve, and preserve what already exists.**
