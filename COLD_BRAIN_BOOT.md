@@ -1,5 +1,7 @@
 # Civilizational Memory OS — Fresh-Thread Boot
 
+> **Working historical case cross-reference (draft PR #115, 2026-11-16):** The account of a hungry family, a lost lamb near the Euphrates and a weeping ruler is *not one event*. Read `research-packets/queued/2026-11-16_UMAR_RULER_ACCOUNTABILITY_NARRATIVE_SOURCE_AUDIT.md` for Umar ibn al-Khattab versus Umar ibn Abd al-Aziz, cited sources and open transmission gaps. The companion Truth & Peace *creator* launcher lives on [T&P draft PR #251](https://github.com/AlexFC0810/truth-and-peace-engine/pull/251) at `prompt-library/TRUTH_PEACE_FRESH_THREAD_EPIPHANY_BOOT.md`. CMOS owns historical verdicts; T&P owns review-only production.
+
 **Status:** Active canonical front door on the default branch (activated via PR #113, 2026-11-13); ongoing research source-gating and editorial review remain separate.  
 **Owner:** Civilizational Memory OS (research and truth); **operator interface:** an agent in a fresh conversation or a code agent with repository access.  
 **Snapshot:** 2026-11-12. Operational facts age; verify issue/PR/deployment state at runtime.
