@@ -122,6 +122,14 @@ It is committed to:
 
 These commitments do not predetermine every factual verdict. They determine what the system regards as morally significant and what it refuses to make invisible.
 
+## Civilizational phase archetypes (Nov 13 extension)
+
+The archetypes below primarily describe **portable moral characters and social mechanisms**, not the unchanging personality of a people. For dated historical compression, use [Civilizational Phase Archetypes](../research-programs/CIVILIZATIONAL_PHASE_ARCHETYPES_2026-11-13.md) and [Golden Threads Frontier](../research-programs/GOLDEN_THREADS_FRONTIER_2026-11-13.md) on the same **unmerged research draft**.
+
+**Question that governs this work:** *When human beings acquire power over someone who cannot resist them, what determines whether they exploit that power or restrain themselves?* Its companion is *What transforms mercy from personal virtue into an enforceable obligation that survives its first believer?* Both are recorded in the [Question Genome](QUESTION_GENOME.md).
+
+**Compressed truth does not mean timeless national character.** A Neronian Roman court, later Antonine Roman restrictions on masters' cruelty, medieval English coverture, and early-modern Ottoman animal-market regulations are different dated systems. Compare mechanisms and accountability under precise conditions, preserve internal counterphases, and trace legal text into enforcement before attributing broad outcomes. The most reusable archetype names identify mechanisms (`Unrestrained Sovereign`, `Power Conceding a Boundary`, `Status-Dependent Legal Person`, `Duty-Bearing Owner`, `Unheard Creature`), **not an essence of Romans, Greeks, Muslims or English people**.
+
 ## Archetype library
 
 Archetypes should describe choices and structures, not immutable peoples.

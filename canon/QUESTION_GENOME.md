@@ -79,6 +79,18 @@ The surface nouns change. The reasoning function persists.
 
 **Form:** What did the system do when mercy offered no strategic return?
 
+**Flagship question (founder, 2026-11-13):**
+
+> **When human beings acquire power over someone who cannot resist them, what determines whether they exploit that power or restrain themselves?**
+
+**Institutional companion question:**
+
+> **What transforms mercy from a personal virtue into an enforceable obligation that survives the person who first believed in it?**
+
+These are **cross-civilizational questions**, not a conclusion that one ethnicity, faith or period is innately cruel or benevolent. Answer them by tracing **norm → law → inspection/judgment → enforcement → lived outcome → correction**, distinguishing individual stories from system-wide distributions. Animals—unable to represent themselves in human courts or archives—are a particularly powerful diagnostic, but are not a single-score proxy for all justice. Ask how each historical society actually handled animals, captives, orphans, dependent women and children, and powerless subjects, under similar constraints.
+
+**Where to continue:** `canon/ANIMAL_CIVILIZATION_BENCHMARK.md`; `frameworks/moral-visibility-and-vulnerability-test.md`; `research-packets/queued/POWER_RESTRAINT_AND_THE_UNHEARD_2026-11-13.md` (Nov 13 draft); and `research-programs/CIVILIZATIONAL_PHASE_ARCHETYPES_2026-11-13.md` (on the same research PR).
+
 ### 8. Post-use gene
 
 **Function:** Tests moral debt after usefulness ends.
