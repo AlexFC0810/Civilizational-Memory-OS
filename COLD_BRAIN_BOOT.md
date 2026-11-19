@@ -1,8 +1,19 @@
 # Civilizational Memory OS — Fresh-Thread Boot
 
+> **New Golden Threads front door, 2026-11-18 (DRAFT):** [Qur'an-first Arabic/historical truth atlas](https://github.com/AlexFC0810/Civilizational-Memory-OS/blob/nexus/moral-capacity-to-mercy-historical-assignment-2026-11-16/research-atlases/2026-11-18_QURAN_FIRST_GOLDEN_THREADS_DIFFICULT_VERSES_AND_COMPARATIVE_HISTORY.md) records the founder's method, 12 major investigations, 26 source-graded portable nuggets, 9:5 vs 9:29 precise textual friction, hadith/Quran separation, early war comparators, Scofield notes and Professor Jiang's simplicity thesis. It supersedes **neither** existing canon nor source gates. Highest needle: exact Arabic and parallel classical/modern readings of 9:29, plus one independent 630s historical datum. The creative-only handoff is [T&P golden-nugget map](https://github.com/AlexFC0810/truth-and-peace-engine/blob/nexus/mercy-jesus-sprint-2026-11-16/content-systems/2026-11-18_QURAN_FIRST_GOLDEN_THREADS_NUGGET_LIBRARY_AND_FAIR_CONTEXT_STORY_MAP.md); no new research OS.
+
+
+> **GitHub-first durable harvest (founder default, 2026-11-17):** After every substantive House of Wisdom session, preserve any meaningful evidence, hypothesis, correction, resource or execution insight using [the capture protocol](protocols/GITHUB_FIRST_DURABLE_CAPTURE_DEFAULT.md), and update the [Epiphany State Recovery capsule](prompt-library/EPIPHANY_STATE_RECOVERY_AND_COMPOUNDING_SESSION.md) only if the frontier materially moved. No source-free canon promotion, secrets or whole-chat dumping to a public repo. Return real GitHub receipt links; drafts stay drafts.
+
+> **Working historical case cross-reference (draft PR #115, 2026-11-16):** The account of a hungry family, a lost lamb near the Euphrates and a weeping ruler is *not one event*. Read `research-packets/queued/2026-11-16_UMAR_RULER_ACCOUNTABILITY_NARRATIVE_SOURCE_AUDIT.md` for Umar ibn al-Khattab versus Umar ibn Abd al-Aziz, cited sources and open transmission gaps. The companion Truth & Peace *creator* launcher lives on [T&P draft PR #251](https://github.com/AlexFC0810/truth-and-peace-engine/pull/251) at `prompt-library/TRUTH_PEACE_FRESH_THREAD_EPIPHANY_BOOT.md`. CMOS owns historical verdicts; T&P owns review-only production.
+
 **Status:** Active canonical front door on the default branch (activated via PR #113, 2026-11-13); ongoing research source-gating and editorial review remain separate.  
 **Owner:** Civilizational Memory OS (research and truth); **operator interface:** an agent in a fresh conversation or a code agent with repository access.  
 **Snapshot:** 2026-11-12. Operational facts age; verify issue/PR/deployment state at runtime.
+
+## New November 17 continuation front door (DRAFT PR #115)
+
+**For “resume our best conversation / map the full civilizational synthesis / continue from an epiphany”:** read [Epiphany State Recovery & Compounding Session](prompt-library/EPIPHANY_STATE_RECOVERY_AND_COMPOUNDING_SESSION.md) first; its *dated capsule* retrieves the current conceptual ceiling and the strongest open contradiction. The substantive, era-by-era [Power–Mercy–Capture–Renewal historical atlas](research-atlases/2026-11-17_CIVILIZATIONAL_POWER_MERCY_CAPTURE_AND_RENEWAL_ATLAS.md) supports targeted case selection. Follow only the relevant accepted claim cards, issue/PR status and original sources. Do not read every file by default or treat these draft documents as accepted historical proof. **CMOS alone owns historical findings.** Truth & Peace handles expression/production through its [creative launcher](https://github.com/AlexFC0810/truth-and-peace-engine/blob/nexus/mercy-jesus-sprint-2026-11-16/prompt-library/TRUTH_PEACE_FRESH_THREAD_EPIPHANY_BOOT.md) and existing review system. “Resume” must produce one sourced discovery, correction or new evidence—not another recap.
 
 ## The one-minute contract
 

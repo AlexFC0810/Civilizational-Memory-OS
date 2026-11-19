@@ -5,6 +5,10 @@
 **Source constitution:** `AIOS.md`, `AGENTS.md`, `COLD_BRAIN_BOOT.md`, `canon/QUESTION_GENOME.md`, `protocols/LEGENDARY_CONVERSATION_TO_CANON_PROTOCOL.md` and established evidence/canon gates.  
 **Inspired by:** Founder request for a Library of Alexandria / Digital House of Wisdom that **thinks new thoughts from a continually higher historical knowledge floor**.
 
+## Fast continuation mode — November 17 addendum, draft PR #115
+
+If the founder asks to **pick back up at an epiphany**, prefer [Epiphany State Recovery & Compounding Session](EPIPHANY_STATE_RECOVERY_AND_COMPOUNDING_SESSION.md) over a blank `MODE=FRONTIER` brainstorming run. It points to the [full historical synthesis atlas](../research-atlases/2026-11-17_CIVILIZATIONAL_POWER_MERCY_CAPTURE_AND_RENEWAL_ATLAS.md), extracts the last earned finding, counterevidence, correction and single next needle; the agent must retrieve evidence and persist a material delta. The original House of Wisdom discovery modes below remain available. **Default: recover the best prior source record and work its hardest unresolved contradiction.**
+
 ## One command for a fresh research session
 
 Paste this and add a topic if you have one. No need to retell prior conversations.

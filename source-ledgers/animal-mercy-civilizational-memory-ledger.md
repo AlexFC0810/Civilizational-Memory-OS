@@ -60,6 +60,34 @@ Parallel witnesses:
 
 > Prophetic teaching presents mercy to a suffering animal as spiritually weight-bearing and generalizes reward to service toward living creatures.
 
+## 2026-11-17 follow-up: scale, longevity and selective species protection
+
+**Research owner and full provenance:** [CMOS comparative lifecycle packet](../research-packets/queued/2026-11-17_HALAL_ANIMAL_WELFARE_LIFECYCLE_AND_COMPARATIVE_HISTORY.md) section I. The founder emphasized that India and Ashoka had serious animal welfare traditions and that the comparison should test **scale, longevity, implementation and moral consistency**, not who was “first.”
+
+**New precise historian corrections:**
+- Ashoka's Rock Edict II reports medical treatment for humans and cattle/animals; it does **not** independently establish hospital buildings or a continuous network. Dominik Wujastyk, “The Evidence for Hospitals in Early India,” *History of Science in South Asia* (2022), DOI https://doi.org/10.18732/hssa70 ; direct PDF https://journals.library.ualberta.ca/hssa/index.php/hssa/article/download/70/123/857 (pp. 8–10). Royal reach claim ≠ verified population coverage.
+- Hindu gaushalas and Jain panjarapoles described in later traveler narratives, c. 14th–17th centuries, represent **distinct later traditions**. Their continuity across places does not establish the direct survival of Ashokan administration. Scholarly review https://pmc.ncbi.nlm.nih.gov/articles/PMC5981275/ and modern welfare study of 54 shelters in six states https://pmc.ncbi.nlm.nih.gov/articles/PMC7070297/ (selection not representative).
+- Necmettin Kızılkaya's 2020 primary-source-grounded study identifies Ottoman law in 1502–07, 1587 and dated 1765, 1806, 1810 Istanbul orders, **named court register verdicts** and descriptions of inspection against excessive load and denied rest, with repeated violations. https://www.mdpi.com/2077-1444/11/10/538 ; fetch actual Istanbul court register *25 Numaralı Sicil* verdict **604** and *97 Numaralı Sicil* verdict **415** before source-closed historical outcome statements.
+- **Strongest internal counterexample:** 1910 late-Ottoman Istanbul authorities' mass deportation of street dogs to Sivriada resulted in mass deaths, widely estimated around 80,000 but with historical-count uncertainty. Cihangir Gündoğdu (2018), https://doi.org/10.1080/00263206.2018.1432482 ; Mine Yıldırım (2025), https://www.internationaleonline.org/contributions/between-care-and-violence-the-dogs-of-istanbul/ . Earlier Ottoman-era dog killings are also discussed; do not blame Westernization as the sole cause without testing rival explanations.
+
+**New cross-tradition analytical lever:** `normative persistence ≠ institutional survival ≠ actual welfare coverage ≠ legal enforcement ≠ inclusion of unproductive or unpopular animals`. Apply the same six-axis test to all cases; no universal country/religion score yet.
+
+**Working epiphany, not sourced historical quote:** “Compassion is easiest when animals are useful. Its institutional test begins when they are not.” The case of protected Ottoman horses alongside abandoned Istanbul dogs offers a powerful, uncomfortable comparison inside one historical tradition.
+
+## 2026-11-17 corrective research intake: halal is not a welfare outcome metric
+
+**Full experimental/comparative assignment:** [Mercy Before the Cut: Halal Life-Cycle Welfare and Meta-History](../research-packets/queued/2026-11-17_HALAL_ANIMAL_WELFARE_LIFECYCLE_AND_COMPARATIVE_HISTORY.md) on CMOS draft PR #115. This supplements the existing hadith/fiqh materials; does **not** upgrade an uncertified welfare claim into accepted canon.
+
+- **Ihsan source:** Sahih Muslim 1955a demands ethical slaughter and avoiding unnecessary suffering. This is normative religious instruction, **not evidence every certified facility follows it**.
+- **Empirical scientific boundary:** EFSA 2021 concludes sheep/goat slaughter without effective prior stunning leads to severe welfare concerns including pain and fear; an ineffective stun is also hazardous. https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2021.6882
+- **Practice diversity:** 2023 scientific review documents reversible methods accepted by some Muslim scholars and rejected by others; https://pmc.ncbi.nlm.nih.gov/articles/PMC10571904/ . NZ MPI requires pre-stun in its commercial slaughter code and regulates halal export with the animal alive after stun: https://www.mpi.govt.nz/animals/animal-welfare/codes/all-animal-welfare-codes/code-of-welfare-commercial-slaughter ; https://www.mpi.govt.nz/dmsdocument/12867/direct
+- **Scoped modern statistic:** UK Food Standards Agency June 2026 states 88% of halal **meat chickens**, England/Wales, 2024 survey, were stunned; not the sheep rate or all global halal: https://food.blog.gov.uk/2026/06/03/food-fact-check-animal-welfare-in-abattoirs-and-slaughterhouses/
+- **Lifetime objective:** births, farms, transport, handling/restraint, stunning/cutting, time to unconsciousness, error remediation and external oversight; WOAH 2024 chapter https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_aw_slaughter.htm
+- **Strongest earlier civilizational countercase:** Ashoka's 3rd-century BCE Rock Edict II specifies medical treatment for people and cattle and wells/trees; Pillar Edict V restricts slaughter of named species and pregnant/lactating animals: https://indike.org/pramana/inp.epigraphy.asoka.re.re02 ; https://www.puratattva.in/the-mauryas-20/ . Do NOT credit Islam with inventing all animal protection.
+- **Original user observation not authenticated:** worker reportedly violently threw sheep at slaughterhouse; video URL not provided, no evidence of animal injury or facility's religious certification. Never use as proof non-halal treatment without provenance.
+
+**Safe conceptual line:** “Mercy is not proved by the label. It must be measured in the animal's lived experience.” Original ethical synthesis, not a scientific causal result.
+
 ## Sahih Muslim 1955a — ihsan in slaughter
 
 **Canonical interface:** https://sunnah.com/muslim:1955a

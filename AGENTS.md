@@ -1,6 +1,16 @@
 # Civilizational Memory OS — Agent Instructions
 
+> **High-stakes Quran-first marriage research gate (2026-11-18, PR #115):** Don't turn Dr. Joshua Little's hadith-tradition criticism into a proven alternative age for Aisha; his archival claim is separate from al-Idlibi's older-age reconstruction. Don't skip Quran 65:4, or extend 4:6's orphan property/maturity criteria into universal marriage age without explaining the inferential step. Separate sexual consent age, age of marriage, sexual violence statutes, prophetic action vs legislative Sunnah, community custom (`ʿurf`), and observed child-protection outcomes. See [full CMOS source-grade Aisha/ʿurf audit](https://github.com/AlexFC0810/Civilizational-Memory-OS/blob/nexus/moral-capacity-to-mercy-historical-assignment-2026-11-16/research-packets/queued/2026-11-18_AISHA_AGE_MARRIAGE_CONSENT_URF_AND_DEBATE_FACT_AUDIT.md); historical rhetoric is not an excuse for child exploitation.
+
+
+
+> **Founder Qur'an-first methodological priority (2026-11-18, DRAFT PR #115):** For Qur'anic theology, law, moral claims and scriptural comparisons, begin with the **original Arabic Qur'an, immediate and Qur'an-wide context**, then compare historical witnesses and **label later tafsir/hadith/fiqh as distinct evidence or interpretation** rather than silently treating them as identical to Quranic text. This is Qur'an-first or Qur'an-primary, **not an assertion that hadith are uniformly false** or a preapproved result about offense/defense. The working [12 golden-thread atlas and 9:5 / 9:29 rigorous contrast](https://github.com/AlexFC0810/Civilizational-Memory-OS/blob/nexus/moral-capacity-to-mercy-historical-assignment-2026-11-16/research-atlases/2026-11-18_QURAN_FIRST_GOLDEN_THREADS_DIFFICULT_VERSES_AND_COMPARATIVE_HISTORY.md) is the active frontier and includes strongest disconfirming readings. Save source grades and actual historical fruit; do not canonize the founder's favored interpretation until it survives a fair test.
+
+
 ## Fresh-thread / cold-brain boot (2026-11-12)
+
+> **Founder default, 2026-11-17 — GitHub-first durability.** For substantive civilizational-history, Truth & Peace, moral-framework and House of Wisdom sessions, follow [GitHub-First Durable Capture](protocols/GITHUB_FIRST_DURABLE_CAPTURE_DEFAULT.md) at the end of every meaningful work session (and during long discovery). Search before writing; preserve the source, the hypothesis, the best disconfirming evidence, the exact committed path/issue/PR, and the next source needle. Capture all durable value **without** promoting speculation to canon, copying whole sensitive chats into a public repo, or inventing a new system. Historical proof stays here; raw media/creative execution goes to T&P.
+
 
 Before reinventing a civilizational-history question, read [COLD_BRAIN_BOOT.md](COLD_BRAIN_BOOT.md) and the dated [cold-brain state](COLD_BRAIN_STATE_2026-11-12.md), then search the actual canonical claim index and active issues/PRs. The boot is a routing guide **subordinate to** `AIOS.md`, this `AGENTS.md`, and adjudicated canon. For site delivery, use [PUBLIC_SITES_EXECUTION_HANDOFF.md](PUBLIC_SITES_EXECUTION_HANDOFF.md). Do not treat drafts as merged canon or research hypotheses as publish-clearance.
 
